@@ -1,0 +1,14 @@
+'use client';
+// Generated from SVG assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const CherryStudioColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 86 86" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-cherry-studio-color__a)"}><g clipPath={'url(#' + instanceId + "-cherry-studio-color__b)"}><path fill="#EA5E5D" d="M61.856 20.894c5.47 0 10.624 2.189 14.521 6.162a21.02 21.02 0 0 1 6.038 14.804c0 5.573-2.202 10.921-6.024 14.83a7.216 7.216 0 0 1-10.33 0 7.544 7.544 0 0 1 0-10.525 6.2 6.2 0 0 0 1.744-4.291c0-3.296-2.728-6.076-5.963-6.076s-5.963 2.78-5.963 6.076c0 1.607.65 3.196 1.782 4.342 3.812 3.884 5.905 9.119 5.905 14.74a20.93 20.93 0 0 1-6.038 14.805c-3.898 3.973-9.051 6.16-14.522 6.16h-.014c-5.47 0-10.622-2.187-14.52-6.16a21 21 0 0 1-5.964-12.989c-4.856-.39-9.38-2.519-12.887-6.093a21.02 21.02 0 0 1-6.038-14.805c0-5.573 2.14-10.832 6.038-14.805s9.051-6.162 14.522-6.162c5.47 0 10.709 2.24 14.531 6.138 2.855 2.903 2.855 7.625 0 10.524a7.22 7.22 0 0 1-7.964 1.61 7.2 7.2 0 0 1-2.362-1.61 5.94 5.94 0 0 0-4.219-1.781c-3.23 0-5.963 2.78-5.963 6.072 0 3.296 2.732 6.075 5.963 6.075 1.573 0 3.101-.649 4.219-1.784a7.2 7.2 0 0 1 3.747-2.036 7.2 7.2 0 0 1 4.33.401c.887.374 1.69.922 2.362 1.61 2.852 2.904 2.852 7.626 0 10.525a6.18 6.18 0 0 0-1.744 4.291c0 3.296 2.729 6.076 5.963 6.076 3.231 0 5.963-2.78 5.963-6.076 0-1.166-.284-2.838-1.624-4.216a21.39 21.39 0 0 1-6.052-14.866 21.1 21.1 0 0 1 6.042-14.804c3.898-3.973 9.047-6.161 14.52-6.162" /><path fill="#23AF69" d="M42.992 23.34 31.04 12.126a4.57 4.57 0 0 1 1.193-7.568 4.57 4.57 0 0 1 5.054.904l4.787 4.49 6.793-8.398a4.568 4.568 0 0 1 7.095 5.744L42.975 23.34h.017" /></g></g><defs><clipPath id={instanceId + "-cherry-studio-color__a"}><path fill="#fff" d="M0 0h86v86H0z" /></clipPath><clipPath id={instanceId + "-cherry-studio-color__b"}><path fill="#fff" d="M0 0h86v86H0z" /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(CherryStudioColor);
+export default ForwardRef;

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZenMux Icons</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#18212d;background:#f5f6f8}*{box-sizing:border-box}body{max-width:1120px;margin:auto;padding:56px 24px}header{margin-bottom:36px}h1{font-size:44px;letter-spacing:-2px;margin:8px 0}p{color:#677181;line-height:1.6}.eyebrow{font-size:12px;font-weight:700;letter-spacing:2px;color:#5968db}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}input,select,button{font:inherit;border:1px solid #d9dfe8;border-radius:9px;padding:11px 14px;background:white;color:#18212d}input{flex:1;min-width:180px}button,a{cursor:pointer}button:hover{border-color:#5968db}#grid{display:block}.group{margin-bottom:36px}.group>h2{font-size:20px;margin-bottom:18px}.group-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px}.card{background:white;border:1px solid #e2e6ed;border-radius:16px;overflow:hidden}.art{height:160px;display:grid;place-items:center;margin:12px;border-radius:9px;background:conic-gradient(#e5e7eb 25%,white 0 50%,#e5e7eb 0 75%,white 0) 0 0/20px 20px}.art img{width:70px;height:70px}.info{padding:4px 20px 20px}.info h2{font-size:17px;margin:8px 0 14px}.actions{display:flex;gap:8px;flex-wrap:wrap}.actions button,.actions a{font-size:12px;padding:7px 9px;border:1px solid #d9dfe8;border-radius:6px;background:white;text-decoration:none;color:#46516a}body[data-background="dark"] .art{background:#20242d}body[data-background="light"] .art{background:white}#status{min-height:24px;color:#5968db}footer{margin-top:40px;font-size:13px;color:#677181}
+</style>
+</head>
+<body data-background="checker">
+<header><div class="eyebrow">ZENMUX / ICON LIBRARY</div><h1>Small icons. Original colors.</h1><p>Transparent SVGs for the AI ecosystem. Ready to download and use in React.</p></header>
+<div class="toolbar"><input id="search" type="search" placeholder="Search icons…" aria-label="Search icons"><select id="group" aria-label="Icon group"><option value="">All groups</option></select><select id="variant" aria-label="Icon color"><option value="color">Original color</option><option value="black">Black</option><option value="white">White</option></select><input id="size" type="number" min="16" max="128" value="70" aria-label="Icon size" style="flex:0 0 100px;width:100px;min-width:100px"><select id="background" aria-label="Preview background"><option value="checker">Transparency grid</option><option value="light">Light background</option><option value="dark">Dark background</option></select></div>
+<p id="status" role="status" aria-live="polite"></p><main id="grid"></main>
+<footer>Brand names and artwork belong to their respective owners.</footer>
+<script type="module">
+const grid=document.querySelector('#grid'),status=document.querySelector('#status');
+let catalog=[];
+async function copy(value){try{await navigator.clipboard.writeText(value);status.textContent='Copied to clipboard.'}catch{status.textContent='Clipboard unavailable. Use Download SVG to save the icon.'}}
+function render(){
+ const query=document.querySelector('#search').value.trim().toLowerCase();
+ const variant=document.querySelector('#variant').value;
+ const size=Math.max(16,Math.min(128,Number(document.querySelector('#size').value)||70));
+ const selectedGroup=document.querySelector('#group').value;
+ const shown=catalog.filter(i=>(!selectedGroup||i.group===selectedGroup)&&(i.id+' '+i.name+' '+i.group).toLowerCase().includes(query));
+ grid.replaceChildren();status.textContent=`${shown.length} ${shown.length===1?"icon":"icons"}`;
+ const groups=new Map();
+ for(const icon of shown){
+  if(!groups.has(icon.group)){
+   const section=document.createElement('section');section.className='group';
+   const heading=document.createElement('h2');heading.textContent=icon.group;
+   const cards=document.createElement('div');cards.className='group-grid';
+   section.append(heading,cards);grid.append(section);groups.set(icon.group,cards);
+  }
+  const card=document.createElement('article');card.className='card';
+  const art=document.createElement('div');art.className='art';
+  const img=document.createElement('img');img.src=variant==='color'?`icons/${icon.id}.svg`:`static/${variant}/${icon.id}.svg`;img.style.width=img.style.height=size+'px';img.alt=icon.name;art.append(img);
+  const info=document.createElement('div');info.className='info';
+  const title=document.createElement('h2');title.textContent=icon.name;
+  const actions=document.createElement('div');actions.className='actions';
+  const download=document.createElement('a');download.href=img.src;download.download=icon.id+(variant==='color'?'':'-'+variant)+'.svg';download.textContent='Download';
+  const svg=document.createElement('button');svg.textContent='Copy SVG';svg.onclick=async()=>{try{const r=await fetch(img.src);if(!r.ok)throw Error();await copy(await r.text())}catch{status.textContent='Unable to load SVG.'}};
+  const react=document.createElement('button');react.textContent='React';react.onclick=()=>{const n=icon.id.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('');copy(`import { ${n} } from '@zenmux/icons';\n\n<${n}${variant==='color'?'.Color':''} size={${size}}${variant==='color'?'':` color="${variant}"`} />`)};
+  actions.append(download,svg,react);info.append(title,actions);card.append(art,info);groups.get(icon.group).append(card);
+ }
+}
+document.querySelector('#search').addEventListener('input',render);
+document.querySelector('#variant').addEventListener('change',render);
+document.querySelector('#group').addEventListener('change',render);
+document.querySelector('#size').addEventListener('input',render);
+document.querySelector('#background').addEventListener('change',e=>document.body.dataset.background=e.target.value);
+try{const r=await fetch('metadata.json');if(!r.ok)throw Error();catalog=await r.json();for(const group of [...new Set(catalog.map(i=>i.group))]){const option=document.createElement('option');option.value=group;option.textContent=group;document.querySelector('#group').append(option)}render()}catch{status.textContent='Could not load icons. Start the local preview with npm run preview.'}
+</script>
+</body></html>
