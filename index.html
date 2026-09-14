@@ -5,16 +5,19 @@
 <title>ZenMux Icons</title>
 <style>
 :root{font-family:system-ui,sans-serif;color:#18212d;background:#f5f6f8}*{box-sizing:border-box}body{max-width:1120px;margin:auto;padding:56px 24px}header{margin-bottom:36px}h1{font-size:44px;letter-spacing:-2px;margin:8px 0}p{color:#677181;line-height:1.6}.eyebrow{font-size:12px;font-weight:700;letter-spacing:2px;color:#5968db}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}input,select,button{font:inherit;border:1px solid #d9dfe8;border-radius:9px;padding:11px 14px;background:white;color:#18212d}input{flex:1;min-width:180px}button,a{cursor:pointer}button:hover{border-color:#5968db}#grid{display:block}.group{margin-bottom:36px}.group>h2{font-size:20px;margin-bottom:18px}.group-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px}.card{background:white;border:1px solid #e2e6ed;border-radius:16px;overflow:hidden}.art{height:160px;display:grid;place-items:center;margin:12px;border-radius:9px;background:conic-gradient(#e5e7eb 25%,white 0 50%,#e5e7eb 0 75%,white 0) 0 0/20px 20px}.art img{width:70px;height:70px}.info{padding:4px 20px 20px}.info h2{font-size:17px;margin:8px 0 14px}.actions{display:flex;gap:8px;flex-wrap:wrap}.actions button,.actions a{font-size:12px;padding:7px 9px;border:1px solid #d9dfe8;border-radius:6px;background:white;text-decoration:none;color:#46516a}body[data-background="dark"] .art{background:#20242d}body[data-background="light"] .art{background:white}#status{min-height:24px;color:#5968db}footer{margin-top:40px;font-size:13px;color:#677181}
+
+:root{background:#fafafa;color:#111}body{max-width:1440px;padding:0 48px 36px}nav{height:66px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eee;margin-bottom:48px}nav strong{font-size:22px;letter-spacing:-1px}nav a{font-size:12px;color:#666;text-decoration:none}header{margin:0}h1{font-size:34px;letter-spacing:-1.3px}header p{font-size:13px;margin-top:12px}.toolbar{margin:24px 0;gap:10px}input,select,button{font-size:12px;padding:10px 12px;border-color:#e9e9e9}input{flex:1}.brand-banner{min-height:180px;border:1px solid #eee;border-radius:16px;background:radial-gradient(#e4e4e4 .7px,transparent .7px) 0 0/9px 9px,white;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;margin:32px 0 38px}.brand-mark{font-size:34px;font-weight:900;line-height:1}.brand-banner strong{font-size:27px;letter-spacing:-1px}.brand-banner>span:last-child{font-size:11px;color:#888}.group{margin:0 0 44px}.group>h2{font-size:14px;margin:0 0 18px}.group-grid{grid-template-columns:repeat(9,minmax(0,1fr));gap:14px}.card{background:transparent;border:0;border-radius:0;overflow:visible;min-width:0}.art{margin:0;height:auto;aspect-ratio:1;border:1px solid #ececec;border-radius:26px;overflow:hidden}.art img{max-width:80%;max-height:80%;object-fit:contain}.info{padding:10px 0 0;text-align:center}.info h2{font-size:11px;font-weight:400;margin:0 0 8px}.actions{justify-content:center;gap:3px;opacity:0;transition:opacity .15s}.card:hover .actions,.card:focus-within .actions{opacity:1}.actions button,.actions a{font-size:9px;padding:4px}#status{font-size:12px;color:#777}footer{text-align:center;font-size:11px;margin-top:60px}@media(max-width:1050px){.group-grid{grid-template-columns:repeat(6,minmax(0,1fr))}}@media(max-width:700px){body{padding:0 20px 30px}nav{margin-bottom:30px}h1{font-size:27px}.group-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.actions{opacity:1}.brand-banner{min-height:150px}}
 </style>
 </head>
-<body data-background="checker">
-<header><div class="eyebrow">ZENMUX / ICON LIBRARY</div><h1>Small icons. Original colors.</h1><p>Transparent SVGs for the AI ecosystem. Ready to download and use in React.</p></header>
-<div class="toolbar"><input id="search" type="search" placeholder="Search icons…" aria-label="Search icons"><select id="group" aria-label="Icon group"><option value="">All groups</option></select><select id="variant" aria-label="Icon color"><option value="color">Original color</option><option value="black">Black</option><option value="white">White</option></select><input id="size" type="number" min="16" max="128" value="70" aria-label="Icon size" style="flex:0 0 100px;width:100px;min-width:100px"><select id="background" aria-label="Preview background"><option value="checker">Transparency grid</option><option value="light">Light background</option><option value="dark">Dark background</option></select></div>
-<p id="status" role="status" aria-live="polite"></p><main id="grid"></main>
+<body data-background="light">
+<nav><strong>ZenMux</strong><a href="https://github.com/ZenMux/zenmux-icons">GitHub ↗</a></nav><header><h1>ZenMux LLM Model Icon Set</h1><p>Original brand icons, grouped for the AI ecosystem. React and transparent SVG.</p></header>
+<div class="toolbar"><input id="search" type="search" placeholder="Search icons…" aria-label="Search icons"><select id="group" aria-label="Icon group"><option value="">All groups</option></select><select id="variant" aria-label="Icon color"><option value="color">Original color</option><option value="black">Black</option><option value="white">White</option></select><input id="size" type="number" min="16" max="128" value="70" aria-label="Icon size" style="flex:0 0 100px;width:100px;min-width:100px"><select id="background" aria-label="Preview background"><option value="checker">Transparency grid</option><option value="light" selected>Light background</option><option value="dark">Dark background</option></select></div>
+<section class="brand-banner" aria-label="ZenMux brand"><span class="brand-mark">Z</span><strong>ZenMux</strong><span>Icons for the AI ecosystem</span></section><p id="status" role="status" aria-live="polite"></p><main id="grid"></main>
 <footer>Brand names and artwork belong to their respective owners.</footer>
 <script type="module">
 const grid=document.querySelector('#grid'),status=document.querySelector('#status');
 let catalog=[];
+const observer='IntersectionObserver' in window?new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){entry.target.src=entry.target.dataset.src;observer.unobserve(entry.target)}},{rootMargin:'160px'}):null;
 async function copy(value){try{await navigator.clipboard.writeText(value);status.textContent='Copied to clipboard.'}catch{status.textContent='Clipboard unavailable. Use Download SVG to save the icon.'}}
 function render(){
  const query=document.querySelector('#search').value.trim().toLowerCase();
@@ -22,7 +25,7 @@ function render(){
  const size=Math.max(16,Math.min(128,Number(document.querySelector('#size').value)||70));
  const selectedGroup=document.querySelector('#group').value;
  const shown=catalog.filter(i=>(!selectedGroup||i.group===selectedGroup)&&(i.id+' '+i.name+' '+i.group).toLowerCase().includes(query));
- grid.replaceChildren();status.textContent=`${shown.length} ${shown.length===1?"icon":"icons"}`;
+ observer?.disconnect();grid.replaceChildren();status.textContent=`${shown.length} ${shown.length===1?"icon":"icons"}`;
  const groups=new Map();
  for(const icon of shown){
   if(!groups.has(icon.group)){
@@ -33,14 +36,14 @@ function render(){
   }
   const card=document.createElement('article');card.className='card';
   const art=document.createElement('div');art.className='art';
-  const img=document.createElement('img');img.src=variant==='color'?`icons/${icon.id}.svg`:`static/${variant}/${icon.id}.svg`;img.style.width=img.style.height=size+'px';img.alt=icon.name;art.append(img);
+  const img=document.createElement('img');const assetUrl=variant==='color'?`icons/${icon.id}.svg`:`static/${variant}/${icon.id}.svg`;img.dataset.src=assetUrl;img.decoding='async';if(!observer)img.src=assetUrl;img.style.width=img.style.height=size+'px';img.alt=icon.name;art.append(img);
   const info=document.createElement('div');info.className='info';
   const title=document.createElement('h2');title.textContent=icon.name;
   const actions=document.createElement('div');actions.className='actions';
-  const download=document.createElement('a');download.href=img.src;download.download=icon.id+(variant==='color'?'':'-'+variant)+'.svg';download.textContent='Download';
-  const svg=document.createElement('button');svg.textContent='Copy SVG';svg.onclick=async()=>{try{const r=await fetch(img.src);if(!r.ok)throw Error();await copy(await r.text())}catch{status.textContent='Unable to load SVG.'}};
+  const download=document.createElement('a');download.href=assetUrl;download.download=icon.id+(variant==='color'?'':'-'+variant)+'.svg';download.textContent='Download';
+  const svg=document.createElement('button');svg.textContent='Copy SVG';svg.onclick=async()=>{try{const r=await fetch(assetUrl);if(!r.ok)throw Error();await copy(await r.text())}catch{status.textContent='Unable to load SVG.'}};
   const react=document.createElement('button');react.textContent='React';react.onclick=()=>{const n=icon.id.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('');copy(`import { ${n} } from '@zenmux/icons';\n\n<${n}${variant==='color'?'.Color':''} size={${size}}${variant==='color'?'':` color="${variant}"`} />`)};
-  actions.append(download,svg,react);info.append(title,actions);card.append(art,info);groups.get(icon.group).append(card);
+  actions.append(download,svg,react);info.append(title,actions);card.append(art,info);groups.get(icon.group).append(card);if(observer)observer.observe(img);
  }
 }
 document.querySelector('#search').addEventListener('input',render);

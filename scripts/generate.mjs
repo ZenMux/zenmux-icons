@@ -75,6 +75,28 @@ generated.set('index.ts', `// Generated. Do not edit manually.\nexport type { Ic
   const n = icon.id.split('-').map(s => s[0].toUpperCase() + s.slice(1)).join('');
   return `export { default as ${n} } from './${n}/index.js';`;
 }).join('\n') + '\n');
+generated.set('catalog.ts', `// Generated metadata only; this module does not import React or SVG components.
+export const iconCatalog = ${JSON.stringify(metadata, null, 2)} as const;
+export type IconName = typeof iconCatalog[number]['id'];
+export const iconGroups = ${JSON.stringify([...new Set(metadata.map(i=>i.group))], null, 2)} as const;
+export default iconCatalog;
+`);
+const loaderEntries = metadata.map(icon => {
+  const n = icon.id.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('');
+  return `  ${JSON.stringify(icon.id)}: { mono: () => import('./${n}/Mono.js'), color: () => import('./${n}/Color.js') }`;
+}).join(',\n');
+generated.set('loaders.ts', `// Generated literal dynamic imports enable per-icon, per-variant bundler chunks.
+import type { IconName } from './catalog.js';
+export type IconVariant = 'mono' | 'color';
+export const iconLoaders = {\n${loaderEntries}\n} as const;
+export function loadIcon(name: IconName, variant: IconVariant = 'color') {
+  if (!Object.prototype.hasOwnProperty.call(iconLoaders, name) || !['mono', 'color'].includes(variant)) {
+    return Promise.reject(new Error('Unknown icon or variant'));
+  }
+  return iconLoaders[name][variant]();
+}
+`);
+generated.set('lazy.tsx', await readFile(new URL('./templates/lazy.tsx', import.meta.url), 'utf8'));
 // Generate everything in memory before replacing these generated-only directories.
 for (const [dir, files] of [['src', generated], ['static', staticFiles]]) {
   const output = path.join(root, dir);
