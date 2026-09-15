@@ -20,9 +20,9 @@ test('every source-backed variant renders with unique and resolvable fragment ID
   }
  }
 });
-test('React Color and Dark variants preserve real source artwork and alpha',async()=>{
+test('React Color, Dark and complete Combine preserve source pixels and alpha',async()=>{
  for(const icon of catalog){
-  for(const [variant,folder] of [['color','icons'],...(typeof icon.hasText==='boolean'&&icon.groups?[['dark','icons/default']]:[])]){
+  for(const [variant,folder] of [['color','icons'],...(typeof icon.hasText==='boolean'&&icon.groups?[['dark','icons/default']]:[]),...(icon.hasText?[['combine-dark','icons/combine']]:[])]){
    const original=await readFile(new URL(`../${folder}/${icon.id}.svg`,import.meta.url));
    const {default:C}=await loadIcon(icon.id,variant);
    const jsx=Buffer.from(renderToStaticMarkup(createElement(C,{size:96})));
@@ -46,16 +46,20 @@ test('Light is Dark RGB inversion with unchanged geometry and opacity',async()=>
   assert.ok(count>0,icon.id+' empty artwork');assert.ok(delta/count<3,icon.id+' inversion');
  }
 });
-test('no text means no text/combined exports; real wordmarks keep their aspect ratio',async()=>{
+test('only source logos get Combine, no pure Text is fabricated; preserve source ratio',async()=>{
  for(const icon of catalog){
   const module=await import(`../dist/${nameOf(icon.id)}/index.js`);
+  assert.equal(module.default.Text,undefined);
+  await assert.rejects(loadIcon(icon.id,'text-dark'));
   if(!icon.hasText){assert.equal(module.default.Text,undefined);assert.equal(module.default.Combine,undefined);await assert.rejects(loadIcon(icon.id,'combine-dark'));continue;}
-  for(const variant of ['text-dark','text-light','combine-dark','combine-light']){
+  for(const variant of ['combine-dark','combine-light']){
    const {default:C}=await loadIcon(icon.id,variant);
    const html=renderToStaticMarkup(createElement(C,{size:48}));
    const width=Number(html.match(/\bwidth="([^"]+)"/)[1]);
    assert.ok(Math.abs(width-48*icon.aspectRatios[variant])<.001,icon.id+' aspect ratio');
-   assert.ok(icon.aspectRatios[variant]>0);
+   const source=await readFile(new URL(`../icons/combine/${icon.id}.svg`,import.meta.url),'utf8');
+   const box=source.match(/viewBox="([^"]+)"/)[1].split(/[\s,]+/).map(Number);
+   assert.equal(icon.aspectRatios[variant],box[2]/box[3],icon.id+' must not prepend a second symbol');
   }
  }
 });

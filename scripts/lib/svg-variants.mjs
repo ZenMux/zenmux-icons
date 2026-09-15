@@ -54,20 +54,3 @@ export function transformPaint(svg, mode) {
     }}),
   }] }).data;
 }
-export function combineSvg(symbol, text, prefix) {
-  // Compose actual vector artwork; never substitute a font or invent a wordmark.
-  const symbolSvg = normalizeSvg(symbol, prefix + '-symbol');
-  const textSvg = normalizeSvg(text, prefix + '-text');
-  const sb = viewBox(symbolSvg), tb = viewBox(textSvg);
-  const symbolHeight = 48, textHeight = 24, gap = 12;
-  const symbolWidth = sb[2] / sb[3] * symbolHeight;
-  const textWidth = tb[2] / tb[3] * textHeight;
-  function group(svg, box, x, y, height) {
-    const opening = svg.match(/^<svg\b([^>]*)>/);
-    if (!opening) throw new Error('Invalid normalized SVG');
-    const attrs = opening[1].replace(/\s(?:xmlns(?::xlink)?|width|height|viewBox)="[^"]*"/g, '');
-    const inner = svg.slice(opening[0].length).replace(/<\/svg>$/, '');
-    return `<g${attrs} transform="translate(${x} ${y}) scale(${height / box[3]}) translate(${-box[0]} ${-box[1]})">${inner}</g>`;
-  }
-  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 ${symbolWidth + gap + textWidth} 48" fill="none">${group(symbolSvg,sb,0,0,symbolHeight)}${group(textSvg,tb,symbolWidth+gap,12,textHeight)}</svg>`;
-}

@@ -8,14 +8,14 @@ name-protection placeholder exporting package information only; it has no icons
 and no second implementation. Its publication is independent of the main package.
 
 **Status:** private GitHub repository. `@zenmux/icons` is available as a public dev
-prerelease (`0.1.0-dev.1`, npm tag `dev`); there is no stable release. The name-protection placeholder
+prerelease (`0.1.0-dev.2`, npm tag `dev`); there is no stable release. The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No CI or automatic package publishing is configured.
 
 ## Icon catalog
 
 130 brands are available in this development release. Metadata is generated from the
-actual source collection. 126 brands have real wordmark artwork; the other four have
+actual source collection. 126 brands have complete logo artwork; the other four have
 symbol variants only. Consult `@zenmux/icons/catalog` or the local preview for the
 current names, groups and available variants.
 
@@ -43,7 +43,7 @@ Install the development release:
 npm install @zenmux/icons@dev
 ```
 
-For a fixed version use `@zenmux/icons@0.1.0-dev.1`. The examples below also work
+For a fixed version use `@zenmux/icons@0.1.0-dev.2`. The examples below also work
 with a built local checkout installed by absolute directory.
 
 ```tsx
@@ -159,14 +159,14 @@ is `dev`; use unique prerelease versions and do not move `latest` for developmen
 - `.Dark` / `.Default`: the supplied dark-background symbol, preserved.
 - `.Light`: RGB inversion of `.Dark`; opacity and geometry stay intact.
 - Default component / `mono`: theme-aware monochrome compatibility entry.
-- `.TextDark`, `.TextLight`, `.Text`: actual wordmark artwork, only when supplied.
-- `.CombineDark`, `.CombineLight`, `.Combine`: composed real symbol + real wordmark,
-  only when the wordmark exists. No fonts, guessed brand text, or placeholders are used.
+- `.CombineDark`: the complete original logo, already including its symbol and text.
+- `.CombineLight`: RGB inversion of that complete logo. `.Combine`: theme-aware version.
+  No second symbol is prepended. Pure `.Text` variants are not offered without text-only sources.
 
-Text/combined `size` specifies height; width follows the real aspect ratio.
-`LazyIcon` and `loadIcon` accept `dark`, `light`, `text-dark`, `text-light`,
+Combined `size` specifies height; width follows the real aspect ratio.
+`LazyIcon` and `loadIcon` accept `dark`, `light`,
 `combine-dark`, `combine-light`, as well as compatibility variants. Check `hasText`
-and `variants` in the catalog before displaying text/combined options; unavailable
+and `variants` in the catalog before displaying combined options; unavailable
 variants reject rather than silently falling back. Lazy placeholders reserve the
 correct aspect ratio before the artwork chunk loads.
 
@@ -175,7 +175,10 @@ import { LazyIcon } from '@zenmux/icons/lazy';
 <LazyIcon name="open-webui" variant="combine-dark" size={48} />
 ```
 
-The `0.1.0-dev.1` catalog follows the current source collection. Previous standalone
+The `0.1.0-dev.2` catalog follows the current source collection. Previous standalone
 `claude`, `codex`, `gemini`, and `sider` entries were absent and are not fabricated or
 silently mapped to differently named products (such as Claude Code or Gemini CLI).
 The updated collection preserves IDs of unchanged brand names, including `zai`.
+
+Version dev.2 corrects dev.1: Combine sources are complete logos, not pure wordmarks.
+The erroneous dev.1 Text aliases are removed, and Combine preserves the source layout.

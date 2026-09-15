@@ -2,13 +2,13 @@ import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { transform } from '@svgr/core';
 import { optimize } from 'svgo';
-import { combineSvg, normalizeSvg, transformPaint, viewBox } from './lib/svg-variants.mjs';
+import { normalizeSvg, transformPaint, viewBox } from './lib/svg-variants.mjs';
 
 const root = path.resolve(process.argv[2] || '.');
 const metadata = JSON.parse(await readFile(path.join(root,'metadata.json'),'utf8'));
 const generated = new Map(), staticFiles = new Map(), enriched = [];
 const componentName = id => id.split('-').map(s => s[0].toUpperCase()+s.slice(1)).join('');
-const names = {mono:'Mono',color:'Color',dark:'Dark',light:'Light',text:'Text','text-dark':'TextDark','text-light':'TextLight',combine:'Combine','combine-dark':'CombineDark','combine-light':'CombineLight'};
+const names = {mono:'Mono',color:'Color',dark:'Dark',light:'Light',combine:'Combine','combine-dark':'CombineDark','combine-light':'CombineLight'};
 
 for (const icon of metadata) {
   if (!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(icon.id)) throw Error('Invalid icon id');
@@ -19,12 +19,10 @@ for (const icon of metadata) {
   catch(error) { if(typeof icon.hasText==='boolean'||error.code!=='ENOENT')throw error; dark=transformPaint(color,'#fff'); }
   const sources = {mono:transformPaint(dark,'currentColor'),color,dark,light:transformPaint(dark,'invert')};
   if (icon.hasText) {
-    sources['text-dark'] = await readFile(path.join(root,'icons/text',icon.id+'.svg'),'utf8');
-    sources['text-light'] = transformPaint(sources['text-dark'],'invert');
-    sources.text = transformPaint(sources['text-dark'],'currentColor');
-    sources['combine-dark'] = combineSvg(dark,sources['text-dark'],icon.id+'-dark');
-    sources['combine-light'] = combineSvg(sources.light,sources['text-light'],icon.id+'-light');
-    sources.combine = combineSvg(sources.mono,sources.text,icon.id+'-mono');
+    // Combine is already a complete source logo; never prepend another symbol.
+    sources['combine-dark'] = await readFile(path.join(root,'icons/combine',icon.id+'.svg'),'utf8');
+    sources['combine-light'] = transformPaint(sources['combine-dark'],'invert');
+    sources.combine = transformPaint(sources['combine-dark'],'currentColor');
   }
   const ratios = {};
   for (const [variant, original] of Object.entries(sources)) {
@@ -71,4 +69,4 @@ for(const [dir,files] of [['src',generated],['static',staticFiles]]) {
   await rm(path.join(root,dir),{recursive:true,force:true});
   for(const [name,code] of files){const target=path.join(root,dir,name);await mkdir(path.dirname(target),{recursive:true});await writeFile(target,code);}
 }
-console.log(`Generated ${enriched.length} brands, ${enriched.filter(i=>i.hasText).length} real wordmarks and combined logos.`);
+console.log(`Generated ${enriched.length} brands, ${enriched.filter(i=>i.hasText).length} complete source logos.`);

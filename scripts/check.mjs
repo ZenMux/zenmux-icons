@@ -10,7 +10,7 @@ for(const icon of metadata){
   if(icon.groups&&(!Array.isArray(icon.groups)||icon.groups.some(g=>typeof g!=='string'||!g)||!icon.groups.includes(icon.group)))throw Error('Invalid groups');
   ids.add(icon.id);expected.add(`${icon.id}.svg`);
   if(typeof icon.hasText==='boolean')expected.add(`default/${icon.id}.svg`);
-  if(icon.hasText)expected.add(`text/${icon.id}.svg`);
+  if(icon.hasText)expected.add(`combine/${icon.id}.svg`);
 }
 async function files(dir,prefix=''){
  const all=[];
