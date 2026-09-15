@@ -1,0 +1,14 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const ViduLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-vidu-light__Name=Vidu, Type=Dark, Variant=Default"}><g id={instanceId + "-vidu-light__Vidu / Icon"} clipPath={'url(#' + instanceId + "-vidu-light__clip0_436_4874)"}><path id={instanceId + "-vidu-light__Vidu / path 01"} fillRule="evenodd" clipRule="evenodd" d="M41.2138 4.4941C35.3798 2.5621 30.3618 6.6621 29.1918 10.4141C29.1918 10.4141 24.9818 23.9341 23.1878 29.5741C22.3318 32.2661 20.2098 36.6701 16.2138 36.6701C12.9598 36.6701 11.2878 33.6161 10.5818 31.7961L5.72982 18.8621C5.16782 17.5001 5.75582 14.7821 8.00982 13.9681C10.4178 13.1041 11.9658 15.1181 12.3658 16.1881L18.4098 31.6681C19.8498 29.8121 20.7658 26.7921 21.3618 24.6541L17.3938 14.2341C15.5118 9.3721 10.5338 7.1601 5.92382 8.8601C2.18982 10.2361 -1.40418 14.9481 0.549816 20.8701L5.55782 33.7501C6.31782 35.7021 9.31982 42.0761 16.1078 42.0761C24.2538 42.0761 27.3098 35.1301 29.0058 29.6401C29.8538 26.8941 34.5038 12.0461 34.5038 12.0461C35.1798 9.8281 37.9238 9.1901 39.6398 9.7501C40.8498 10.1421 43.0358 11.8121 42.3298 14.4001C42.1978 14.8721 38.4898 26.8181 37.1218 30.4521C36.4078 32.3481 34.5978 36.4641 30.4738 35.8921C29.2178 38.6721 28.1738 40.2901 26.5938 41.7421C31.7378 44.1781 39.2338 41.7241 42.3898 32.1901C43.5618 28.6441 47.6778 15.8581 47.6778 15.8581C48.8738 11.9321 46.7398 6.3221 41.2138 4.4941Z" fill="#000000" fillOpacity={1} /></g></g><defs><clipPath id={instanceId + "-vidu-light__clip0_436_4874"}><rect width={48} height={48} fill="#fff" fillOpacity={1} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(ViduLight);
+export default ForwardRef;

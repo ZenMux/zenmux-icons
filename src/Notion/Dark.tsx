@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const NotionDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-notion-dark__Name=Notion, Type=Dark, Variant=Default"}><g id={instanceId + "-notion-dark__Notion / Icon"}><path id={instanceId + "-notion-dark__Notion / path 01"} fillRule="evenodd" clipRule="evenodd" d="M30.514 0.109963L3.894 2.06996C1.748 2.25596 1 3.65996 1 5.33396V34.452C1 35.76 1.466 36.878 2.588 38.372L8.846 46.492C9.872 47.798 10.806 48.08 12.77 47.982L43.684 46.118C46.298 45.932 47.046 44.718 47.046 42.664V9.90796C47.046 8.84796 46.626 8.53996 45.388 7.63796L45.176 7.48196L36.68 1.50996C34.626 0.0179633 33.78 -0.170037 30.514 0.109963ZM13.472 9.36996C10.946 9.54196 10.374 9.57996 8.94 8.41596L5.294 5.51996C4.922 5.14596 5.11 4.67996 6.044 4.58796L31.636 2.72196C33.784 2.53396 34.904 3.28196 35.744 3.93396L40.134 7.10796C40.32 7.20196 40.786 7.75996 40.228 7.75996L13.796 9.34796L13.472 9.36996ZM10.526 42.386V14.574C10.526 13.362 10.9 12.802 12.022 12.708L42.374 10.936C43.404 10.842 43.87 11.496 43.87 12.708V40.328C43.87 41.546 43.684 42.572 42.002 42.664L12.956 44.344C11.272 44.438 10.526 43.88 10.526 42.384V42.386ZM39.202 16.066C39.388 16.91 39.202 17.75 38.358 17.846L36.96 18.124V38.652C35.744 39.306 34.624 39.678 33.69 39.678C32.196 39.678 31.822 39.214 30.7 37.814L21.548 23.444V37.348L24.444 38.002C24.444 38.002 24.444 39.682 22.106 39.682L15.664 40.054C15.476 39.68 15.664 38.746 16.318 38.56L17.998 38.096V19.706L15.664 19.52C15.478 18.68 15.944 17.468 17.252 17.374L24.164 16.91L33.69 31.468V18.588L31.262 18.308C31.074 17.282 31.822 16.534 32.756 16.442L39.202 16.068V16.066Z" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(NotionDark);
+export default ForwardRef;

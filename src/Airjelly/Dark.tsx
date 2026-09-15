@@ -1,0 +1,20 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const AirjellyDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-airjelly-dark__Name=AirJelly, Type=Dark, Variant=Default"}><g id={instanceId + "-airjelly-dark__AirJelly / Icon"} clipPath={'url(#' + instanceId + "-airjelly-dark__clip0_436_4094)"}><path id={instanceId + "-airjelly-dark__AirJelly / path 01"} fillRule="evenodd" clipRule="evenodd" d="M33.9241 26.142C37.2581 26.098 39.5881 43.512 36.5181 44.562C32.5341 45.922 33.9621 29.436 33.9681 29.362C33.9681 29.362 26.8081 48.468 21.6981 47.18C16.7781 45.94 30.5881 26.19 33.9241 26.142ZM7.00012 40.942C2.49212 34.58 25.3361 18.5 33.6601 19.624C41.9841 20.75 46.4341 36.28 43.3201 37.444C40.2081 38.604 38.1261 24.228 33.6601 24.228C28.9521 24.228 11.5081 47.308 7.00012 40.942ZM3.49412 15.422C10.2981 5.05601 27.5141 -1.64999 38.0461 5.05601C48.5781 11.764 49.1041 25.316 47.5261 27.23C45.7861 29.344 44.2521 25.466 40.1941 20.884C31.3721 10.93 16.3141 23.676 8.39412 27.894C3.43212 30.538 -4.26588 27.246 3.49412 15.422Z" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></g></g><defs><clipPath id={instanceId + "-airjelly-dark__clip0_436_4094"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(AirjellyDark);
+export default ForwardRef;

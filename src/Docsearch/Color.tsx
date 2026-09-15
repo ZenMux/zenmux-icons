@@ -1,0 +1,23 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const DocsearchColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-docsearch-color__Name=DocSearch, Type=Color, Variant=Default"}><g id={instanceId + "-docsearch-color__DocSearch / Icon"} clipPath={'url(#' + instanceId + "-docsearch-color__clip0_436_4302)"}><path id={instanceId + "-docsearch-color__DocSearch / path 01"} d="M22.664 48H1.91C1.65979 48.0008 1.41189 47.9523 1.18045 47.8572C0.949016 47.7621 0.738589 47.6223 0.561203 47.4459C0.383817 47.2694 0.242949 47.0597 0.146654 46.8288C0.0503587 46.5979 0.000524399 46.3502 0 46.1H22.682C26.5733 46.1218 30.402 45.1211 33.785 43.198C37.1679 41.2749 39.9863 38.4968 41.958 35.142C45.958 28.324 45.998 19.902 42.066 13.042C40.1264 9.66914 37.335 6.86487 33.9711 4.90984C30.6071 2.9548 26.7887 1.91759 22.898 1.902H0C0 0.85 0.854 0 1.91 0H22.898C29.2946 0.00414281 35.429 2.54276 39.958 7.06C42.1949 9.29057 43.9688 11.9413 45.1776 14.8598C46.3865 17.7783 47.0065 20.907 47.002 24.066C46.966 37.338 35.986 48 22.664 48Z" fill="#5468FF" style={{
+          fill: "color(display-p3 0.3294 0.4078 1.0000)",
+          fillOpacity: 1
+        }} /><path id={instanceId + "-docsearch-color__DocSearch / path 02"} d="M0 42.88H14.726C16.5449 42.8868 18.301 42.2159 19.652 40.998H0V42.88ZM0 37.76H22.59C23.046 37.148 23.47 36.534 23.864 35.854H0V37.76ZM0 32.634H25.478C25.7381 32.0134 25.9644 31.3791 26.156 30.734H0V32.634ZM0 27.514H26.894C26.988 26.902 27.062 26.25 27.104 25.614H0V27.514ZM0 22.394H27.098C27.054 21.75 26.982 21.114 26.888 20.486H0V22.394ZM0 17.268H26.156C25.958 16.624 25.73 15.988 25.478 15.368H0V17.268ZM0 12.148H23.864C23.4724 11.4931 23.0472 10.8589 22.59 10.248H0V12.148ZM0 5.12V7.028H19.67C18.3196 5.80913 16.5631 5.13802 14.744 5.146L0 5.12Z" fill="black" style={{
+          fill: "black",
+          fillOpacity: 1
+        }} /></g></g><defs><clipPath id={instanceId + "-docsearch-color__clip0_436_4302"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(DocsearchColor);
+export default ForwardRef;

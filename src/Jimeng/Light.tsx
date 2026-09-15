@@ -1,0 +1,14 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const JimengLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-jimeng-light__Name=Jimeng, Type=Dark, Variant=Default"}><g id={instanceId + "-jimeng-light__Jimeng / Icon"}><path id={instanceId + "-jimeng-light__Jimeng / path 01"} fillRule="evenodd" clipRule="evenodd" d="M10.514 3.61596C17.536 13.48 28.862 18.9 40.128 16.806C41.0031 16.6304 41.8606 16.3761 42.69 16.046C44.4 15.386 46.64 18.066 45.342 19.362C44.482 20.218 43.662 21.002 42.926 21.656C37.756 26.2417 32.1346 30.2917 26.148 33.744C20.1275 37.2237 13.768 40.0805 7.16797 42.27C6.26197 42.57 5.20797 42.878 4.07597 43.184C2.30597 43.66 1.10797 40.384 2.53597 39.234C3.29197 38.622 3.96197 38 4.49197 37.38C11.938 28.672 12.598 16.348 7.43397 5.39396C7.17725 4.84016 6.93451 4.27998 6.70597 3.71396C5.98997 1.95996 8.08397 0.669963 9.31197 2.10996C9.79797 2.67796 10.218 3.19996 10.514 3.61596ZM39.06 27.39C34.412 33.116 33.428 39.278 34.304 44.556L34.352 44.876C34.586 46.456 32.72 47.43 31.456 46.452C31.3942 46.4037 31.3322 46.3557 31.27 46.308C27.03 43.08 22.03 40.652 15.374 41.416C19.6253 40.1537 23.7114 38.3899 27.546 36.162C31.966 33.612 35.84 30.614 39.058 27.39H39.06Z" fill="#000000" fillOpacity={1} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(JimengLight);
+export default ForwardRef;

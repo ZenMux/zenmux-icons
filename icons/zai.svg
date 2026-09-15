@@ -1,13 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 86 86" fill="none"><g id="AI Logos" clip-path="url(#clip0_11126_57307)">
-<g id="zai">
-<path id="Union" d="M35.1165 77.2213H3.58325L50.8831 10.2125H82.4163L35.1165 77.2213ZM80.4417 77.2213H41.0295L46.595 69.3375C47.4661 68.0999 48.8851 67.3668 50.3987 67.3668H80.4417V77.2213ZM39.4524 18.0836C38.5813 19.3252 37.1584 20.067 35.6409 20.067H5.55396V10.2125H44.9709L39.4524 18.0836Z" fill="url(#paint0_linear_11126_57307)"/>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Name=Z.ai, Type=Color, Variant=Default">
+<g id="Z.ai / Icon">
+<path id="Z.ai / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M24.21 4L19.854 9.906H1.306L5.66 4H24.212H24.21ZM46.508 38.096L42.156 44H23.672L28.02 38.096H46.508ZM48 4L18.528 44H0L29.472 4H48Z" fill="black" style="fill:black;fill-opacity:1;"/>
 </g>
-</g><defs>
-<linearGradient id="paint0_linear_11126_57307" x1="50.2799" y1="7.79977" x2="64.0014" y2="92.4148" gradientUnits="userSpaceOnUse">
-<stop/>
-<stop offset="1"/>
-</linearGradient>
-<clipPath id="clip0_11126_57307">
-<rect width="86" height="86" fill="white"/>
-</clipPath>
-</defs></svg>
+</g>
+</svg>

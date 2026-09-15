@@ -1,0 +1,29 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const RecraftTextDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 92 24" fill="none" xmlns="http://www.w3.org/2000/svg" width={typeof size === 'number' ? size * 3.8333333333333335 : 'calc(' + size + ' * 3.8333333333333335)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-recraft-text-dark__Name=Recraft, Type=Dark, Variant=Combine"}><g id={instanceId + "-recraft-text-dark__Recraft / Combination"} clipPath={'url(#' + instanceId + "-recraft-text-dark__clip0_449_13565)"}><g id={instanceId + "-recraft-text-dark__Frame"}><g id={instanceId + "-recraft-text-dark__Group"}><g id={instanceId + "-recraft-text-dark__Frame_2"} clipPath={'url(#' + instanceId + "-recraft-text-dark__clip1_449_13565)"}><path id={instanceId + "-recraft-text-dark__Recraft / path 01"} fillRule="evenodd" clipRule="evenodd" d="M16.6001 9.7648C16.6001 7.0228 14.1101 4.7998 11.0381 4.7998C9.9737 4.7998 9.1103 7.0228 9.1103 9.7648C9.1103 10.4506 9.1643 11.1046 9.2621 11.6992H7.3739L5.3999 18.5998H11.0399V14.7316C14.1101 14.7316 16.5995 12.5074 16.5995 9.7666L16.6001 9.7654V9.7648ZM11.0381 5.7088C11.5961 5.7088 12.0473 7.5256 12.0473 9.7648C12.0473 12.0046 11.5961 13.8208 11.0387 13.8208C10.4807 13.8208 10.0301 12.0046 10.0301 9.7648C10.0301 7.5256 10.4813 5.7088 11.0381 5.7088Z" fill="white" style={{
+                fill: "white",
+                fillOpacity: 1
+              }} /><path id={instanceId + "-recraft-text-dark__Recraft / path 02"} fillRule="evenodd" clipRule="evenodd" d="M16.7084 14.731H11.0444L13.2164 18.5998H18.8792L16.7084 14.731Z" fill="white" style={{
+                fill: "white",
+                fillOpacity: 1
+              }} /></g></g></g><g id={instanceId + "-recraft-text-dark__Frame_3"}><path id={instanceId + "-recraft-text-dark__Recraft / path 03"} fillRule="evenodd" clipRule="evenodd" d="M89.8141 11.9972L87.7974 5.0042H80.9486L80.3837 6.9495C79.3498 5.7637 77.7342 5 75.917 5C74.8362 5 73.9584 7.2519 73.9584 10.0295V10.3137L71.0331 5.0042H69.4357L66.53 15.0821H61.3227C64.4307 15.0695 66.9451 12.8225 66.9451 10.0526C66.9451 7.2827 64.4167 5.0231 61.2968 5.0231C60.2153 5.0231 59.3382 7.275 59.3382 10.0526C59.3382 10.7477 59.3928 11.4099 59.4922 12.0126H58.6641V12.0028H57.5301V12.0119C57.5301 15.3299 56.6411 18.0186 55.5442 18.0186C54.4473 18.0186 53.5583 15.3292 53.5583 12.0119C53.5583 8.6939 54.4473 6.0045 55.5442 6.0045C56.2687 6.0045 56.9022 7.1784 57.2494 8.9319H58.3456C57.8374 6.6163 56.7741 5.0224 55.5442 5.0224C53.0004 5.0224 50.794 6.5589 49.7006 8.8059C49.1826 6.5589 48.1347 5.0224 46.9279 5.0224C44.1755 5.0224 41.8186 6.8207 40.8386 9.3715C40.469 6.9124 38.1002 5.0147 35.2337 5.0147C34.1501 5.0147 33.2723 7.2673 33.2723 10.0449C33.2723 10.74 33.3276 11.4015 33.4263 12.0042H31.509L29.5 18.9923H35.2358V15.0744L37.445 18.9923H43.2039L41.4364 15.8563H41.4378C42.6138 17.7498 44.6333 18.9993 46.9272 18.9993H46.9286C48.1354 18.9993 49.1826 17.4635 49.7013 15.2165C50.7947 17.4635 53.0004 18.9993 55.5435 19H55.5449L55.5715 18.9993H61.2996V15.0814L63.506 19H69.2572L69.2467 18.9811H70.9218V15.9963H72.3617L73.222 18.9818H78.7366L77.0454 15.9123H79.6263L78.7373 18.9811L86.8244 18.9825L83.2376 6.5519L89.8141 11.9972ZM35.2344 14.1532C34.6674 14.1532 34.2082 12.3136 34.2082 10.0442C34.2082 7.7762 34.6674 5.9359 35.2344 5.9359C35.8014 5.9359 36.2606 7.7755 36.2606 10.0449C36.2606 12.3136 35.8014 14.1532 35.2344 14.1532ZM35.2603 15.0744C37.5143 15.0653 39.4561 13.8837 40.3556 12.1806C40.3787 13.218 40.6146 14.1987 41.0185 15.0772H40.9975L40.9954 15.0744H35.2603ZM46.9286 6.0038C47.9205 6.0038 48.7416 8.2039 48.89 11.0788H44.9672C45.1149 8.2039 45.9367 6.0038 46.9286 6.0038ZM48.6352 15.0828C48.2887 16.8405 47.6545 18.0186 46.9286 18.0186C45.8317 18.0186 44.9434 15.3299 44.9427 12.0126H48.9705C48.9705 13.1137 49.2106 14.1553 49.6376 15.0821L48.6352 15.0828ZM61.2982 14.1609C60.7319 14.1609 60.2734 12.3213 60.2734 10.0519C60.2734 7.7839 60.7326 5.9443 61.2982 5.9443C61.8638 5.9443 62.3223 7.7839 62.3223 10.0526C62.3223 12.3213 61.8638 14.1609 61.2982 14.1609ZM70.9218 15.0632V10.9976L72.0936 15.0632H70.9218ZM78.78 11.9902H74.8845L74.8936 10.0302C74.8936 7.7608 75.3528 5.9212 75.9184 5.9212C76.484 5.9212 76.9432 7.7608 76.9432 10.0302H81.3301L80.0876 14.317L78.7786 11.9909H78.78V11.9902ZM81.5198 9.3764C81.4081 8.62961 81.1169 7.92104 80.6714 7.3114L82.3395 6.5463L81.5198 9.3771V9.3764Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-recraft-text-dark__clip0_449_13565"}><rect width={91.1} height={24} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath><clipPath id={instanceId + "-recraft-text-dark__clip1_449_13565"}><rect width={14.4} height={14.4} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(4.7998 4.7998)" /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(RecraftTextDark);
+export default ForwardRef;

@@ -1,0 +1,14 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const OpenhumanLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-openhuman-light__Name=OpenHuman, Type=Dark, Variant=Default"}><g id={instanceId + "-openhuman-light__OpenHuman / Icon"}><path id={instanceId + "-openhuman-light__OpenHuman / path 01"} fillRule="evenodd" clipRule="evenodd" d="M16.9199 16.06C24.4279 10.924 29.9439 11.014 35.4799 16.222C42.1539 23.06 41.9919 38.69 37.9199 45.04C36.1459 47.958 33.1999 48.932 29.2939 46.992C27.4599 46.082 26.5139 45.424 24.8979 44.062C23.6559 43.19 22.7939 42.892 20.5039 43.248L16.9219 44.062C13.8279 44.55 10.7159 42.974 9.43187 41.946C6.99587 39.992 6.34387 38.364 6.01187 35.76C5.68787 27.132 11.5539 19.736 16.9219 16.06H16.9199ZM24.0999 0C24.7965 -1.46811e-08 25.4864 0.137218 26.13 0.403819C26.7736 0.67042 27.3585 1.06118 27.8511 1.5538C28.3437 2.04641 28.7344 2.63123 29.001 3.27486C29.2676 3.9185 29.4049 4.60834 29.4049 5.305C29.4049 6.00166 29.2676 6.6915 29.001 7.33514C28.7344 7.97877 28.3437 8.56359 27.8511 9.0562C27.3585 9.54882 26.7736 9.93958 26.13 10.2062C25.4864 10.4728 24.7965 10.61 24.0999 10.61C22.6929 10.61 21.3435 10.0511 20.3487 9.0562C19.3538 8.06132 18.7949 6.71197 18.7949 5.305C18.7949 3.89803 19.3538 2.54868 20.3487 1.5538C21.3435 0.558918 22.6929 2.96498e-08 24.0999 0Z" fill="#000000" fillOpacity={1} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(OpenhumanLight);
+export default ForwardRef;

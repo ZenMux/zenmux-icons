@@ -1,0 +1,20 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const PixverseDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-pixverse-dark__Name=PixVerse, Type=Dark, Variant=Default"}><g id={instanceId + "-pixverse-dark__PixVerse / Icon"}><path id={instanceId + "-pixverse-dark__PixVerse / path 01"} opacity={0.8} fillRule="evenodd" clipRule="evenodd" d="M21.996 47.6739L10 42.0299V11.1379C10 9.67189 10.64 8.04389 11.68 7.00789L14.452 4.23389L26.58 43.6919C27.432 46.4459 24.606 48.9019 21.996 47.6739Z" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /><path id={instanceId + "-pixverse-dark__PixVerse / path 02"} opacity={0.8} fillRule="evenodd" clipRule="evenodd" d="M38.7202 16.86L25.0342 1.80998C24.5308 1.25661 23.9204 0.811125 23.2398 0.500494C22.5593 0.189862 21.8228 0.020542 21.0749 0.00277979C20.327 -0.0149824 19.5833 0.119183 18.8888 0.397156C18.1942 0.675129 17.5633 1.09113 17.0342 1.61998L11.6802 7.00798C10.6582 8.17598 10.0742 9.40398 10.0742 10.868V41.76L37.4722 25.322C38.1734 24.9009 38.7725 24.3296 39.2263 23.6491C39.6801 22.9686 39.9773 22.1959 40.0965 21.3867C40.2157 20.5775 40.1539 19.752 39.9155 18.9696C39.6772 18.1871 39.2683 17.4673 38.7182 16.862" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(PixverseDark);
+export default ForwardRef;

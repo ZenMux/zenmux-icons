@@ -8,23 +8,16 @@ name-protection placeholder exporting package information only; it has no icons
 and no second implementation. Its publication is independent of the main package.
 
 **Status:** private GitHub repository. `@zenmux/icons` is available as a public dev
-prerelease (`0.1.0-dev.0`, npm tag `dev`); there is no stable release. The name-protection placeholder
+prerelease (`0.1.0-dev.1`, npm tag `dev`); there is no stable release. The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No CI or automatic package publishing is configured.
 
 ## Icon catalog
 
-| Icon | Preview | SVG |
-| --- | --- | --- |
-| Cherry Studio | <img src="icons/cherry-studio.svg" width="36" height="36" alt="Cherry Studio" /> | [Download](icons/cherry-studio.svg) |
-| Claude | <img src="icons/claude.svg" width="36" height="36" alt="Claude" /> | [Download](icons/claude.svg) |
-| Cline | <img src="icons/cline.svg" width="36" height="36" alt="Cline" /> | [Download](icons/cline.svg) |
-| Codex | <img src="icons/codex.svg" width="36" height="36" alt="Codex" /> | [Download](icons/codex.svg) |
-| Cursor | <img src="icons/cursor.svg" width="36" height="36" alt="Cursor" /> | [Download](icons/cursor.svg) |
-| Gemini | <img src="icons/gemini.svg" width="36" height="36" alt="Gemini" /> | [Download](icons/gemini.svg) |
-| Obsidian | <img src="icons/obsidian.svg" width="36" height="36" alt="Obsidian" /> | [Download](icons/obsidian.svg) |
-| Sider | <img src="icons/sider.svg" width="36" height="36" alt="Sider" /> | [Download](icons/sider.svg) |
-| Z.ai | <img src="icons/zai.svg" width="36" height="36" alt="Z.ai" /> | [Download](icons/zai.svg) |
+130 brands are available in this development release. Metadata is generated from the
+actual source collection. 126 brands have real wordmark artwork; the other four have
+symbol variants only. Consult `@zenmux/icons/catalog` or the local preview for the
+current names, groups and available variants.
 
 ## Local development
 
@@ -50,15 +43,15 @@ Install the development release:
 npm install @zenmux/icons@dev
 ```
 
-For a fixed version use `@zenmux/icons@0.1.0-dev.0`. The examples below also work
+For a fixed version use `@zenmux/icons@0.1.0-dev.1`. The examples below also work
 with a built local checkout installed by absolute directory.
 
 ```tsx
-import { Claude, Gemini } from '@zenmux/icons';
+import { Cursor, OpenWebui } from '@zenmux/icons';
 
-<Claude size={24} color="black" />
-<Gemini size={32} color="white" />
-<Gemini.Color size={32} />
+<Cursor.Light size={24} />
+<Cursor.Dark size={32} />
+<OpenWebui.Color size={32} />
 ```
 
 Default components are monochrome and follow `currentColor`; `color="black"` and
@@ -68,7 +61,7 @@ forwarded refs. Explicit `width`/`height` props override `size` on their respect
 hidden from assistive technology by default. For a meaningful standalone icon:
 
 ```tsx
-<Claude role="img" aria-hidden={false} aria-label="Claude" />
+<Cursor role="img" aria-hidden={false} aria-label="Cursor" />
 ```
 
 Generated components use React `useId` to isolate gradients and clipping references
@@ -138,16 +131,16 @@ For your own visibility, modal or Suspense logic:
 ```tsx
 import { lazy, Suspense } from 'react';
 import { loadIcon } from '@zenmux/icons/loaders';
-const GeminiColor = lazy(() => loadIcon('gemini', 'color'));
+const OpenWebuiColor = lazy(() => loadIcon('open-webui', 'color'));
 // Render only when the containing view should load:
-<Suspense fallback={null}><GeminiColor size={32} /></Suspense>
+<Suspense fallback={null}><OpenWebuiColor size={32} /></Suspense>
 ```
 
 The loader registry uses literal dynamic imports so bundlers can create separate
 chunks. Module loading is cached by the runtime. Actual chunk scheduling remains
 controlled by the consuming bundler; do not import the root icon barrel or prefetch
 all loader functions for a lazy gallery. For a single synchronous component you can
-use `import Gemini from '@zenmux/icons/Gemini'`.
+use `import Cursor from '@zenmux/icons/Cursor'`.
 
 The static gallery likewise fetches metadata first and assigns SVG image sources
 only near the viewport. Group headings come from source metadata. Missing groups
@@ -159,3 +152,30 @@ A release is packed after generation, tests and validation. Only `dist/`, origin
 SVGs, black/white SVGs, metadata and package documentation are distributed. Internal
 source adapters and authentication are never included. The default publication tag
 is `dev`; use unique prerelease versions and do not move `latest` for development work.
+
+## Source-backed variants
+
+- `.Color`: original color symbol.
+- `.Dark` / `.Default`: the supplied dark-background symbol, preserved.
+- `.Light`: RGB inversion of `.Dark`; opacity and geometry stay intact.
+- Default component / `mono`: theme-aware monochrome compatibility entry.
+- `.TextDark`, `.TextLight`, `.Text`: actual wordmark artwork, only when supplied.
+- `.CombineDark`, `.CombineLight`, `.Combine`: composed real symbol + real wordmark,
+  only when the wordmark exists. No fonts, guessed brand text, or placeholders are used.
+
+Text/combined `size` specifies height; width follows the real aspect ratio.
+`LazyIcon` and `loadIcon` accept `dark`, `light`, `text-dark`, `text-light`,
+`combine-dark`, `combine-light`, as well as compatibility variants. Check `hasText`
+and `variants` in the catalog before displaying text/combined options; unavailable
+variants reject rather than silently falling back. Lazy placeholders reserve the
+correct aspect ratio before the artwork chunk loads.
+
+```tsx
+import { LazyIcon } from '@zenmux/icons/lazy';
+<LazyIcon name="open-webui" variant="combine-dark" size={48} />
+```
+
+The `0.1.0-dev.1` catalog follows the current source collection. Previous standalone
+`claude`, `codex`, `gemini`, and `sider` entries were absent and are not fabricated or
+silently mapped to differently named products (such as Claude Code or Gemini CLI).
+The updated collection preserves IDs of unchanged brand names, including `zai`.

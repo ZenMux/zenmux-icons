@@ -1,0 +1,14 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const GeminiCliMono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-gemini-cli-mono__Name=Gemini CLI, Type=Dark, Variant=Default"}><g id={instanceId + "-gemini-cli-mono__Gemini CLI / Icon"} clipPath={'url(#' + instanceId + "-gemini-cli-mono__clip0_436_4348)"}><path id={instanceId + "-gemini-cli-mono__Gemini CLI / path 01"} fillRule="evenodd" clipRule="evenodd" d="M33.5862 20.716V28.45L14.4722 37.64V32.04L29.9742 24.584L14.4742 17.128V11.526L33.5862 20.716Z" fill="currentColor" fillOpacity={1} /><path id={instanceId + "-gemini-cli-mono__Gemini CLI / path 02"} fillRule="evenodd" clipRule="evenodd" d="M39.216 0C41.5457 0 43.7799 0.925454 45.4272 2.57277C47.0745 4.22009 48 6.45434 48 8.784V39.216C48 41.5457 47.0745 43.7799 45.4272 45.4272C43.7799 47.0745 41.5457 48 39.216 48H8.784C6.45434 48 4.22009 47.0745 2.57277 45.4272C0.925454 43.7799 0 41.5457 0 39.216L0 8.784C0 6.45434 0.925454 4.22009 2.57277 2.57277C4.22009 0.925454 6.45434 0 8.784 0L39.216 0ZM8.52 2.888C7.0263 2.888 5.59378 3.48137 4.53757 4.53757C3.48137 5.59378 2.888 7.0263 2.888 8.52V39.48C2.888 40.9737 3.48137 42.4062 4.53757 43.4624C5.59378 44.5186 7.0263 45.112 8.52 45.112H39.48C40.9737 45.112 42.4062 44.5186 43.4624 43.4624C44.5186 42.4062 45.112 40.9737 45.112 39.48V8.52C45.112 7.0263 44.5186 5.59378 43.4624 4.53757C42.4062 3.48137 40.9737 2.888 39.48 2.888H8.52Z" fill="currentColor" fillOpacity={1} /></g></g><defs><clipPath id={instanceId + "-gemini-cli-mono__clip0_436_4348"}><rect width={48} height={48} fill="#fff" fillOpacity={1} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(GeminiCliMono);
+export default ForwardRef;

@@ -1,0 +1,14 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const MyshellMono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-myshell-mono__Name=MyShell, Type=Dark, Variant=Default"}><g id={instanceId + "-myshell-mono__MyShell / Icon"} clipPath={'url(#' + instanceId + "-myshell-mono__clip0_436_4622)"}><path id={instanceId + "-myshell-mono__MyShell / path 01"} fillRule="evenodd" clipRule="evenodd" d="M11.486 8C3.40602 8 0.612022 26.62 0.00402171 31.66C-0.0479783 32.092 0.486022 32.316 0.812022 32.024C16.726 17.724 24.1 39.212 30.416 39.212C26.88 39.212 24.29 29.332 21.036 20.686C18.506 13.97 15.576 8 11.486 8ZM47.16 31.52C47.466 31.89 48.068 31.646 47.994 31.172C47.266 26.566 44.87 14.382 39.838 14.382C36.744 14.382 35.956 20.55 35.164 26.738L35.16 26.758C41.922 26.758 44.49 28.274 47.16 31.518V31.52Z" fill="currentColor" fillOpacity={0.33} /><path id={instanceId + "-myshell-mono__MyShell / path 02"} fillRule="evenodd" clipRule="evenodd" d="M21.0342 20.686C24.2882 29.33 26.8802 39.212 30.4142 39.212C33.5602 39.212 34.3642 32.978 35.1602 26.76L35.1642 26.74C35.9562 20.55 36.7442 14.38 39.8362 14.38C33.6362 14.38 30.4142 36.876 21.0342 20.686Z" fill="currentColor" fillOpacity={1} /></g></g><defs><clipPath id={instanceId + "-myshell-mono__clip0_436_4622"}><rect width={48} height={48} fill="#fff" fillOpacity={1} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(MyshellMono);
+export default ForwardRef;

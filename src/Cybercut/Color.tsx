@@ -1,0 +1,25 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const CybercutColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-cybercut-color__Name=CyberCut, Type=Color, Variant=Default"}><g id={instanceId + "-cybercut-color__CyberCut / Icon"} clipPath={'url(#' + instanceId + "-cybercut-color__clip0_449_11380)"}><g id={instanceId + "-cybercut-color__Clip path group"}><mask id={instanceId + "-cybercut-color__mask0_449_11380"} style={{
+            maskType: "luminance"
+          }} maskUnits="userSpaceOnUse" x={0} y={0} width={48} height={48}><g id={instanceId + "-cybercut-color__a"}><path id={instanceId + "-cybercut-color__CyberCut / path 01"} d="M0 0H48V48H0V0Z" fill="white" style={{
+                fill: "white",
+                fillOpacity: 1
+              }} /></g></mask><g mask={'url(#' + instanceId + "-cybercut-color__mask0_449_11380)"}><g id={instanceId + "-cybercut-color__Group"}><path id={instanceId + "-cybercut-color__CyberCut / path 02"} fillRule="evenodd" clipRule="evenodd" d="M23.302 0.00024777C23.3894 -0.0021583 23.4764 0.0129799 23.5578 0.0447676C23.6392 0.0765552 23.7135 0.124347 23.7761 0.185318C23.8388 0.246289 23.8886 0.319201 23.9226 0.399744C23.9565 0.480288 23.974 0.566827 23.974 0.654248V12.7302C23.9732 12.8981 23.908 13.0593 23.7919 13.1806C23.6759 13.3019 23.5177 13.3741 23.35 13.3822C20.6443 13.5434 18.1024 14.7323 16.2443 16.7057C14.3862 18.679 13.3523 21.2878 13.354 23.9982C13.3523 26.7087 14.3862 29.3175 16.2443 31.2908C18.1024 33.2642 20.6443 34.4531 23.35 34.6142C23.698 34.6362 23.974 34.9182 23.974 35.2662V47.3462C23.9743 47.4337 23.957 47.5204 23.9231 47.6011C23.8892 47.6818 23.8394 47.7548 23.7767 47.8158C23.714 47.8768 23.6397 47.9246 23.5581 47.9563C23.4766 47.988 23.3895 48.0029 23.302 48.0002C10.372 47.6442 0 37.0342 0 24.0002C0 10.9662 10.372 0.356248 23.302 0.00024777ZM25.862 3.51025C25.862 4.65025 26.226 5.75625 26.902 6.67225L27.53 7.52825C27.613 7.63985 27.6579 7.77518 27.658 7.91425V40.1282C27.658 40.2682 27.614 40.4022 27.53 40.5142L26.9 41.3682C26.2243 42.2847 25.8598 43.3936 25.86 44.5322V47.9922H25.284V0.0482478H25.862V3.50825V3.51025ZM29.982 6.70425C29.982 7.84025 30.346 8.95025 31.022 9.86425L31.652 10.7202C31.7347 10.8326 31.7789 10.9687 31.778 11.1082V36.9202C31.778 37.0602 31.734 37.1962 31.652 37.3082L31.022 38.1622C30.3473 39.0793 29.9829 40.1877 29.982 41.3262V47.4202H29.404V0.608248H29.984L29.982 6.70425ZM34.102 9.93625C34.102 11.0722 34.466 12.1822 35.142 13.0982L35.772 13.9542C35.8551 14.0658 35.9 14.2012 35.9 14.3402V33.7002C35.9 33.8402 35.854 33.9742 35.772 34.0882L35.142 34.9422C34.4665 35.8581 34.1021 36.9662 34.102 38.1042V46.0282H33.524V2.01225H34.104L34.102 9.93625ZM38.224 13.1302C38.224 14.2702 38.588 15.3782 39.264 16.2922L39.892 17.1482C39.9751 17.2598 40.02 17.3952 40.02 17.5342V30.4902C40.02 30.6302 39.976 30.7642 39.892 30.8762L39.262 31.7322C38.5877 32.6478 38.2239 33.7551 38.224 34.8922V43.6662H37.646V4.36025H38.226V13.1322L38.224 13.1302ZM42.348 16.3502C42.348 17.4882 42.71 18.5962 43.386 19.5102L44.016 20.3662C44.0995 20.4783 44.1444 20.6145 44.144 20.7542V27.2862C44.144 27.4262 44.098 27.5602 44.016 27.6742L43.386 28.5282C42.7103 29.4447 42.3458 30.5536 42.346 31.6922V39.9142H41.768V8.12625H42.348V16.3482V16.3502ZM46.468 14.8202V19.6762C46.468 20.7662 46.802 21.8322 47.428 22.7262L47.884 23.3822C47.96 23.4929 48.0005 23.624 48 23.7582V24.2282C48 24.3602 47.96 24.4902 47.884 24.6002L47.426 25.2562C46.802 26.1522 46.468 27.2162 46.468 28.3082V33.1622H45.888V14.8222L46.468 14.8202Z" fill="black" style={{
+                fill: "black",
+                fillOpacity: 1
+              }} /></g></g></g></g></g><defs><clipPath id={instanceId + "-cybercut-color__clip0_449_11380"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(CybercutColor);
+export default ForwardRef;

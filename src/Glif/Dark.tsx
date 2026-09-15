@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const GlifDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-glif-dark__Name=Glif, Type=Dark, Variant=Default"}><g id={instanceId + "-glif-dark__Glif / Icon"}><path id={instanceId + "-glif-dark__Glif / path 01"} fillRule="evenodd" clipRule="evenodd" d="M38.098 0H30.292V4.648C28.412 3.712 26.292 3.18 24.048 3.18C16.302 3.176 10 9.48 10 17.226C10 20.608 11.202 23.718 13.204 26.146H10V33.95H17.804V29.806C19.684 30.742 21.804 31.274 24.048 31.274C27.7728 31.2703 31.344 29.7891 33.9781 27.1555C36.6121 24.5218 38.0938 20.9508 38.098 17.226C38.098 13.604 36.718 10.298 34.46 7.806H38.098V0ZM24.048 23.47C22.3926 23.4679 20.8057 22.8094 19.6352 21.6388C18.4646 20.4683 17.8061 18.8814 17.804 17.226C17.8061 15.5706 18.4646 13.9837 19.6352 12.8132C20.8057 11.6426 22.3926 10.9841 24.048 10.982C25.7034 10.9841 27.2903 11.6426 28.4608 12.8132C29.6314 13.9837 30.2899 15.5706 30.292 17.226C30.292 20.666 27.492 23.47 24.048 23.47ZM24.048 33.952L17.804 33.95V41.756H24.048C25.7034 41.7581 27.2903 42.4166 28.4608 43.5872C29.6314 44.7577 30.2899 46.3446 30.292 48H38.098C38.0938 44.2752 36.6121 40.7042 33.9781 38.0705C31.344 35.4369 27.7728 33.9557 24.048 33.952Z" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(GlifDark);
+export default ForwardRef;

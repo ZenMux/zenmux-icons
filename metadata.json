@@ -1,47 +1,1172 @@
 [
   {
-    "id": "cherry-studio",
-    "name": "Cherry Studio",
-    "group": "LLM Models"
+    "id": "adobe",
+    "name": "Adobe",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   },
   {
-    "id": "claude",
-    "name": "Claude",
-    "group": "LLM Models"
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "ag-ui",
+    "name": "AG-UI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "agnes-ai",
+    "name": "Agnes AI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "airjelly",
+    "name": "AirJelly",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "amp",
+    "name": "Amp",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "antigravity",
+    "name": "Antigravity",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "askverdict",
+    "name": "AskVerdict",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "automatic1111",
+    "name": "AUTOMATIC1111",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "capcut",
+    "name": "CapCut",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "celestoai",
+    "name": "CelestoAI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "cherry-studio",
+    "name": "Cherry Studio",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   },
   {
     "id": "cline",
     "name": "Cline",
-    "group": "LLM Models"
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   },
   {
-    "id": "codex",
-    "name": "Codex",
-    "group": "LLM Models"
+    "id": "clipdrop",
+    "name": "Clipdrop",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "codebuddy",
+    "name": "CodeBuddy",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "codeflicker",
+    "name": "CodeFlicker",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "colab",
+    "name": "Colab",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "copilotkit",
+    "name": "CopilotKit",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "coqui",
+    "name": "Coqui",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "coze",
+    "name": "Coze",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   },
   {
     "id": "cursor",
     "name": "Cursor",
-    "group": "LLM Models"
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   },
   {
-    "id": "gemini",
-    "name": "Gemini",
-    "group": "LLM Models"
+    "id": "cybercut",
+    "name": "CyberCut",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "deepai",
+    "name": "DeepAI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "doc2x",
+    "name": "Doc2X",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "docsearch",
+    "name": "DocSearch",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "dream-machine",
+    "name": "Dream Machine",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "fastgpt",
+    "name": "FastGPT",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "firecrawl",
+    "name": "Firecrawl",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "flora",
+    "name": "Flora",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "flowith",
+    "name": "Flowith",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "glama",
+    "name": "Glama",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "glif",
+    "name": "Glif",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": false
+  },
+  {
+    "id": "goose",
+    "name": "Goose",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "gradio",
+    "name": "Gradio",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "greptile",
+    "name": "Greptile",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "hailuo",
+    "name": "Hailuo",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "haiper",
+    "name": "Haiper",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "hedra",
+    "name": "Hedra",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "hermes-agent",
+    "name": "Hermes Agent",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "icon-11x",
+    "name": "11x",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "jimeng",
+    "name": "Jimeng",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "junie",
+    "name": "Junie",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "kilo-code",
+    "name": "Kilo Code",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "kimi",
+    "name": "Kimi",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "kling",
+    "name": "Kling",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "krea",
+    "name": "Krea",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "langfuse",
+    "name": "Langfuse",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "langgraph",
+    "name": "LangGraph",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": false
+  },
+  {
+    "id": "langsmith",
+    "name": "LangSmith",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": false
+  },
+  {
+    "id": "lightricks",
+    "name": "Lightricks",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "livekit",
+    "name": "LiveKit",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "lovart",
+    "name": "Lovart",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "luma",
+    "name": "Luma",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "make",
+    "name": "Make",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "mastra",
+    "name": "Mastra",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "mcp",
+    "name": "MCP",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "mcp-so",
+    "name": "MCP.so",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "meta-ai",
+    "name": "Meta AI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "metagpt",
+    "name": "MetaGPT",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "microsoft-bing",
+    "name": "Microsoft Bing",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "monica",
+    "name": "Monica",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "moxt",
+    "name": "Moxt",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "myshell",
+    "name": "MyShell",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "novelai",
+    "name": "NovelAI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   },
   {
     "id": "obsidian",
     "name": "Obsidian",
-    "group": "LLM Models"
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   },
   {
-    "id": "sider",
-    "name": "Sider",
-    "group": "LLM Models"
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "opencode",
+    "name": "opencode",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "openhuman",
+    "name": "OpenHuman",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "phidata",
+    "name": "Phidata",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "pika",
+    "name": "Pika",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "pixverse",
+    "name": "PixVerse",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "player2",
+    "name": "Player2",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "poe",
+    "name": "Poe",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "pollinations",
+    "name": "Pollinations",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "pydanticai",
+    "name": "PydanticAI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "qingyan",
+    "name": "Qingyan",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "qoder",
+    "name": "Qoder",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "railway",
+    "name": "Railway",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "roo-code",
+    "name": "Roo Code",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "rsshub",
+    "name": "RSSHub",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "sillytavern",
+    "name": "SillyTavern",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "slock",
+    "name": "Slock",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "smithery",
+    "name": "Smithery",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "sync",
+    "name": "Sync",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "tavily",
+    "name": "Tavily",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "tiangong",
+    "name": "Tiangong",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "topazlabs",
+    "name": "TopazLabs",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "trae",
+    "name": "TRAE",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "tripo",
+    "name": "Tripo",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "turix",
+    "name": "TuriX",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "unstructured",
+    "name": "Unstructured",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": false
+  },
+  {
+    "id": "vectorizer-ai",
+    "name": "Vectorizer.AI",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "venice",
+    "name": "Venice",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "vidu",
+    "name": "Vidu",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "viggle",
+    "name": "Viggle",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "youmind",
+    "name": "YouMind",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "yuanbao",
+    "name": "Yuanbao",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   },
   {
     "id": "zai",
     "name": "Z.ai",
-    "group": "LLM Models"
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "zeabur",
+    "name": "Zeabur",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
+  },
+  {
+    "id": "zencoder",
+    "name": "Zencoder",
+    "group": "LLM Models",
+    "groups": [
+      "LLM Models"
+    ],
+    "hasText": true
   }
 ]

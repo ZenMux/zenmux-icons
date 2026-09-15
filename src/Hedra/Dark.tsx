@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const HedraDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-hedra-dark__Name=Hedra, Type=Dark, Variant=Default"}><g id={instanceId + "-hedra-dark__Hedra / Icon"}><path id={instanceId + "-hedra-dark__Hedra / path 01"} fillRule="evenodd" clipRule="evenodd" d="M19.928 45.434L23.268 39.654L28.086 48L34.166 44.492L28.682 35L27.318 32.64L25.718 29.87H20.812L19.212 32.64L17.848 35L13.846 41.926L19.928 45.434ZM3.39202 31.186H10.068L5.24802 39.53L11.328 43.04L16.812 33.546L18.176 31.186L19.776 28.418L17.322 24.172H3.39202V31.186ZM7.47202 9.752L10.812 15.532H1.16602V22.546H18.062L20.52 18.3L18.92 15.53L17.556 13.17L13.554 6.246L7.47202 9.752ZM28.088 2.566L24.748 8.346L19.93 0L13.85 3.508L19.332 13L20.698 15.36L22.298 18.13H27.204L28.804 15.36L30.166 13L34.168 6.074L28.088 2.566ZM44.624 16.814H37.948L42.768 8.47L36.688 4.962L31.204 14.454L29.84 16.814L28.24 19.584L30.694 23.828H44.624V16.814ZM40.544 38.246L37.204 32.468H46.848V25.454H29.952L27.5 29.7L29.1 32.47L30.464 34.83L34.464 41.756L40.546 38.246H40.544Z" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(HedraDark);
+export default ForwardRef;

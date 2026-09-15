@@ -1,0 +1,35 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const MicrosoftBingColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-microsoft-bing-color__Name=Microsoft Bing, Type=Color, Variant=Default"}><g id={instanceId + "-microsoft-bing-color__Microsoft Bing / Icon"} clipPath={'url(#' + instanceId + "-microsoft-bing-color__clip0_436_4579)"}><path id={instanceId + "-microsoft-bing-color__Microsoft Bing / path 01"} d="M23.94 15.138C23.5118 15.1913 23.116 15.3933 22.8218 15.7088C22.5275 16.0243 22.3534 16.4332 22.33 16.864C22.304 17.254 22.31 17.282 23.19 19.558C25.19 24.738 25.674 25.986 25.756 26.162C25.954 26.588 26.23 26.988 26.576 27.346C26.844 27.622 27.02 27.77 27.316 27.968C27.836 28.32 28.096 28.416 30.126 29.022C32.104 29.612 33.184 30.002 34.114 30.468C35.32 31.072 36.162 31.756 36.694 32.57C37.076 33.154 37.414 34.2 37.562 35.254C37.62 35.666 37.62 36.576 37.562 36.948C37.4663 37.6792 37.2094 38.3801 36.81 39C36.61 39.302 36.68 39.252 36.972 38.884C37.802 37.844 38.648 36.068 39.08 34.458C39.6026 32.4912 39.6724 30.4316 39.284 28.434C38.9147 26.5349 38.1341 24.7397 36.997 23.1746C35.8599 21.6094 34.3939 20.3121 32.702 19.374C31.824 18.9023 30.9426 18.437 30.058 17.978L29.55 17.712C28.4993 17.1619 27.4493 16.6106 26.4 16.058C25.304 15.478 24.84 15.246 24.708 15.206C24.5184 15.1554 24.324 15.1252 24.128 15.116L23.942 15.136L23.94 15.138Z" fill={'url(#' + instanceId + "-microsoft-bing-color__paint0_radial_436_4579)"} /><path id={instanceId + "-microsoft-bing-color__Microsoft Bing / path 02"} d="M26.3279 34.4801C26.191 34.5597 26.0563 34.6431 25.9239 34.7301C24.7257 35.4709 23.529 36.2142 22.3339 36.9601C21.676 37.3717 21.0167 37.7811 20.3559 38.1881L19.4299 38.7641C18.4342 39.4003 17.4328 40.0277 16.4259 40.6461C15.7739 41.0461 15.0179 41.314 14.2459 41.42C13.8859 41.468 13.2059 41.468 12.8459 41.42C11.8894 41.2939 10.9815 40.9233 10.2099 40.3441C9.81065 40.0198 9.44664 39.6545 9.12388 39.2541C8.62133 38.5779 8.27563 37.7984 8.11188 36.9721C8.0898 36.8496 8.06244 36.7281 8.02988 36.6081C8.01388 36.5921 8.04188 36.8841 8.09388 37.2681C8.14788 37.6661 8.26388 38.2421 8.38788 38.7341C9.35188 42.5481 12.0879 45.6481 15.7979 47.1241C16.8608 47.5478 17.9763 47.825 19.1139 47.9481C19.5539 47.9981 20.8019 48.018 21.2619 47.982C23.3699 47.822 25.2059 47.1961 27.0879 45.9981C27.7119 45.5997 28.3365 45.2023 28.9619 44.8061L29.7299 44.3181L31.0979 43.4481L31.5659 43.1501L31.5839 43.1401L31.6339 43.1061L31.6599 43.0921L32.0039 42.8721L33.1979 42.1121C34.7179 41.1501 35.1719 40.8121 35.8779 40.1161C36.1739 39.8241 36.6179 39.3281 36.6399 39.2661C36.6439 39.2521 36.7239 39.1301 36.8159 38.9941C37.2125 38.3754 37.4672 37.6767 37.5619 36.9481C37.6192 36.3848 37.6192 35.8173 37.5619 35.2541C37.4546 34.4706 37.2406 33.7055 36.9259 32.9801C36.4779 32.0361 35.5259 31.1801 34.1599 30.4901C33.8986 30.3493 33.6272 30.2283 33.3479 30.1281C33.3279 30.1281 32.0559 30.9121 30.5219 31.8681C29.4165 32.5552 28.3111 33.2426 27.2059 33.9301L26.3279 34.4801Z" fill={'url(#' + instanceId + "-microsoft-bing-color__paint1_radial_436_4579)"} /><path id={instanceId + "-microsoft-bing-color__Microsoft Bing / path 03"} d="M8.006 29.892L8.014 36.552L8.098 36.938C8.366 38.146 8.83 39.018 9.638 39.828C10.1465 40.3488 10.7549 40.7614 11.4268 41.0412C12.0987 41.321 12.8202 41.4621 13.548 41.456C14.62 41.456 15.548 41.186 16.506 40.596L17.912 39.726L19.024 39.034V16.006C19.024 11.394 19.016 8.65602 19 8.44202C18.9172 7.11028 18.3502 5.85479 17.406 4.91202C17.116 4.62402 16.87 4.43202 16.132 3.92002C14.5952 2.85589 13.0592 1.79056 11.524 0.724017C10.812 0.230017 10.76 0.196017 10.542 0.118017C10.2866 0.0226593 10.0135 -0.0161855 9.74163 0.0041601C9.46974 0.0245057 9.2055 0.103558 8.96711 0.235869C8.72873 0.36818 8.52186 0.550604 8.36077 0.77057C8.19968 0.990536 8.08819 1.24281 8.034 1.51002C8.006 1.63602 8 3.31802 8 12.446V23.234L8.006 29.892Z" fill={'url(#' + instanceId + "-microsoft-bing-color__paint2_linear_436_4579)"} /></g></g><defs><radialGradient id={instanceId + "-microsoft-bing-color__paint0_radial_436_4579"} cx={0} cy={0} r={1} gradientTransform="matrix(-16.128 -13.3935 26.2285 -16.1283 2.49976 -33.3103)" gradientUnits="userSpaceOnUse"><stop stopColor="#00CACC" style={{
+          stopColor: "color(display-p3 0.0000 0.7922 0.8000)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#048FCE" style={{
+          stopColor: "color(display-p3 0.0157 0.5608 0.8078)",
+          stopOpacity: 1
+        }} /></radialGradient><radialGradient id={instanceId + "-microsoft-bing-color__paint1_radial_436_4579"} cx={0} cy={0} r={1} gradientTransform="matrix(24.4846 -17.4859 6.38351 24.4851 16.7822 34.8061)" gradientUnits="userSpaceOnUse"><stop stopColor="#00BBEC" style={{
+          stopColor: "color(display-p3 0.0000 0.7333 0.9255)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#2756A9" style={{
+          stopColor: "color(display-p3 0.1529 0.3373 0.6627)",
+          stopOpacity: 1
+        }} /></radialGradient><linearGradient id={instanceId + "-microsoft-bing-color__paint2_linear_436_4579"} x1={13.512} y1={-0.00109863} x2={13.512} y2={41.4562} gradientUnits="userSpaceOnUse"><stop stopColor="#00BBEC" style={{
+          stopColor: "color(display-p3 0.0000 0.7333 0.9255)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#2756A9" style={{
+          stopColor: "color(display-p3 0.1529 0.3373 0.6627)",
+          stopOpacity: 1
+        }} /></linearGradient><clipPath id={instanceId + "-microsoft-bing-color__clip0_436_4579"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(MicrosoftBingColor);
+export default ForwardRef;

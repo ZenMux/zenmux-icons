@@ -2,7 +2,7 @@
 // Generated from scripts/templates/lazy.tsx. Do not edit src/lazy.tsx directly.
 import { useEffect, useRef, useState } from 'react';
 import type { ComponentType, ReactNode } from 'react';
-import type { IconName } from './catalog.js';
+import { iconCatalog, type IconName } from './catalog.js';
 import type { IconProps } from './types.js';
 import { loadIcon } from './loaders.js';
 import type { IconVariant } from './loaders.js';
@@ -38,6 +38,9 @@ export function LazyIcon({ name, variant = 'color', size = '1em', eager = false,
   const host = useRef<HTMLSpanElement>(null);
   const [visible, setVisible] = useState(false);
   const key = `${name}/${variant}`;
+  const entry = iconCatalog.find(icon => icon.id === name);
+  const ratio = (entry?.aspectRatios as Partial<Record<IconVariant, number>> | undefined)?.[variant] ?? 1;
+  const width = typeof size === 'number' ? size * ratio : `calc(${size} * ${ratio})`;
   const [loaded, setLoaded] = useState<{ key: string; Icon?: ComponentType<IconProps>; failed?: boolean }>();
   useEffect(() => {
     if (eager || !host.current) return;
@@ -55,7 +58,7 @@ export function LazyIcon({ name, variant = 'color', size = '1em', eager = false,
   const current = loaded?.key === key ? loaded : undefined;
   const Icon = current?.Icon;
   return <span ref={host} data-icon={name} data-state={Icon ? 'loaded' : current?.failed ? 'error' : 'pending'}
-    style={{ display: 'inline-flex', width: props.width ?? size, height: props.height ?? size, flex: 'none' }}>
+    style={{ display: 'inline-flex', width: props.width ?? width, height: props.height ?? size, flex: 'none' }}>
     {Icon ? <Icon size={size} {...props} /> : current?.failed ? errorFallback : fallback}
   </span>;
 }

@@ -1,5 +1,5 @@
 'use client';
-// Generated from SVG assets. Do not edit manually.
+// Generated from real source assets. Do not edit manually.
 import { forwardRef, useId } from 'react';
 import type { Ref } from 'react';
 import type { IconProps } from '../types.js';
@@ -8,7 +8,7 @@ const CursorMono = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 86 86" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-cursor-mono__a)"}><path fill="currentColor" fillRule="evenodd" d="M76.199 22.238 44.644 4.023a3.28 3.28 0 0 0-3.279 0L9.8 22.238a2.76 2.76 0 0 0-1.376 2.385v36.745c0 .986.525 1.896 1.38 2.389l31.558 18.221a3.28 3.28 0 0 0 3.278 0l31.562-18.221a2.76 2.76 0 0 0 1.38-2.389V24.627a2.76 2.76 0 0 0-1.38-2.385zm-1.98 3.863L43.75 78.871c-.207.355-.749.21-.749-.2V44.115a1.94 1.94 0 0 0-.969-1.675L12.106 25.16c-.351-.203-.207-.748.204-.748h60.936c.867 0 1.406.94.972 1.688" clipRule="evenodd" /></g><defs><clipPath id={instanceId + "-cursor-mono__a"}><path fill="#fff" d="M0 0h86v86H0z" /></clipPath></defs></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-cursor-mono__Name=Cursor, Type=Dark, Variant=Default"}><g id={instanceId + "-cursor-mono__Cursor / Icon"}><path id={instanceId + "-cursor-mono__Cursor / path 01"} fillRule="evenodd" clipRule="evenodd" d="M44.2122 11.36L25.0002 0.269977C24.6968 0.0947912 24.3526 0.00256348 24.0022 0.00256348C23.6519 0.00256348 23.3077 0.0947912 23.0042 0.269977L3.78624 11.36C3.53165 11.5074 3.32025 11.7192 3.17318 11.974C3.02612 12.2288 2.94855 12.5178 2.94824 12.812V35.184C2.94824 35.784 3.26824 36.338 3.78824 36.638L23.0022 47.732C23.3057 47.907 23.6499 47.9991 24.0002 47.9991C24.3506 47.9991 24.6947 47.907 24.9982 47.732L44.2142 36.638C44.4695 36.4906 44.6815 36.2787 44.8289 36.0235C44.9764 35.7682 45.0541 35.4787 45.0542 35.184V12.814C45.0537 12.5196 44.9759 12.2305 44.8284 11.9756C44.681 11.7208 44.4692 11.5092 44.2142 11.362L44.2122 11.36ZM43.0062 13.712L24.4562 45.84C24.3302 46.056 24.0002 45.968 24.0002 45.718V24.68C23.9999 24.4732 23.9452 24.2701 23.8417 24.0911C23.7381 23.912 23.5893 23.7634 23.4102 23.66L5.19024 13.14C4.97624 13.016 5.06424 12.684 5.31424 12.684H42.4142C42.9422 12.684 43.2702 13.256 43.0062 13.712Z" fill="currentColor" fillOpacity={1} /></g></g></svg>;
 };
 const ForwardRef = forwardRef(CursorMono);
 export default ForwardRef;

@@ -1,0 +1,14 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const MonicaLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-monica-light__Name=Monica, Type=Dark, Variant=Default"}><g id={instanceId + "-monica-light__Monica / Icon"} clipPath={'url(#' + instanceId + "-monica-light__clip0_436_4605)"}><path id={instanceId + "-monica-light__Monica / path 01"} fillRule="evenodd" clipRule="evenodd" d="M24 48C37.254 48 48 37.254 48 24C48 10.746 37.254 0 24 0C10.746 0 0 10.746 0 24C0 37.254 10.746 48 24 48ZM24 40.874C34.77 40.874 43.5 33.32 43.5 24C43.5 14.68 34.77 7.124 24 7.124C13.23 7.124 4.5 14.68 4.5 24C4.5 33.32 13.23 40.874 24 40.874Z" fill="#000000" fillOpacity={1} /><path id={instanceId + "-monica-light__Monica / path 02"} fillRule="evenodd" clipRule="evenodd" d="M32.414 20.39C32.5901 20.2027 32.802 20.0526 33.0373 19.9488C33.2725 19.8449 33.5261 19.7893 33.7832 19.7854C34.0403 19.7814 34.2956 19.8291 34.5339 19.9257C34.7722 20.0223 34.9887 20.1657 35.1705 20.3475C35.3523 20.5293 35.4957 20.7458 35.5923 20.9841C35.6888 21.2224 35.7366 21.4777 35.7326 21.7347C35.7286 21.9918 35.6731 22.2455 35.5692 22.4807C35.4653 22.7159 35.3153 22.9279 35.128 23.104L32.9 25.332L35.846 27.032C36.0713 27.1544 36.2698 27.3206 36.4299 27.5209C36.5899 27.7212 36.7082 27.9516 36.7777 28.1983C36.8473 28.4451 36.8667 28.7033 36.8349 28.9577C36.803 29.2121 36.7206 29.4576 36.5923 29.6796C36.4641 29.9016 36.2927 30.0957 36.0882 30.2504C35.8838 30.4051 35.6504 30.5173 35.4019 30.5803C35.1533 30.6434 34.8947 30.656 34.6412 30.6175C34.3877 30.579 34.1445 30.49 33.926 30.356L29.038 27.534C28.9887 27.5054 28.9406 27.4747 28.894 27.442C28.6272 27.3022 28.3969 27.1017 28.2218 26.8566C28.0466 26.6116 27.9315 26.3288 27.8856 26.0311C27.8396 25.7335 27.8643 25.4291 27.9574 25.1427C28.0506 24.8563 28.2097 24.5957 28.422 24.382L32.414 20.39ZM15.376 19.874C14.5803 19.874 13.8173 20.1901 13.2547 20.7527C12.692 21.3153 12.376 22.0784 12.376 22.874V27.374C12.376 28.1697 12.692 28.9327 13.2547 29.4953C13.8173 30.0579 14.5803 30.374 15.376 30.374C16.1716 30.374 16.9347 30.0579 17.4973 29.4953C18.0599 28.9327 18.376 28.1697 18.376 27.374V22.874C18.376 22.0784 18.0599 21.3153 17.4973 20.7527C16.9347 20.1901 16.1716 19.874 15.376 19.874Z" fill="#000000" fillOpacity={1} /></g></g><defs><clipPath id={instanceId + "-monica-light__clip0_436_4605"}><rect width={48} height={48} fill="#fff" fillOpacity={1} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(MonicaLight);
+export default ForwardRef;

@@ -1,0 +1,71 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const MakeColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-make-color__Name=Make, Type=Color, Variant=Default"}><g id={instanceId + "-make-color__Make / Icon"} clipPath={'url(#' + instanceId + "-make-color__clip0_436_4542)"}><path id={instanceId + "-make-color__Make / path 01"} d="M13.9781 8.07205L0.124102 35.636C-0.0128416 35.9095 -0.0356276 36.2262 0.0607499 36.5164C0.157127 36.8067 0.364785 37.0468 0.638102 37.184L8.1041 40.936C8.23949 41.0042 8.38698 41.0451 8.53816 41.0563C8.68934 41.0674 8.84124 41.0487 8.98518 41.0012C9.12912 40.9536 9.26228 40.8782 9.37705 40.7792C9.49183 40.6801 9.58597 40.5595 9.6541 40.424L23.5061 12.86C23.5742 12.7245 23.615 12.5769 23.626 12.4257C23.637 12.2744 23.6181 12.1225 23.5704 11.9785C23.5227 11.8345 23.447 11.7014 23.3478 11.5867C23.2486 11.472 23.1277 11.378 22.9921 11.31L15.5261 7.56005C15.3908 7.4917 15.2433 7.45078 15.0921 7.43963C14.941 7.42849 14.7891 7.44735 14.6452 7.49512C14.5013 7.54288 14.3683 7.61862 14.2539 7.71798C14.1394 7.81733 14.0457 7.93834 13.9781 8.07405V8.07205Z" fill={'url(#' + instanceId + "-make-color__paint0_linear_436_4542)"} /><path id={instanceId + "-make-color__Make / path 02"} d="M38.4899 7.66394H46.8479C47.4839 7.66394 48.0019 8.18394 48.0019 8.81794V39.6679C48.0019 39.9742 47.8804 40.2679 47.6641 40.4846C47.4477 40.7014 47.1542 40.8234 46.8479 40.8239H38.4899C38.1837 40.8234 37.8902 40.7014 37.6738 40.4846C37.4575 40.2679 37.3359 39.9742 37.3359 39.6679V8.81994C37.3359 8.18394 37.8539 7.66394 38.4899 7.66394Z" fill={'url(#' + instanceId + "-make-color__paint1_linear_436_4542)"} /><path id={instanceId + "-make-color__Make / path 03"} d="M25.6302 8.16997L19.7002 38.216C19.6408 38.5157 19.7029 38.8267 19.8728 39.0806C20.0427 39.3345 20.3065 39.5106 20.6062 39.57L28.7962 41.222C29.4242 41.348 30.0362 40.942 30.1582 40.314L36.0862 10.27C36.1451 9.97033 36.0828 9.65958 35.9129 9.40579C35.7431 9.152 35.4796 8.97587 35.1802 8.91597L26.9882 7.26197C26.8393 7.23197 26.6859 7.23169 26.5368 7.26113C26.3878 7.29056 26.246 7.34914 26.1196 7.43351C25.9933 7.51787 25.8848 7.62635 25.8005 7.75273C25.7162 7.87912 25.6596 8.02091 25.6302 8.16997Z" fill={'url(#' + instanceId + "-make-color__paint2_linear_436_4542)"} /></g></g><defs><linearGradient id={instanceId + "-make-color__paint0_linear_436_4542"} x1={3.0001} y1={39} x2={24.0001} y2={0.0000460884} gradientUnits="userSpaceOnUse"><stop stopColor="#FF00FF" style={{
+          stopColor: "color(display-p3 1.0000 0.0000 1.0000)",
+          stopOpacity: 1
+        }} /><stop offset={0.17} stopColor="#E90CF9" style={{
+          stopColor: "color(display-p3 0.9137 0.0471 0.9765)",
+          stopOpacity: 1
+        }} /><stop offset={0.54} stopColor="#C023ED" style={{
+          stopColor: "color(display-p3 0.7529 0.1373 0.9294)",
+          stopOpacity: 1
+        }} /><stop offset={0.73} stopColor="#B02DE9" style={{
+          stopColor: "color(display-p3 0.6902 0.1765 0.9137)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#B02DE9" style={{
+          stopColor: "color(display-p3 0.6902 0.1765 0.9137)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-make-color__paint1_linear_436_4542"} x1={-0.0000637771} y1={47.9999} x2={47.9999} y2={-0.0000602008} gradientUnits="userSpaceOnUse"><stop stopColor="#B02DE9" style={{
+          stopColor: "color(display-p3 0.6902 0.1765 0.9137)",
+          stopOpacity: 1
+        }} /><stop offset={0.02} stopColor="#B02DE9" style={{
+          stopColor: "color(display-p3 0.6902 0.1765 0.9137)",
+          stopOpacity: 1
+        }} /><stop offset={0.8} stopColor="#6D00CC" style={{
+          stopColor: "color(display-p3 0.4275 0.0000 0.8000)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#6D00CC" style={{
+          stopColor: "color(display-p3 0.4275 0.0000 0.8000)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-make-color__paint2_linear_436_4542"} x1={0.000214383} y1={48} x2={48.0002} y2={-0.0000284351} gradientUnits="userSpaceOnUse"><stop stopColor="#FF00FF" style={{
+          stopColor: "color(display-p3 1.0000 0.0000 1.0000)",
+          stopOpacity: 1
+        }} /><stop offset={0.02} stopColor="#FF00FF" style={{
+          stopColor: "color(display-p3 1.0000 0.0000 1.0000)",
+          stopOpacity: 1
+        }} /><stop offset={0.09} stopColor="#E90CF9" style={{
+          stopColor: "color(display-p3 0.9137 0.0471 0.9765)",
+          stopOpacity: 1
+        }} /><stop offset={0.23} stopColor="#C023ED" style={{
+          stopColor: "color(display-p3 0.7529 0.1373 0.9294)",
+          stopOpacity: 1
+        }} /><stop offset={0.3} stopColor="#B02DE9" style={{
+          stopColor: "color(display-p3 0.6902 0.1765 0.9137)",
+          stopOpacity: 1
+        }} /><stop offset={0.42} stopColor="#A42BE3" style={{
+          stopColor: "color(display-p3 0.6431 0.1686 0.8902)",
+          stopOpacity: 1
+        }} /><stop offset={0.63} stopColor="#8626D5" style={{
+          stopColor: "color(display-p3 0.5255 0.1490 0.8353)",
+          stopOpacity: 1
+        }} /><stop offset={0.85} stopColor="#6021C3" style={{
+          stopColor: "color(display-p3 0.3765 0.1294 0.7647)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#6021C3" style={{
+          stopColor: "color(display-p3 0.3765 0.1294 0.7647)",
+          stopOpacity: 1
+        }} /></linearGradient><clipPath id={instanceId + "-make-color__clip0_436_4542"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(MakeColor);
+export default ForwardRef;

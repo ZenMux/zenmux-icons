@@ -2,19 +2,30 @@ import {readFile,readdir} from 'node:fs/promises';
 import path from 'node:path';
 const root=path.resolve(process.argv[2]||'.');
 const metadata=JSON.parse(await readFile(path.join(root,'metadata.json'),'utf8'));
-if(!Array.isArray(metadata)||!metadata.length) throw Error('Empty icon catalog');
-const ids=metadata.map(i=>i.id);
-if(new Set(ids).size!==ids.length) throw Error('Duplicate icon ids');
-for(const item of metadata) {
-  if(Object.keys(item).some(k=>!['id','name','group'].includes(k))) throw Error('Unexpected metadata field');
-  if(!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(item.id)||typeof item.name!=='string'||typeof item.group!=='string'||!item.group.trim()) throw Error('Invalid metadata');
+if(!Array.isArray(metadata)||!metadata.length)throw Error('Empty catalog');
+const ids=new Set(),expected=new Set();
+for(const icon of metadata){
+  if(Object.keys(icon).some(k=>!['id','name','group','groups','hasText'].includes(k)))throw Error('Unexpected metadata field');
+  if(!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(icon.id)||ids.has(icon.id)||typeof icon.name!=='string'||!icon.name||!icon.group)throw Error('Invalid brand metadata');
+  if(icon.groups&&(!Array.isArray(icon.groups)||icon.groups.some(g=>typeof g!=='string'||!g)||!icon.groups.includes(icon.group)))throw Error('Invalid groups');
+  ids.add(icon.id);expected.add(`${icon.id}.svg`);
+  if(typeof icon.hasText==='boolean')expected.add(`default/${icon.id}.svg`);
+  if(icon.hasText)expected.add(`text/${icon.id}.svg`);
 }
-const files=(await readdir(path.join(root,'icons'))).sort();
-if(JSON.stringify(files)!==JSON.stringify(ids.map(i=>i+'.svg').sort())) throw Error('Catalog and SVG files differ');
-for(const file of files){
+async function files(dir,prefix=''){
+ const all=[];
+ for(const entry of await readdir(dir,{withFileTypes:true})){
+  const rel=prefix+entry.name;
+  if(entry.isDirectory())all.push(...await files(path.join(dir,entry.name),rel+'/'));else all.push(rel);
+ }
+ return all;
+}
+const actual=await files(path.join(root,'icons'));
+if(actual.length!==expected.size||actual.some(f=>!expected.has(f)))throw Error('Catalog and source assets differ');
+for(const file of actual){
  const s=await readFile(path.join(root,'icons',file),'utf8');
- if(!s.includes('<svg')||!s.includes('viewBox=')) throw Error(`Invalid SVG: ${file}`);
- if(/<(?:script|foreignObject|image|style)\b|\bon\w+\s*=|<!DOCTYPE|<!ENTITY/i.test(s)) throw Error(`Unsafe SVG: ${file}`);
- if(/(?:href\s*=\s*["'](?!#)|url\(\s*["']?(?!#))/i.test(s)) throw Error(`External SVG resource: ${file}`);
+ if(!s.includes('<svg')||!s.includes('viewBox='))throw Error('Invalid SVG: '+file);
+ if(/<(?:script|foreignObject|image|style)\b|\bon\w+\s*=|<!DOCTYPE|<!ENTITY/i.test(s))throw Error('Unsafe SVG: '+file);
+ if(/(?:href\s*=\s*["'](?!#)|url\(\s*["']?(?!#))/i.test(s))throw Error('External SVG resource: '+file);
 }
-console.log(`Checked ${ids.length} SVG assets.`);
+console.log(`Checked ${metadata.length} brands and ${actual.length} real SVG sources.`);

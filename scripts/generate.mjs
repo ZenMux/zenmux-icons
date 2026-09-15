@@ -2,60 +2,48 @@ import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { transform } from '@svgr/core';
 import { optimize } from 'svgo';
+import { combineSvg, normalizeSvg, transformPaint, viewBox } from './lib/svg-variants.mjs';
 
 const root = path.resolve(process.argv[2] || '.');
-const metadata = JSON.parse(await readFile(path.join(root, 'metadata.json'), 'utf8'));
-const generated = new Map();
-const staticFiles = new Map();
-
-// Paint in masks, clipping paths and gradient definitions is structural, not a brand color.
-function monochromePlugin() {
-  let protectedDepth = 0;
-  const protectedElements = new Set(['defs', 'mask', 'clipPath']);
-  return {
-    name: 'monochrome',
-    fn: () => ({ element: {
-      enter(node) {
-        if (protectedElements.has(node.name)) protectedDepth++;
-        if (protectedDepth) return;
-        for (const attr of ['fill', 'stroke']) {
-          const value = node.attributes[attr];
-          if (value && value !== 'none' && value !== 'transparent') node.attributes[attr] = 'currentColor';
-        }
-        if (node.name === 'svg' && !node.attributes.fill) node.attributes.fill = 'currentColor';
-      },
-      exit(node) { if (protectedElements.has(node.name)) protectedDepth--; },
-    } }),
-  };
-}
+const metadata = JSON.parse(await readFile(path.join(root,'metadata.json'),'utf8'));
+const generated = new Map(), staticFiles = new Map(), enriched = [];
+const componentName = id => id.split('-').map(s => s[0].toUpperCase()+s.slice(1)).join('');
+const names = {mono:'Mono',color:'Color',dark:'Dark',light:'Light',text:'Text','text-dark':'TextDark','text-light':'TextLight',combine:'Combine','combine-dark':'CombineDark','combine-light':'CombineLight'};
 
 for (const icon of metadata) {
   if (!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(icon.id)) throw Error('Invalid icon id');
-  const name = icon.id.split('-').map(s => s[0].toUpperCase() + s.slice(1)).join('');
-  const original = await readFile(path.join(root, 'icons', `${icon.id}.svg`), 'utf8');
-  for (const variant of ['Mono', 'Color']) {
-    const { data } = optimize(original, {
-      plugins: [
-        ...(variant === 'Mono' ? [monochromePlugin()] : []),
-        { name: 'preset-default', params: { overrides: { removeViewBox: false } } },
-        { name: 'prefixIds', params: { prefix: icon.id + '-' + variant.toLowerCase() } },
-      ],
-    });
-    if (variant === 'Mono') {
-      for (const color of ['black', 'white']) staticFiles.set(`${color}/${icon.id}.svg`, data.replaceAll('currentColor', color) + '\n');
+  const name = componentName(icon.id);
+  const color = await readFile(path.join(root,'icons',icon.id+'.svg'),'utf8');
+  let dark;
+  try { dark = await readFile(path.join(root,'icons/default',icon.id+'.svg'),'utf8'); }
+  catch(error) { if(typeof icon.hasText==='boolean'||error.code!=='ENOENT')throw error; dark=transformPaint(color,'#fff'); }
+  const sources = {mono:transformPaint(dark,'currentColor'),color,dark,light:transformPaint(dark,'invert')};
+  if (icon.hasText) {
+    sources['text-dark'] = await readFile(path.join(root,'icons/text',icon.id+'.svg'),'utf8');
+    sources['text-light'] = transformPaint(sources['text-dark'],'invert');
+    sources.text = transformPaint(sources['text-dark'],'currentColor');
+    sources['combine-dark'] = combineSvg(dark,sources['text-dark'],icon.id+'-dark');
+    sources['combine-light'] = combineSvg(sources.light,sources['text-light'],icon.id+'-light');
+    sources.combine = combineSvg(sources.mono,sources.text,icon.id+'-mono');
+  }
+  const ratios = {};
+  for (const [variant, original] of Object.entries(sources)) {
+    const data = normalizeSvg(original,icon.id+'-'+variant);
+    const box = viewBox(data);const ratio = box[2]/box[3];ratios[variant] = ratio;
+    if (!['color','mono','text','combine'].includes(variant))staticFiles.set(`${variant}/${icon.id}.svg`,data+'\n');
+    if(variant==='light')staticFiles.set(`black/${icon.id}.svg`,data+'\n');
+    if(variant==='dark')staticFiles.set(`white/${icon.id}.svg`,data+'\n');
+    const replacement = {};
+    for(const [,id] of data.matchAll(/\bid="([^"]+)"/g)) {
+      replacement[id]=`{instanceId + ${JSON.stringify('-'+id)}}`;
+      replacement[`url(#${id})`]=`{'url(#' + instanceId + ${JSON.stringify('-'+id+')')}}`;
+      replacement[`#${id}`]=`{'#' + instanceId + ${JSON.stringify('-'+id)}}`;
     }
-    const ids = [...data.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
-    const replaceAttrValues = {};
-    for (const id of ids) {
-      replaceAttrValues[id] = `{instanceId + ${JSON.stringify('-' + id)}}`;
-      replaceAttrValues[`url(#${id})`] = `{'url(#' + instanceId + ${JSON.stringify('-' + id + ')')}}`;
-      replaceAttrValues[`#${id}`] = `{'#' + instanceId + ${JSON.stringify('-' + id)}}`;
-    }
-    const result = await transform(data, {
-      plugins: ['@svgr/plugin-jsx'], typescript: true, ref: true, dimensions: false,
-      expandProps: 'end', jsxRuntime: 'automatic', replaceAttrValues,
-      svgProps: { width: '{size}', height: '{size}', 'aria-hidden': 'true', focusable: 'false' },
-      template: (v, { tpl }) => tpl`
+    const width=ratio===1?'{size}':`{typeof size === 'number' ? size * ${ratio} : 'calc(' + size + ' * ${ratio})'}`;
+    const result=await transform(data,{
+      plugins:['@svgr/plugin-jsx'],typescript:true,ref:true,dimensions:false,expandProps:'end',jsxRuntime:'automatic',replaceAttrValues:replacement,
+      svgProps:{width,height:'{size}','aria-hidden':'true',focusable:'false'},
+      template:(v,{tpl})=>tpl`
         import { forwardRef, useId } from 'react';
         import type { Ref } from 'react';
         import type { IconProps } from '../types.js';
@@ -65,46 +53,22 @@ for (const icon of metadata) {
         };
         ${v.exports};
       `,
-    }, { componentName: name + variant });
-    generated.set(`${name}/${variant}.tsx`, `'use client';\n// Generated from SVG assets. Do not edit manually.\n${result}\n`);
+    },{componentName:name+names[variant]});
+    generated.set(`${name}/${names[variant]}.tsx`, `'use client';\n// Generated from real source assets. Do not edit manually.\n${result}\n`);
   }
-  generated.set(`${name}/index.ts`, `'use client';\n// Generated. Do not edit manually.\nimport Mono from './Mono.js';\nimport Color from './Color.js';\nconst ${name} = Object.assign(Mono, { Color });\nexport default ${name};\n`);
+  const members=Object.keys(sources).filter(v=>v!=='mono').map(v=>names[v]);
+  generated.set(`${name}/index.ts`,`'use client';\n// Generated. Do not edit manually.\nimport Mono from './Mono.js';\n${members.map(n=>`import ${n} from './${n}.js';`).join('\n')}\nconst ${name} = Object.assign(Mono, { ${members.join(', ')}, Default: Dark });\nexport default ${name};\n`);
+  enriched.push({...icon,hasText:!!icon.hasText,variants:Object.keys(sources),aspectRatios:ratios});
 }
-generated.set('types.ts', `// Generated. Do not edit manually.\nimport type { SVGProps } from 'react';\nexport type IconProps = Omit<SVGProps<SVGSVGElement>, 'size'> & { size?: number | string };\n`);
-generated.set('index.ts', `// Generated. Do not edit manually.\nexport type { IconProps } from './types.js';\n` + metadata.map(icon => {
-  const n = icon.id.split('-').map(s => s[0].toUpperCase() + s.slice(1)).join('');
-  return `export { default as ${n} } from './${n}/index.js';`;
-}).join('\n') + '\n');
-generated.set('catalog.ts', `// Generated metadata only; this module does not import React or SVG components.
-export const iconCatalog = ${JSON.stringify(metadata, null, 2)} as const;
-export type IconName = typeof iconCatalog[number]['id'];
-export const iconGroups = ${JSON.stringify([...new Set(metadata.map(i=>i.group))], null, 2)} as const;
-export default iconCatalog;
-`);
-const loaderEntries = metadata.map(icon => {
-  const n = icon.id.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('');
-  return `  ${JSON.stringify(icon.id)}: { mono: () => import('./${n}/Mono.js'), color: () => import('./${n}/Color.js') }`;
-}).join(',\n');
-generated.set('loaders.ts', `// Generated literal dynamic imports enable per-icon, per-variant bundler chunks.
-import type { IconName } from './catalog.js';
-export type IconVariant = 'mono' | 'color';
-export const iconLoaders = {\n${loaderEntries}\n} as const;
-export function loadIcon(name: IconName, variant: IconVariant = 'color') {
-  if (!Object.prototype.hasOwnProperty.call(iconLoaders, name) || !['mono', 'color'].includes(variant)) {
-    return Promise.reject(new Error('Unknown icon or variant'));
-  }
-  return iconLoaders[name][variant]();
+generated.set('types.ts',`// Generated.\nimport type { SVGProps } from 'react';\nexport type IconProps = Omit<SVGProps<SVGSVGElement>, 'size'> & { size?: number | string };\n`);
+generated.set('index.ts',`export type { IconProps } from './types.js';\n`+metadata.map(i=>`export {default as ${componentName(i.id)}} from './${componentName(i.id)}/index.js';`).join('\n')+'\n');
+const groups=[...new Set(metadata.flatMap(i=>i.groups||[i.group]))];
+generated.set('catalog.ts',`// Generated metadata only; no artwork imports.\nexport const iconCatalog = ${JSON.stringify(enriched)} as const;\nexport type IconName = typeof iconCatalog[number]['id'];\nexport const iconGroups = ${JSON.stringify(groups)} as const;\nexport default iconCatalog;\n`);
+const loaderEntries=enriched.map(i=>`  ${JSON.stringify(i.id)}: { ${i.variants.map(v=>`${JSON.stringify(v)}: () => import('./${componentName(i.id)}/${names[v]}.js')`).join(', ')} }`).join(',\n');
+generated.set('loaders.ts',`// Generated literal dynamic imports: one chunk per icon/variant.\nimport type { ComponentType } from 'react';\nimport type { IconProps } from './types.js';\nimport type { IconName } from './catalog.js';\nexport type IconVariant = ${Object.keys(names).map(v=>JSON.stringify(v)).join(' | ')};\ntype IconLoader = () => Promise<{default: ComponentType<IconProps>}>;\nexport const iconLoaders: Record<IconName, Partial<Record<IconVariant, IconLoader>>> = {\n${loaderEntries}\n};\nexport function loadIcon(name: IconName, variant: IconVariant = 'color') {\n  const variants = Object.prototype.hasOwnProperty.call(iconLoaders,name) ? iconLoaders[name] : undefined;\n  const loader = variants && Object.prototype.hasOwnProperty.call(variants,variant) ? variants[variant] : undefined;\n  return typeof loader === 'function' ? loader() : Promise.reject(new Error('Unknown or unavailable icon variant'));\n}\n`);
+generated.set('lazy.tsx',await readFile(new URL('./templates/lazy.tsx',import.meta.url),'utf8'));
+for(const [dir,files] of [['src',generated],['static',staticFiles]]) {
+  await rm(path.join(root,dir),{recursive:true,force:true});
+  for(const [name,code] of files){const target=path.join(root,dir,name);await mkdir(path.dirname(target),{recursive:true});await writeFile(target,code);}
 }
-`);
-generated.set('lazy.tsx', await readFile(new URL('./templates/lazy.tsx', import.meta.url), 'utf8'));
-// Generate everything in memory before replacing these generated-only directories.
-for (const [dir, files] of [['src', generated], ['static', staticFiles]]) {
-  const output = path.join(root, dir);
-  await rm(output, { recursive: true, force: true });
-  for (const [name, code] of files) {
-    const destination = path.join(output, name);
-    await mkdir(path.dirname(destination), { recursive: true });
-    await writeFile(destination, code);
-  }
-}
-console.log(`Generated ${metadata.length} icons: React Mono/Color and black/white SVGs.`);
+console.log(`Generated ${enriched.length} brands, ${enriched.filter(i=>i.hasText).length} real wordmarks and combined logos.`);

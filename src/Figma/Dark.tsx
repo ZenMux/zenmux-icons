@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const FigmaDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-figma-dark__Name=Figma, Type=Dark, Variant=Default"}><g id={instanceId + "-figma-dark__Figma / Icon"}><path id={instanceId + "-figma-dark__Figma / path 01"} fillRule="evenodd" clipRule="evenodd" d="M12.164 16.482C9.66 14.882 8 12.114 8 8.966C8 4.014 12.1 0 17.156 0H32.844C37.9 0 42 4.014 42 8.966C42 12.114 40.342 14.884 37.836 16.482C40.34 18.082 42 20.852 42 24C42 28.952 37.9 32.966 32.844 32.966H32.676C30.3889 32.9722 28.1809 32.1291 26.48 30.6V38.952C26.48 43.96 22.29 48 17.198 48C12.152 48 8 43.996 8 39.034C8 35.886 9.658 33.116 12.164 31.518C9.658 29.918 8 27.148 8 24C8 20.852 9.658 18.082 12.164 16.482ZM26.48 24C26.48 27.352 29.254 30.068 32.676 30.068H32.844C36.266 30.068 39.042 27.352 39.042 24C39.042 20.648 36.266 17.932 32.842 17.932H32.676C29.256 17.932 26.48 20.648 26.48 24ZM23.52 17.932H17.156C13.734 17.932 10.96 20.648 10.96 24C10.96 27.344 13.724 30.058 17.138 30.068H23.52V17.932ZM17.156 32.966H17.136C13.722 32.976 10.958 35.69 10.958 39.034C10.958 42.374 13.764 45.102 17.198 45.102C20.678 45.102 23.52 42.34 23.52 38.952V32.966H17.156ZM23.52 15.034H17.156C13.734 15.034 10.958 12.318 10.958 8.966C10.958 5.614 13.734 2.898 17.158 2.898H23.52V15.034ZM32.844 15.034H26.48V2.9H32.844C36.266 2.9 39.042 5.616 39.042 8.968C39.042 12.32 36.266 15.036 32.842 15.036L32.844 15.034Z" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(FigmaDark);
+export default ForwardRef;

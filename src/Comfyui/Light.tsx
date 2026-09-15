@@ -1,0 +1,14 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const ComfyuiLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-comfyui-light__Name=ComfyUI, Type=Dark, Variant=Default"}><g id={instanceId + "-comfyui-light__ComfyUI / Icon"}><path id={instanceId + "-comfyui-light__ComfyUI / path 01"} fillRule="evenodd" clipRule="evenodd" d="M10.9701 47.52C9.83412 47.52 8.91812 47.106 8.32012 46.324C7.70612 45.52 7.54612 44.396 7.88012 43.244L9.22412 38.614C9.27701 38.4321 9.28647 38.2404 9.25173 38.0542C9.217 37.868 9.13904 37.6926 9.02412 37.542C8.90778 37.3906 8.75815 37.268 8.58682 37.1837C8.41549 37.0995 8.22706 37.0557 8.03612 37.056H4.17012C3.03412 37.056 2.11812 36.642 1.52012 35.86C0.906124 35.054 0.746124 33.932 1.08012 32.78L5.70012 16.946L6.21012 15.206C6.89612 12.846 9.39412 10.926 11.7821 10.926H16.4081C16.9601 10.926 17.4461 10.566 17.5981 10.042L19.1261 4.77599C19.8121 2.41599 22.3101 0.497995 24.7001 0.497995L34.5901 0.481995H41.8301C42.9661 0.481995 43.8841 0.893995 44.4801 1.67599C45.0941 2.47999 45.2541 3.60399 44.9201 4.75599L42.8501 11.888C42.1641 14.244 39.6641 16.162 37.2761 16.162L27.3641 16.182H22.7401C22.4735 16.1812 22.2137 16.2666 21.9996 16.4256C21.7855 16.5846 21.6285 16.8085 21.5521 17.064L17.6961 30.272C17.6429 30.4542 17.6333 30.6463 17.668 30.8328C17.7028 31.0194 17.7809 31.1952 17.8961 31.346C18.1321 31.652 18.4961 31.832 18.8861 31.832L25.4361 31.82H32.6561C33.7921 31.82 34.7081 32.232 35.3061 33.016C35.9201 33.82 36.0801 34.944 35.7461 36.096L33.6741 43.226C32.9901 45.584 30.4901 47.502 28.1021 47.502L18.1881 47.522H10.9681L10.9701 47.52Z" fill="#000000" fillOpacity={1} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(ComfyuiLight);
+export default ForwardRef;

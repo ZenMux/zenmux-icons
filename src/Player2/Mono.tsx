@@ -1,0 +1,14 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const Player2Mono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-player2-mono__Name=Player2, Type=Dark, Variant=Default"}><g id={instanceId + "-player2-mono__Player2 / Icon"}><path id={instanceId + "-player2-mono__Player2 / path 01"} fillRule="evenodd" clipRule="evenodd" d="M39.912 20.356C39.7868 21.5088 39.448 23.3568 38.2364 25.0548C36.7334 27.1634 34.7056 27.7648 33.9116 27.9492C33.3822 28.0098 32.6052 28.09 31.6646 28.1578C28.3608 28.409 26.105 28.313 23.4082 28.262C21.62 28.2286 19.0861 28.2068 15.971 28.262C15.9513 33.4986 15.931 38.736 15.9102 43.974L10 44V31.7434C10.0072 29.3084 10.0197 25.8386 10.0679 21.5286C12.9488 21.5368 29.381 21.441 31.3392 21.5442C31.7344 21.5682 32.7242 21.6078 33.3528 20.8916C33.7684 20.4226 33.9392 19.667 33.9526 18.536C33.967 17.6532 33.9804 16.7641 33.9526 15.8864C33.8918 13.8091 33.216 13.0294 31.4206 13.0221C25.6248 13.0138 19.8228 12.8783 14.0271 13.0221C13.201 13.0378 11.8017 13.0617 10.0411 13.0065V6C10.8601 6.01564 12.2657 6.04794 14.0137 6.03126C22.2798 5.96872 25.4584 6.02398 31.0656 6.03126C36.7182 6.0396 39.988 9.88786 39.988 16.5202C39.9826 17.8012 40.0506 19.0989 39.912 20.356Z" fill="currentColor" fillOpacity={1} /><path id={instanceId + "-player2-mono__Player2 / path 02"} fillRule="evenodd" clipRule="evenodd" d="M40 38H22V44H40V38Z" fill="currentColor" fillOpacity={1} /></g></g></svg>;
+};
+const ForwardRef = forwardRef(Player2Mono);
+export default ForwardRef;
