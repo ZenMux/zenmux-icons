@@ -177,3 +177,9 @@ The dev.8 PUT was accepted with HTTP 202 and the same processing notice.
 Immediate official queries still return 404 for dev.8, dev remains dev.6 and
 latest remains dev.0. No clean registry install or Next upgrade is claimed.
 Do not repeatedly publish or increment versions without explicit user direction.
+
+Dev.8 subsequently became public: the official dev tag points to 0.1.0-dev.8,
+latest remains 0.1.0-dev.0. A separate consumer installed dev.8 from the official
+registry (not the local tarball), then passed six-component runtime, direct/named
+imports, catalog, lazy variants/deferred SSR and TypeScript checks. This supersedes
+the preceding pending-availability checkpoint. Next can now pin and install dev.8.
