@@ -8,7 +8,7 @@ name-protection placeholder exporting package information only; it has no icons
 and no second implementation. Its publication is independent of the main package.
 
 **Status:** private GitHub repository. `@zenmux/icons` is available as a public dev
-prerelease (`0.1.0-dev.5`, npm tag `dev`); there is no stable release. The name-protection placeholder
+prerelease (`0.1.0-dev.6`, npm tag `dev`); there is no stable release. The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No CI or automatic package publishing is configured.
 
@@ -42,7 +42,7 @@ Install the development release:
 npm install @zenmux/icons@dev
 ```
 
-For a fixed version use `@zenmux/icons@0.1.0-dev.5`. The examples below also work
+For a fixed version use `@zenmux/icons@0.1.0-dev.6`. The examples below also work
 with a built local checkout installed by absolute directory.
 
 ```tsx
@@ -179,9 +179,22 @@ import { LazyIcon } from '@zenmux/icons/lazy';
 <LazyIcon name="arcee" variant="combine-dark" size={48} />
 ```
 
-Version dev.5 includes 322 brands in LLM, Agent and Provider groups, preserving the
+Version dev.6 includes 322 brands in LLM, Agent and Provider groups, preserving the
 67-brand dev.3 catalog and adding 255 brands. Inputs include 322 verified dark-surface symbol originals and 319 Light wordmarks.
 The 255 newly added white/gray originals have corrected symbolTheme metadata,
 so their Light variant is inverted instead of displaying white artwork on white. v0, Google Cloud and Google
 have no wordmark, so they expose no Combine variants. The two Gemma Simple source
 variants remain outside this Default-based release. Missing variants are not fabricated.
+
+## Brand websites
+
+Brand metadata includes an optional `website` URL, copied from the source's Color
+Default entry. It is available in both `metadata.json` and `@zenmux/icons/catalog`:
+
+```ts
+import catalog from '@zenmux/icons/catalog';
+const website = catalog.find(icon => icon.id === 'zenmux')?.website;
+```
+
+Only HTTP(S) URLs without embedded credentials are accepted. Websites can be project
+pages as well as brand homepages. Missing URLs remain omitted rather than inferred.

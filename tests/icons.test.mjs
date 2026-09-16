@@ -103,3 +103,11 @@ test('corrected white symbols and their wordmarks contrast with the intended sur
   }
  }
 });
+
+test('catalog exposes the optional website metadata without altering it',async()=>{
+ const metadata=JSON.parse(await readFile(new URL('../metadata.json',import.meta.url),'utf8'));
+ for(const entry of metadata){
+  assert.equal(catalog.find(icon=>icon.id===entry.id).website,entry.website,entry.id);
+  if(entry.website){const url=new URL(entry.website);assert.ok(['http:','https:'].includes(url.protocol));assert.ok(!url.username&&!url.password);}
+ }
+});

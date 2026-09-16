@@ -5,9 +5,13 @@ const metadata=JSON.parse(await readFile(path.join(root,'metadata.json'),'utf8')
 if(!Array.isArray(metadata)||!metadata.length)throw Error('Empty catalog');
 const ids=new Set(),expected=new Set();
 for(const icon of metadata){
-  if(Object.keys(icon).some(k=>!['id','name','group','groups','hasText','symbolTheme'].includes(k)))throw Error('Unexpected metadata field');
+  if(Object.keys(icon).some(k=>!['id','name','group','groups','hasText','symbolTheme','website'].includes(k)))throw Error('Unexpected metadata field');
   if(!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(icon.id)||ids.has(icon.id)||typeof icon.name!=='string'||!icon.name||!icon.group)throw Error('Invalid brand metadata');
   if(icon.groups&&(!Array.isArray(icon.groups)||icon.groups.some(g=>typeof g!=='string'||!g)||!icon.groups.includes(icon.group)))throw Error('Invalid groups');
+  if(icon.website!==undefined){
+    let url;try{url=new URL(icon.website)}catch{throw Error('Invalid website: '+icon.id)}
+    if(typeof icon.website!=='string'||!['http:','https:'].includes(url.protocol)||!url.hostname||url.username||url.password||/[\s\\]/.test(icon.website))throw Error('Invalid website: '+icon.id);
+  }
   ids.add(icon.id);expected.add(`${icon.id}.svg`);
   if(icon.symbolTheme && !['light','dark'].includes(icon.symbolTheme))throw Error('Invalid source symbol theme');
   if(typeof icon.hasText==='boolean')expected.add(`${icon.symbolTheme==='light'?'light':'default'}/${icon.id}.svg`);

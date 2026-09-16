@@ -65,3 +65,14 @@ approval. This avoids a global Light-to-Dark rule: changed originals no longer m
 Corrections move the unchanged original into the appropriate source directory; Light
 wordmarks and original Color artwork are unaffected. Regression tests verify actual
 foreground contrast for Z.ai, Open WebUI and Google and their available combinations.
+
+## Dev.6 website metadata
+
+Color Default input names may supply a Website field. The private adapter validates
+HTTP(S) URLs without credentials or whitespace, rejects conflicting duplicate values,
+and writes optional website into metadata.json. Missing fields remain omitted; no
+website is guessed. The catalog generator already copies metadata, so catalog.js and
+its declaration files expose the same website without eager artwork imports. React
+components and SVG outputs are unchanged. Existing consumers remain compatible.
+Validation adds metadata/catalog equality and unsafe/conflicting URL cases. Publish
+dev.6 with dev tag; keep latest unchanged. Source integrations stay private.
