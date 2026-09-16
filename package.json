@@ -40,6 +40,7 @@
     "static"
   ],
   "scripts": {
+    "generate:readme": "node scripts/generate-readme.mjs",
     "generate": "node scripts/generate.mjs",
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
