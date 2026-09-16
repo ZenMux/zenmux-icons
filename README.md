@@ -8,8 +8,9 @@ name-protection placeholder exporting package information only; it has no icons
 and no second implementation. Its publication is independent of the main package.
 
 **Status:** private GitHub repository. `@zenmux/icons` is available as a public dev
-prerelease (`0.1.0-dev.6`, npm tag `dev`); there is no stable release. Dev.7 is prepared
-locally but its publication is blocked by registry PUT 404 responses. The name-protection placeholder
+prerelease (`0.1.0-dev.6`, npm tag `dev` at the last availability check); there is no stable release.
+Dev.7 publication has been accepted by npm (HTTP 202) and is processing; installability
+has not yet been confirmed. The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No CI or automatic package publishing is configured.
 

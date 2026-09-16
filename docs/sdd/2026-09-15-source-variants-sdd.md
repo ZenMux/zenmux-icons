@@ -155,3 +155,13 @@ TypeScript from npm. Runtime checks and TypeScript compilation passed for all si
 public usages, named/direct imports, catalog, loadIconComponent, all Text/Combine
 lazy variants, deferred SSR and missing-wordmark behavior. This validates the
 distributed artifact, but is explicitly not a successful registry install of dev.7.
+
+### Publication accepted (2026-09-16 follow-up)
+
+Retrying the same checked archive with the user's current npm user configuration
+succeeded with HTTP 202 Accepted and npm's explicit processing notice. The former
+environment credential is no longer present; no credentials or npm configuration
+were changed by the agent. Initial official metadata queries still list dev.6.
+Do not republish dev.7 while processing. Acceptance is not installation evidence:
+verify the version, archive integrity, dev tag and clean registry install before
+updating Next's dependency pin. latest must remain 0.1.0-dev.0.
