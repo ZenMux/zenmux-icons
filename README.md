@@ -10,7 +10,10 @@ and no second implementation. Its publication is independent of the main package
 **Status:** private GitHub repository. `@zenmux/icons` is available as a public dev
 prerelease (`0.1.0-dev.6`, npm tag `dev` at the last availability check); there is no stable release.
 Dev.7 publication has been accepted by npm (HTTP 202) and is processing; installability
-has not yet been confirmed. The name-protection placeholder
+has not yet been confirmed. Npm rejects re-publication of dev.7 as a previously staged
+version; dev.8 is the user-requested release retry with the same implementation.
+Npm has accepted dev.8 with HTTP 202 as well; its public availability is still pending.
+Check registry availability before installing either new version. The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No CI or automatic package publishing is configured.
 

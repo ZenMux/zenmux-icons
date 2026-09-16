@@ -165,3 +165,15 @@ were changed by the agent. Initial official metadata queries still list dev.6.
 Do not republish dev.7 while processing. Acceptance is not installation evidence:
 verify the version, archive integrity, dev tag and clean registry install before
 updating Next's dependency pin. latest must remain 0.1.0-dev.0.
+
+### Dev.8 retry explicitly requested (2026-09-16)
+
+The registry rejected another dev.7 PUT with 409: "Cannot publish over previously
+staged version". The user then explicitly requested dev.8. package.json and its
+lockfile now declare 0.1.0-dev.8; README explains the pending release. Regeneration,
+all 16 tests and source checks pass. Archive contents match the tested dev.7
+implementation byte-for-byte except package.json and README.
+The dev.8 PUT was accepted with HTTP 202 and the same processing notice.
+Immediate official queries still return 404 for dev.8, dev remains dev.6 and
+latest remains dev.0. No clean registry install or Next upgrade is claimed.
+Do not repeatedly publish or increment versions without explicit user direction.
