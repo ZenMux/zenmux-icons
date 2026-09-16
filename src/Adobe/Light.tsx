@@ -8,7 +8,10 @@ const AdobeLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-adobe-light__Name=Adobe, Type=Dark, Variant=Default"}><g id={instanceId + "-adobe-light__Adobe / Icon"}><path id={instanceId + "-adobe-light__Adobe / path 01"} fillRule="evenodd" clipRule="evenodd" d="M29.72 6H46V44L29.72 6ZM18.28 6H2V44L18.28 6ZM23.984 19.996L34.364 44H27.576L24.478 36.374H16.898L23.984 19.996Z" fill="#000000" fillOpacity={1} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -89)"><g id={instanceId + "-adobe-light__Name=Adobe, Type=Dark, Variant=Default"}><g id={instanceId + "-adobe-light__Adobe / Icon_2"}><path id={instanceId + "-adobe-light__Adobe / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M118.72 95H135V133L118.72 95ZM107.28 95H91V133L107.28 95ZM112.984 108.996L123.364 133H116.576L113.478 125.374H105.898L112.984 108.996Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(AdobeLight);
 export default ForwardRef;

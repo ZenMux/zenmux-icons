@@ -1,12 +1,10 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=Lovable, Type=Dark, Variant=Default">
-<g id="Lovable / Icon" clip-path="url(#clip0_436_4510)">
-<path id="Lovable / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M14.164 0C21.984 0 28.326 6.358 28.326 14.2V19.6H33.04C40.86 19.6 47.204 25.956 47.204 33.8C47.204 41.646 40.864 48 33.04 48H0V14.2C0 6.36 6.34 0 14.164 0Z" fill="white" style="fill:white;fill-opacity:1;"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-225 -1449)"><g id="Name=Lovable, Type=Dark, Variant=Default">
+<g id="Lovable / Icon_2" clip-path="url(#clip61_1_3407)">
+<path id="Lovable / path 01_2" fill-rule="evenodd" clip-rule="evenodd" d="M239.164 1449C246.984 1449 253.326 1455.36 253.326 1463.2V1468.6H258.04C265.86 1468.6 272.204 1474.96 272.204 1482.8C272.204 1490.65 265.864 1497 258.04 1497H225V1463.2C225 1455.36 231.34 1449 239.164 1449Z" fill="white" style="fill:white;fill-opacity:1;" />
 </g>
 </g>
-<defs>
-<clipPath id="clip0_436_4510">
-<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;"/>
+</g><defs><clipPath id="clip61_1_3407">
+<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;" transform="translate(225 1449)" />
 </clipPath>
-</defs>
-</svg>
+</defs></svg>

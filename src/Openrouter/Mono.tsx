@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const OpenrouterMono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -1925)"><g id={instanceId + "-openrouter-mono__Name=OpenRouter, Type=Dark, Variant=Default"}><g id={instanceId + "-openrouter-mono__OpenRouter / Icon_2"}><path id={instanceId + "-openrouter-mono__OpenRouter / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M126.308 1932.74C129.006 1932.74 131.594 1933.81 133.502 1935.72C135.41 1937.63 136.482 1940.22 136.482 1942.91C136.482 1945.61 135.41 1948.2 133.502 1950.11C131.594 1952.02 129.006 1953.09 126.308 1953.09L136.4 1963.18C137.68 1964.46 136.774 1966.65 134.96 1966.65H105.96C101.462 1966.65 97.1491 1964.87 93.9688 1961.69C90.7886 1958.51 89.002 1954.19 89.002 1949.7C89.002 1945.2 90.7886 1940.89 93.9688 1937.7C97.1491 1934.52 101.462 1932.74 105.96 1932.74H126.31L126.308 1932.74ZM105.958 1939.52C103.259 1939.52 100.671 1940.59 98.7624 1942.5C96.8541 1944.41 95.782 1947 95.782 1949.7C95.782 1952.39 96.8541 1954.98 98.7624 1956.89C100.671 1958.8 103.259 1959.87 105.958 1959.87C108.657 1959.87 111.245 1958.8 113.153 1956.89C115.061 1954.98 116.133 1952.4 116.133 1949.7C116.133 1947 115.061 1944.41 113.153 1942.5C111.245 1940.59 108.657 1939.52 105.958 1939.52Z" fill="currentColor" style={{
+            fill: "currentColor",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(OpenrouterMono);
+export default ForwardRef;

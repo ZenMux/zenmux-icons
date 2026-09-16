@@ -1,0 +1,23 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const MagicColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-157 -973)"><g id={instanceId + "-magic-color__Name=Magic, Type=Color, Variant=Default"}><g id={instanceId + "-magic-color__Magic / Icon"} clipPath={'url(#' + instanceId + "-magic-color__clip44_1_3407)"}><path id={instanceId + "-magic-color__Magic / path 01"} fillRule="evenodd" clipRule="evenodd" d="M187.588 1014.26C177.988 1014.26 170.176 1006.46 170.176 996.866C170.176 994.53 172.072 992.634 174.412 992.634C176.752 992.634 178.652 994.53 178.652 996.866C178.656 999.234 179.599 1001.5 181.274 1003.18C182.949 1004.85 185.22 1005.79 187.588 1005.79C189.956 1005.79 192.227 1004.85 193.902 1003.18C195.577 1001.5 196.52 999.234 196.524 996.866V990.94C196.524 988.602 198.424 986.708 200.764 986.708C203.102 986.708 205 988.6 205 990.94V996.866C205 1006.45 197.188 1014.26 187.588 1014.26Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-magic-color__Magic / path 02"} fillRule="evenodd" clipRule="evenodd" d="M161.238 1007.15C160.682 1007.15 160.131 1007.04 159.617 1006.83C159.103 1006.61 158.636 1006.3 158.242 1005.91C157.849 1005.52 157.536 1005.05 157.323 1004.54C157.11 1004.02 157 1003.47 157 1002.92V996.988C157 987.4 164.812 979.6 174.412 979.6C184.012 979.6 191.824 987.4 191.824 996.988C191.824 997.544 191.714 998.095 191.501 998.608C191.288 999.122 190.976 999.588 190.582 999.981C190.189 1000.37 189.722 1000.69 189.208 1000.9C188.695 1001.11 188.144 1001.22 187.588 1001.22C187.032 1001.22 186.481 1001.11 185.966 1000.9C185.452 1000.69 184.985 1000.38 184.591 999.983C184.197 999.59 183.885 999.123 183.671 998.609C183.458 998.095 183.348 997.544 183.348 996.988C183.344 994.62 182.401 992.351 180.725 990.678C179.05 989.005 176.78 988.065 174.412 988.064C172.044 988.065 169.774 989.005 168.099 990.678C166.423 992.351 165.48 994.62 165.476 996.988V1002.92C165.476 1003.47 165.366 1004.02 165.153 1004.54C164.939 1005.05 164.627 1005.52 164.233 1005.91C163.839 1006.3 163.372 1006.62 162.858 1006.83C162.343 1007.04 161.794 1007.15 161.238 1007.15Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-magic-color__clip44_1_3407"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(157 973)" /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(MagicColor);
+export default ForwardRef;

@@ -1,8 +1,8 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=Luma, Type=Dark, Variant=Default">
-<g id="Luma / Icon">
-<path id="Luma / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M24.786 48L4 35.996L24.786 23.996L45.57 35.996L24.784 47.996L24.786 48Z" fill="white" fill-opacity="0.66" style="fill:white;fill-opacity:0.66;"/>
-<path id="Luma / path 02" fill-rule="evenodd" clip-rule="evenodd" d="M4 11.998L24.786 0V48L4 36V11.998Z" fill="white" fill-opacity="0.66" style="fill:white;fill-opacity:0.66;"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-89 -1517)"><g id="Name=Luma, Type=Dark, Variant=Default">
+<g id="Luma / Icon_2">
+<path id="Luma / path 01_2" fill-rule="evenodd" clip-rule="evenodd" d="M113.786 1565L93 1553L113.786 1541L134.57 1553L113.784 1565L113.786 1565Z" fill="white" fill-opacity="0.66" style="fill:white;fill-opacity:0.66;" />
+<path id="Luma / path 02_2" fill-rule="evenodd" clip-rule="evenodd" d="M93 1529L113.786 1517V1565L93 1553V1529Z" fill="white" fill-opacity="0.66" style="fill:white;fill-opacity:0.66;" />
 </g>
 </g>
-</svg>
+</g></svg>

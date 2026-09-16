@@ -1,46 +1,44 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=Microsoft Copilot, Type=Color, Variant=Default">
-<g id="Microsoft Copilot / Icon" clip-path="url(#clip0_436_4590)">
-<path id="Microsoft Copilot / path 01" d="M35.066 5.658C34.7632 4.60577 34.1271 3.68025 33.2532 3.0206C32.3793 2.36094 31.3149 2.00279 30.22 2L28.746 2C27.5601 2.00363 26.4132 2.42349 25.5052 3.18632C24.5973 3.94915 23.986 5.00653 23.778 6.174L21.252 20.048L21.88 17.888C22.1813 16.834 22.8172 15.9064 23.6916 15.2452C24.566 14.584 25.6317 14.2249 26.728 14.222H35.296L38.89 15.634L42.352 14.222H41.342C40.247 14.2192 39.1826 13.8611 38.3087 13.2014C37.4348 12.5417 36.7987 11.6162 36.496 10.564L35.066 5.658Z" fill="url(#paint0_radial_436_4590)"/>
-<path id="Microsoft Copilot / path 02" d="M13.4519 42.32C13.7509 43.3773 14.3863 44.3085 15.2617 44.9725C16.1372 45.6364 17.2051 45.9972 18.3039 46H21.4359C24.1759 46 26.4159 43.8 26.4859 41.04L26.8259 27.66L26.1119 30.116C25.8095 31.1686 25.1735 32.0946 24.2996 32.7546C23.4257 33.4147 22.3611 33.7731 21.2659 33.776H12.6259L9.54591 32.092L6.21191 33.778H7.20591C9.45391 33.778 11.4319 35.278 12.0579 37.458L13.4519 42.32Z" fill="url(#paint1_radial_436_4590)"/>
-<path id="Microsoft Copilot / path 03" d="M29.9998 2.00004H12.5038C7.5038 2.00004 4.5038 8.66204 2.5038 15.324C0.135797 23.218 -2.9642 33.774 6.0038 33.774H13.5598C15.8198 33.774 17.7998 32.268 18.4198 30.08C19.7338 25.446 22.0378 17.362 23.8458 11.208C24.7658 8.08204 25.5298 5.39604 26.7058 3.72404C27.0705 3.18777 27.562 2.74982 28.1367 2.44908C28.7113 2.14834 29.3513 1.9941 29.9998 2.00004Z" fill="url(#paint2_linear_436_4590)"/>
-<path id="Microsoft Copilot / path 04" d="M29.9998 2.00004H12.5038C7.5038 2.00004 4.5038 8.66204 2.5038 15.324C0.135797 23.218 -2.9642 33.774 6.0038 33.774H13.5598C15.8198 33.774 17.7998 32.268 18.4198 30.08C19.7338 25.446 22.0378 17.362 23.8458 11.208C24.7658 8.08204 25.5298 5.39604 26.7058 3.72404C27.0705 3.18777 27.562 2.74982 28.1367 2.44908C28.7113 2.14834 29.3513 1.9941 29.9998 2.00004Z" fill="url(#paint3_linear_436_4590)"/>
-<path id="Microsoft Copilot / path 05" d="M18 46H35.498C40.498 46 43.498 39.336 45.498 32.674C47.866 24.778 50.966 14.22 41.998 14.22H34.44C32.182 14.22 30.2 15.728 29.58 17.916C27.7982 24.215 25.9895 30.5064 24.154 36.79C23.234 39.918 22.47 42.604 21.294 44.276C20.9293 44.8122 20.4378 45.2502 19.8631 45.5509C19.2885 45.8517 18.6485 46.0059 18 46Z" fill="url(#paint4_radial_436_4590)"/>
-<path id="Microsoft Copilot / path 06" d="M18 46H35.498C40.498 46 43.498 39.336 45.498 32.674C47.866 24.778 50.966 14.22 41.998 14.22H34.44C32.182 14.22 30.2 15.728 29.58 17.916C27.7982 24.215 25.9895 30.5064 24.154 36.79C23.234 39.918 22.47 42.604 21.294 44.276C20.9293 44.8122 20.4378 45.2502 19.8631 45.5509C19.2885 45.8517 18.6485 46.0059 18 46Z" fill="url(#paint5_linear_436_4590)"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-21 -1721)"><g id="Name=Microsoft Copilot, Type=Color, Variant=Default">
+<g id="Microsoft Copilot / Icon" clip-path="url(#clip78_1_3407)">
+<path id="Microsoft Copilot / path 01" d="M56.066 1726.66C55.7632 1725.61 55.1271 1724.68 54.2532 1724.02C53.3793 1723.36 52.3149 1723 51.22 1723H49.746C48.5601 1723 47.4132 1723.42 46.5052 1724.19C45.5973 1724.95 44.986 1726.01 44.778 1727.17L42.252 1741.05L42.88 1738.89C43.1813 1737.83 43.8172 1736.91 44.6916 1736.25C45.566 1735.58 46.6317 1735.22 47.728 1735.22H56.296L59.89 1736.63L63.352 1735.22H62.342C61.247 1735.22 60.1826 1734.86 59.3087 1734.2C58.4348 1733.54 57.7987 1732.62 57.496 1731.56L56.066 1726.66Z" fill="url(#paint52_radial_1_3407)" />
+<path id="Microsoft Copilot / path 02" d="M34.4519 1763.32C34.7509 1764.38 35.3863 1765.31 36.2617 1765.97C37.1372 1766.64 38.2051 1767 39.3039 1767H42.4359C45.1759 1767 47.4159 1764.8 47.4859 1762.04L47.8259 1748.66L47.1119 1751.12C46.8095 1752.17 46.1735 1753.09 45.2996 1753.75C44.4257 1754.41 43.3611 1754.77 42.2659 1754.78H33.6259L30.5459 1753.09L27.2119 1754.78H28.2059C30.4539 1754.78 32.4319 1756.28 33.0579 1758.46L34.4519 1763.32Z" fill="url(#paint53_radial_1_3407)" />
+<path id="Microsoft Copilot / path 03" d="M50.9998 1723H33.5038C28.5038 1723 25.5038 1729.66 23.5038 1736.32C21.1358 1744.22 18.0358 1754.77 27.0038 1754.77H34.5598C36.8198 1754.77 38.7998 1753.27 39.4198 1751.08C40.7338 1746.45 43.0378 1738.36 44.8458 1732.21C45.7658 1729.08 46.5298 1726.4 47.7058 1724.72C48.0705 1724.19 48.562 1723.75 49.1367 1723.45C49.7113 1723.15 50.3513 1722.99 50.9998 1723Z" fill="url(#paint54_linear_1_3407)" />
+<path id="Microsoft Copilot / path 04" d="M50.9998 1723H33.5038C28.5038 1723 25.5038 1729.66 23.5038 1736.32C21.1358 1744.22 18.0358 1754.77 27.0038 1754.77H34.5598C36.8198 1754.77 38.7998 1753.27 39.4198 1751.08C40.7338 1746.45 43.0378 1738.36 44.8458 1732.21C45.7658 1729.08 46.5298 1726.4 47.7058 1724.72C48.0705 1724.19 48.562 1723.75 49.1367 1723.45C49.7113 1723.15 50.3513 1722.99 50.9998 1723Z" fill="url(#paint55_linear_1_3407)" />
+<path id="Microsoft Copilot / path 05" d="M39 1767H56.498C61.498 1767 64.498 1760.34 66.498 1753.67C68.866 1745.78 71.966 1735.22 62.998 1735.22H55.44C53.182 1735.22 51.2 1736.73 50.58 1738.92C48.7982 1745.22 46.9895 1751.51 45.154 1757.79C44.234 1760.92 43.47 1763.6 42.294 1765.28C41.9293 1765.81 41.4378 1766.25 40.8631 1766.55C40.2885 1766.85 39.6485 1767.01 39 1767Z" fill="url(#paint56_radial_1_3407)" />
+<path id="Microsoft Copilot / path 06" d="M39 1767H56.498C61.498 1767 64.498 1760.34 66.498 1753.67C68.866 1745.78 71.966 1735.22 62.998 1735.22H55.44C53.182 1735.22 51.2 1736.73 50.58 1738.92C48.7982 1745.22 46.9895 1751.51 45.154 1757.79C44.234 1760.92 43.47 1763.6 42.294 1765.28C41.9293 1765.81 41.4378 1766.25 40.8631 1766.55C40.2885 1766.85 39.6485 1767.01 39 1767Z" fill="url(#paint57_linear_1_3407)" />
 </g>
 </g>
-<defs>
-<radialGradient id="paint0_radial_436_4590" cx="0" cy="0" r="1" gradientTransform="matrix(-11.957 -17.2189 12.5971 -11.9578 -7.82012 -35.3369)" gradientUnits="userSpaceOnUse">
-<stop offset="0.096" stop-color="#00AEFF" style="stop-color:#00AEFF;stop-color:color(display-p3 0.0000 0.6824 1.0000);stop-opacity:1;"/>
-<stop offset="0.773" stop-color="#2253CE" style="stop-color:#2253CE;stop-color:color(display-p3 0.1333 0.3255 0.8078);stop-opacity:1;"/>
-<stop offset="1" stop-color="#0736C4" style="stop-color:#0736C4;stop-color:color(display-p3 0.0275 0.2118 0.7686);stop-opacity:1;"/>
-</radialGradient>
-<radialGradient id="paint1_radial_436_4590" cx="0" cy="0" r="1" gradientTransform="matrix(10.7793 15.5459 -12.3054 10.7791 -16.1757 29.3022)" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFB657" style="stop-color:#FFB657;stop-color:color(display-p3 1.0000 0.7137 0.3412);stop-opacity:1;"/>
-<stop offset="0.634" stop-color="#FF5F3D" style="stop-color:#FF5F3D;stop-color:color(display-p3 1.0000 0.3725 0.2392);stop-opacity:1;"/>
-<stop offset="0.923" stop-color="#C02B3C" style="stop-color:#C02B3C;stop-color:color(display-p3 0.7529 0.1686 0.2353);stop-opacity:1;"/>
-</radialGradient>
-<linearGradient id="paint2_linear_436_4590" x1="11.8403" y1="5.84995" x2="14.3352" y2="34.9501" gradientUnits="userSpaceOnUse">
-<stop offset="0.156" stop-color="#0D91E1" style="stop-color:#0D91E1;stop-color:color(display-p3 0.0510 0.5686 0.8824);stop-opacity:1;"/>
-<stop offset="0.487" stop-color="#52B471" style="stop-color:#52B471;stop-color:color(display-p3 0.3216 0.7059 0.4431);stop-opacity:1;"/>
-<stop offset="0.652" stop-color="#98BD42" style="stop-color:#98BD42;stop-color:color(display-p3 0.5961 0.7412 0.2588);stop-opacity:1;"/>
-<stop offset="0.937" stop-color="#FFC800" style="stop-color:#FFC800;stop-color:color(display-p3 1.0000 0.7843 0.0000);stop-opacity:1;"/>
-</linearGradient>
-<linearGradient id="paint3_linear_436_4590" x1="13.7854" y1="1.99988" x2="15.1485" y2="33.7677" gradientUnits="userSpaceOnUse">
-<stop stop-color="#3DCBFF" style="stop-color:#3DCBFF;stop-color:color(display-p3 0.2392 0.7961 1.0000);stop-opacity:1;"/>
-<stop offset="0.247" stop-color="#0588F7" stop-opacity="0" style="stop-color:none;stop-opacity:0;"/>
-</linearGradient>
-<radialGradient id="paint4_radial_436_4590" cx="0" cy="0" r="1" gradientTransform="matrix(-13.8238 37.6298 -42.2225 -13.8254 -20.6416 35.7062)" gradientUnits="userSpaceOnUse">
-<stop offset="0.066" stop-color="#8C48FF" style="stop-color:#8C48FF;stop-color:color(display-p3 0.5490 0.2824 1.0000);stop-opacity:1;"/>
-<stop offset="0.5" stop-color="#F2598A" style="stop-color:#F2598A;stop-color:color(display-p3 0.9490 0.3490 0.5412);stop-opacity:1;"/>
-<stop offset="0.896" stop-color="#FFB152" style="stop-color:#FFB152;stop-color:color(display-p3 1.0000 0.6941 0.3216);stop-opacity:1;"/>
-</radialGradient>
-<linearGradient id="paint5_linear_436_4590" x1="43.0524" y1="12.2795" x2="43.0342" y2="20.9354" gradientUnits="userSpaceOnUse">
-<stop offset="0.058" stop-color="#F8ADFA" style="stop-color:#F8ADFA;stop-color:color(display-p3 0.9725 0.6784 0.9804);stop-opacity:1;"/>
-<stop offset="0.708" stop-color="#A86EDD" stop-opacity="0" style="stop-color:none;stop-opacity:0;"/>
-</linearGradient>
-<clipPath id="clip0_436_4590">
-<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;"/>
+</g><defs><clipPath id="clip78_1_3407">
+<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;" transform="translate(21 1721)" />
 </clipPath>
-</defs>
-</svg>
+<radialGradient id="paint52_radial_1_3407" cx="0" cy="0" r="1" gradientTransform="matrix(-11.957 -17.2189 12.5971 -11.9578 13.1799 1685.66)" gradientUnits="userSpaceOnUse">
+<stop offset="0.096" stop-color="#00AEFF" style="stop-color:#00AEFF;stop-color:color(display-p3 0.0000 0.6824 1.0000);stop-opacity:1;" />
+<stop offset="0.773" stop-color="#2253CE" style="stop-color:#2253CE;stop-color:color(display-p3 0.1333 0.3255 0.8078);stop-opacity:1;" />
+<stop offset="1" stop-color="#0736C4" style="stop-color:#0736C4;stop-color:color(display-p3 0.0275 0.2118 0.7686);stop-opacity:1;" />
+</radialGradient>
+<radialGradient id="paint53_radial_1_3407" cx="0" cy="0" r="1" gradientTransform="matrix(10.7793 15.5459 -12.3054 10.7791 4.82426 1750.3)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFB657" style="stop-color:#FFB657;stop-color:color(display-p3 1.0000 0.7137 0.3412);stop-opacity:1;" />
+<stop offset="0.634" stop-color="#FF5F3D" style="stop-color:#FF5F3D;stop-color:color(display-p3 1.0000 0.3725 0.2392);stop-opacity:1;" />
+<stop offset="0.923" stop-color="#C02B3C" style="stop-color:#C02B3C;stop-color:color(display-p3 0.7529 0.1686 0.2353);stop-opacity:1;" />
+</radialGradient>
+<linearGradient id="paint54_linear_1_3407" x1="32.8403" y1="1726.85" x2="35.3352" y2="1755.95" gradientUnits="userSpaceOnUse">
+<stop offset="0.156" stop-color="#0D91E1" style="stop-color:#0D91E1;stop-color:color(display-p3 0.0510 0.5686 0.8824);stop-opacity:1;" />
+<stop offset="0.487" stop-color="#52B471" style="stop-color:#52B471;stop-color:color(display-p3 0.3216 0.7059 0.4431);stop-opacity:1;" />
+<stop offset="0.652" stop-color="#98BD42" style="stop-color:#98BD42;stop-color:color(display-p3 0.5961 0.7412 0.2588);stop-opacity:1;" />
+<stop offset="0.937" stop-color="#FFC800" style="stop-color:#FFC800;stop-color:color(display-p3 1.0000 0.7843 0.0000);stop-opacity:1;" />
+</linearGradient>
+<linearGradient id="paint55_linear_1_3407" x1="34.7854" y1="1723" x2="36.1485" y2="1754.77" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3DCBFF" style="stop-color:#3DCBFF;stop-color:color(display-p3 0.2392 0.7961 1.0000);stop-opacity:1;" />
+<stop offset="0.247" stop-color="#0588F7" stop-opacity="0" style="stop-color:none;stop-opacity:0;" />
+</linearGradient>
+<radialGradient id="paint56_radial_1_3407" cx="0" cy="0" r="1" gradientTransform="matrix(-13.8238 37.6298 -42.2225 -13.8254 0.358376 1756.71)" gradientUnits="userSpaceOnUse">
+<stop offset="0.066" stop-color="#8C48FF" style="stop-color:#8C48FF;stop-color:color(display-p3 0.5490 0.2824 1.0000);stop-opacity:1;" />
+<stop offset="0.5" stop-color="#F2598A" style="stop-color:#F2598A;stop-color:color(display-p3 0.9490 0.3490 0.5412);stop-opacity:1;" />
+<stop offset="0.896" stop-color="#FFB152" style="stop-color:#FFB152;stop-color:color(display-p3 1.0000 0.6941 0.3216);stop-opacity:1;" />
+</radialGradient>
+<linearGradient id="paint57_linear_1_3407" x1="64.0524" y1="1733.28" x2="64.0342" y2="1741.94" gradientUnits="userSpaceOnUse">
+<stop offset="0.058" stop-color="#F8ADFA" style="stop-color:#F8ADFA;stop-color:color(display-p3 0.9725 0.6784 0.9804);stop-opacity:1;" />
+<stop offset="0.708" stop-color="#A86EDD" stop-opacity="0" style="stop-color:none;stop-opacity:0;" />
+</linearGradient>
+</defs></svg>

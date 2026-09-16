@@ -8,16 +8,16 @@ const RsshubDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-rsshub-dark__Name=RSSHub, Type=Dark, Variant=Default"}><g id={instanceId + "-rsshub-dark__RSSHub / Icon"}><path id={instanceId + "-rsshub-dark__RSSHub / path 01"} d="M32 2H16C8.26801 2 2 8.26801 2 16V32C2 39.732 8.26801 46 16 46H32C39.732 46 46 39.732 46 32V16C46 8.26801 39.732 2 32 2Z" fill="white" fillOpacity={0.33} style={{
-          fill: "white",
-          fillOpacity: 0.33
-        }} /><path id={instanceId + "-rsshub-dark__RSSHub / path 02"} fillRule="evenodd" clipRule="evenodd" d="M2.26 13.292C2.092 14.168 2 15.072 2 16V32C2 35.713 3.475 39.274 6.1005 41.8995C8.72601 44.525 12.287 46 16 46H32C32.9089 46.0009 33.8158 45.9139 34.708 45.74C36.2227 42.5037 37.0053 38.9732 37 35.4C37 21.924 26.076 11 12.6 11C8.904 11 5.4 11.82 2.26 13.292Z" fill="white" fillOpacity={0.33} style={{
-          fill: "white",
-          fillOpacity: 0.33
-        }} /><path id={instanceId + "-rsshub-dark__RSSHub / path 03"} d="M12.4999 44.5999C17.5257 44.5999 21.5999 40.5257 21.5999 35.4999C21.5999 30.4741 17.5257 26.3999 12.4999 26.3999C7.47411 26.3999 3.3999 30.4741 3.3999 35.4999C3.3999 40.5257 7.47411 44.5999 12.4999 44.5999Z" fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -2197)"><g id={instanceId + "-rsshub-dark__Name=RSSHub, Type=Dark, Variant=Default"}><g id={instanceId + "-rsshub-dark__RSSHub / Icon_2"}><path id={instanceId + "-rsshub-dark__RSSHub / path 01_2"} d="M257 2199H241C233.268 2199 227 2205.27 227 2213V2229C227 2236.73 233.268 2243 241 2243H257C264.732 2243 271 2236.73 271 2229V2213C271 2205.27 264.732 2199 257 2199Z" fill="white" fillOpacity={0.33} style={{
+            fill: "white",
+            fillOpacity: 0.33
+          }} /><path id={instanceId + "-rsshub-dark__RSSHub / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M227.26 2210.29C227.092 2211.17 227 2212.07 227 2213V2229C227 2232.71 228.475 2236.27 231.101 2238.9C233.726 2241.53 237.287 2243 241 2243H257C257.909 2243 258.816 2242.91 259.708 2242.74C261.223 2239.5 262.005 2235.97 262 2232.4C262 2218.92 251.076 2208 237.6 2208C233.904 2208 230.4 2208.82 227.26 2210.29Z" fill="white" fillOpacity={0.33} style={{
+            fill: "white",
+            fillOpacity: 0.33
+          }} /><path id={instanceId + "-rsshub-dark__RSSHub / path 03_2"} d="M237.5 2241.6C242.526 2241.6 246.6 2237.53 246.6 2232.5C246.6 2227.47 242.526 2223.4 237.5 2223.4C232.474 2223.4 228.4 2227.47 228.4 2232.5C228.4 2237.53 232.474 2241.6 237.5 2241.6Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(RsshubDark);
 export default ForwardRef;

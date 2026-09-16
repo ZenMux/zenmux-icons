@@ -8,16 +8,16 @@ const RailwayDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-railway-dark__Name=Railway, Type=Dark, Variant=Default"}><g id={instanceId + "-railway-dark__Railway / Icon"} clipPath={'url(#' + instanceId + "-railway-dark__clip0_436_4762)"}><path id={instanceId + "-railway-dark__Railway / path 01"} fillRule="evenodd" clipRule="evenodd" d="M0.222 20.5401C0.108 21.3401 0.034 22.1481 0 22.9561H36.46C36.3252 22.7108 36.1672 22.4791 35.988 22.2641C29.756 14.2121 26.402 14.9101 21.608 14.7041C20.008 14.6401 18.922 14.6121 12.558 14.6121C9.15 14.6121 5.448 14.6221 1.84 14.6321C1.374 15.8921 0.924 17.1121 0.704 18.1061H19.388V20.5401H0.22H0.222ZM36.746 25.3921H0.02C0.06 26.0421 0.12 26.6821 0.208 27.3141H34.116C35.628 27.3141 36.474 26.4561 36.748 25.3941L36.746 25.3921ZM2.11 33.9521C2.11 33.9521 7.73 47.7561 23.974 48.0001C33.682 48.0001 42.024 42.2341 45.814 33.9521H2.11Z" fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -2197)"><g id={instanceId + "-railway-dark__Name=Railway, Type=Dark, Variant=Default"}><g id={instanceId + "-railway-dark__Railway / Icon_2"} clipPath={'url(#' + instanceId + "-railway-dark__clip99_1_3407)"}><path id={instanceId + "-railway-dark__Railway / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M361.222 2217.54C361.108 2218.34 361.034 2219.15 361 2219.96H397.46C397.325 2219.71 397.167 2219.48 396.988 2219.26C390.756 2211.21 387.402 2211.91 382.608 2211.7C381.008 2211.64 379.922 2211.61 373.558 2211.61C370.15 2211.61 366.448 2211.62 362.84 2211.63C362.374 2212.89 361.924 2214.11 361.704 2215.11H380.388V2217.54H361.22H361.222ZM397.746 2222.39H361.02C361.06 2223.04 361.12 2223.68 361.208 2224.31H395.116C396.628 2224.31 397.474 2223.46 397.748 2222.39L397.746 2222.39ZM363.11 2230.95C363.11 2230.95 368.73 2244.76 384.974 2245C394.682 2245 403.024 2239.23 406.814 2230.95H363.11Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-railway-dark__Railway / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M384.974 2197C376 2197 368.186 2201.93 364.062 2209.22C367.284 2209.21 373.562 2209.21 373.562 2209.21L373.564 2209.2C380.984 2209.2 381.26 2209.24 382.71 2209.3L383.61 2209.33C386.734 2209.43 390.578 2209.77 393.602 2212.06C395.242 2213.3 397.612 2216.04 399.026 2217.99C400.332 2219.79 400.706 2221.87 399.818 2223.86C399.002 2225.68 397.244 2226.77 395.114 2226.77H361.78C361.78 2226.77 361.98 2227.61 362.276 2228.54H407.776C408.583 2226.11 408.995 2223.57 408.996 2221.01C409 2207.75 398.244 2197 384.974 2197Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-railway-dark__clip99_1_3407"}><rect width={48} height={48} fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} /><path id={instanceId + "-railway-dark__Railway / path 02"} fillRule="evenodd" clipRule="evenodd" d="M23.9738 0C14.9998 0 7.18579 4.93 3.06179 12.216C6.28379 12.21 12.5618 12.206 12.5618 12.206L12.5638 12.204C19.9838 12.204 20.2598 12.236 21.7098 12.296L22.6098 12.33C25.7338 12.434 29.5778 12.77 32.6018 15.058C34.2418 16.298 36.6118 19.038 38.0258 20.988C39.3318 22.792 39.7058 24.868 38.8178 26.856C38.0018 28.682 36.2438 29.772 34.1138 29.772H0.779785C0.779785 29.772 0.979785 30.612 1.27579 31.542H46.7758C47.5828 29.1128 47.9948 26.5698 47.9958 24.01C47.9998 10.75 37.2438 0 23.9738 0Z" fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></g></g><defs><clipPath id={instanceId + "-railway-dark__clip0_436_4762"}><rect width={48} height={48} fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} transform="translate(361 2197)" /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(RailwayDark);
 export default ForwardRef;

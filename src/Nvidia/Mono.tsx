@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const NvidiaMono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -1721)"><g id={instanceId + "-nvidia-mono__Name=NVIDIA, Type=Dark, Variant=Default"}><g id={instanceId + "-nvidia-mono__NVIDIA / Icon_2"}><path id={instanceId + "-nvidia-mono__NVIDIA / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M381.424 1738.95V1736.24C381.678 1736.22 381.936 1736.21 382.2 1736.2C389.392 1735.96 394.114 1742.57 394.114 1742.57C394.114 1742.57 389.018 1749.86 383.55 1749.86C382.827 1749.86 382.108 1749.75 381.424 1749.51V1741.29C384.224 1741.64 384.786 1742.92 386.47 1745.81L390.216 1742.55C389.332 1741.44 388.218 1740.54 386.951 1739.9C385.684 1739.27 384.294 1738.91 382.876 1738.86C382.389 1738.86 381.902 1738.89 381.418 1738.95M381.418 1730V1734.05C381.678 1734.03 381.936 1734.01 382.194 1734C392.198 1733.65 398.716 1742.45 398.716 1742.45C398.716 1742.45 391.23 1751.83 383.43 1751.83C382.754 1751.83 382.08 1751.77 381.416 1751.65V1754.15C381.972 1754.22 382.532 1754.26 383.092 1754.26C390.35 1754.26 395.598 1750.44 400.68 1745.92C401.522 1746.62 404.972 1748.31 405.682 1749.05C400.85 1753.22 389.586 1756.58 383.202 1756.58C382.586 1756.58 381.996 1756.54 381.414 1756.48V1760H409V1730H381.42L381.418 1730ZM381.418 1749.51V1751.65C374.706 1750.41 372.844 1743.23 372.844 1743.23C375.128 1740.86 378.154 1739.35 381.418 1738.95V1741.29H381.408C380.45 1741.28 379.503 1741.49 378.637 1741.9C377.77 1742.31 377.007 1742.91 376.404 1743.65C376.404 1743.65 377.634 1748.2 381.418 1749.51ZM369.496 1742.91C372.368 1739.04 376.704 1736.62 381.418 1736.24V1734.05C372.62 1734.77 365 1742.45 365 1742.45C365 1742.45 369.316 1755.3 381.42 1756.48V1754.14C372.54 1753 369.5 1742.92 369.5 1742.92H369.496V1742.91Z" fill="currentColor" style={{
+            fill: "currentColor",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(NvidiaMono);
+export default ForwardRef;

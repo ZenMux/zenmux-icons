@@ -1,0 +1,23 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const TencentCloudLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -2401)"><g id={instanceId + "-tencent-cloud-light__Name=Tencent Cloud, Type=Dark, Variant=Default"}><g id={instanceId + "-tencent-cloud-light__Tencent Cloud / Icon_2"}><path id={instanceId + "-tencent-cloud-light__Tencent Cloud / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M401.097 2435.28C400.389 2435.98 398.974 2437.03 396.498 2437.03C395.436 2437.03 394.198 2437.03 393.668 2437.03C392.96 2437.03 387.654 2437.03 381.286 2437.03C385.885 2432.66 389.776 2428.99 390.13 2428.64C390.484 2428.29 391.368 2427.41 392.253 2426.71C394.021 2425.14 395.436 2424.96 396.675 2424.96C398.443 2424.96 399.858 2425.66 401.097 2426.71C403.573 2428.99 403.573 2433.01 401.097 2435.28ZM404.104 2423.91C402.335 2421.99 399.682 2420.77 396.851 2420.77C394.375 2420.77 392.253 2421.64 390.307 2423.04C389.599 2423.74 388.538 2424.44 387.654 2425.49C386.946 2426.19 371.734 2440.88 371.734 2440.88C372.619 2441.06 373.68 2441.06 374.564 2441.06C375.449 2441.06 393.137 2441.06 393.844 2441.06C395.26 2441.06 396.321 2441.06 397.382 2440.88C399.682 2440.71 401.981 2439.83 403.927 2438.08C407.995 2434.23 407.995 2427.76 404.104 2423.91Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-tencent-cloud-light__Tencent Cloud / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M379.34 2422.86C377.395 2421.47 375.449 2420.77 373.149 2420.77C370.319 2420.77 367.666 2421.99 365.897 2423.91C362.006 2427.94 362.006 2434.23 366.074 2438.26C367.843 2439.83 369.612 2440.71 371.734 2440.88L375.803 2437.03C375.095 2437.03 374.211 2437.03 373.503 2437.03C371.204 2436.86 369.789 2436.16 368.904 2435.28C366.428 2432.83 366.428 2428.99 368.727 2426.54C369.966 2425.31 371.381 2424.79 373.149 2424.79C374.211 2424.79 375.803 2424.96 377.395 2426.54C378.102 2427.24 380.048 2428.64 380.755 2429.34H380.932L383.585 2426.71V2426.54C382.347 2425.31 380.401 2423.74 379.34 2422.86Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-tencent-cloud-light__Tencent Cloud / path 03_2"} fillRule="evenodd" clipRule="evenodd" d="M397.913 2418.49C395.967 2413.24 390.838 2409.57 385.001 2409.57C378.102 2409.57 372.619 2414.64 371.558 2420.94C372.088 2420.94 372.619 2420.76 373.326 2420.76C374.034 2420.76 374.918 2420.94 375.626 2420.94C376.51 2416.57 380.402 2413.42 385.001 2413.42C388.892 2413.42 392.253 2415.69 393.845 2419.02C393.845 2419.02 394.021 2419.19 394.021 2419.02C395.26 2418.84 396.675 2418.49 397.913 2418.49C397.913 2418.67 397.913 2418.67 397.913 2418.49Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(TencentCloudLight);
+export default ForwardRef;

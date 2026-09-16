@@ -8,7 +8,13 @@ const SunoMono = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-suno-mono__Name=Suno, Type=Dark, Variant=Default"}><g id={instanceId + "-suno-mono__Suno / Icon"} clipPath={'url(#' + instanceId + "-suno-mono__clip0_436_4800)"}><path id={instanceId + "-suno-mono__Suno / path 01"} fillRule="evenodd" clipRule="evenodd" d="M33 0C41.284 0 48 10.746 48 24H30C30 37.254 23.284 48 15 48C6.716 48 0 37.254 0 24H18C18 10.746 24.716 0 33 0Z" fill="currentColor" fillOpacity={1} /></g></g><defs><clipPath id={instanceId + "-suno-mono__clip0_436_4800"}><rect width={48} height={48} fill="#fff" fillOpacity={1} /></clipPath></defs></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -2401)"><g id={instanceId + "-suno-mono__Name=Suno, Type=Dark, Variant=Default"}><g id={instanceId + "-suno-mono__Suno / Icon_2"} clipPath={'url(#' + instanceId + "-suno-mono__clip104_1_3407)"}><path id={instanceId + "-suno-mono__Suno / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M258 2401C266.284 2401 273 2411.75 273 2425H255C255 2438.25 248.284 2449 240 2449C231.716 2449 225 2438.25 225 2425H243C243 2411.75 249.716 2401 258 2401Z" fill="currentColor" style={{
+            fill: "currentColor",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-suno-mono__clip104_1_3407"}><rect width={48} height={48} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(225 2401)" /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(SunoMono);
 export default ForwardRef;

@@ -1,12 +1,10 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=Antigravity, Type=Dark, Variant=Default">
-<g id="Antigravity / Icon" clip-path="url(#clip0_436_4135)">
-<path id="Antigravity / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M43.5022 45.214C46.1822 47.224 50.2022 45.884 46.5182 42.198C35.4602 31.48 37.8082 2 24.0742 2C10.3402 2 12.6842 31.48 1.6302 42.2C-2.3898 46.218 1.9642 47.222 4.6442 45.212C15.0282 38.178 14.3582 25.784 24.0742 25.784C33.7882 25.784 33.1182 38.178 43.5022 45.214Z" fill="white" style="fill:white;fill-opacity:1;"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-361 -157)"><g id="Name=Antigravity, Type=Dark, Variant=Default">
+<g id="Antigravity / Icon_2" clip-path="url(#clip11_1_3407)">
+<path id="Antigravity / path 01_2" fill-rule="evenodd" clip-rule="evenodd" d="M404.502 202.214C407.182 204.224 411.202 202.884 407.518 199.198C396.46 188.48 398.808 159 385.074 159C371.34 159 373.684 188.48 362.63 199.2C358.61 203.218 362.964 204.222 365.644 202.212C376.028 195.178 375.358 182.784 385.074 182.784C394.788 182.784 394.118 195.178 404.502 202.214Z" fill="white" style="fill:white;fill-opacity:1;" />
 </g>
 </g>
-<defs>
-<clipPath id="clip0_436_4135">
-<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;"/>
+</g><defs><clipPath id="clip11_1_3407">
+<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;" transform="translate(361 157)" />
 </clipPath>
-</defs>
-</svg>
+</defs></svg>

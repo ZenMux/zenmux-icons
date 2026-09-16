@@ -8,13 +8,13 @@ const LumaDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-luma-dark__Name=Luma, Type=Dark, Variant=Default"}><g id={instanceId + "-luma-dark__Luma / Icon"}><path id={instanceId + "-luma-dark__Luma / path 01"} fillRule="evenodd" clipRule="evenodd" d="M24.786 48L4 35.996L24.786 23.996L45.57 35.996L24.784 47.996L24.786 48Z" fill="white" fillOpacity={0.66} style={{
-          fill: "white",
-          fillOpacity: 0.66
-        }} /><path id={instanceId + "-luma-dark__Luma / path 02"} fillRule="evenodd" clipRule="evenodd" d="M4 11.998L24.786 0V48L4 36V11.998Z" fill="white" fillOpacity={0.66} style={{
-          fill: "white",
-          fillOpacity: 0.66
-        }} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -1517)"><g id={instanceId + "-luma-dark__Name=Luma, Type=Dark, Variant=Default"}><g id={instanceId + "-luma-dark__Luma / Icon_2"}><path id={instanceId + "-luma-dark__Luma / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M113.786 1565L93 1553L113.786 1541L134.57 1553L113.784 1565L113.786 1565Z" fill="white" fillOpacity={0.66} style={{
+            fill: "white",
+            fillOpacity: 0.66
+          }} /><path id={instanceId + "-luma-dark__Luma / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M93 1529L113.786 1517V1565L93 1553V1529Z" fill="white" fillOpacity={0.66} style={{
+            fill: "white",
+            fillOpacity: 0.66
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(LumaDark);
 export default ForwardRef;

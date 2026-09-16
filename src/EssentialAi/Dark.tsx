@@ -1,0 +1,20 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const EssentialAiDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -565)"><g id={instanceId + "-essential-ai-dark__Name=Essential AI, Type=Dark, Variant=Default"}><g id={instanceId + "-essential-ai-dark__Essential AI / Icon_2"} clipPath={'url(#' + instanceId + "-essential-ai-dark__clip30_1_3407)"}><path id={instanceId + "-essential-ai-dark__Essential AI / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M231.858 586.5C231.858 591.14 233.664 595.592 236.878 598.874C238.455 600.493 240.34 601.78 242.422 602.66C244.503 603.54 246.74 603.996 249 604C251.26 603.996 253.496 603.54 255.577 602.66C257.658 601.78 259.543 600.492 261.12 598.874C264.347 595.564 266.149 591.122 266.142 586.5H273C273 592.998 270.472 599.23 265.97 603.824C263.762 606.09 261.123 607.892 258.209 609.124C255.295 610.357 252.164 610.994 249 611C242.634 611 236.53 608.42 232.03 603.824C227.513 599.19 224.989 592.971 225 586.5H231.858ZM259.286 586.5C259.29 589.273 258.208 591.938 256.272 593.924C255.326 594.895 254.195 595.668 252.946 596.196C251.698 596.724 250.356 596.997 249 597C247.644 596.998 246.302 596.724 245.053 596.196C243.803 595.668 242.672 594.895 241.726 593.924C239.791 591.938 238.709 589.273 238.714 586.5H259.286ZM249 569C253.546 569 257.906 570.844 261.12 574.126C264.347 577.436 266.149 581.878 266.142 586.5H259.286C259.29 583.727 258.208 581.062 256.272 579.076C255.326 578.105 254.195 577.332 252.946 576.804C251.698 576.276 250.356 576.003 249 576C247.644 576.002 246.302 576.276 245.053 576.804C243.803 577.332 242.672 578.105 241.726 579.076C239.791 581.062 238.709 583.727 238.714 586.5H231.86C231.86 581.86 233.666 577.408 236.88 574.126C238.457 572.508 240.342 571.22 242.423 570.34C244.504 569.46 246.74 569.004 249 569Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-essential-ai-dark__clip30_1_3407"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(225 565)" /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(EssentialAiDark);
+export default ForwardRef;

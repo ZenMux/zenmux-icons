@@ -8,13 +8,13 @@ const SunoColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-suno-color__Name=Suno, Type=Color, Variant=Default"}><g id={instanceId + "-suno-color__Suno / Icon"} clipPath={'url(#' + instanceId + "-suno-color__clip0_449_11913)"}><path id={instanceId + "-suno-color__Suno / path 01"} fillRule="evenodd" clipRule="evenodd" d="M33 0C41.284 0 48 10.746 48 24H30C30 37.254 23.284 48 15 48C6.716 48 0 37.254 0 24H18C18 10.746 24.716 0 33 0Z" fill="black" style={{
-          fill: "black",
-          fillOpacity: 1
-        }} /></g></g><defs><clipPath id={instanceId + "-suno-color__clip0_449_11913"}><rect width={48} height={48} fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-157 -2401)"><g id={instanceId + "-suno-color__Name=Suno, Type=Color, Variant=Default"}><g id={instanceId + "-suno-color__Suno / Icon"} clipPath={'url(#' + instanceId + "-suno-color__clip103_1_3407)"}><path id={instanceId + "-suno-color__Suno / path 01"} fillRule="evenodd" clipRule="evenodd" d="M190 2401C198.284 2401 205 2411.75 205 2425H187C187 2438.25 180.284 2449 172 2449C163.716 2449 157 2438.25 157 2425H175C175 2411.75 181.716 2401 190 2401Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-suno-color__clip103_1_3407"}><rect width={48} height={48} fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} transform="translate(157 2401)" /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(SunoColor);
 export default ForwardRef;

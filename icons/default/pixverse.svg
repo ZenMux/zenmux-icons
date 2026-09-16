@@ -1,8 +1,8 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=PixVerse, Type=Dark, Variant=Default">
-<g id="PixVerse / Icon">
-<path id="PixVerse / path 01" opacity="0.8" fill-rule="evenodd" clip-rule="evenodd" d="M21.996 47.6739L10 42.0299V11.1379C10 9.67189 10.64 8.04389 11.68 7.00789L14.452 4.23389L26.58 43.6919C27.432 46.4459 24.606 48.9019 21.996 47.6739Z" fill="white" style="fill:white;fill-opacity:1;"/>
-<path id="PixVerse / path 02" opacity="0.8" fill-rule="evenodd" clip-rule="evenodd" d="M38.7202 16.86L25.0342 1.80998C24.5308 1.25661 23.9204 0.811125 23.2398 0.500494C22.5593 0.189862 21.8228 0.020542 21.0749 0.00277979C20.327 -0.0149824 19.5833 0.119183 18.8888 0.397156C18.1942 0.675129 17.5633 1.09113 17.0342 1.61998L11.6802 7.00798C10.6582 8.17598 10.0742 9.40398 10.0742 10.868V41.76L37.4722 25.322C38.1734 24.9009 38.7725 24.3296 39.2263 23.6491C39.6801 22.9686 39.9773 22.1959 40.0965 21.3867C40.2157 20.5775 40.1539 19.752 39.9155 18.9696C39.6772 18.1871 39.2683 17.4673 38.7182 16.862" fill="white" style="fill:white;fill-opacity:1;"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-89 -2061)"><g id="Name=PixVerse, Type=Dark, Variant=Default">
+<g id="PixVerse / Icon_2">
+<path id="PixVerse / path 01_2" opacity="0.8" fill-rule="evenodd" clip-rule="evenodd" d="M110.996 2108.67L99 2103.03V2072.14C99 2070.67 99.64 2069.04 100.68 2068.01L103.452 2065.23L115.58 2104.69C116.432 2107.45 113.606 2109.9 110.996 2108.67Z" fill="white" style="fill:white;fill-opacity:1;" />
+<path id="PixVerse / path 02_2" opacity="0.8" fill-rule="evenodd" clip-rule="evenodd" d="M127.72 2077.86L114.034 2062.81C113.531 2062.26 112.92 2061.81 112.24 2061.5C111.559 2061.19 110.823 2061.02 110.075 2061C109.327 2060.99 108.583 2061.12 107.889 2061.4C107.194 2061.68 106.563 2062.09 106.034 2062.62L100.68 2068.01C99.6582 2069.18 99.0742 2070.4 99.0742 2071.87V2102.76L126.472 2086.32C127.173 2085.9 127.773 2085.33 128.226 2084.65C128.68 2083.97 128.977 2083.2 129.097 2082.39C129.216 2081.58 129.154 2080.75 128.916 2079.97C128.677 2079.19 128.268 2078.47 127.718 2077.86" fill="white" style="fill:white;fill-opacity:1;" />
 </g>
 </g>
-</svg>
+</g></svg>

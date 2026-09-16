@@ -8,10 +8,10 @@ const TopazlabsDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-topazlabs-dark__Name=TopazLabs, Type=Dark, Variant=Default"}><g id={instanceId + "-topazlabs-dark__TopazLabs / Icon"}><path id={instanceId + "-topazlabs-dark__TopazLabs / path 01"} fillRule="evenodd" clipRule="evenodd" d="M4 30.714V44H17.3V30.714H4ZM30.64 30.714V17.428H17.34V30.714H30.64ZM44 17.286V4H30.7V17.286H44Z" fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -2537)"><g id={instanceId + "-topazlabs-dark__Name=TopazLabs, Type=Dark, Variant=Default"}><g id={instanceId + "-topazlabs-dark__TopazLabs / Icon_2"}><path id={instanceId + "-topazlabs-dark__TopazLabs / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M93 2567.71V2581H106.3V2567.71H93ZM119.64 2567.71V2554.43H106.34V2567.71H119.64ZM133 2554.29V2541H119.7V2554.29H133Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(TopazlabsDark);
 export default ForwardRef;

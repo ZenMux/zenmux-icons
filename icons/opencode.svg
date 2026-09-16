@@ -1,7 +1,7 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=opencode, Type=Color, Variant=Default">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-293 -2877)"><g id="Name=opencode, Type=Color, Variant=Default">
 <g id="opencode / Icon">
-<path id="opencode / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M32 12H16V36H32V12ZM40 44H8V4H40V44Z" fill="black" style="fill:black;fill-opacity:1;"/>
+<path id="opencode / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M325 2889H309V2913H325V2889ZM333 2921H301V2881H333V2921Z" fill="black" style="fill:black;fill-opacity:1;" />
 </g>
 </g>
-</svg>
+</g></svg>

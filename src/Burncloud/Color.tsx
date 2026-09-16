@@ -1,0 +1,20 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const BurncloudColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -701)"><g id={instanceId + "-burncloud-color__Name=BurnCloud, Type=Color, Variant=Default"}><g id={instanceId + "-burncloud-color__BurnCloud / Icon"}><path id={instanceId + "-burncloud-color__BurnCloud / path 01"} d="M56.6001 721.2C55.8001 720 54.8668 718.733 53.8001 717.4C53.8001 717.4 50.2001 713.2 50.8001 707C50.8001 707 37.0001 712.4 36.8001 723.4C36.8001 723.4 34.8001 720.2 35.2001 714.2C35.2001 714.2 30.8001 718.4 30.2001 725.2C26.0001 726.6 22.6001 730.2 22.6001 733.8C22.6001 738.8 28.0001 743 34.4001 743C29.6001 742.2 26.0001 739 26.0001 735C26.0001 732.2 27.6001 730 30.0001 728.4C30.1334 729.867 30.4668 731.467 31.0001 733.2C31.0001 733.2 33.4001 740.8 41.8001 742.8C44.2001 743.4 46.8001 743.2 49.2001 742.2C51.8001 741 54.8001 738.6 54.8001 733.2C54.8001 733.2 55.0001 727.8 51.8001 725C51.8001 725 56.0001 735 48.2001 738C45.6001 739 43.0001 739 40.4001 738C37.0001 736.6 32.8001 733 33.4001 723.6C33.4001 723.6 35.4001 730.4 39.8001 733C39.8001 733 35.8001 721.4 47.6001 713.4C47.6001 713.4 48.6001 717.6 51.4001 720C52.2001 720.8 59.4001 726.4 58.0001 736C59.4001 734.2 60.6001 729.8 59.4001 726.4C59.4001 726.4 59.2001 725.6 58.6001 724.6C61.6001 725.2 64.0001 727.6 64.2001 733C64.4001 737.6 61.0001 741.4 56.6001 743C62.6001 742.2 67.4001 737.6 67.4001 731.8C67.4001 726.2 63.0001 721.6 56.6001 721.2Z" fill={'url(#' + instanceId + "-burncloud-color__paint18_linear_1_3407)"} /></g></g></g><defs><linearGradient id={instanceId + "-burncloud-color__paint18_linear_1_3407"} x1={45.1161} y1={718.236} x2={45.0352} y2={736.732} gradientUnits="userSpaceOnUse"><stop stopColor="#F7B52C" style={{
+          stopColor: "color(display-p3 0.9686 0.7098 0.1725)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#E95513" style={{
+          stopColor: "color(display-p3 0.9137 0.3333 0.0745)",
+          stopOpacity: 1
+        }} /></linearGradient></defs></svg>;
+};
+const ForwardRef = forwardRef(BurncloudColor);
+export default ForwardRef;

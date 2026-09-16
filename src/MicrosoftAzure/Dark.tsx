@@ -1,0 +1,23 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const MicrosoftAzureDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -1653)"><g id={instanceId + "-microsoft-azure-dark__Name=Microsoft Azure, Type=Dark, Variant=Default"}><g id={instanceId + "-microsoft-azure-dark__Microsoft Azure / Icon_2"}><path id={instanceId + "-microsoft-azure-dark__Microsoft Azure / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M261.794 1683.59H239.8C239.596 1683.59 239.396 1683.65 239.228 1683.77C239.059 1683.89 238.929 1684.05 238.855 1684.24C238.78 1684.43 238.764 1684.64 238.809 1684.84C238.853 1685.04 238.957 1685.22 239.106 1685.36L253.238 1698.55C253.65 1698.93 254.192 1699.14 254.754 1699.14H267.206L261.794 1683.59Z" fill="white" fillOpacity={0.75} style={{
+            fill: "white",
+            fillOpacity: 0.75
+          }} /><path id={instanceId + "-microsoft-azure-dark__Microsoft Azure / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M241.59 1654.71C240.636 1654.71 239.79 1655.32 239.484 1656.23L225.99 1696.21C225.877 1696.54 225.845 1696.9 225.897 1697.25C225.949 1697.6 226.083 1697.93 226.289 1698.22C226.495 1698.5 226.766 1698.74 227.08 1698.9C227.394 1699.06 227.741 1699.14 228.094 1699.14H238.954C239.908 1699.14 240.754 1698.53 241.06 1697.63L243.742 1689.68L239.106 1685.36C238.957 1685.22 238.854 1685.04 238.809 1684.84C238.764 1684.64 238.78 1684.43 238.855 1684.24C238.929 1684.05 239.059 1683.89 239.228 1683.77C239.397 1683.65 239.596 1683.59 239.8 1683.59H245.8L255.542 1654.71H241.59Z" fill="white" fillOpacity={0.5} style={{
+            fill: "white",
+            fillOpacity: 0.5
+          }} /><path id={instanceId + "-microsoft-azure-dark__Microsoft Azure / path 03_2"} fillRule="evenodd" clipRule="evenodd" d="M259.386 1656.23C259.238 1655.79 258.955 1655.4 258.578 1655.13C258.2 1654.86 257.747 1654.71 257.282 1654.71H241.662H241.732C242.686 1654.71 243.532 1655.32 243.836 1656.23L257.332 1696.21C257.445 1696.54 257.477 1696.9 257.425 1697.25C257.373 1697.6 257.239 1697.93 257.033 1698.22C256.827 1698.5 256.556 1698.74 256.242 1698.9C255.929 1699.06 255.581 1699.14 255.228 1699.14H254.988H270.778C271.131 1699.14 271.479 1699.06 271.792 1698.9C272.106 1698.74 272.377 1698.5 272.583 1698.22C272.789 1697.93 272.923 1697.6 272.975 1697.25C273.027 1696.9 272.995 1696.54 272.882 1696.21L259.386 1656.23Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(MicrosoftAzureDark);
+export default ForwardRef;

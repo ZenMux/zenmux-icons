@@ -8,10 +8,10 @@ const RunwayDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-runway-dark__Name=Runway, Type=Dark, Variant=Default"}><g id={instanceId + "-runway-dark__Runway / Icon"}><path id={instanceId + "-runway-dark__Runway / path 01"} fillRule="evenodd" clipRule="evenodd" d="M35.72 45.9841C30.382 46.4741 25.946 40.2321 22.526 37.0761C20.796 49.5181 2 48.3541 2 35.7201V12.3001C2 10.4581 2.488 8.5781 3.466 7.0001C5.27 3.9541 8.766 1.9601 12.3 2.0001H35.72C48.352 2.0001 49.556 20.7961 37.074 22.4861L43.014 28.3881C49.518 34.5161 44.63 46.2461 35.722 45.9821L35.72 45.9841ZM32.864 38.5421C36.548 42.3381 42.412 36.4741 38.616 32.7901L28.352 22.5261H22.6V28.2781L31.472 37.1501L32.864 38.5421ZM8.24 35.6841C8.166 40.9481 16.474 40.9481 16.36 35.6841V12.2641C16.436 9.6321 13.654 7.5641 11.136 8.3541C11.022 8.3921 10.91 8.4281 10.836 8.4661C9.256 9.0681 8.166 10.6461 8.202 12.3381V35.6841H8.24ZM35.72 16.3241C40.984 16.3981 40.984 8.1281 35.72 8.2041H21.774C22.826 10.4221 22.564 13.9181 22.6 16.3241H35.72Z" fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -2333)"><g id={instanceId + "-runway-dark__Name=Runway, Type=Dark, Variant=Default"}><g id={instanceId + "-runway-dark__Runway / Icon_2"}><path id={instanceId + "-runway-dark__Runway / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M124.72 2378.98C119.382 2379.47 114.946 2373.23 111.526 2370.08C109.796 2382.52 91 2381.35 91 2368.72V2345.3C91 2343.46 91.488 2341.58 92.466 2340C94.27 2336.95 97.766 2334.96 101.3 2335H124.72C137.352 2335 138.556 2353.8 126.074 2355.49L132.014 2361.39C138.518 2367.52 133.63 2379.25 124.722 2378.98L124.72 2378.98ZM121.864 2371.54C125.548 2375.34 131.412 2369.47 127.616 2365.79L117.352 2355.53H111.6V2361.28L120.472 2370.15L121.864 2371.54ZM97.24 2368.68C97.166 2373.95 105.474 2373.95 105.36 2368.68V2345.26C105.436 2342.63 102.654 2340.56 100.136 2341.35C100.022 2341.39 99.91 2341.43 99.836 2341.47C98.256 2342.07 97.166 2343.65 97.202 2345.34V2368.68H97.24ZM124.72 2349.32C129.984 2349.4 129.984 2341.13 124.72 2341.2H110.774C111.826 2343.42 111.564 2346.92 111.6 2349.32H124.72Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(RunwayDark);
 export default ForwardRef;

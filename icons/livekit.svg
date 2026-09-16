@@ -1,8 +1,8 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=LiveKit, Type=Color, Variant=Default">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-293 -1381)"><g id="Name=LiveKit, Type=Color, Variant=Default">
 <g id="LiveKit / Icon">
-<path id="LiveKit / path 01" d="M28 20H20V28H28V20ZM36 12H28V20.002H36V12ZM36 28H28V36H36V28ZM44 4H36V12H44V4ZM44 36H36V44H44V36Z" fill="#1FD5F9" style="fill:#1FD5F9;fill:color(display-p3 0.1216 0.8353 0.9765);fill-opacity:1;"/>
-<path id="LiveKit / path 02" d="M12 36V4H4V44H28V36H12Z" fill="white" style="fill:white;fill-opacity:1;"/>
+<path id="LiveKit / path 01" d="M321 1401H313V1409H321V1401ZM329 1393H321V1401H329V1393ZM329 1409H321V1417H329V1409ZM337 1385H329V1393H337V1385ZM337 1417H329V1425H337V1417Z" fill="#1FD5F9" style="fill:#1FD5F9;fill:color(display-p3 0.1216 0.8353 0.9765);fill-opacity:1;" />
+<path id="LiveKit / path 02" d="M305 1417V1385H297V1425H321V1417H305Z" fill="white" style="fill:white;fill-opacity:1;" />
 </g>
 </g>
-</svg>
+</g></svg>

@@ -8,7 +8,10 @@ const ReplitLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-replit-light__Name=Replit, Type=Dark, Variant=Default"}><g id={instanceId + "-replit-light__Replit / Icon"}><path id={instanceId + "-replit-light__Replit / path 01"} fillRule="evenodd" clipRule="evenodd" d="M23.756 15.522H6.964C6.57801 15.5254 6.19512 15.4528 5.83722 15.3081C5.47932 15.1635 5.15343 14.9498 4.87817 14.6792C4.60291 14.4086 4.38367 14.0864 4.23299 13.731C4.08231 13.3756 4.00314 12.994 4 12.608V2.914C4 1.288 5.34 0 6.964 0H20.79C22.444 0 23.756 1.316 23.756 2.914V15.522ZM41.764 32.43H23.774V15.5H41.764C43.504 15.5 44.94 16.934 44.94 18.672V29.26C44.94 31.03 43.506 32.43 41.764 32.43ZM20.79 48H6.964C5.34 48 4 46.686 4 45.092V35.386C4 33.792 5.34 32.478 6.964 32.478H23.756V45.092C23.756 46.686 22.416 48 20.79 48Z" fill="#000000" fillOpacity={1} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -2265)"><g id={instanceId + "-replit-light__Name=Replit, Type=Dark, Variant=Default"}><g id={instanceId + "-replit-light__Replit / Icon_2"}><path id={instanceId + "-replit-light__Replit / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M248.756 2280.52H231.964C231.578 2280.53 231.195 2280.45 230.837 2280.31C230.479 2280.16 230.153 2279.95 229.878 2279.68C229.603 2279.41 229.384 2279.09 229.233 2278.73C229.082 2278.38 229.003 2277.99 229 2277.61V2267.91C229 2266.29 230.34 2265 231.964 2265H245.79C247.444 2265 248.756 2266.32 248.756 2267.91V2280.52ZM266.764 2297.43H248.774V2280.5H266.764C268.504 2280.5 269.94 2281.93 269.94 2283.67V2294.26C269.94 2296.03 268.506 2297.43 266.764 2297.43ZM245.79 2313H231.964C230.34 2313 229 2311.69 229 2310.09V2300.39C229 2298.79 230.34 2297.48 231.964 2297.48H248.756V2310.09C248.756 2311.69 247.416 2313 245.79 2313Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(ReplitLight);
 export default ForwardRef;

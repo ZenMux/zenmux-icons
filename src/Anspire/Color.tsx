@@ -1,0 +1,20 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const AnspireColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -293)"><g id={instanceId + "-anspire-color__Name=Anspire, Type=Color, Variant=Default"}><g id={instanceId + "-anspire-color__Anspire / Icon"} clipPath={'url(#' + instanceId + "-anspire-color__clip12_1_3407)"}><path id={instanceId + "-anspire-color__Anspire / path 01"} d="M62.062 300.472C61.8713 299.492 61.3453 298.61 60.5744 297.976C59.8035 297.343 58.8359 296.997 57.838 297H50.162C48.02 297 46.022 298.08 44.862 299.87L21.046 336.56C21.0177 336.603 21.0016 336.653 20.9995 336.704C20.9974 336.756 21.0093 336.807 21.0339 336.852C21.0586 336.897 21.0951 336.935 21.1395 336.961C21.1838 336.987 21.2345 337.001 21.286 337H28.486C28.68 337 28.862 336.9 28.966 336.738L36.06 325.754H48.608C51.528 325.754 54.068 323.762 54.742 320.94L55.076 319.55L55.08 319.53C55.086 319.49 55.0834 319.449 55.0722 319.41C55.061 319.372 55.0415 319.336 55.0151 319.305C54.9887 319.274 54.9559 319.25 54.9191 319.233C54.8824 319.216 54.8424 319.208 54.802 319.208H40.288L50.158 303.922C50.3144 303.68 50.5289 303.482 50.7819 303.345C51.0348 303.207 51.3181 303.136 51.606 303.136H54.056C54.608 303.136 55.08 303.524 55.182 304.062L61.392 336.536C61.4171 336.667 61.4869 336.784 61.5895 336.869C61.6921 336.954 61.8209 337 61.954 337H68.714C68.732 337 68.75 337 68.766 336.994C68.8028 336.987 68.8379 336.973 68.8693 336.953C68.9007 336.933 68.9278 336.906 68.949 336.875C68.9702 336.845 68.9851 336.81 68.9928 336.773C69.0005 336.737 69.0009 336.699 68.994 336.662L62.062 300.472Z" fill="#514BFD" style={{
+            fill: "color(display-p3 0.3176 0.2941 0.9922)",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-anspire-color__clip12_1_3407"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(21 293)" /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(AnspireColor);
+export default ForwardRef;

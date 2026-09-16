@@ -8,13 +8,13 @@ const CapcutDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-capcut-dark__Name=CapCut, Type=Dark, Variant=Default"}><g id={instanceId + "-capcut-dark__CapCut / Icon"} clipPath={'url(#' + instanceId + "-capcut-dark__clip0_436_4152)"}><path id={instanceId + "-capcut-dark__CapCut / path 01"} fillRule="evenodd" clipRule="evenodd" d="M48.378 12.884V5.34199L39.308 10.108V9.81999C39.312 6.80999 37.152 4.99799 34.032 4.99799H5.28C1.986 4.99999 0 6.81399 0 9.81999V17.44L12.708 24L0 30.632V38.232C0 41.19 2 43 5.28 43H34.026C37.146 43 39.304 41.186 39.304 38.236V37.842L48.376 42.66V35.004L27.28 24L48.38 12.886L48.378 12.884ZM19.964 27.746L35.558 35.912H4.314L19.964 27.746ZM35.446 12.09L19.962 20.204L4.312 12.09H35.446Z" fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -225)"><g id={instanceId + "-capcut-dark__Name=CapCut, Type=Dark, Variant=Default"}><g id={instanceId + "-capcut-dark__CapCut / Icon_2"} clipPath={'url(#' + instanceId + "-capcut-dark__clip13_1_3407)"}><path id={instanceId + "-capcut-dark__CapCut / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M273.378 237.884V230.342L264.308 235.108V234.82C264.312 231.81 262.152 229.998 259.032 229.998H230.28C226.986 230 225 231.814 225 234.82V242.44L237.708 249L225 255.632V263.232C225 266.19 227 268 230.28 268H259.026C262.146 268 264.304 266.186 264.304 263.236V262.842L273.376 267.66V260.004L252.28 249L273.38 237.886L273.378 237.884ZM244.964 252.746L260.558 260.912H229.314L244.964 252.746ZM260.446 237.09L244.962 245.204L229.312 237.09H260.446Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-capcut-dark__clip13_1_3407"}><rect width={48} height={48} fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} /></g></g><defs><clipPath id={instanceId + "-capcut-dark__clip0_436_4152"}><rect width={48} height={48} fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} transform="translate(225 225)" /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(CapcutDark);
 export default ForwardRef;

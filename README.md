@@ -8,15 +8,14 @@ name-protection placeholder exporting package information only; it has no icons
 and no second implementation. Its publication is independent of the main package.
 
 **Status:** private GitHub repository. `@zenmux/icons` is available as a public dev
-prerelease (`0.1.0-dev.2`, npm tag `dev`); there is no stable release. The name-protection placeholder
+prerelease (`0.1.0-dev.5`, npm tag `dev`); there is no stable release. The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No CI or automatic package publishing is configured.
 
 ## Icon catalog
 
-130 brands are available in this development release. Metadata is generated from the
-actual source collection. 126 brands have complete logo artwork; the other four have
-symbol variants only. Consult `@zenmux/icons/catalog` or the local preview for the
+322 brands are available in this development release. Metadata is generated from the
+actual source collection. 319 brands have Light wordmarks. Symbols retain their supplied Light or Dark theme. Consult `@zenmux/icons/catalog` or the local preview for the
 current names, groups and available variants.
 
 ## Local development
@@ -43,15 +42,15 @@ Install the development release:
 npm install @zenmux/icons@dev
 ```
 
-For a fixed version use `@zenmux/icons@0.1.0-dev.2`. The examples below also work
+For a fixed version use `@zenmux/icons@0.1.0-dev.5`. The examples below also work
 with a built local checkout installed by absolute directory.
 
 ```tsx
-import { Cursor, OpenWebui } from '@zenmux/icons';
+import { Deepseek, Arcee } from '@zenmux/icons';
 
-<Cursor.Light size={24} />
-<Cursor.Dark size={32} />
-<OpenWebui.Color size={32} />
+<Deepseek.Light size={24} />
+<Deepseek.Dark size={32} />
+<Arcee.Color size={32} />
 ```
 
 Default components are monochrome and follow `currentColor`; `color="black"` and
@@ -61,7 +60,7 @@ forwarded refs. Explicit `width`/`height` props override `size` on their respect
 hidden from assistive technology by default. For a meaningful standalone icon:
 
 ```tsx
-<Cursor role="img" aria-hidden={false} aria-label="Cursor" />
+<Deepseek role="img" aria-hidden={false} aria-label="Deepseek" />
 ```
 
 Generated components use React `useId` to isolate gradients and clipping references
@@ -131,16 +130,16 @@ For your own visibility, modal or Suspense logic:
 ```tsx
 import { lazy, Suspense } from 'react';
 import { loadIcon } from '@zenmux/icons/loaders';
-const OpenWebuiColor = lazy(() => loadIcon('open-webui', 'color'));
+const ArceeColor = lazy(() => loadIcon('arcee', 'color'));
 // Render only when the containing view should load:
-<Suspense fallback={null}><OpenWebuiColor size={32} /></Suspense>
+<Suspense fallback={null}><ArceeColor size={32} /></Suspense>
 ```
 
 The loader registry uses literal dynamic imports so bundlers can create separate
 chunks. Module loading is cached by the runtime. Actual chunk scheduling remains
 controlled by the consuming bundler; do not import the root icon barrel or prefetch
 all loader functions for a lazy gallery. For a single synchronous component you can
-use `import Cursor from '@zenmux/icons/Cursor'`.
+use `import Deepseek from '@zenmux/icons/Deepseek'`.
 
 The static gallery likewise fetches metadata first and assigns SVG image sources
 only near the viewport. Group headings come from source metadata. Missing groups
@@ -156,12 +155,17 @@ is `dev`; use unique prerelease versions and do not move `latest` for developmen
 ## Source-backed variants
 
 - `.Color`: original color symbol.
-- `.Dark` / `.Default`: the supplied dark-background symbol, preserved.
-- `.Light`: RGB inversion of `.Dark`; opacity and geometry stay intact.
+- `.Dark` / `.Default`: supplied Dark symbol, or RGB inversion of a supplied Light symbol.
+- `.Light`: supplied Light symbol, or RGB inversion of a supplied Dark symbol.
+  Original geometry and opacity remain intact; catalog `symbolTheme` identifies the original.
 - Default component / `mono`: theme-aware monochrome compatibility entry.
-- `.CombineDark`: the complete original logo, already including its symbol and text.
-- `.CombineLight`: RGB inversion of that complete logo. `.Combine`: theme-aware version.
-  No second symbol is prepended. Pure `.Text` variants are not offered without text-only sources.
+- `.CombineDark`: original Dark symbol + inverted Light wordmark.
+- `.CombineLight`: inverted Dark symbol + original Light wordmark.
+- `.Combine`: theme-aware monochrome composition.
+
+The source wordmark has no symbol. Compose exactly one symbol (48 units high) and
+one wordmark (24 units high), with a 12-unit gap and vertical centering.
+Original SVGs are preserved in `icons/`, `icons/default/` (Dark), `icons/light/` (Light), and `icons/text/`.
 
 Combined `size` specifies height; width follows the real aspect ratio.
 `LazyIcon` and `loadIcon` accept `dark`, `light`,
@@ -172,13 +176,12 @@ correct aspect ratio before the artwork chunk loads.
 
 ```tsx
 import { LazyIcon } from '@zenmux/icons/lazy';
-<LazyIcon name="open-webui" variant="combine-dark" size={48} />
+<LazyIcon name="arcee" variant="combine-dark" size={48} />
 ```
 
-The `0.1.0-dev.2` catalog follows the current source collection. Previous standalone
-`claude`, `codex`, `gemini`, and `sider` entries were absent and are not fabricated or
-silently mapped to differently named products (such as Claude Code or Gemini CLI).
-The updated collection preserves IDs of unchanged brand names, including `zai`.
-
-Version dev.2 corrects dev.1: Combine sources are complete logos, not pure wordmarks.
-The erroneous dev.1 Text aliases are removed, and Combine preserves the source layout.
+Version dev.5 includes 322 brands in LLM, Agent and Provider groups, preserving the
+67-brand dev.3 catalog and adding 255 brands. Inputs include 322 verified dark-surface symbol originals and 319 Light wordmarks.
+The 255 newly added white/gray originals have corrected symbolTheme metadata,
+so their Light variant is inverted instead of displaying white artwork on white. v0, Google Cloud and Google
+have no wordmark, so they expose no Combine variants. The two Gemma Simple source
+variants remain outside this Default-based release. Missing variants are not fabricated.

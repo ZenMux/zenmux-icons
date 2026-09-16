@@ -8,10 +8,13 @@ const GeminiCliColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-gemini-cli-color__Name=Gemini CLI, Type=Color, Variant=Default"}><g id={instanceId + "-gemini-cli-color__Gemini CLI / Icon"} clipPath={'url(#' + instanceId + "-gemini-cli-color__clip0_436_4344)"}><path id={instanceId + "-gemini-cli-color__Gemini CLI / path 01"} d="M2.2776e-07 8.782C2.2776e-07 6.45287 0.925244 4.21913 2.57219 2.57219C4.21913 0.925244 6.45287 2.2776e-07 8.782 2.2776e-07H39.216C40.3694 -0.000262454 41.5116 0.226697 42.5773 0.667916C43.6431 1.10914 44.6114 1.75597 45.4271 2.57148C46.2428 3.38699 46.8899 4.3552 47.3313 5.42081C47.7728 6.48642 48 7.62856 48 8.782V39.216C48.0003 40.3696 47.7732 41.512 47.3319 42.5778C46.8905 43.6436 46.2435 44.6121 45.4278 45.4278C44.6121 46.2435 43.6436 46.8905 42.5778 47.3319C41.512 47.7732 40.3696 48.0003 39.216 48H8.782C7.62856 48 6.48642 47.7728 5.42081 47.3313C4.3552 46.8899 3.38699 46.2428 2.57148 45.4271C1.75597 44.6114 1.10914 43.6431 0.667916 42.5773C0.226697 41.5116 -0.000262454 40.3694 2.2776e-07 39.216V8.782Z" fill={'url(#' + instanceId + "-gemini-cli-color__paint0_linear_436_4344)"} /><path id={instanceId + "-gemini-cli-color__Gemini CLI / path 02"} fillRule="evenodd" clipRule="evenodd" d="M39.4802 2.888C40.9739 2.888 42.4064 3.48137 43.4626 4.53758C44.5188 5.59378 45.1122 7.0263 45.1122 8.52V39.48C45.1122 40.9737 44.5188 42.4062 43.4626 43.4624C42.4064 44.5186 40.9739 45.112 39.4802 45.112H8.52018C7.02648 45.112 5.59396 44.5186 4.53776 43.4624C3.48155 42.4062 2.88818 40.9737 2.88818 39.48V8.52C2.88818 7.0263 3.48155 5.59378 4.53776 4.53758C5.59396 3.48137 7.02648 2.888 8.52018 2.888H39.4802ZM14.4722 17.128L29.9762 24.584L14.4722 32.038V37.642L33.5862 28.45V20.718L14.4722 11.526V17.128Z" fill="#1E1E2E" style={{
-          fill: "color(display-p3 0.1176 0.1176 0.1804)",
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-293 -837)"><g id={instanceId + "-gemini-cli-color__Name=Gemini CLI, Type=Color, Variant=Default"}><g id={instanceId + "-gemini-cli-color__Gemini CLI / Icon"} clipPath={'url(#' + instanceId + "-gemini-cli-color__clip37_1_3407)"}><path id={instanceId + "-gemini-cli-color__Gemini CLI / path 01"} d="M293 845.782C293 843.453 293.925 841.219 295.572 839.572C297.219 837.925 299.453 837 301.782 837H332.216C333.369 837 334.512 837.227 335.577 837.668C336.643 838.109 337.611 838.756 338.427 839.571C339.243 840.387 339.89 841.355 340.331 842.421C340.773 843.486 341 844.629 341 845.782V876.216C341 877.37 340.773 878.512 340.332 879.578C339.891 880.644 339.244 881.612 338.428 882.428C337.612 883.244 336.644 883.891 335.578 884.332C334.512 884.773 333.37 885 332.216 885H301.782C300.629 885 299.486 884.773 298.421 884.331C297.355 883.89 296.387 883.243 295.571 882.427C294.756 881.611 294.109 880.643 293.668 879.577C293.227 878.512 293 877.369 293 876.216V845.782Z" fill={'url(#' + instanceId + "-gemini-cli-color__paint15_linear_1_3407)"} /><path id={instanceId + "-gemini-cli-color__Gemini CLI / path 02"} fillRule="evenodd" clipRule="evenodd" d="M332.48 839.888C333.974 839.888 335.406 840.481 336.463 841.538C337.519 842.594 338.112 844.026 338.112 845.52V876.48C338.112 877.974 337.519 879.406 336.463 880.462C335.406 881.519 333.974 882.112 332.48 882.112H301.52C300.026 882.112 298.594 881.519 297.538 880.462C296.482 879.406 295.888 877.974 295.888 876.48V845.52C295.888 844.026 296.482 842.594 297.538 841.538C298.594 840.481 300.026 839.888 301.52 839.888H332.48ZM307.472 854.128L322.976 861.584L307.472 869.038V874.642L326.586 865.45V857.718L307.472 848.526V854.128Z" fill="#1E1E2E" style={{
+            fill: "color(display-p3 0.1176 0.1176 0.1804)",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-gemini-cli-color__clip37_1_3407"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
           fillOpacity: 1
-        }} /></g></g><defs><linearGradient id={instanceId + "-gemini-cli-color__paint0_linear_436_4344"} x1={48} y1={13.174} x2={-6.52338e-7} y2={32.988} gradientUnits="userSpaceOnUse"><stop stopColor="#EE4D5D" style={{
+        }} transform="translate(293 837)" /></clipPath><linearGradient id={instanceId + "-gemini-cli-color__paint15_linear_1_3407"} x1={341} y1={850.174} x2={293} y2={869.988} gradientUnits="userSpaceOnUse"><stop stopColor="#EE4D5D" style={{
           stopColor: "color(display-p3 0.9333 0.3020 0.3647)",
           stopOpacity: 1
         }} /><stop offset={0.328} stopColor="#B381DD" style={{
@@ -20,10 +23,7 @@ const GeminiCliColor = ({
         }} /><stop offset={0.476} stopColor="#207CFE" style={{
           stopColor: "color(display-p3 0.1255 0.4863 0.9961)",
           stopOpacity: 1
-        }} /></linearGradient><clipPath id={instanceId + "-gemini-cli-color__clip0_436_4344"}><rect width={48} height={48} fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} /></linearGradient></defs></svg>;
 };
 const ForwardRef = forwardRef(GeminiCliColor);
 export default ForwardRef;

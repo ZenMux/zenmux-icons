@@ -1,13 +1,11 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=Gemini CLI, Type=Dark, Variant=Default">
-<g id="Gemini CLI / Icon" clip-path="url(#clip0_436_4348)">
-<path id="Gemini CLI / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M33.5862 20.716V28.45L14.4722 37.64V32.04L29.9742 24.584L14.4742 17.128V11.526L33.5862 20.716Z" fill="white" style="fill:white;fill-opacity:1;"/>
-<path id="Gemini CLI / path 02" fill-rule="evenodd" clip-rule="evenodd" d="M39.216 0C41.5457 0 43.7799 0.925454 45.4272 2.57277C47.0745 4.22009 48 6.45434 48 8.784V39.216C48 41.5457 47.0745 43.7799 45.4272 45.4272C43.7799 47.0745 41.5457 48 39.216 48H8.784C6.45434 48 4.22009 47.0745 2.57277 45.4272C0.925454 43.7799 0 41.5457 0 39.216L0 8.784C0 6.45434 0.925454 4.22009 2.57277 2.57277C4.22009 0.925454 6.45434 0 8.784 0L39.216 0ZM8.52 2.888C7.0263 2.888 5.59378 3.48137 4.53757 4.53757C3.48137 5.59378 2.888 7.0263 2.888 8.52V39.48C2.888 40.9737 3.48137 42.4062 4.53757 43.4624C5.59378 44.5186 7.0263 45.112 8.52 45.112H39.48C40.9737 45.112 42.4062 44.5186 43.4624 43.4624C44.5186 42.4062 45.112 40.9737 45.112 39.48V8.52C45.112 7.0263 44.5186 5.59378 43.4624 4.53757C42.4062 3.48137 40.9737 2.888 39.48 2.888H8.52Z" fill="white" style="fill:white;fill-opacity:1;"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-361 -837)"><g id="Name=Gemini CLI, Type=Dark, Variant=Default">
+<g id="Gemini CLI / Icon_2" clip-path="url(#clip38_1_3407)">
+<path id="Gemini CLI / path 01_2" fill-rule="evenodd" clip-rule="evenodd" d="M394.586 857.716V865.45L375.472 874.64V869.04L390.974 861.584L375.474 854.128V848.526L394.586 857.716Z" fill="white" style="fill:white;fill-opacity:1;" />
+<path id="Gemini CLI / path 02_2" fill-rule="evenodd" clip-rule="evenodd" d="M400.216 837C402.546 837 404.78 837.925 406.427 839.573C408.075 841.22 409 843.454 409 845.784V876.216C409 878.546 408.075 880.78 406.427 882.427C404.78 884.075 402.546 885 400.216 885H369.784C367.454 885 365.22 884.075 363.573 882.427C361.925 880.78 361 878.546 361 876.216V845.784C361 843.454 361.925 841.22 363.573 839.573C365.22 837.925 367.454 837 369.784 837H400.216ZM369.52 839.888C368.026 839.888 366.594 840.481 365.538 841.538C364.481 842.594 363.888 844.026 363.888 845.52V876.48C363.888 877.974 364.481 879.406 365.538 880.462C366.594 881.519 368.026 882.112 369.52 882.112H400.48C401.974 882.112 403.406 881.519 404.462 880.462C405.519 879.406 406.112 877.974 406.112 876.48V845.52C406.112 844.026 405.519 842.594 404.462 841.538C403.406 840.481 401.974 839.888 400.48 839.888H369.52Z" fill="white" style="fill:white;fill-opacity:1;" />
 </g>
 </g>
-<defs>
-<clipPath id="clip0_436_4348">
-<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;"/>
+</g><defs><clipPath id="clip38_1_3407">
+<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;" transform="translate(361 837)" />
 </clipPath>
-</defs>
-</svg>
+</defs></svg>

@@ -1,0 +1,26 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const GoogleColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-293 -1041)"><g id={instanceId + "-google-color__Name=Google, Type=Color, Variant=Default"}><g id={instanceId + "-google-color__Google / Icon"}><path id={instanceId + "-google-color__Google / path 01"} d="M339 1065.49C339 1063.68 338.85 1062.36 338.528 1060.99H317.448V1069.16H329.82C329.572 1071.18 328.226 1074.24 325.232 1076.29L325.19 1076.57L331.854 1081.63L332.314 1081.67C336.558 1077.83 339 1072.19 339 1065.49Z" fill="#4285F4" style={{
+            fill: "color(display-p3 0.2588 0.5216 0.9569)",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-google-color__Google / path 02"} d="M317.45 1087C323.51 1087 328.598 1085.04 332.316 1081.67L325.232 1076.29C323.336 1077.59 320.792 1078.49 317.45 1078.49C314.633 1078.49 311.886 1077.61 309.596 1075.97C307.305 1074.33 305.586 1072.02 304.678 1069.35L304.414 1069.37L297.484 1074.63L297.394 1074.88C301.086 1082.06 308.67 1087 317.45 1087Z" fill="#34A853" style={{
+            fill: "color(display-p3 0.2039 0.6588 0.3255)",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-google-color__Google / path 03"} d="M304.68 1069.35C304.188 1067.95 303.933 1066.48 303.926 1065C303.926 1063.48 304.202 1062.02 304.648 1060.65L304.636 1060.36L297.62 1055.02L297.39 1055.12C295.822 1058.18 295.002 1061.57 295 1065C295 1068.54 295.872 1071.89 297.394 1074.88L304.68 1069.35Z" fill="#FBBC05" style={{
+            fill: "color(display-p3 0.9843 0.7373 0.0196)",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-google-color__Google / path 04"} d="M317.45 1051.51C321.666 1051.51 324.508 1053.29 326.13 1054.78L332.464 1048.72C328.574 1045.18 323.51 1043 317.45 1043C308.668 1043 301.086 1047.94 297.394 1055.12L304.654 1060.65C305.569 1057.98 307.294 1055.67 309.588 1054.03C311.882 1052.39 314.631 1051.51 317.45 1051.51Z" fill="#EB4335" style={{
+            fill: "color(display-p3 0.9216 0.2627 0.2078)",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(GoogleColor);
+export default ForwardRef;

@@ -8,7 +8,13 @@ const DifyMono = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-dify-mono__Name=Dify, Type=Dark, Variant=Default"}><g id={instanceId + "-dify-mono__Dify / Icon"}><path id={instanceId + "-dify-mono__Dify / path 01"} fillRule="evenodd" clipRule="evenodd" d="M14.0861 12.974C17.3561 12.974 18.5681 10.968 18.5681 8.488C18.5681 6.008 17.3621 4 14.0881 4C10.8101 4 9.60205 6.006 9.60205 8.488C9.60205 10.968 10.8101 12.974 14.0841 12.974H14.0861Z" fill="currentColor" fillOpacity={1} /><path id={instanceId + "-dify-mono__Dify / path 02"} fillRule="evenodd" clipRule="evenodd" d="M29.766 13.94V16.826H22.408V23.232H29.768V39.256H17.602V16.82H1.602V23.226H10.562V39.25H0V45.656H48V39.25H36.8V23.226H48V16.82H36.8V10.412H48V4.00598H39.678C37.0459 4.01075 34.5232 5.05927 32.6631 6.92157C30.8031 8.78387 29.7576 11.3079 29.756 13.94H29.766Z" fill="currentColor" fillOpacity={1} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -633)"><g id={instanceId + "-dify-mono__Name=Dify, Type=Dark, Variant=Default"}><g id={instanceId + "-dify-mono__Dify / Icon_2"}><path id={instanceId + "-dify-mono__Dify / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M375.086 645.974C378.356 645.974 379.568 643.968 379.568 641.488C379.568 639.008 378.362 637 375.088 637C371.81 637 370.602 639.006 370.602 641.488C370.602 643.968 371.81 645.974 375.084 645.974H375.086Z" fill="currentColor" style={{
+            fill: "currentColor",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-dify-mono__Dify / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M390.766 646.94V649.826H383.408V656.232H390.768V672.256H378.602V649.82H362.602V656.226H371.562V672.25H361V678.656H409V672.25H397.8V656.226H409V649.82H397.8V643.412H409V637.006H400.678C398.046 637.011 395.523 638.059 393.663 639.922C391.803 641.784 390.758 644.308 390.756 646.94H390.766Z" fill="currentColor" style={{
+            fill: "currentColor",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(DifyMono);
 export default ForwardRef;

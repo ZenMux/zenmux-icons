@@ -8,10 +8,10 @@ const OpencodeDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-opencode-dark__Name=opencode, Type=Dark, Variant=Default"}><g id={instanceId + "-opencode-dark__opencode / Icon"}><path id={instanceId + "-opencode-dark__opencode / path 01"} fillRule="evenodd" clipRule="evenodd" d="M32 12H16V36H32V12ZM40 44H8V4H40V44Z" fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -2877)"><g id={instanceId + "-opencode-dark__Name=opencode, Type=Dark, Variant=Default"}><g id={instanceId + "-opencode-dark__opencode / Icon_2"}><path id={instanceId + "-opencode-dark__opencode / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M393 2889H377V2913H393V2889ZM401 2921H369V2881H401V2921Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(OpencodeDark);
 export default ForwardRef;

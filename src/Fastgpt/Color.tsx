@@ -8,22 +8,22 @@ const FastgptColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-fastgpt-color__Name=FastGPT, Type=Color, Variant=Default"}><g id={instanceId + "-fastgpt-color__FastGPT / Icon"} clipPath={'url(#' + instanceId + "-fastgpt-color__clip0_436_4314)"}><path id={instanceId + "-fastgpt-color__FastGPT / path 01"} d="M31.532 0.008C32.832 0.056 34.118 0.352 35.324 0.888C36.6574 1.48492 37.8567 2.34475 38.85 3.416C39.8691 4.51432 40.6688 5.79736 41.206 7.196C41.752 8.612 42.032 10.128 42.032 11.658H17.12V48C15.5382 48.0019 13.9681 47.7285 12.48 47.192C11.0388 46.6754 9.70622 45.8955 8.55 44.892C7.44713 43.9363 6.5526 42.764 5.922 41.448C5.31768 40.1797 5.00276 38.7929 5 37.388L5.004 37.272H5V11.196H5.012C5.036 10.59 5.11 9.984 5.234 9.384C5.702 7.124 6.854 5.044 8.55 3.416C10.2664 1.7742 12.4222 0.665423 14.756 0.224C15.492 0.084 16.234 0.008 16.976 0H31.532V0.008Z" fill={'url(#' + instanceId + "-fastgpt-color__paint0_linear_436_4314)"} /><path id={instanceId + "-fastgpt-color__FastGPT / path 02"} d="M31.532 20.444C32.622 20.464 33.7 20.716 34.708 21.194C35.754 21.694 36.708 22.422 37.508 23.342C38.31 24.262 38.948 25.354 39.382 26.556C39.816 27.756 40.038 29.044 40.038 30.344H31.404V30.34H23.48V20.442L31.532 20.444Z" fill={'url(#' + instanceId + "-fastgpt-color__paint1_linear_436_4314)"} /></g></g><defs><linearGradient id={instanceId + "-fastgpt-color__paint0_linear_436_4314"} x1={23.516} y1={0} x2={23.516} y2={48} gradientUnits="userSpaceOnUse"><stop stopColor="#326DFF" style={{
-          stopColor: "color(display-p3 0.1961 0.4275 1.0000)",
-          stopOpacity: 1
-        }} /><stop offset={1} stopColor="#8EAEFF" style={{
-          stopColor: "color(display-p3 0.5569 0.6824 1.0000)",
-          stopOpacity: 1
-        }} /></linearGradient><linearGradient id={instanceId + "-fastgpt-color__paint1_linear_436_4314"} x1={23.516} y1={0.0000147359} x2={23.516} y2={48} gradientUnits="userSpaceOnUse"><stop stopColor="#326DFF" style={{
-          stopColor: "color(display-p3 0.1961 0.4275 1.0000)",
-          stopOpacity: 1
-        }} /><stop offset={1} stopColor="#8EAEFF" style={{
-          stopColor: "color(display-p3 0.5569 0.6824 1.0000)",
-          stopOpacity: 1
-        }} /></linearGradient><clipPath id={instanceId + "-fastgpt-color__clip0_436_4314"}><rect width={48} height={48} fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -769)"><g id={instanceId + "-fastgpt-color__Name=FastGPT, Type=Color, Variant=Default"}><g id={instanceId + "-fastgpt-color__FastGPT / Icon"} clipPath={'url(#' + instanceId + "-fastgpt-color__clip33_1_3407)"}><path id={instanceId + "-fastgpt-color__FastGPT / path 01"} d="M52.532 769.008C53.832 769.056 55.118 769.352 56.324 769.888C57.6574 770.485 58.8567 771.345 59.85 772.416C60.8691 773.514 61.6688 774.797 62.206 776.196C62.752 777.612 63.032 779.128 63.032 780.658H38.12V817C36.5382 817.002 34.9681 816.728 33.48 816.192C32.0388 815.675 30.7062 814.895 29.55 813.892C28.4471 812.936 27.5526 811.764 26.922 810.448C26.3177 809.18 26.0028 807.793 26 806.388L26.004 806.272H26V780.196H26.012C26.036 779.59 26.11 778.984 26.234 778.384C26.702 776.124 27.854 774.044 29.55 772.416C31.2664 770.774 33.4222 769.665 35.756 769.224C36.492 769.084 37.234 769.008 37.976 769H52.532V769.008Z" fill={'url(#' + instanceId + "-fastgpt-color__paint13_linear_1_3407)"} /><path id={instanceId + "-fastgpt-color__FastGPT / path 02"} d="M52.532 789.444C53.622 789.464 54.7 789.716 55.708 790.194C56.754 790.694 57.708 791.422 58.508 792.342C59.31 793.262 59.948 794.354 60.382 795.556C60.816 796.756 61.038 798.044 61.038 799.344H52.404V799.34H44.48V789.442L52.532 789.444Z" fill={'url(#' + instanceId + "-fastgpt-color__paint14_linear_1_3407)"} /></g></g></g><defs><clipPath id={instanceId + "-fastgpt-color__clip33_1_3407"}><rect width={48} height={48} fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} transform="translate(21 769)" /></clipPath><linearGradient id={instanceId + "-fastgpt-color__paint13_linear_1_3407"} x1={44.516} y1={769} x2={44.516} y2={817} gradientUnits="userSpaceOnUse"><stop stopColor="#326DFF" style={{
+          stopColor: "color(display-p3 0.1961 0.4275 1.0000)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#8EAEFF" style={{
+          stopColor: "color(display-p3 0.5569 0.6824 1.0000)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-fastgpt-color__paint14_linear_1_3407"} x1={44.516} y1={769} x2={44.516} y2={817} gradientUnits="userSpaceOnUse"><stop stopColor="#326DFF" style={{
+          stopColor: "color(display-p3 0.1961 0.4275 1.0000)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#8EAEFF" style={{
+          stopColor: "color(display-p3 0.5569 0.6824 1.0000)",
+          stopOpacity: 1
+        }} /></linearGradient></defs></svg>;
 };
 const ForwardRef = forwardRef(FastgptColor);
 export default ForwardRef;

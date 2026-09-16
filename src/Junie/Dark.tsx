@@ -8,13 +8,13 @@ const JunieDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-junie-dark__Name=Junie, Type=Dark, Variant=Default"}><g id={instanceId + "-junie-dark__Junie / Icon"} clipPath={'url(#' + instanceId + "-junie-dark__clip0_436_4427)"}><path id={instanceId + "-junie-dark__Junie / path 01"} fillRule="evenodd" clipRule="evenodd" d="M48 18.666C48 37.332 40 48 18.666 48H16V32H18.666C28 32 32 28 32 18.666V16H48V18.666ZM16 32H0V16H16V32ZM32 16H16V0H32V16Z" fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -1177)"><g id={instanceId + "-junie-dark__Name=Junie, Type=Dark, Variant=Default"}><g id={instanceId + "-junie-dark__Junie / Icon_2"} clipPath={'url(#' + instanceId + "-junie-dark__clip48_1_3407)"}><path id={instanceId + "-junie-dark__Junie / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M137 1195.67C137 1214.33 129 1225 107.666 1225H105V1209H107.666C117 1209 121 1205 121 1195.67V1193H137V1195.67ZM105 1209H89V1193H105V1209ZM121 1193H105V1177H121V1193Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-junie-dark__clip48_1_3407"}><rect width={48} height={48} fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} /></g></g><defs><clipPath id={instanceId + "-junie-dark__clip0_436_4427"}><rect width={48} height={48} fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} transform="translate(89 1177)" /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(JunieDark);
 export default ForwardRef;

@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const OpenrouterColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -1925)"><g id={instanceId + "-openrouter-color__Name=OpenRouter, Type=Color, Variant=Default"}><g id={instanceId + "-openrouter-color__OpenRouter / Icon"}><path id={instanceId + "-openrouter-color__OpenRouter / path 01"} d="M58.308 1932.74C61.0063 1932.74 63.5941 1933.81 65.5021 1935.72C67.4101 1937.63 68.482 1940.22 68.482 1942.91C68.482 1945.61 67.4101 1948.2 65.5021 1950.11C63.5941 1952.02 61.0063 1953.09 58.308 1953.09L68.4 1963.18C69.68 1964.46 68.774 1966.65 66.96 1966.65H37.96C33.4624 1966.65 29.1491 1964.87 25.9688 1961.69C22.7886 1958.51 21.002 1954.19 21.002 1949.7C21.002 1945.2 22.7886 1940.89 25.9688 1937.7C29.1491 1934.52 33.4624 1932.74 37.96 1932.74H58.31L58.308 1932.74ZM37.958 1939.52C35.2591 1939.52 32.6708 1940.59 30.7624 1942.5C28.8541 1944.41 27.782 1947 27.782 1949.7C27.782 1952.39 28.8541 1954.98 30.7624 1956.89C32.6708 1958.8 35.2591 1959.87 37.958 1959.87C40.6565 1959.87 43.2446 1958.8 45.1528 1956.89C47.0609 1954.98 48.133 1952.4 48.133 1949.7C48.133 1947 47.0609 1944.41 45.1528 1942.5C43.2446 1940.59 40.6565 1939.52 37.958 1939.52Z" fill="#C8FF00" style={{
+            fill: "color(display-p3 0.7843 1.0000 0.0000)",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(OpenrouterColor);
+export default ForwardRef;

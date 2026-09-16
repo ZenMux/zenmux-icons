@@ -8,13 +8,13 @@ const CodeflickerColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-codeflicker-color__Name=CodeFlicker, Type=Color, Variant=Default"}><g id={instanceId + "-codeflicker-color__CodeFlicker / Icon"}><path id={instanceId + "-codeflicker-color__CodeFlicker / path 01"} fillRule="evenodd" clipRule="evenodd" d="M9.414 12.48V7H0V40.954H9.414V35.474H5.88V12.48H9.414Z" fill="black" style={{
-          fill: "black",
-          fillOpacity: 1
-        }} /><path id={instanceId + "-codeflicker-color__CodeFlicker / path 02"} fillRule="evenodd" clipRule="evenodd" d="M41.7358 7H38.5858V12.48H42.1358V35.474H38.5858V40.954H47.9998V7H41.7358ZM26.4398 7L25.3398 13.164H19.2458L20.3278 7H26.4398ZM28.7898 16.796L24.5238 40.956H18.4258L22.6758 16.796H28.7898Z" fill="#32EDDA" style={{
-          fill: "color(display-p3 0.1961 0.9294 0.8549)",
-          fillOpacity: 1
-        }} /><path id={instanceId + "-codeflicker-color__CodeFlicker / path 03"} fillRule="evenodd" clipRule="evenodd" d="M28.7899 16.796L24.5239 40.956H38.5859V35.474H42.1359V16.796H28.7899Z" fill={'url(#' + instanceId + "-codeflicker-color__paint0_linear_436_4197)"} /><path id={instanceId + "-codeflicker-color__CodeFlicker / path 04"} fillRule="evenodd" clipRule="evenodd" d="M19.2442 13.166L22.6762 16.798H28.7902L25.3422 13.166H19.2402H19.2442Z" fill={'url(#' + instanceId + "-codeflicker-color__paint1_linear_436_4197)"} /><path id={instanceId + "-codeflicker-color__CodeFlicker / path 05"} fillRule="evenodd" clipRule="evenodd" d="M26.4398 7H38.5858V12.48H42.1358V16.796H28.7898L25.3398 13.164L26.4398 7Z" fill={'url(#' + instanceId + "-codeflicker-color__paint2_linear_436_4197)"} /></g></g><defs><linearGradient id={instanceId + "-codeflicker-color__paint0_linear_436_4197"} x1={21.0099} y1={27.544} x2={40.7199} y2={29.676} gradientUnits="userSpaceOnUse"><stop stopColor="#32EDDA" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-293 -361)"><g id={instanceId + "-codeflicker-color__Name=CodeFlicker, Type=Color, Variant=Default"}><g id={instanceId + "-codeflicker-color__CodeFlicker / Icon"}><path id={instanceId + "-codeflicker-color__CodeFlicker / path 01"} fillRule="evenodd" clipRule="evenodd" d="M302.414 373.48V368H293V401.954H302.414V396.474H298.88V373.48H302.414Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-codeflicker-color__CodeFlicker / path 02"} fillRule="evenodd" clipRule="evenodd" d="M334.736 368H331.586V373.48H335.136V396.474H331.586V401.954H341V368H334.736ZM319.44 368L318.34 374.164H312.246L313.328 368H319.44ZM321.79 377.796L317.524 401.956H311.426L315.676 377.796H321.79Z" fill="#32EDDA" style={{
+            fill: "color(display-p3 0.1961 0.9294 0.8549)",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-codeflicker-color__CodeFlicker / path 03"} fillRule="evenodd" clipRule="evenodd" d="M321.79 377.796L317.524 401.956H331.586V396.474H335.136V377.796H321.79Z" fill={'url(#' + instanceId + "-codeflicker-color__paint6_linear_1_3407)"} /><path id={instanceId + "-codeflicker-color__CodeFlicker / path 04"} fillRule="evenodd" clipRule="evenodd" d="M312.244 374.166L315.676 377.798H321.79L318.342 374.166H312.24H312.244Z" fill={'url(#' + instanceId + "-codeflicker-color__paint7_linear_1_3407)"} /><path id={instanceId + "-codeflicker-color__CodeFlicker / path 05"} fillRule="evenodd" clipRule="evenodd" d="M319.44 368H331.586V373.48H335.136V377.796H321.79L318.34 374.164L319.44 368Z" fill={'url(#' + instanceId + "-codeflicker-color__paint8_linear_1_3407)"} /></g></g></g><defs><linearGradient id={instanceId + "-codeflicker-color__paint6_linear_1_3407"} x1={314.01} y1={388.544} x2={333.72} y2={390.676} gradientUnits="userSpaceOnUse"><stop stopColor="#32EDDA" style={{
           stopColor: "color(display-p3 0.1961 0.9294 0.8549)",
           stopOpacity: 1
         }} /><stop offset={0.09} stopColor="#48EEDD" stopOpacity={0.89} style={{
@@ -32,7 +32,7 @@ const CodeflickerColor = ({
         }} /><stop offset={1} stopColor="white" stopOpacity={0} style={{
           stopColor: "none",
           stopOpacity: 0
-        }} /></linearGradient><linearGradient id={instanceId + "-codeflicker-color__paint1_linear_436_4197"} x1={23.7082} y1={12.516} x2={24.6422} y2={19.996} gradientUnits="userSpaceOnUse"><stop offset={0.01} stopColor="#32EDDA" style={{
+        }} /></linearGradient><linearGradient id={instanceId + "-codeflicker-color__paint7_linear_1_3407"} x1={316.708} y1={373.516} x2={317.642} y2={380.996} gradientUnits="userSpaceOnUse"><stop offset={0.01} stopColor="#32EDDA" style={{
           stopColor: "color(display-p3 0.1961 0.9294 0.8549)",
           stopOpacity: 1
         }} /><stop offset={0.06} stopColor="#4CEFDE" stopOpacity={0.87} style={{
@@ -62,7 +62,7 @@ const CodeflickerColor = ({
         }} /><stop offset={1} stopColor="white" stopOpacity={0} style={{
           stopColor: "none",
           stopOpacity: 0
-        }} /></linearGradient><linearGradient id={instanceId + "-codeflicker-color__paint2_linear_436_4197"} x1={26.2238} y1={5.8} x2={40.8198} y2={17.746} gradientUnits="userSpaceOnUse"><stop stopColor="#32EDDA" style={{
+        }} /></linearGradient><linearGradient id={instanceId + "-codeflicker-color__paint8_linear_1_3407"} x1={319.224} y1={366.8} x2={333.82} y2={378.746} gradientUnits="userSpaceOnUse"><stop stopColor="#32EDDA" style={{
           stopColor: "color(display-p3 0.1961 0.9294 0.8549)",
           stopOpacity: 1
         }} /><stop offset={0.1} stopColor="#5BF0E1" stopOpacity={0.8} style={{

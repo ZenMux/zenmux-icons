@@ -1,0 +1,152 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const LobehubColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -1585)"><g id={instanceId + "-lobehub-color__Name=LobeHub, Type=Color, Variant=Default"}><g id={instanceId + "-lobehub-color__LobeHub / Icon"}><path id={instanceId + "-lobehub-color__LobeHub / path 01"} d="M65.0999 1610.88C65.0999 1622.23 56.1836 1630.15 44.9999 1630.15C33.8162 1630.15 24.8999 1622.08 24.8999 1610.73C24.8999 1607.35 25.6499 1605.91 29.6249 1605.38C36.7499 1604.43 40.5062 1604.8 44.9999 1604.8C49.4938 1604.8 55.8833 1604.61 60.3749 1605.38C64.0499 1606 64.8749 1606.68 65.0999 1610.88Z" fill={'url(#' + instanceId + "-lobehub-color__paint24_radial_1_3407)"} /><path id={instanceId + "-lobehub-color__LobeHub / path 02"} d="M44.9626 1621.38C40.7251 1621.38 39.6001 1621.9 39.6001 1621.9C39.6001 1621.9 40.1251 1625.95 44.9626 1625.95C49.8001 1625.95 50.3251 1621.9 50.3251 1621.9C50.3251 1621.9 49.2001 1621.38 44.9626 1621.38Z" fill="#972021" style={{
+            fill: "color(display-p3 0.5922 0.1255 0.1294)",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-lobehub-color__LobeHub / path 03"} d="M61.7999 1607.28C61.7999 1608.23 54.3119 1609 45.0749 1609C35.8379 1609 28.3499 1608.23 28.3499 1607.28C28.3499 1606.32 35.8379 1605.55 45.0749 1605.55C54.3119 1605.55 61.7999 1606.32 61.7999 1607.28Z" fill={'url(#' + instanceId + "-lobehub-color__paint25_linear_1_3407)"} /><path id={instanceId + "-lobehub-color__LobeHub / path 04"} d="M41.3255 1609C41.4204 1606.76 41.253 1605.58 40.5005 1603.54C40.5005 1603.54 41.9255 1601.73 44.5505 1601.73C47.1755 1601.73 49.0505 1602.19 49.0505 1602.19C48.5963 1604.71 48.5732 1606.22 48.6755 1609H41.3255Z" fill={'url(#' + instanceId + "-lobehub-color__paint26_linear_1_3407)"} /><path id={instanceId + "-lobehub-color__LobeHub / path 05"} d="M38.8787 1620.14C41.09 1619.08 42.6004 1616.92 42.6004 1614.25C42.6004 1610.44 39.5111 1607.05 35.7004 1607.05C31.8896 1607.05 28.6504 1609.99 28.6504 1613.8C28.6504 1615.9 29.6317 1617.82 31.1497 1619.13C32.0336 1618.79 33.0475 1618.6 34.1254 1618.6C36.0311 1618.6 37.7369 1619.2 38.8787 1620.14ZM51.122 1620.14C48.9107 1619.08 47.4004 1616.92 47.4004 1614.25C47.4004 1610.44 50.4896 1607.05 54.3004 1607.05C58.1111 1607.05 61.3504 1609.99 61.3504 1613.8C61.3504 1615.9 60.3689 1617.82 58.8511 1619.13C57.9671 1618.79 56.9533 1618.6 55.8754 1618.6C53.9696 1618.6 52.2638 1619.2 51.122 1620.14Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-lobehub-color__LobeHub / path 06"} d="M36.15 1618.15C38.4696 1618.15 40.35 1616.27 40.35 1613.95C40.35 1611.63 38.4696 1609.75 36.15 1609.75C33.8304 1609.75 31.95 1611.63 31.95 1613.95C31.95 1616.27 33.8304 1618.15 36.15 1618.15Z" fill={'url(#' + instanceId + "-lobehub-color__paint27_linear_1_3407)"} /><path id={instanceId + "-lobehub-color__LobeHub / path 07"} d="M53.8499 1618.15C51.5303 1618.15 49.6499 1616.27 49.6499 1613.95C49.6499 1611.63 51.5303 1609.75 53.8499 1609.75C56.1695 1609.75 58.0499 1611.63 58.0499 1613.95C58.0499 1616.27 56.1695 1618.15 53.8499 1618.15Z" fill={'url(#' + instanceId + "-lobehub-color__paint28_linear_1_3407)"} /><g id={instanceId + "-lobehub-color__Group_3"} filter={'url(#' + instanceId + "-lobehub-color__filter0_i_1_3407)"}><path id={instanceId + "-lobehub-color__LobeHub / path 08"} d="M46.9497 1587.85C44.8456 1587.85 44.0247 1586.13 40.7997 1586.2C37.2906 1586.2 35.6997 1588.15 33.9747 1589.65C33.681 1589.91 32.2497 1590.7 31.5747 1591C28.6222 1592.31 26.3997 1594.23 26.3997 1597.08C26.3997 1600.18 29.0188 1602.7 32.2497 1602.7C32.7801 1602.7 33.2941 1602.63 33.7827 1602.51C35.0877 1604.09 37.1095 1605.01 39.3747 1605.1C42.8997 1605.25 44.0247 1602.81 46.0497 1603.83C47.4385 1604.52 48.1242 1605.1 50.3247 1605.1C52.8909 1605.1 54.0832 1604.32 54.8247 1603.45C56.1747 1601.88 58.2565 1602.85 59.5497 1602.85C62.3664 1602.85 64.6497 1600.67 64.6497 1597.98C64.6497 1595.28 62.3664 1593.1 59.5497 1593.1C58.7772 1593.1 57.3213 1593.29 56.9997 1592.05C56.4747 1590.03 53.9775 1587.7 50.3997 1587.7C49.002 1587.7 47.746 1587.85 46.9497 1587.85Z" fill={'url(#' + instanceId + "-lobehub-color__paint29_linear_1_3407)"} /></g><path id={instanceId + "-lobehub-color__LobeHub / path 09"} d="M33.4496 1588.08C33.4496 1588.46 33.2995 1588.82 33.0322 1589.09C32.765 1589.35 32.4025 1589.5 32.0246 1589.5C31.6467 1589.5 31.2842 1589.35 31.017 1589.09C30.7497 1588.82 30.5996 1588.46 30.5996 1588.08C30.5996 1587.7 30.7497 1587.34 31.017 1587.07C31.2842 1586.8 31.6467 1586.65 32.0246 1586.65C32.4025 1586.65 32.765 1586.8 33.0322 1587.07C33.2995 1587.34 33.4496 1587.7 33.4496 1588.08Z" fill={'url(#' + instanceId + "-lobehub-color__paint30_radial_1_3407)"} /><path id={instanceId + "-lobehub-color__LobeHub / path 10"} d="M31.6503 1601.2C31.6503 1602.53 30.5759 1603.6 29.2503 1603.6C27.9248 1603.6 26.8503 1602.53 26.8503 1601.2C26.8503 1599.88 27.9248 1598.8 29.2503 1598.8C30.5759 1598.8 31.6503 1599.88 31.6503 1601.2Z" fill={'url(#' + instanceId + "-lobehub-color__paint31_radial_1_3407)"} /><path id={instanceId + "-lobehub-color__LobeHub / path 11"} d="M63.3004 1592.43C63.3004 1593.71 62.2594 1594.75 60.9754 1594.75C59.6914 1594.75 58.6504 1593.71 58.6504 1592.43C58.6504 1591.14 59.6914 1590.1 60.9754 1590.1C62.2594 1590.1 63.3004 1591.14 63.3004 1592.43Z" fill={'url(#' + instanceId + "-lobehub-color__paint32_radial_1_3407)"} /><path id={instanceId + "-lobehub-color__LobeHub / path 12"} d="M40.8347 1621.62C41.6572 1621.49 42.9634 1621.38 44.962 1621.38C46.7938 1621.38 48.0439 1621.47 48.8729 1621.59C48.6416 1622.47 46.9285 1622.8 44.8495 1622.8C42.7948 1622.8 41.0975 1622.47 40.8347 1621.62Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-lobehub-color__LobeHub / path 13"} d="M45.0008 1628.5C48.0156 1628.5 48.4965 1625.43 48.5898 1624.66C48.6615 1624.04 48.3386 1623.72 47.9868 1623.51C47.6351 1623.3 46.58 1623.1 45.0008 1623.1C43.4217 1623.1 42.3737 1623.3 42.0149 1623.51C41.6559 1623.72 41.333 1624.04 41.4119 1624.66C41.5052 1625.43 41.9861 1628.5 45.0008 1628.5Z" fill={'url(#' + instanceId + "-lobehub-color__paint33_radial_1_3407)"} /><g id={instanceId + "-lobehub-color__Group_4"} filter={'url(#' + instanceId + "-lobehub-color__filter1_i_1_3407)"}><path id={instanceId + "-lobehub-color__LobeHub / path 14"} d="M46.7541 1604.46C45.8959 1603.88 44.661 1603.82 43.7862 1604.38C42.6276 1605.12 41.2405 1605.55 39.7497 1605.55C35.6904 1605.55 32.3997 1602.36 32.3997 1598.43C32.3997 1594.49 35.6904 1591.3 39.7497 1591.3C41.7939 1591.3 43.6431 1592.11 44.9754 1593.42C45.7176 1594.14 46.9386 1594.35 47.9001 1593.96C48.6696 1593.64 49.4932 1593.48 50.3247 1593.48C53.7627 1593.48 56.5497 1596.19 56.5497 1599.52C56.5497 1602.85 53.7627 1605.55 50.3247 1605.55C48.9963 1605.55 47.7649 1605.15 46.7541 1604.46Z" fill={'url(#' + instanceId + "-lobehub-color__paint34_radial_1_3407)"} /></g><path id={instanceId + "-lobehub-color__LobeHub / path 15"} d="M53.8503 1600.98C53.8503 1602.09 52.9437 1603 51.8253 1603C50.7069 1603 49.8003 1602.09 49.8003 1600.98C49.8003 1599.86 50.7069 1598.95 51.8253 1598.95C52.9437 1598.95 53.8503 1599.86 53.8503 1600.98Z" fill={'url(#' + instanceId + "-lobehub-color__paint35_radial_1_3407)"} /></g></g></g><defs><filter id={instanceId + "-lobehub-color__filter0_i_1_3407"} x={26.3997} y={1586.2} width={38.25} height={18.9091} filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB"><feFlood floodOpacity={0} result="BackgroundImageFix" /><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" /><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" /><feOffset /><feGaussianBlur stdDeviation={1.8} /><feComposite in2="hardAlpha" operator="arithmetic" k2={-1} k3={1} /><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.764536 0 0 0 0 0.896726 0 0 0 1 0" /><feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_3407" /></filter><filter id={instanceId + "-lobehub-color__filter1_i_1_3407"} x={32.3997} y={1591.3} width={24.1499} height={14.25} filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB"><feFlood floodOpacity={0} result="BackgroundImageFix" /><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" /><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" /><feOffset /><feGaussianBlur stdDeviation={1.8} /><feComposite in2="hardAlpha" operator="arithmetic" k2={-1} k3={1} /><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.824669 0 0 0 0 0.923101 0 0 0 1 0" /><feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_3407" /></filter><radialGradient id={instanceId + "-lobehub-color__paint24_radial_1_3407"} cx={0} cy={0} r={1} gradientUnits="userSpaceOnUse" gradientTransform="translate(36.4496 1630.15) rotate(-57.041) scale(35.8436 56.6772)"><stop stopColor="#FCBD72" style={{
+          stopColor: "color(display-p3 0.9882 0.7412 0.4471)",
+          stopOpacity: 1
+        }} /><stop offset={0.255} stopColor="#FAC371" style={{
+          stopColor: "color(display-p3 0.9804 0.7647 0.4431)",
+          stopOpacity: 1
+        }} /><stop offset={0.465} stopColor="#FFA14C" style={{
+          stopColor: "color(display-p3 1.0000 0.6314 0.2980)",
+          stopOpacity: 1
+        }} /><stop offset={0.64} stopColor="#EB7A34" style={{
+          stopColor: "color(display-p3 0.9216 0.4784 0.2039)",
+          stopOpacity: 1
+        }} /><stop offset={0.845} stopColor="#F0866D" style={{
+          stopColor: "color(display-p3 0.9412 0.5255 0.4275)",
+          stopOpacity: 1
+        }} /></radialGradient><linearGradient id={instanceId + "-lobehub-color__paint25_linear_1_3407"} x1={28.3499} y1={1607.28} x2={61.7999} y2={1607.28} gradientUnits="userSpaceOnUse"><stop stopColor="#EB791E" style={{
+          stopColor: "color(display-p3 0.9216 0.4745 0.1176)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#DB694E" style={{
+          stopColor: "color(display-p3 0.8588 0.4118 0.3059)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-lobehub-color__paint26_linear_1_3407"} x1={41.325} y1={1607.12} x2={49.05} y2={1607.12} gradientUnits="userSpaceOnUse"><stop stopColor="#FCC659" style={{
+          stopColor: "color(display-p3 0.9882 0.7765 0.3490)",
+          stopOpacity: 1
+        }} /><stop offset={0.183} stopColor="#FFE366" style={{
+          stopColor: "color(display-p3 1.0000 0.8902 0.4000)",
+          stopOpacity: 1
+        }} /><stop offset={0.404} stopColor="#FECA50" style={{
+          stopColor: "color(display-p3 0.9961 0.7922 0.3137)",
+          stopOpacity: 1
+        }} /><stop offset={0.702} stopColor="#FFE76C" style={{
+          stopColor: "color(display-p3 1.0000 0.9059 0.4235)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#FCC553" style={{
+          stopColor: "color(display-p3 0.9882 0.7725 0.3255)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-lobehub-color__paint27_linear_1_3407"} x1={31.95} y1={1613.95} x2={58.05} y2={1613.95} gradientUnits="userSpaceOnUse"><stop stopColor="#2A0B39" style={{
+          stopColor: "color(display-p3 0.1647 0.0431 0.2235)",
+          stopOpacity: 1
+        }} /><stop offset={0.322} stopColor="#42180E" style={{
+          stopColor: "color(display-p3 0.2588 0.0941 0.0549)",
+          stopOpacity: 1
+        }} /><stop offset={0.678} stopColor="#483A00" style={{
+          stopColor: "color(display-p3 0.2824 0.2275 0.0000)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#310D1D" style={{
+          stopColor: "color(display-p3 0.1922 0.0510 0.1137)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-lobehub-color__paint28_linear_1_3407"} x1={31.9499} y1={1613.95} x2={58.0499} y2={1613.95} gradientUnits="userSpaceOnUse"><stop stopColor="#2A0B39" style={{
+          stopColor: "color(display-p3 0.1647 0.0431 0.2235)",
+          stopOpacity: 1
+        }} /><stop offset={0.322} stopColor="#42180E" style={{
+          stopColor: "color(display-p3 0.2588 0.0941 0.0549)",
+          stopOpacity: 1
+        }} /><stop offset={0.678} stopColor="#483A00" style={{
+          stopColor: "color(display-p3 0.2824 0.2275 0.0000)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#310D1D" style={{
+          stopColor: "color(display-p3 0.1922 0.0510 0.1137)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-lobehub-color__paint29_linear_1_3407"} x1={27.6751} y1={1597.6} x2={64.6501} y2={1597.3} gradientUnits="userSpaceOnUse"><stop stopColor="#342FBD" style={{
+          stopColor: "color(display-p3 0.2039 0.1843 0.7412)",
+          stopOpacity: 1
+        }} /><stop offset={0.188} stopColor="#733CC0" style={{
+          stopColor: "color(display-p3 0.4510 0.2353 0.7529)",
+          stopOpacity: 1
+        }} /><stop offset={0.375} stopColor="#8748C2" style={{
+          stopColor: "color(display-p3 0.5294 0.2824 0.7608)",
+          stopOpacity: 1
+        }} /><stop offset={0.654} stopColor="#7C80DE" style={{
+          stopColor: "color(display-p3 0.4863 0.5020 0.8706)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#4A306D" style={{
+          stopColor: "color(display-p3 0.2902 0.1882 0.4275)",
+          stopOpacity: 1
+        }} /></linearGradient><radialGradient id={instanceId + "-lobehub-color__paint30_radial_1_3407"} cx={0} cy={0} r={1} gradientUnits="userSpaceOnUse" gradientTransform="translate(32.0245 1588.08) rotate(90) scale(1.425)"><stop offset={0.62} stopColor="#58239F" style={{
+          stopColor: "color(display-p3 0.3451 0.1373 0.6235)",
+          stopOpacity: 1
+        }} /><stop offset={0.822} stopColor="#8E3FE9" style={{
+          stopColor: "color(display-p3 0.5569 0.2471 0.9137)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#AF6FEC" style={{
+          stopColor: "color(display-p3 0.6863 0.4353 0.9255)",
+          stopOpacity: 1
+        }} /></radialGradient><radialGradient id={instanceId + "-lobehub-color__paint31_radial_1_3407"} cx={0} cy={0} r={1} gradientUnits="userSpaceOnUse" gradientTransform="translate(29.2503 1601.2) rotate(90) scale(2.4)"><stop offset={0.62} stopColor="#C32F45" style={{
+          stopColor: "color(display-p3 0.7647 0.1843 0.2706)",
+          stopOpacity: 1
+        }} /><stop offset={0.822} stopColor="#F44341" style={{
+          stopColor: "color(display-p3 0.9569 0.2627 0.2549)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#FC9D9B" style={{
+          stopColor: "color(display-p3 0.9882 0.6157 0.6078)",
+          stopOpacity: 1
+        }} /></radialGradient><radialGradient id={instanceId + "-lobehub-color__paint32_radial_1_3407"} cx={0} cy={0} r={1} gradientUnits="userSpaceOnUse" gradientTransform="translate(60.9754 1592.43) rotate(90) scale(2.325 2.325)"><stop offset={0.385} stopColor="#4DA33C" style={{
+          stopColor: "color(display-p3 0.3020 0.6392 0.2353)",
+          stopOpacity: 1
+        }} /><stop offset={0.822} stopColor="#63ED47" style={{
+          stopColor: "color(display-p3 0.3882 0.9294 0.2784)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#70D775" style={{
+          stopColor: "color(display-p3 0.4392 0.8431 0.4588)",
+          stopOpacity: 1
+        }} /></radialGradient><radialGradient id={instanceId + "-lobehub-color__paint33_radial_1_3407"} cx={0} cy={0} r={1} gradientUnits="userSpaceOnUse" gradientTransform="translate(44.9999 1628.5) rotate(-90) scale(6.6 8.80001)"><stop stopColor="#FD9B8B" style={{
+          stopColor: "color(display-p3 0.9922 0.6078 0.5451)",
+          stopOpacity: 1
+        }} /><stop offset={0.5} stopColor="#F24F3A" style={{
+          stopColor: "color(display-p3 0.9490 0.3098 0.2275)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#D93318" style={{
+          stopColor: "color(display-p3 0.8510 0.2000 0.0941)",
+          stopOpacity: 1
+        }} /></radialGradient><radialGradient id={instanceId + "-lobehub-color__paint34_radial_1_3407"} cx={0} cy={0} r={1} gradientUnits="userSpaceOnUse" gradientTransform="translate(44.4 1601.5) rotate(-75.8542) scale(9.51348 12.7371)"><stop offset={0.26} stopColor="#FFC1A3" style={{
+          stopColor: "color(display-p3 1.0000 0.7569 0.6392)",
+          stopOpacity: 1
+        }} /><stop offset={0.764} stopColor="#FD82AB" style={{
+          stopColor: "color(display-p3 0.9922 0.5098 0.6706)",
+          stopOpacity: 1
+        }} /><stop offset={0.952} stopColor="#DF4FAA" style={{
+          stopColor: "color(display-p3 0.8745 0.3098 0.6667)",
+          stopOpacity: 1
+        }} /></radialGradient><radialGradient id={instanceId + "-lobehub-color__paint35_radial_1_3407"} cx={0} cy={0} r={1} gradientUnits="userSpaceOnUse" gradientTransform="translate(51.8253 1600.98) rotate(90) scale(2.025)"><stop offset={0.572} stopColor="#4C86D3" style={{
+          stopColor: "color(display-p3 0.2980 0.5255 0.8275)",
+          stopOpacity: 1
+        }} /><stop offset={0.822} stopColor="#72ADE2" style={{
+          stopColor: "color(display-p3 0.4471 0.6784 0.8863)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#90BBE3" style={{
+          stopColor: "color(display-p3 0.5647 0.7333 0.8902)",
+          stopOpacity: 1
+        }} /></radialGradient></defs></svg>;
+};
+const ForwardRef = forwardRef(LobehubColor);
+export default ForwardRef;

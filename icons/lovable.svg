@@ -1,19 +1,17 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=Lovable, Type=Color, Variant=Default">
-<g id="Lovable / Icon" clip-path="url(#clip0_436_4507)">
-<path id="Lovable / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M14.164 0C21.984 0 28.326 6.358 28.326 14.2V19.6H33.04C40.86 19.6 47.204 25.956 47.204 33.8C47.204 41.646 40.864 48 33.04 48H0V14.2C0 6.36 6.34 0 14.164 0Z" fill="url(#paint0_radial_436_4507)"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-157 -1449)"><g id="Name=Lovable, Type=Color, Variant=Default">
+<g id="Lovable / Icon" clip-path="url(#clip60_1_3407)">
+<path id="Lovable / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M171.164 1449C178.984 1449 185.326 1455.36 185.326 1463.2V1468.6H190.04C197.86 1468.6 204.204 1474.96 204.204 1482.8C204.204 1490.65 197.864 1497 190.04 1497H157V1463.2C157 1455.36 163.34 1449 171.164 1449Z" fill="url(#paint33_radial_1_3407)" />
 </g>
 </g>
-<defs>
-<radialGradient id="paint0_radial_436_4507" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28 6) rotate(92.5448) scale(45.0444 60.968)">
-<stop offset="0.25" stop-color="#FE7B02" style="stop-color:#FE7B02;stop-color:color(display-p3 0.9961 0.4824 0.0078);stop-opacity:1;"/>
-<stop offset="0.433" stop-color="#FE4230" style="stop-color:#FE4230;stop-color:color(display-p3 0.9961 0.2588 0.1882);stop-opacity:1;"/>
-<stop offset="0.548" stop-color="#FE529A" style="stop-color:#FE529A;stop-color:color(display-p3 0.9961 0.3216 0.6039);stop-opacity:1;"/>
-<stop offset="0.654" stop-color="#DD67EE" style="stop-color:#DD67EE;stop-color:color(display-p3 0.8667 0.4039 0.9333);stop-opacity:1;"/>
-<stop offset="0.95" stop-color="#4B73FF" style="stop-color:#4B73FF;stop-color:color(display-p3 0.2941 0.4510 1.0000);stop-opacity:1;"/>
-</radialGradient>
-<clipPath id="clip0_436_4507">
-<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;"/>
+</g><defs><clipPath id="clip60_1_3407">
+<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;" transform="translate(157 1449)" />
 </clipPath>
-</defs>
-</svg>
+<radialGradient id="paint33_radial_1_3407" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(185 1455) rotate(92.5448) scale(45.0444 60.968)">
+<stop offset="0.25" stop-color="#FE7B02" style="stop-color:#FE7B02;stop-color:color(display-p3 0.9961 0.4824 0.0078);stop-opacity:1;" />
+<stop offset="0.433" stop-color="#FE4230" style="stop-color:#FE4230;stop-color:color(display-p3 0.9961 0.2588 0.1882);stop-opacity:1;" />
+<stop offset="0.548" stop-color="#FE529A" style="stop-color:#FE529A;stop-color:color(display-p3 0.9961 0.3216 0.6039);stop-opacity:1;" />
+<stop offset="0.654" stop-color="#DD67EE" style="stop-color:#DD67EE;stop-color:color(display-p3 0.8667 0.4039 0.9333);stop-opacity:1;" />
+<stop offset="0.95" stop-color="#4B73FF" style="stop-color:#4B73FF;stop-color:color(display-p3 0.2941 0.4510 1.0000);stop-opacity:1;" />
+</radialGradient>
+</defs></svg>

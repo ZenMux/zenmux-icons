@@ -1,0 +1,35 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const NewApiColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-157 -1789)"><g id={instanceId + "-new-api-color__Name=New API, Type=Color, Variant=Default"}><g id={instanceId + "-new-api-color__New API / Icon"} clipPath={'url(#' + instanceId + "-new-api-color__clip55_1_3407)"}><path id={instanceId + "-new-api-color__New API / path 01"} d="M203.156 1821.68C202.144 1824.33 200.76 1826.72 198.922 1828.8C194.166 1834.2 188.174 1836.92 180.98 1837C180.962 1837 180.945 1836.99 180.932 1836.98C180.919 1836.97 180.909 1836.95 180.906 1836.93C180.903 1836.92 180.905 1836.9 180.912 1836.88C180.92 1836.87 180.933 1836.85 180.95 1836.85C184.722 1835.29 187.858 1832.9 190.2 1829.57C191.764 1827.36 192.869 1824.86 193.452 1822.21C193.886 1820.25 194.112 1818.3 194.016 1816.33C193.92 1814.29 193.712 1813.13 193.048 1811.2C192.276 1808.96 191.218 1806.88 189.794 1805.02C188.028 1802.71 186.042 1801.28 183.994 1799.46C182.004 1797.7 179.614 1794.22 181.876 1791.96C182.644 1791.19 183.87 1790.78 185.552 1790.71C190.508 1790.53 195.574 1793.99 198.746 1797.62C200.246 1799.34 201.506 1801.22 202.476 1803.29C203.448 1805.38 204.104 1807.54 204.432 1809.79C204.698 1811.62 204.666 1812.67 204.616 1814.52C204.539 1816.97 204.046 1819.39 203.156 1821.68Z" fill={'url(#' + instanceId + "-new-api-color__paint52_linear_1_3407)"} /><path id={instanceId + "-new-api-color__New API / path 02"} d="M180.72 1789.02C180.733 1789.03 180.742 1789.05 180.746 1789.07C180.749 1789.08 180.746 1789.1 180.738 1789.12C180.73 1789.13 180.718 1789.15 180.702 1789.15C176.928 1790.71 173.792 1793.1 171.45 1796.43C169.886 1798.64 168.78 1801.14 168.198 1803.79C167.764 1805.75 167.538 1807.7 167.632 1809.67C167.73 1811.71 167.94 1812.87 168.604 1814.8C169.374 1817.04 170.432 1819.12 171.856 1820.98C173.622 1823.28 175.608 1824.72 177.656 1826.54C179.646 1828.3 182.036 1831.78 179.774 1834.04C179.004 1834.81 177.78 1835.22 176.098 1835.29C171.142 1835.46 166.076 1832.01 162.904 1828.38C161.404 1826.66 160.144 1824.78 159.174 1822.7C158.207 1820.65 157.548 1818.46 157.218 1816.21C156.952 1814.38 156.984 1813.33 157.036 1811.48C157.104 1809.03 157.604 1806.65 158.496 1804.32C159.504 1801.67 160.89 1799.28 162.728 1797.2C167.482 1791.8 173.476 1789.08 180.67 1789C180.688 1789 180.708 1789.01 180.72 1789.02Z" fill={'url(#' + instanceId + "-new-api-color__paint53_linear_1_3407)"} /><path id={instanceId + "-new-api-color__New API / path 03"} d="M174.442 1812.81L179.352 1811.39L180.792 1806.43C180.8 1806.4 180.817 1806.38 180.84 1806.36C180.864 1806.34 180.892 1806.34 180.92 1806.34C180.949 1806.34 180.977 1806.35 181 1806.36C181.022 1806.38 181.039 1806.41 181.046 1806.43L182.206 1810.95C183.758 1811.83 185.506 1812.46 187.45 1812.87C187.465 1812.87 187.479 1812.88 187.49 1812.89C187.501 1812.9 187.51 1812.91 187.515 1812.93C187.521 1812.94 187.523 1812.96 187.521 1812.97C187.52 1812.99 187.514 1813 187.506 1813.02C187.494 1813.03 187.478 1813.05 187.458 1813.05L182.694 1814.47C182.643 1814.49 182.596 1814.52 182.558 1814.55C182.52 1814.59 182.492 1814.64 182.476 1814.69L181.036 1819.58C181.033 1819.59 181.025 1819.6 181.014 1819.61C181.003 1819.62 180.989 1819.63 180.974 1819.63C180.959 1819.63 180.944 1819.63 180.932 1819.62C180.919 1819.61 180.91 1819.6 180.906 1819.58L179.48 1814.79C179.463 1814.73 179.431 1814.68 179.386 1814.63C179.341 1814.59 179.285 1814.55 179.224 1814.54L174.444 1813.13C174.418 1813.12 174.395 1813.1 174.375 1813.09C174.356 1813.07 174.341 1813.04 174.333 1813.02C174.324 1812.99 174.322 1812.97 174.326 1812.94C174.33 1812.91 174.34 1812.89 174.356 1812.87C174.377 1812.84 174.408 1812.82 174.442 1812.81Z" fill={'url(#' + instanceId + "-new-api-color__paint54_linear_1_3407)"} /></g></g></g><defs><clipPath id={instanceId + "-new-api-color__clip55_1_3407"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(157 1789)" /></clipPath><linearGradient id={instanceId + "-new-api-color__paint52_linear_1_3407"} x1={192.778} y1={1790.71} x2={192.778} y2={1837} gradientUnits="userSpaceOnUse"><stop stopColor="#F85EAD" style={{
+          stopColor: "color(display-p3 0.9725 0.3686 0.6784)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#FD75FD" style={{
+          stopColor: "color(display-p3 0.9922 0.4588 0.9922)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-new-api-color__paint53_linear_1_3407"} x1={168.872} y1={1789} x2={168.872} y2={1835.29} gradientUnits="userSpaceOnUse"><stop offset={0.332} stopColor="#11F5EF" style={{
+          stopColor: "color(display-p3 0.0667 0.9608 0.9373)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#C738FB" style={{
+          stopColor: "color(display-p3 0.7804 0.2196 0.9843)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-new-api-color__paint54_linear_1_3407"} x1={180.922} y1={1806.33} x2={180.922} y2={1819.63} gradientUnits="userSpaceOnUse"><stop offset={0.332} stopColor="#11F5EF" style={{
+          stopColor: "color(display-p3 0.0667 0.9608 0.9373)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#C738FB" style={{
+          stopColor: "color(display-p3 0.7804 0.2196 0.9843)",
+          stopOpacity: 1
+        }} /></linearGradient></defs></svg>;
+};
+const ForwardRef = forwardRef(NewApiColor);
+export default ForwardRef;

@@ -8,16 +8,16 @@ const MoxtColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-moxt-color__Name=Moxt, Type=Color, Variant=Default"}><g id={instanceId + "-moxt-color__Moxt / Icon"} clipPath={'url(#' + instanceId + "-moxt-color__clip0_436_4609)"}><path id={instanceId + "-moxt-color__Moxt / path 01"} d="M24.0602 23.8721V36.3121L12.9542 30.1001L12.9502 17.6801L24.0642 23.8701L24.0602 23.8721Z" fill="#29C16A" style={{
-          fill: "color(display-p3 0.1608 0.7569 0.4157)",
-          fillOpacity: 1
-        }} /><path id={instanceId + "-moxt-color__Moxt / path 02"} fillRule="evenodd" clipRule="evenodd" d="M21.292 0.720001C22.1244 0.248848 23.0645 0.0012207 24.021 0.0012207C24.9775 0.0012207 25.9176 0.248848 26.75 0.720001L43.318 10.146C44.1272 10.5993 44.8017 11.2591 45.2729 12.058C45.744 12.8569 45.9949 13.7665 46 14.694V33.374C46 35.246 44.978 36.98 43.318 37.926L26.858 47.282C26.0263 47.7527 25.0869 48.0003 24.1313 48.0006C23.1756 48.001 22.2361 47.7541 21.404 47.284L4.684 37.794C3.87385 37.3406 3.19853 36.6804 2.72699 35.8806C2.25545 35.0809 2.00458 34.1704 2 33.242V24.136L2.002 24.132H2V14.72C2 12.848 3.02 11.114 4.68 10.168L21.292 0.720001ZM25.056 8.96C24.7464 8.78472 24.3967 8.69259 24.041 8.69259C23.6853 8.69259 23.3356 8.78472 23.026 8.96L11.224 15.676C10.9232 15.8447 10.6725 16.0903 10.4975 16.3875C10.3225 16.6847 10.2295 17.0231 10.228 17.368V30.654C10.228 31.352 10.608 31.996 11.226 32.346L22.992 39.044C23.3003 39.2184 23.6483 39.3105 24.0025 39.3112C24.3567 39.3119 24.7051 39.2212 25.014 39.048L36.764 32.436C37.067 32.2679 37.3199 32.0222 37.4966 31.7242C37.6734 31.4262 37.7678 31.0865 37.77 30.74V17.32C37.77 16.622 37.39 15.978 36.77 15.626L25.056 8.964V8.96Z" fill="#29C16A" style={{
-          fill: "color(display-p3 0.1608 0.7569 0.4157)",
-          fillOpacity: 1
-        }} /></g></g><defs><clipPath id={instanceId + "-moxt-color__clip0_436_4609"}><rect width={48} height={48} fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -1789)"><g id={instanceId + "-moxt-color__Name=Moxt, Type=Color, Variant=Default"}><g id={instanceId + "-moxt-color__Moxt / Icon"} clipPath={'url(#' + instanceId + "-moxt-color__clip83_1_3407)"}><path id={instanceId + "-moxt-color__Moxt / path 01"} d="M45.0602 1812.87V1825.31L33.9542 1819.1L33.9502 1806.68L45.0642 1812.87L45.0602 1812.87Z" fill="#29C16A" style={{
+            fill: "color(display-p3 0.1608 0.7569 0.4157)",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-moxt-color__Moxt / path 02"} fillRule="evenodd" clipRule="evenodd" d="M42.292 1789.72C43.1244 1789.25 44.0645 1789 45.021 1789C45.9775 1789 46.9176 1789.25 47.75 1789.72L64.318 1799.15C65.1272 1799.6 65.8017 1800.26 66.2729 1801.06C66.744 1801.86 66.9949 1802.77 67 1803.69V1822.37C67 1824.25 65.978 1825.98 64.318 1826.93L47.858 1836.28C47.0263 1836.75 46.0869 1837 45.1313 1837C44.1756 1837 43.2361 1836.75 42.404 1836.28L25.684 1826.79C24.8738 1826.34 24.1985 1825.68 23.727 1824.88C23.2554 1824.08 23.0046 1823.17 23 1822.24V1813.14L23.002 1813.13H23V1803.72C23 1801.85 24.02 1800.11 25.68 1799.17L42.292 1789.72ZM46.056 1797.96C45.7464 1797.78 45.3967 1797.69 45.041 1797.69C44.6853 1797.69 44.3356 1797.78 44.026 1797.96L32.224 1804.68C31.9232 1804.84 31.6725 1805.09 31.4975 1805.39C31.3225 1805.68 31.2295 1806.02 31.228 1806.37V1819.65C31.228 1820.35 31.608 1821 32.226 1821.35L43.992 1828.04C44.3003 1828.22 44.6483 1828.31 45.0025 1828.31C45.3567 1828.31 45.7051 1828.22 46.014 1828.05L57.764 1821.44C58.067 1821.27 58.3199 1821.02 58.4966 1820.72C58.6734 1820.43 58.7678 1820.09 58.77 1819.74V1806.32C58.77 1805.62 58.39 1804.98 57.77 1804.63L46.056 1797.96V1797.96Z" fill="#29C16A" style={{
+            fill: "color(display-p3 0.1608 0.7569 0.4157)",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-moxt-color__clip83_1_3407"}><rect width={48} height={48} fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} transform="translate(21 1789)" /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(MoxtColor);
 export default ForwardRef;

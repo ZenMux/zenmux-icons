@@ -8,7 +8,13 @@ const DreamMachineLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-dream-machine-light__Name=Dream Machine, Type=Dark, Variant=Default"}><g id={instanceId + "-dream-machine-light__Dream Machine / Icon"}><path id={instanceId + "-dream-machine-light__Dream Machine / path 01"} fillRule="evenodd" clipRule="evenodd" d="M24.786 48L4 35.996L24.786 23.996L45.57 35.996L24.784 47.996L24.786 48Z" fill="#000000" fillOpacity={0.66} /><path id={instanceId + "-dream-machine-light__Dream Machine / path 02"} fillRule="evenodd" clipRule="evenodd" d="M4 11.998L24.786 0V48L4 36V11.998Z" fill="#000000" fillOpacity={0.66} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -701)"><g id={instanceId + "-dream-machine-light__Name=Dream Machine, Type=Dark, Variant=Default"}><g id={instanceId + "-dream-machine-light__Dream Machine / Icon_2"}><path id={instanceId + "-dream-machine-light__Dream Machine / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M385.786 749L365 736.996L385.786 724.996L406.57 736.996L385.784 748.996L385.786 749Z" fill="#000000" fillOpacity={0.66} style={{
+            fill: "#000000",
+            fillOpacity: 0.66
+          }} /><path id={instanceId + "-dream-machine-light__Dream Machine / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M365 712.998L385.786 701V749L365 737V712.998Z" fill="#000000" fillOpacity={0.66} style={{
+            fill: "#000000",
+            fillOpacity: 0.66
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(DreamMachineLight);
 export default ForwardRef;

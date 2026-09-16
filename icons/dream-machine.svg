@@ -1,8 +1,8 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=Dream Machine, Type=Color, Variant=Default">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-293 -701)"><g id="Name=Dream Machine, Type=Color, Variant=Default">
 <g id="Dream Machine / Icon">
-<path id="Dream Machine / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M24.786 48L4 35.996L24.786 23.996L45.57 35.996L24.784 47.996L24.786 48Z" fill="black" fill-opacity="0.66" style="fill:black;fill-opacity:0.66;"/>
-<path id="Dream Machine / path 02" fill-rule="evenodd" clip-rule="evenodd" d="M4 11.998L24.786 0V48L4 36V11.998Z" fill="black" fill-opacity="0.66" style="fill:black;fill-opacity:0.66;"/>
+<path id="Dream Machine / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M317.786 749L297 736.996L317.786 724.996L338.57 736.996L317.784 748.996L317.786 749Z" fill="black" fill-opacity="0.66" style="fill:black;fill-opacity:0.66;" />
+<path id="Dream Machine / path 02" fill-rule="evenodd" clip-rule="evenodd" d="M297 712.998L317.786 701V749L297 737V712.998Z" fill="black" fill-opacity="0.66" style="fill:black;fill-opacity:0.66;" />
 </g>
 </g>
-</svg>
+</g></svg>

@@ -8,13 +8,16 @@ const MonicaColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-monica-color__Name=Monica, Type=Color, Variant=Default"}><g id={instanceId + "-monica-color__Monica / Icon"} clipPath={'url(#' + instanceId + "-monica-color__clip0_436_4601)"}><path id={instanceId + "-monica-color__Monica / path 01"} d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill={'url(#' + instanceId + "-monica-color__paint0_linear_436_4601)"} /><path id={instanceId + "-monica-color__Monica / path 02"} d="M24 40.876C34.7696 40.876 43.5 33.3204 43.5 24C43.5 14.6797 34.7696 7.12402 24 7.12402C13.2304 7.12402 4.5 14.6797 4.5 24C4.5 33.3204 13.2304 40.876 24 40.876Z" fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-293 -1721)"><g id={instanceId + "-monica-color__Name=Monica, Type=Color, Variant=Default"}><g id={instanceId + "-monica-color__Monica / Icon"} clipPath={'url(#' + instanceId + "-monica-color__clip81_1_3407)"}><path id={instanceId + "-monica-color__Monica / path 01"} d="M317 1769C330.255 1769 341 1758.25 341 1745C341 1731.75 330.255 1721 317 1721C303.745 1721 293 1731.75 293 1745C293 1758.25 303.745 1769 317 1769Z" fill={'url(#' + instanceId + "-monica-color__paint58_linear_1_3407)"} /><path id={instanceId + "-monica-color__Monica / path 02"} d="M317 1761.88C327.77 1761.88 336.5 1754.32 336.5 1745C336.5 1735.68 327.77 1728.12 317 1728.12C306.23 1728.12 297.5 1735.68 297.5 1745C297.5 1754.32 306.23 1761.88 317 1761.88Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-monica-color__Monica / path 03"} d="M325.414 1741.39C325.59 1741.2 325.802 1741.05 326.037 1740.95C326.272 1740.84 326.526 1740.79 326.783 1740.79C327.04 1740.78 327.296 1740.83 327.534 1740.93C327.772 1741.02 327.989 1741.17 328.17 1741.35C328.352 1741.53 328.496 1741.75 328.592 1741.98C328.689 1742.22 328.737 1742.48 328.733 1742.73C328.729 1742.99 328.673 1743.25 328.569 1743.48C328.465 1743.72 328.315 1743.93 328.128 1744.1L325.9 1746.33L328.846 1748.03C329.071 1748.15 329.27 1748.32 329.43 1748.52C329.59 1748.72 329.708 1748.95 329.778 1749.2C329.847 1749.45 329.867 1749.7 329.835 1749.96C329.803 1750.21 329.721 1750.46 329.592 1750.68C329.464 1750.9 329.293 1751.1 329.088 1751.25C328.884 1751.41 328.65 1751.52 328.402 1751.58C328.153 1751.64 327.895 1751.66 327.641 1751.62C327.388 1751.58 327.145 1751.49 326.926 1751.36L322.038 1748.53C321.989 1748.51 321.941 1748.47 321.894 1748.44C321.627 1748.3 321.397 1748.1 321.222 1747.86C321.047 1747.61 320.931 1747.33 320.886 1747.03C320.84 1746.73 320.864 1746.43 320.957 1746.14C321.051 1745.86 321.21 1745.6 321.422 1745.38L325.414 1741.39ZM308.376 1740.87C307.58 1740.87 306.817 1741.19 306.255 1741.75C305.692 1742.32 305.376 1743.08 305.376 1743.87V1748.37C305.376 1749.17 305.692 1749.93 306.255 1750.5C306.817 1751.06 307.58 1751.37 308.376 1751.37C309.172 1751.37 309.935 1751.06 310.497 1750.5C311.06 1749.93 311.376 1749.17 311.376 1748.37V1743.87C311.376 1743.08 311.06 1742.32 310.497 1741.75C309.935 1741.19 309.172 1740.87 308.376 1740.87Z" fill="#1E1E1E" style={{
+            fill: "color(display-p3 0.1176 0.1176 0.1176)",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-monica-color__clip81_1_3407"}><rect width={48} height={48} fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} /><path id={instanceId + "-monica-color__Monica / path 03"} d="M32.414 20.39C32.5901 20.2027 32.802 20.0526 33.0373 19.9488C33.2725 19.8449 33.5261 19.7893 33.7832 19.7854C34.0403 19.7814 34.2956 19.8291 34.5339 19.9257C34.7722 20.0223 34.9887 20.1657 35.1705 20.3475C35.3523 20.5293 35.4957 20.7458 35.5923 20.9841C35.6888 21.2224 35.7366 21.4777 35.7326 21.7347C35.7286 21.9918 35.6731 22.2455 35.5692 22.4807C35.4653 22.7159 35.3153 22.9279 35.128 23.104L32.9 25.332L35.846 27.032C36.0713 27.1544 36.2698 27.3206 36.4299 27.5209C36.5899 27.7212 36.7082 27.9516 36.7777 28.1983C36.8473 28.4451 36.8667 28.7033 36.8349 28.9577C36.803 29.2121 36.7206 29.4576 36.5923 29.6796C36.4641 29.9016 36.2927 30.0957 36.0882 30.2504C35.8838 30.4051 35.6504 30.5173 35.4019 30.5803C35.1533 30.6434 34.8947 30.656 34.6412 30.6175C34.3877 30.579 34.1445 30.49 33.926 30.356L29.038 27.534C28.9887 27.5054 28.9406 27.4747 28.894 27.442C28.6272 27.3022 28.3969 27.1017 28.2218 26.8566C28.0466 26.6116 27.9315 26.3288 27.8856 26.0311C27.8396 25.7335 27.8643 25.4291 27.9574 25.1427C28.0506 24.8563 28.2097 24.5957 28.422 24.382L32.414 20.39ZM15.376 19.874C14.5803 19.874 13.8173 20.1901 13.2547 20.7527C12.692 21.3153 12.376 22.0784 12.376 22.874V27.374C12.376 28.1697 12.692 28.9327 13.2547 29.4953C13.8173 30.0579 14.5803 30.374 15.376 30.374C16.1716 30.374 16.9347 30.0579 17.4973 29.4953C18.0599 28.9327 18.376 28.1697 18.376 27.374V22.874C18.376 22.0784 18.0599 21.3153 17.4973 20.7527C16.9347 20.1901 16.1716 19.874 15.376 19.874Z" fill="#1E1E1E" style={{
-          fill: "color(display-p3 0.1176 0.1176 0.1176)",
-          fillOpacity: 1
-        }} /></g></g><defs><linearGradient id={instanceId + "-monica-color__paint0_linear_436_4601"} x1={0} y1={24.562} x2={48} y2={24.562} gradientUnits="userSpaceOnUse"><stop stopColor="#A83FE0" style={{
+        }} transform="translate(293 1721)" /></clipPath><linearGradient id={instanceId + "-monica-color__paint58_linear_1_3407"} x1={293} y1={1745.56} x2={341} y2={1745.56} gradientUnits="userSpaceOnUse"><stop stopColor="#A83FE0" style={{
           stopColor: "color(display-p3 0.6588 0.2471 0.8784)",
           stopOpacity: 1
         }} /><stop offset={0.477} stopColor="#515FFB" style={{
@@ -23,10 +26,7 @@ const MonicaColor = ({
         }} /><stop offset={1} stopColor="#2BB5DD" style={{
           stopColor: "color(display-p3 0.1686 0.7098 0.8667)",
           stopOpacity: 1
-        }} /></linearGradient><clipPath id={instanceId + "-monica-color__clip0_436_4601"}><rect width={48} height={48} fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} /></linearGradient></defs></svg>;
 };
 const ForwardRef = forwardRef(MonicaColor);
 export default ForwardRef;

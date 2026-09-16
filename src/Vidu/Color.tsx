@@ -8,7 +8,10 @@ const ViduColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-vidu-color__Name=Vidu, Type=Color, Variant=Default"}><g id={instanceId + "-vidu-color__Vidu / Icon"} clipPath={'url(#' + instanceId + "-vidu-color__clip0_436_4871)"}><path id={instanceId + "-vidu-color__Vidu / path 01"} d="M41.2138 4.4941C35.3798 2.5621 30.3618 6.6621 29.1918 10.4141C29.1918 10.4141 24.9818 23.9341 23.1878 29.5741C22.3318 32.2661 20.2098 36.6701 16.2138 36.6701C12.9598 36.6701 11.2878 33.6161 10.5818 31.7961L5.72982 18.8621C5.16782 17.5001 5.75582 14.7821 8.00982 13.9681C10.4178 13.1041 11.9658 15.1181 12.3658 16.1881L18.4098 31.6681C19.8498 29.8121 20.7658 26.7921 21.3618 24.6541L17.3938 14.2341C15.5118 9.3721 10.5338 7.1601 5.92382 8.8601C2.18982 10.2361 -1.40418 14.9481 0.549816 20.8701L5.55782 33.7501C6.31782 35.7021 9.31982 42.0761 16.1078 42.0761C24.2538 42.0761 27.3098 35.1301 29.0058 29.6401C29.8538 26.8941 34.5038 12.0461 34.5038 12.0461C35.1798 9.8281 37.9238 9.1901 39.6398 9.7501C40.8498 10.1421 43.0358 11.8121 42.3298 14.4001C42.1978 14.8721 38.4898 26.8181 37.1218 30.4521C36.4078 32.3481 34.5978 36.4641 30.4738 35.8921C29.2178 38.6721 28.1738 40.2901 26.5938 41.7421C31.7378 44.1781 39.2338 41.7241 42.3898 32.1901C43.5618 28.6441 47.6778 15.8581 47.6778 15.8581C48.8738 11.9321 46.7398 6.3221 41.2138 4.4941Z" fill={'url(#' + instanceId + "-vidu-color__paint0_linear_436_4871)"} /></g></g><defs><linearGradient id={instanceId + "-vidu-color__paint0_linear_436_4871"} x1={1.51782} y1={11.2741} x2={52.3098} y2={34.6221} gradientUnits="userSpaceOnUse"><stop stopColor="#40EDD8" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-157 -2673)"><g id={instanceId + "-vidu-color__Name=Vidu, Type=Color, Variant=Default"}><g id={instanceId + "-vidu-color__Vidu / Icon"} clipPath={'url(#' + instanceId + "-vidu-color__clip113_1_3407)"}><path id={instanceId + "-vidu-color__Vidu / path 01"} d="M198.214 2677.49C192.38 2675.56 187.362 2679.66 186.192 2683.41C186.192 2683.41 181.982 2696.93 180.188 2702.57C179.332 2705.27 177.21 2709.67 173.214 2709.67C169.96 2709.67 168.288 2706.62 167.582 2704.8L162.73 2691.86C162.168 2690.5 162.756 2687.78 165.01 2686.97C167.418 2686.1 168.966 2688.12 169.366 2689.19L175.41 2704.67C176.85 2702.81 177.766 2699.79 178.362 2697.65L174.394 2687.23C172.512 2682.37 167.534 2680.16 162.924 2681.86C159.19 2683.24 155.596 2687.95 157.55 2693.87L162.558 2706.75C163.318 2708.7 166.32 2715.08 173.108 2715.08C181.254 2715.08 184.31 2708.13 186.006 2702.64C186.854 2699.89 191.504 2685.05 191.504 2685.05C192.18 2682.83 194.924 2682.19 196.64 2682.75C197.85 2683.14 200.036 2684.81 199.33 2687.4C199.198 2687.87 195.49 2699.82 194.122 2703.45C193.408 2705.35 191.598 2709.46 187.474 2708.89C186.218 2711.67 185.174 2713.29 183.594 2714.74C188.738 2717.18 196.234 2714.72 199.39 2705.19C200.562 2701.64 204.678 2688.86 204.678 2688.86C205.874 2684.93 203.74 2679.32 198.214 2677.49Z" fill={'url(#' + instanceId + "-vidu-color__paint71_linear_1_3407)"} /></g></g></g><defs><clipPath id={instanceId + "-vidu-color__clip113_1_3407"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(157 2673)" /></clipPath><linearGradient id={instanceId + "-vidu-color__paint71_linear_1_3407"} x1={158.518} y1={2684.27} x2={209.31} y2={2707.62} gradientUnits="userSpaceOnUse"><stop stopColor="#40EDD8" style={{
           stopColor: "color(display-p3 0.2510 0.9294 0.8471)",
           stopOpacity: 1
         }} /><stop offset={0.024} stopColor="#38E7E2" style={{
@@ -29,10 +32,7 @@ const ViduColor = ({
         }} /><stop offset={0.909} stopColor="#047FFE" style={{
           stopColor: "color(display-p3 0.0157 0.4980 0.9961)",
           stopOpacity: 1
-        }} /></linearGradient><clipPath id={instanceId + "-vidu-color__clip0_436_4871"}><rect width={48} height={48} fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} /></linearGradient></defs></svg>;
 };
 const ForwardRef = forwardRef(ViduColor);
 export default ForwardRef;

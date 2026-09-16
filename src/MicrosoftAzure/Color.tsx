@@ -1,0 +1,44 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const MicrosoftAzureColor = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-157 -1653)"><g id={instanceId + "-microsoft-azure-color__Name=Microsoft Azure, Type=Color, Variant=Default"}><g id={instanceId + "-microsoft-azure-color__Microsoft Azure / Icon"}><path id={instanceId + "-microsoft-azure-color__Microsoft Azure / path 01"} d="M171.484 1656.23C171.632 1655.79 171.916 1655.4 172.293 1655.13C172.671 1654.86 173.125 1654.71 173.59 1654.71H187.544L173.06 1697.63C172.911 1698.07 172.629 1698.45 172.251 1698.73C171.874 1699 171.421 1699.14 170.956 1699.14H160.096C159.743 1699.14 159.395 1699.06 159.081 1698.9C158.767 1698.74 158.496 1698.5 158.29 1698.22C158.084 1697.93 157.949 1697.6 157.897 1697.25C157.845 1696.9 157.877 1696.54 157.99 1696.21L171.484 1656.23Z" fill={'url(#' + instanceId + "-microsoft-azure-color__paint49_linear_1_3407)"} /><path id={instanceId + "-microsoft-azure-color__Microsoft Azure / path 02"} d="M193.794 1683.59H171.8C171.596 1683.59 171.396 1683.65 171.228 1683.77C171.059 1683.89 170.929 1684.05 170.855 1684.24C170.78 1684.43 170.764 1684.64 170.809 1684.84C170.853 1685.04 170.957 1685.22 171.106 1685.36L185.238 1698.55C185.65 1698.93 186.192 1699.14 186.754 1699.14H199.206L193.794 1683.59Z" fill="#0078D4" style={{
+            fill: "color(display-p3 0.0000 0.4706 0.8314)",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-microsoft-azure-color__Microsoft Azure / path 03"} d="M187.544 1654.71H171.994L157 1699.14H172.55L175.742 1689.68L185.878 1699.14H199.208L193.794 1683.59H177.798L187.544 1654.71Z" fill={'url(#' + instanceId + "-microsoft-azure-color__paint50_linear_1_3407)"} /><path id={instanceId + "-microsoft-azure-color__Microsoft Azure / path 04"} d="M191.386 1656.23C191.238 1655.79 190.955 1655.4 190.578 1655.13C190.2 1654.86 189.747 1654.71 189.282 1654.71H173.662H173.732C174.686 1654.71 175.532 1655.32 175.836 1656.23L189.332 1696.21C189.445 1696.54 189.477 1696.9 189.425 1697.25C189.373 1697.6 189.239 1697.93 189.033 1698.22C188.827 1698.5 188.556 1698.74 188.242 1698.9C187.929 1699.06 187.581 1699.14 187.228 1699.14H186.988H202.778C203.131 1699.14 203.479 1699.06 203.792 1698.9C204.106 1698.74 204.377 1698.5 204.583 1698.22C204.789 1697.93 204.923 1697.6 204.975 1697.25C205.027 1696.9 204.995 1696.54 204.882 1696.21L191.386 1656.23Z" fill={'url(#' + instanceId + "-microsoft-azure-color__paint51_linear_1_3407)"} /></g></g></g><defs><linearGradient id={instanceId + "-microsoft-azure-color__paint49_linear_1_3407"} x1={173.494} y1={1656.25} x2={159.004} y2={1699.06} gradientUnits="userSpaceOnUse"><stop stopColor="#114A8B" style={{
+          stopColor: "color(display-p3 0.0667 0.2902 0.5451)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#0669BC" style={{
+          stopColor: "color(display-p3 0.0235 0.4118 0.7373)",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-microsoft-azure-color__paint50_linear_1_3407"} x1={185.084} y1={1683.6} x2={181.648} y2={1684.78} gradientUnits="userSpaceOnUse"><stop stopOpacity={0.3} style={{
+          stopColor: "black",
+          stopOpacity: 0.3
+        }} /><stop offset={0.071} stopOpacity={0.2} style={{
+          stopColor: "black",
+          stopOpacity: 0.2
+        }} /><stop offset={0.321} stopOpacity={0.1} style={{
+          stopColor: "black",
+          stopOpacity: 0.1
+        }} /><stop offset={0.623} stopOpacity={0.05} style={{
+          stopColor: "black",
+          stopOpacity: 0.05
+        }} /><stop offset={1} stopOpacity={0} style={{
+          stopColor: "none",
+          stopOpacity: 0
+        }} /></linearGradient><linearGradient id={instanceId + "-microsoft-azure-color__paint51_linear_1_3407"} x1={182.682} y1={1656.25} x2={198.586} y2={1698.63} gradientUnits="userSpaceOnUse"><stop stopColor="#3CCBF4" style={{
+          stopColor: "color(display-p3 0.2353 0.7961 0.9569)",
+          stopOpacity: 1
+        }} /><stop offset={1} stopColor="#2892DF" style={{
+          stopColor: "color(display-p3 0.1569 0.5725 0.8745)",
+          stopOpacity: 1
+        }} /></linearGradient></defs></svg>;
+};
+const ForwardRef = forwardRef(MicrosoftAzureColor);
+export default ForwardRef;

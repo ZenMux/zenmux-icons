@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-157 -769)"><g id="Name=Civitai, Type=Color, Variant=Default">
+<g id="Civitai / Icon">
+<path id="Civitai / path 01" d="M181 769L201.784 781V805L181 817L160.216 805V781L181 769Z" fill="url(#paint19_linear_1_3407)" />
+<path id="Civitai / path 02" d="M181 776.868L194.97 784.934V801.066L181 809.13L167.03 801.066V784.934L181 776.868Z" fill="url(#paint20_linear_1_3407)" />
+<path id="Civitai / path 03" fill-rule="evenodd" clip-rule="evenodd" d="M181 782.77L189.86 787.886V790.64H185.088L181 788.28L176.912 790.64V795.36L181 797.72L185.088 795.36H189.86V798.114L181 803.23L172.14 798.114V787.886L181 782.77Z" fill="white" style="fill:white;fill-opacity:1;" />
+</g>
+</g>
+</g><defs><linearGradient id="paint19_linear_1_3407" x1="181" y1="769" x2="181" y2="817" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1281F4" style="stop-color:#1281F4;stop-color:color(display-p3 0.0706 0.5059 0.9569);stop-opacity:1;" />
+<stop offset="1" stop-color="#0821C6" style="stop-color:#0821C6;stop-color:color(display-p3 0.0314 0.1294 0.7765);stop-opacity:1;" />
+</linearGradient>
+<linearGradient id="paint20_linear_1_3407" x1="181" y1="776.868" x2="181" y2="809.132" gradientUnits="userSpaceOnUse">
+<stop stop-color="#09138A" style="stop-color:#09138A;stop-color:color(display-p3 0.0353 0.0745 0.5412);stop-opacity:1;" />
+<stop offset="1" stop-color="#150740" style="stop-color:#150740;stop-color:color(display-p3 0.0824 0.0275 0.2510);stop-opacity:1;" />
+</linearGradient>
+</defs></svg>

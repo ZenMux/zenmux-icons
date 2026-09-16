@@ -1,1172 +1,3222 @@
 [
   {
+    "id": "ace",
+    "name": "ACE",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
     "id": "adobe",
     "name": "Adobe",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "adobe-firefly",
     "name": "Adobe Firefly",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "ag-ui",
     "name": "AG-UI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "agentvoice",
+    "name": "AgentVoice",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "agnes-ai",
     "name": "Agnes AI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "ai2",
+    "name": "Ai2",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "ai21-labs",
+    "name": "AI21 Labs",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "aihubmix",
+    "name": "AiHubMix",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "aimass",
+    "name": "AiMass",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "aionlabs",
+    "name": "AionLabs",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "airjelly",
     "name": "AirJelly",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "akashchat",
+    "name": "AkashChat",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "aleph-alpha",
+    "name": "Aleph Alpha",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "alibaba-cloud",
+    "name": "Alibaba Cloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "amazon-bedrock",
+    "name": "Amazon Bedrock",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "amazon-nova",
+    "name": "Amazon Nova",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "amp",
     "name": "Amp",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "anspire",
+    "name": "Anspire",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "ant-group",
+    "name": "Ant Group",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "antigravity",
     "name": "Antigravity",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "anyscale",
+    "name": "Anyscale",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "apertis",
+    "name": "Apertis",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "arcee",
+    "name": "Arcee",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "askverdict",
     "name": "AskVerdict",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "assemblyai",
+    "name": "AssemblyAI",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "atlas-cloud",
+    "name": "Atlas Cloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "automatic1111",
     "name": "AUTOMATIC1111",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "aya",
+    "name": "Aya",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "azure-ai",
+    "name": "Azure AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "baai",
+    "name": "BAAI",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "baichuan",
+    "name": "Baichuan",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "baidu-ai-cloud",
+    "name": "Baidu AI Cloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "bailian",
+    "name": "Bailian",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "baseten",
+    "name": "Baseten",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "bilibili",
+    "name": "Bilibili",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "bilibili-index",
+    "name": "Bilibili Index",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "black-forest-labs",
+    "name": "Black Forest Labs",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "bocha",
+    "name": "Bocha",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "brave",
+    "name": "Brave",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "bria-ai",
+    "name": "BRIA AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "browserless",
+    "name": "Browserless",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "burncloud",
+    "name": "BurnCloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "capcut",
     "name": "CapCut",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "celestoai",
     "name": "CelestoAI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "centml",
+    "name": "CentML",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "chatglm",
+    "name": "ChatGLM",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "cherry-studio",
     "name": "Cherry Studio",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "civitai",
+    "name": "Civitai",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "claude-code",
     "name": "Claude Code",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "cline",
     "name": "Cline",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "clipdrop",
     "name": "Clipdrop",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "codebuddy",
     "name": "CodeBuddy",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "codeflicker",
     "name": "CodeFlicker",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "codegeex",
+    "name": "CodeGeeX",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "codex",
+    "name": "Codex",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "cogvideo",
+    "name": "CogVideo",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "cogview",
+    "name": "CogView",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "colab",
     "name": "Colab",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "comet-api",
+    "name": "Comet API",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "comfyui",
     "name": "ComfyUI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "command-a",
+    "name": "Command A",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "copilotkit",
     "name": "CopilotKit",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "coqui",
     "name": "Coqui",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "coze",
     "name": "Coze",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "crewai",
     "name": "CrewAI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "crusoe",
+    "name": "Crusoe",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "cursor",
     "name": "Cursor",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "cybercut",
     "name": "CyberCut",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "dalle",
+    "name": "DALL·E",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "dbrx",
+    "name": "DBRX",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "deep-cogito",
+    "name": "Deep Cogito",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "deepai",
     "name": "DeepAI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "deepinfra",
+    "name": "DeepInfra",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "deepl",
     "name": "DeepL",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "deepmind",
+    "name": "DeepMind",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "devin",
     "name": "Devin",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "dify",
     "name": "Dify",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "doc2x",
     "name": "Doc2X",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "docsearch",
     "name": "DocSearch",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "doubao",
+    "name": "Doubao",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "dream-machine",
     "name": "Dream Machine",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "essential-ai",
+    "name": "Essential AI",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "exa",
+    "name": "Exa",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "fal-ai",
+    "name": "fal.ai",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "fastgpt",
     "name": "FastGPT",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "featherless-ai",
+    "name": "Featherless.ai",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "figma",
     "name": "Figma",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "firecrawl",
     "name": "Firecrawl",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "fishaudio",
+    "name": "FishAudio",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "flora",
     "name": "Flora",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "flowith",
     "name": "Flowith",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "flux",
+    "name": "FLUX",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "friendli",
+    "name": "Friendli",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "gemini-cli",
     "name": "Gemini CLI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "gemma",
+    "name": "Gemma",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "giteeai",
+    "name": "GiteeAI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "github-copilot",
     "name": "GitHub Copilot",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "glama",
     "name": "Glama",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "glif",
     "name": "Glif",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": false
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "glm-v",
+    "name": "GLM-V",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": false,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "google-ai-studio",
+    "name": "Google AI Studio",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "google-cloud",
+    "name": "Google Cloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": false,
+    "symbolTheme": "dark"
   },
   {
     "id": "goose",
     "name": "Goose",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "gradio",
     "name": "Gradio",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "greptile",
     "name": "Greptile",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "hailuo",
     "name": "Hailuo",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "haiper",
     "name": "Haiper",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "happyhorse",
+    "name": "HappyHorse",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "hedra",
     "name": "Hedra",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "hermes-agent",
     "name": "Hermes Agent",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "higress",
+    "name": "Higress",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "huawei",
+    "name": "Huawei",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "huawei-cloud",
+    "name": "Huawei Cloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "hunyuan",
+    "name": "Hunyuan",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "hyperbolic",
+    "name": "Hyperbolic",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "icon-01-ai",
+    "name": "01.AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "icon-11x",
     "name": "11x",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "icon-302-ai",
+    "name": "302.AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "icon-360-ai",
+    "name": "360 AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "ideogram",
     "name": "Ideogram",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "iflytek-cloud",
+    "name": "iFlytek Cloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "inception-labs",
+    "name": "Inception Labs",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "inference",
+    "name": "Inference",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "infermatic",
+    "name": "Infermatic",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "infinigence",
+    "name": "Infinigence",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "inflection",
+    "name": "Inflection",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "internlm",
+    "name": "InternLM",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "jimeng",
     "name": "Jimeng",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "jina-ai",
+    "name": "Jina AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "junie",
     "name": "Junie",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "kagi",
+    "name": "Kagi",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "kilo-code",
     "name": "Kilo Code",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "kimi",
     "name": "Kimi",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "kiro",
     "name": "Kiro",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "kling",
     "name": "Kling",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "kluster",
+    "name": "Kluster",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "kolors",
+    "name": "Kolors",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "krea",
     "name": "Krea",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "kwaikat",
+    "name": "KwaiKAT",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "kwaipilot",
+    "name": "Kwaipilot",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "lambda",
+    "name": "Lambda",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "langchain",
     "name": "LangChain",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "langfuse",
     "name": "Langfuse",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "langgraph",
     "name": "LangGraph",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": false
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "langsmith",
     "name": "LangSmith",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": false
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "leptonai",
+    "name": "LeptonAI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "lg-ai",
+    "name": "LG AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "lightricks",
     "name": "Lightricks",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "liquid",
+    "name": "Liquid",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "livekit",
     "name": "LiveKit",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "llamaindex",
     "name": "LlamaIndex",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "llava",
+    "name": "LLaVA",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "llm-api",
+    "name": "LLM API",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "lm-studio",
+    "name": "LM Studio",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "lobehub",
+    "name": "LobeHub",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "longcat",
+    "name": "LongCat",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "lovable",
     "name": "Lovable",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "lovart",
     "name": "Lovart",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "luma",
     "name": "Luma",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "magic",
+    "name": "Magic",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "make",
     "name": "Make",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "manus",
     "name": "Manus",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "mastra",
     "name": "Mastra",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "mcp",
     "name": "MCP",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "mcp-so",
     "name": "MCP.so",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "menlo",
+    "name": "MENLO",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "meshy",
+    "name": "Meshy",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "meta-ai",
     "name": "Meta AI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "metagpt",
     "name": "MetaGPT",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "microsoft-azure",
+    "name": "Microsoft Azure",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "microsoft-bing",
     "name": "Microsoft Bing",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "microsoft-copilot",
     "name": "Microsoft Copilot",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "midjourney",
     "name": "Midjourney",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "modelscope",
+    "name": "ModelScope",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "monica",
     "name": "Monica",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "moonshot-ai",
+    "name": "Moonshot AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "morph",
+    "name": "Morph",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "moxt",
     "name": "Moxt",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "myshell",
     "name": "MyShell",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "n8n",
     "name": "n8n",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "nano-banana",
+    "name": "Nano Banana",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "nebius",
+    "name": "Nebius",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "new-api",
+    "name": "New API",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "notebooklm",
     "name": "NotebookLM",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "notion",
     "name": "Notion",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "nous-research",
+    "name": "Nous Research",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "novelai",
     "name": "NovelAI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "novita",
+    "name": "Novita",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "nplcloud",
+    "name": "NPLCloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "obsidian",
     "name": "Obsidian",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "open-webui",
     "name": "Open WebUI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "openchat",
+    "name": "OpenChat",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "openclaw",
     "name": "OpenClaw",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "opencode",
     "name": "opencode",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "openhands",
     "name": "OpenHands",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "openhuman",
     "name": "OpenHuman",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "palm",
+    "name": "PaLM",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "parasail",
+    "name": "Parasail",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "phidata",
     "name": "Phidata",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "phind",
+    "name": "Phind",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "pi-agent",
+    "name": "Pi Agent",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "pika",
     "name": "Pika",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "pixverse",
     "name": "PixVerse",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "player2",
     "name": "Player2",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "poe",
     "name": "Poe",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "pollinations",
     "name": "Pollinations",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "poolside",
+    "name": "Poolside",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "ppio",
+    "name": "PPIO",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "pruna-ai",
+    "name": "Pruna AI",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "pydanticai",
     "name": "PydanticAI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "qingyan",
     "name": "Qingyan",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "qiniu",
+    "name": "Qiniu",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "qoder",
     "name": "Qoder",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "qwen",
+    "name": "Qwen",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "railway",
     "name": "Railway",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "recraft",
     "name": "Recraft",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "relace",
+    "name": "Relace",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "replit",
     "name": "Replit",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "reve",
+    "name": "Reve",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "roo-code",
     "name": "Roo Code",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "rsshub",
     "name": "RSSHub",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "runway",
     "name": "Runway",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "rwkv",
+    "name": "RWKV",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "sambanova",
+    "name": "SambaNova",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "search1api",
+    "name": "Search1API",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "searchapi",
+    "name": "SearchApi",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "searxng",
+    "name": "SearXNG",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "sensenova",
+    "name": "SenseNova",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "siliconcloud",
+    "name": "SiliconCloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "sillytavern",
     "name": "SillyTavern",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "skywork",
+    "name": "Skywork",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "slock",
     "name": "Slock",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "smithery",
     "name": "Smithery",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "sophnet",
+    "name": "SophNet",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "spark",
+    "name": "Spark",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "speedai",
+    "name": "SpeedAI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "stability-ai",
+    "name": "Stability AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "statecloud",
+    "name": "StateCloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "stepfun",
+    "name": "StepFun",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "straico",
+    "name": "Straico",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "streamlake",
+    "name": "StreamLake",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "submodel",
+    "name": "SubModel",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "suno",
     "name": "Suno",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "sync",
     "name": "Sync",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "targon",
+    "name": "Targon",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "tavily",
     "name": "Tavily",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "technology-innovation-institute",
+    "name": "Technology Innovation Institute",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "tencent",
+    "name": "Tencent",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "tencent-cloud",
+    "name": "Tencent Cloud",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "tiangong",
     "name": "Tiangong",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "topazlabs",
     "name": "TopazLabs",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "trae",
     "name": "TRAE",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "tripo",
     "name": "Tripo",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "turix",
     "name": "TuriX",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "udio",
     "name": "Udio",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "unsloth",
+    "name": "Unsloth",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "unstructured",
     "name": "Unstructured",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "upstage",
+    "name": "Upstage",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "v0",
     "name": "v0",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": false
+    "hasText": false,
+    "symbolTheme": "dark"
   },
   {
     "id": "vectorizer-ai",
     "name": "Vectorizer.AI",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "venice",
     "name": "Venice",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "vertex-ai",
+    "name": "Vertex AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "vidu",
     "name": "Vidu",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "viggle",
     "name": "Viggle",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "volcengine",
+    "name": "Volcengine",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "voyage",
+    "name": "Voyage",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "wenxin",
+    "name": "Wenxin",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "windsurf",
     "name": "Windsurf",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "workers-ai",
+    "name": "Workers AI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "worldrouter",
+    "name": "WorldRouter",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "xiaomi-mimo",
+    "name": "Xiaomi MiMo",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "xinference",
+    "name": "Xinference",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "xpay",
+    "name": "xpay",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "xuanyuan",
+    "name": "Xuanyuan",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "yandex",
+    "name": "Yandex",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "yi",
+    "name": "Yi",
+    "group": "LLM",
+    "groups": [
+      "LLM"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "youmind",
     "name": "YouMind",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "yuanbao",
     "name": "Yuanbao",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "zai",
     "name": "Z.ai",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "zapier",
     "name": "Zapier",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "zeabur",
     "name": "Zeabur",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
   },
   {
     "id": "zencoder",
     "name": "Zencoder",
-    "group": "LLM Models",
+    "group": "Agent",
     "groups": [
-      "LLM Models"
+      "Agent"
     ],
-    "hasText": true
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "zenmux",
+    "name": "ZenMux",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
+  },
+  {
+    "id": "zhipu",
+    "name": "Zhipu",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "symbolTheme": "dark"
   }
 ]

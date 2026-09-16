@@ -1,0 +1,20 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const HunyuanDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -769)"><g id={instanceId + "-hunyuan-dark__Name=Hunyuan, Type=Dark, Variant=Default"}><g id={instanceId + "-hunyuan-dark__Hunyuan / Icon_2"} clipPath={'url(#' + instanceId + "-hunyuan-dark__clip39_1_3407)"}><path id={instanceId + "-hunyuan-dark__Hunyuan / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M249 769C262.254 769 273 779.746 273 793C273 806.254 262.254 817 249 817C235.746 817 225 806.254 225 793C225 779.746 235.746 769 249 769ZM252.304 771.246L252.284 771.244C253.35 771.438 254.33 771.71 255.104 772.052C267.272 777.418 269.896 790.48 258.306 800.728C256.804 802.056 254.835 802.734 252.833 802.611C250.831 802.488 248.96 801.574 247.632 800.072C246.899 799.255 246.36 798.284 246.053 797.23C245.747 796.176 245.683 795.066 245.864 793.984C241.996 795.184 239.274 798.594 238.816 802.884C238.408 806.708 239.464 810.972 242.928 814.152L243.418 814.286C245.2 814.752 247.072 815 249 815C261.15 815 271 805.15 271 793C271 781.974 262.888 772.84 252.304 771.246ZM230.496 781.42C230.14 781.958 229.8 782.492 229.476 783.026L229.006 783.814L229.162 783.48C227.735 786.45 226.996 789.704 227 793C227 802.838 233.456 811.166 242.364 813.98L242.792 814.11C232.046 806.056 230.68 797.298 237.94 786.36C238.279 785.872 238.517 785.32 238.641 784.739C238.764 784.157 238.77 783.556 238.658 782.972C238.547 782.388 238.32 781.832 237.99 781.337C237.661 780.842 237.236 780.418 236.741 780.089C236.245 779.76 235.689 779.533 235.105 779.422C234.521 779.311 233.92 779.318 233.338 779.442C232.757 779.566 232.206 779.805 231.718 780.144C231.23 780.484 230.814 780.918 230.496 781.42ZM250.81 771.076C259.626 773.736 258.03 781.896 255.704 784.924C253.984 787.158 249.86 787.844 248.288 789.4C246.956 790.714 246.134 792.326 245.864 793.984C246.88 793.672 247.937 793.513 249 793.516C251.766 793.519 254.437 792.511 256.512 790.683C258.587 788.854 259.922 786.331 260.267 783.587C260.612 780.843 259.943 778.067 258.385 775.782C256.827 773.497 254.488 771.86 251.808 771.178C251.476 771.135 251.142 771.101 250.808 771.074L250.81 771.076Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-hunyuan-dark__clip39_1_3407"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(225 769)" /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(HunyuanDark);
+export default ForwardRef;

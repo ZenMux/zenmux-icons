@@ -8,7 +8,13 @@ const ZeaburLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-zeabur-light__Name=Zeabur, Type=Dark, Variant=Default"}><g id={instanceId + "-zeabur-light__Zeabur / Icon"}><path id={instanceId + "-zeabur-light__Zeabur / path 01"} fillRule="evenodd" clipRule="evenodd" d="M47.994 6V19.956L18.65 30.044H18.8V44L47.992 43.998L0 44V30.044H13.492L32.072 19.956H31.91V6H47.994Z" fill="#000000" fillOpacity={1} /><path id={instanceId + "-zeabur-light__Zeabur / path 02"} opacity={0.5} fillRule="evenodd" clipRule="evenodd" d="M0.00195312 6H33.91V19.956H0.00195312V6ZM16.8 30.044H48V44H16.8V30.044Z" fill="#000000" fillOpacity={1} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -2809)"><g id={instanceId + "-zeabur-light__Name=Zeabur, Type=Dark, Variant=Default"}><g id={instanceId + "-zeabur-light__Zeabur / Icon_2"}><path id={instanceId + "-zeabur-light__Zeabur / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M408.994 2815V2828.96L379.65 2839.04H379.8V2853L408.992 2853L361 2853V2839.04H374.492L393.072 2828.96H392.91V2815H408.994Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-zeabur-light__Zeabur / path 02_2"} opacity={0.5} fillRule="evenodd" clipRule="evenodd" d="M361.002 2815H394.91V2828.96H361.002V2815ZM377.8 2839.04H409V2853H377.8V2839.04Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(ZeaburLight);
 export default ForwardRef;

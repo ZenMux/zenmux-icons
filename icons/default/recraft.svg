@@ -1,8 +1,8 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Name=Recraft, Type=Dark, Variant=Default">
-<g id="Recraft / Icon">
-<path id="Recraft / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M39.334 16.55C39.334 7.41 31.034 0 20.794 0C17.246 0 14.368 7.41 14.368 16.55C14.368 18.836 14.548 21.016 14.874 22.998H8.58L2 46H20.8V33.106C31.034 33.106 39.332 25.692 39.332 16.556L39.334 16.552V16.55ZM20.794 3.03C22.654 3.03 24.158 9.086 24.158 16.55C24.158 24.016 22.654 30.07 20.796 30.07C18.936 30.07 17.434 24.016 17.434 16.55C17.434 9.086 18.938 3.03 20.794 3.03Z" fill="white" style="fill:white;fill-opacity:1;"/>
-<path id="Recraft / path 02" fill-rule="evenodd" clip-rule="evenodd" d="M39.6959 33.104H20.8159L28.0559 46H46.9319L39.6959 33.104Z" fill="white" style="fill:white;fill-opacity:1;"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-89 -2265)"><g id="Name=Recraft, Type=Dark, Variant=Default">
+<g id="Recraft / Icon_2">
+<path id="Recraft / path 01_2" fill-rule="evenodd" clip-rule="evenodd" d="M128.334 2281.55C128.334 2272.41 120.034 2265 109.794 2265C106.246 2265 103.368 2272.41 103.368 2281.55C103.368 2283.84 103.548 2286.02 103.874 2288H97.58L91 2311H109.8V2298.11C120.034 2298.11 128.332 2290.69 128.332 2281.56L128.334 2281.55V2281.55ZM109.794 2268.03C111.654 2268.03 113.158 2274.09 113.158 2281.55C113.158 2289.02 111.654 2295.07 109.796 2295.07C107.936 2295.07 106.434 2289.02 106.434 2281.55C106.434 2274.09 107.938 2268.03 109.794 2268.03Z" fill="white" style="fill:white;fill-opacity:1;" />
+<path id="Recraft / path 02_2" fill-rule="evenodd" clip-rule="evenodd" d="M128.696 2298.1H109.816L117.056 2311H135.932L128.696 2298.1Z" fill="white" style="fill:white;fill-opacity:1;" />
 </g>
 </g>
-</svg>
+</g></svg>

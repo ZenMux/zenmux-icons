@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const QiniuMono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -1993)"><g id={instanceId + "-qiniu-mono__Name=Qiniu, Type=Dark, Variant=Default"}><g id={instanceId + "-qiniu-mono__Qiniu / Icon_2"}><path id={instanceId + "-qiniu-mono__Qiniu / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M407.222 2002.2C406.931 2002.11 406.621 2002.08 406.32 2002.14C406.019 2002.2 405.737 2002.33 405.5 2002.52C402.077 2006.57 397.536 2009.51 392.447 2010.98C387.357 2012.45 381.946 2012.39 376.894 2010.79L375.76 2006.66C375.588 2006.18 375.25 2005.77 374.806 2005.52C374.362 2005.26 373.842 2005.17 373.338 2005.27L373.878 2009.63C370.246 2007.97 369.252 2007.73 366.704 2004.73C366.348 2004.46 363.526 2001.94 362.78 2002.2C364.911 2007.87 369.125 2012.52 374.564 2015.19L376.04 2027.13C376.04 2027.13 376.7 2031.71 380.986 2031.71H390.158C394.446 2031.71 395.106 2027.13 395.106 2027.13L396.142 2018.57C393.356 2018.35 391.606 2020.29 391.05 2022.2C390.12 2025.43 390.12 2025.63 389.936 2026.2C389.56 2027.35 388.324 2027.49 388.324 2027.49H382.818C382.818 2027.49 381.584 2027.35 381.206 2026.2C380.966 2025.46 379.752 2021.12 378.536 2016.72C384.267 2018.33 390.395 2017.74 395.707 2015.05C401.02 2012.36 405.128 2007.77 407.22 2002.2L407.222 2002.2Z" fill="currentColor" style={{
+            fill: "currentColor",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(QiniuMono);
+export default ForwardRef;

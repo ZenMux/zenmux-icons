@@ -8,7 +8,13 @@ const CodeflickerLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-codeflicker-light__Name=CodeFlicker, Type=Dark, Variant=Default"}><g id={instanceId + "-codeflicker-light__CodeFlicker / Icon"}><path id={instanceId + "-codeflicker-light__CodeFlicker / path 01"} fillRule="evenodd" clipRule="evenodd" d="M9.414 12.48V7H0V40.954H9.414V35.474H5.88V12.48H9.414Z" fill="#000000" fillOpacity={1} /><path id={instanceId + "-codeflicker-light__CodeFlicker / path 02"} fillRule="evenodd" clipRule="evenodd" d="M41.7358 7H38.5858V12.48H42.1358V35.474H38.5858V40.954H47.9998V7H41.7358ZM26.4398 7L25.3398 13.164H19.2458L20.3278 7H26.4398ZM28.7898 16.796L24.5238 40.956H18.4258L22.6758 16.796H28.7898Z" fill="#000000" fillOpacity={1} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -361)"><g id={instanceId + "-codeflicker-light__Name=CodeFlicker, Type=Dark, Variant=Default"}><g id={instanceId + "-codeflicker-light__CodeFlicker / Icon_2"}><path id={instanceId + "-codeflicker-light__CodeFlicker / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M370.414 373.48V368H361V401.954H370.414V396.474H366.88V373.48H370.414Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-codeflicker-light__CodeFlicker / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M402.736 368H399.586V373.48H403.136V396.474H399.586V401.954H409V368H402.736ZM387.44 368L386.34 374.164H380.246L381.328 368H387.44ZM389.79 377.796L385.524 401.956H379.426L383.676 377.796H389.79Z" fill="#000000" style={{
+            fill: "#000000",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(CodeflickerLight);
 export default ForwardRef;

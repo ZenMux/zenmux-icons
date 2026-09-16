@@ -8,13 +8,13 @@ const PikaColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-pika-color__Name=Pika, Type=Color, Variant=Default"}><g id={instanceId + "-pika-color__Pika / Icon"} clipPath={'url(#' + instanceId + "-pika-color__clip0_449_11802)"}><path id={instanceId + "-pika-color__Pika / path 01"} fillRule="evenodd" clipRule="evenodd" d="M1.3219 39.778H18.6539C18.3739 36.958 16.3639 33.868 11.4519 31.764V31.556C17.1779 33.316 19.2379 36.328 20.0759 39.776H41.4599L38.0199 36.824C40.0339 30.488 47.9999 27.494 47.9999 27.494C47.7179 22.412 45.1179 17.676 36.4259 13.84L16.6519 6C17.3139 14.358 20.2739 19.15 27.6979 20.326V20.53C22.5399 20.402 18.9619 18.098 17.1479 13.354C1.3959 16.246 -2.4001 28.312 1.3219 39.778Z" fill="black" style={{
-          fill: "black",
-          fillOpacity: 1
-        }} /></g></g><defs><clipPath id={instanceId + "-pika-color__clip0_449_11802"}><rect width={48} height={48} fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-293 -1993)"><g id={instanceId + "-pika-color__Name=Pika, Type=Color, Variant=Default"}><g id={instanceId + "-pika-color__Pika / Icon"} clipPath={'url(#' + instanceId + "-pika-color__clip94_1_3407)"}><path id={instanceId + "-pika-color__Pika / path 01"} fillRule="evenodd" clipRule="evenodd" d="M294.322 2032.78H311.654C311.374 2029.96 309.364 2026.87 304.452 2024.76V2024.56C310.178 2026.32 312.238 2029.33 313.076 2032.78H334.46L331.02 2029.82C333.034 2023.49 341 2020.49 341 2020.49C340.718 2015.41 338.118 2010.68 329.426 2006.84L309.652 1999C310.314 2007.36 313.274 2012.15 320.698 2013.33V2013.53C315.54 2013.4 311.962 2011.1 310.148 2006.35C294.396 2009.25 290.6 2021.31 294.322 2032.78Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-pika-color__clip94_1_3407"}><rect width={48} height={48} fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} /></clipPath></defs></svg>;
+        }} transform="translate(293 1993)" /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(PikaColor);
 export default ForwardRef;

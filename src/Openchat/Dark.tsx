@@ -1,0 +1,23 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const OpenchatDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -1109)"><g id={instanceId + "-openchat-dark__Name=OpenChat, Type=Dark, Variant=Default"}><g id={instanceId + "-openchat-dark__OpenChat / Icon_2"} clipPath={'url(#' + instanceId + "-openchat-dark__clip49_1_3407)"}><path id={instanceId + "-openchat-dark__OpenChat / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M229.338 1126.5L229.538 1125.11C230.026 1121.8 231.38 1118.88 233.524 1116.3C235.358 1114.06 237.67 1112.25 240.29 1111.01C242.624 1109.91 245.08 1109.2 247.7 1109.04C249.972 1108.9 252.182 1109.1 254.366 1109.69C255.518 1110 256.635 1110.43 257.696 1110.98C259.086 1111.7 259.282 1112.8 258.154 1113.86C255.544 1116.32 252.651 1118.46 249.536 1120.23C246.996 1121.67 244.327 1122.86 241.564 1123.8C239.183 1124.6 236.751 1125.24 234.284 1125.72C233.386 1125.89 231.736 1126.15 229.336 1126.5L229.338 1126.5Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-openchat-dark__OpenChat / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M233.296 1127.36C236.814 1128.18 240.384 1128.68 243.982 1128.94C247.126 1129.17 250.282 1129.16 253.436 1129.01C256.578 1128.87 259.672 1128.44 262.752 1127.87C263.824 1127.68 264.862 1127.35 265.978 1127.38C268.268 1127.44 269.846 1128.65 270.394 1130.81C271.184 1133.91 271.224 1137.02 270.38 1140.1C269.553 1143.18 267.968 1146 265.77 1148.3C263.425 1150.79 260.536 1152.69 257.33 1153.88C253.9 1155.16 250.344 1155.57 246.69 1155.24C245.746 1155.16 244.81 1155.01 243.89 1154.79C243.791 1154.76 243.687 1154.76 243.587 1154.78C243.486 1154.8 243.39 1154.84 243.306 1154.89C240.86 1156.34 238.2 1157.02 235.352 1157C234.549 1156.99 233.748 1156.91 232.956 1156.77C231.416 1156.52 230.868 1155.13 231.82 1153.91C232.34 1153.25 232.812 1152.57 233.104 1151.78C233.238 1151.42 233.364 1151.06 233.472 1150.69C233.562 1150.43 233.573 1150.15 233.503 1149.88C233.432 1149.62 233.285 1149.38 233.078 1149.19C231.306 1147.47 229.822 1145.53 228.792 1143.3C226.636 1138.63 226.412 1133.87 228.188 1129.03C228.516 1128.15 228.907 1127.3 229.356 1126.48L229.5 1126.5C231.342 1126.91 232.608 1127.2 233.296 1127.36Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g></g><defs><clipPath id={instanceId + "-openchat-dark__clip49_1_3407"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} transform="translate(225 1109)" /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(OpenchatDark);
+export default ForwardRef;

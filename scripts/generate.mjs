@@ -2,7 +2,7 @@ import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { transform } from '@svgr/core';
 import { optimize } from 'svgo';
-import { normalizeSvg, transformPaint, viewBox } from './lib/svg-variants.mjs';
+import { combineSvg, normalizeSvg, transformPaint, viewBox } from './lib/svg-variants.mjs';
 
 const root = path.resolve(process.argv[2] || '.');
 const metadata = JSON.parse(await readFile(path.join(root,'metadata.json'),'utf8'));
@@ -14,14 +14,15 @@ for (const icon of metadata) {
   if (!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(icon.id)) throw Error('Invalid icon id');
   const name = componentName(icon.id);
   const color = await readFile(path.join(root,'icons',icon.id+'.svg'),'utf8');
-  let dark;
-  try { dark = await readFile(path.join(root,'icons/default',icon.id+'.svg'),'utf8'); }
-  catch(error) { if(typeof icon.hasText==='boolean'||error.code!=='ENOENT')throw error; dark=transformPaint(color,'#fff'); }
-  const sources = {mono:transformPaint(dark,'currentColor'),color,dark,light:transformPaint(dark,'invert')};
+  const original = await readFile(path.join(root,icon.symbolTheme==='light'?'icons/light':'icons/default',icon.id+'.svg'),'utf8');
+  const dark = icon.symbolTheme==='light' ? transformPaint(original,'invert') : original;
+  const light = icon.symbolTheme==='light' ? original : transformPaint(original,'invert');
+  const sources = {mono:transformPaint(dark,'currentColor'),color,dark,light};
   if (icon.hasText) {
-    // Combine is already a complete source logo; never prepend another symbol.
-    sources['combine-dark'] = await readFile(path.join(root,'icons/combine',icon.id+'.svg'),'utf8');
-    sources['combine-light'] = transformPaint(sources['combine-dark'],'invert');
+    // This catalog supplies wordmarks only; compose them with the Dark Default symbol.
+    const text = await readFile(path.join(root,'icons/text',icon.id+'.svg'),'utf8');
+    sources['combine-dark'] = combineSvg(dark, transformPaint(text,'invert'), icon.id+'-dark');
+    sources['combine-light'] = combineSvg(sources.light, text, icon.id+'-light');
     sources.combine = transformPaint(sources['combine-dark'],'currentColor');
   }
   const ratios = {};

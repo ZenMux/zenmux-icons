@@ -8,10 +8,10 @@ const FloraColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-flora-color__Name=Flora, Type=Color, Variant=Default"}><g id={instanceId + "-flora-color__Flora / Icon"}><path id={instanceId + "-flora-color__Flora / path 01"} fillRule="evenodd" clipRule="evenodd" d="M4 34.304C4 28.91 8.404 24.538 13.778 24.538C19.098 24.538 23.458 28.868 23.458 34.208C23.458 39.548 19.146 43.878 13.826 43.878H4V34.304ZM44 44H34.174C28.854 44 24.54 39.67 24.54 34.33C24.54 28.99 28.9 24.66 34.22 24.66C39.596 24.66 44 29.032 44 34.426V44ZM44 13.696C44 19.09 39.596 23.462 34.222 23.462C28.902 23.462 24.542 19.132 24.542 13.792C24.542 8.452 28.854 4.122 34.174 4.122H44V13.696ZM4 4H13.826C19.146 4 23.46 8.33 23.46 13.67C23.46 19.01 19.1 23.34 13.778 23.34C8.404 23.34 4 18.968 4 13.574V4Z" fill="black" style={{
-          fill: "black",
-          fillOpacity: 1
-        }} /></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -837)"><g id={instanceId + "-flora-color__Name=Flora, Type=Color, Variant=Default"}><g id={instanceId + "-flora-color__Flora / Icon"}><path id={instanceId + "-flora-color__Flora / path 01"} fillRule="evenodd" clipRule="evenodd" d="M25 871.304C25 865.91 29.404 861.538 34.778 861.538C40.098 861.538 44.458 865.868 44.458 871.208C44.458 876.548 40.146 880.878 34.826 880.878H25V871.304ZM65 881H55.174C49.854 881 45.54 876.67 45.54 871.33C45.54 865.99 49.9 861.66 55.22 861.66C60.596 861.66 65 866.032 65 871.426V881ZM65 850.696C65 856.09 60.596 860.462 55.222 860.462C49.902 860.462 45.542 856.132 45.542 850.792C45.542 845.452 49.854 841.122 55.174 841.122H65V850.696ZM25 841H34.826C40.146 841 44.46 845.33 44.46 850.67C44.46 856.01 40.1 860.34 34.778 860.34C29.404 860.34 25 855.968 25 850.574V841Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(FloraColor);
 export default ForwardRef;

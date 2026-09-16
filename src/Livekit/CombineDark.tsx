@@ -8,22 +8,16 @@ const LivekitCombineDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg viewBox="0 0 112 24" fill="none" xmlns="http://www.w3.org/2000/svg" width={typeof size === 'number' ? size * 4.666666666666667 : 'calc(' + size + ' * 4.666666666666667)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-livekit-combine-dark__Name=LiveKit, Type=Dark, Variant=Combine"}><g id={instanceId + "-livekit-combine-dark__LiveKit / Combination"} clipPath={'url(#' + instanceId + "-livekit-combine-dark__clip0_449_12975)"}><g id={instanceId + "-livekit-combine-dark__Frame"}><path id={instanceId + "-livekit-combine-dark__LiveKit / path 01"} fillRule="evenodd" clipRule="evenodd" d="M14 10H10V14H14V10ZM18 6H14V10.001H18V6ZM18 14H14V18H18V14ZM22 2H18V6H22V2ZM22 18H18V22H22V18Z" fill="white" style={{
-            fill: "white",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-livekit-combine-dark__LiveKit / path 02"} fillRule="evenodd" clipRule="evenodd" d="M6 18V2H2V22H14V18H6Z" fill="white" style={{
-            fill: "white",
-            fillOpacity: 1
-          }} /></g><g id={instanceId + "-livekit-combine-dark__Frame_2"} clipPath={'url(#' + instanceId + "-livekit-combine-dark__clip1_449_12975)"}><path id={instanceId + "-livekit-combine-dark__LiveKit / path 03"} fillRule="evenodd" clipRule="evenodd" d="M35.7547 2.3999H32.8003V19.7487H43.4859V17.2343H35.7547V2.3999ZM48.3891 10.2567H45.5603V19.6855H48.3891V10.2567ZM56.8115 19.3711L53.1659 7.4287H50.4003L54.1715 19.7487H59.5771L63.3491 7.4287H60.4563L56.8115 19.3711ZM70.3891 7.1767C66.6803 7.1767 64.3547 9.8167 64.3547 13.5887C64.3547 17.3599 66.6163 19.9999 70.3891 19.9999C73.2803 19.9999 75.4171 18.7431 76.1715 16.1031H73.2803C72.8403 17.2967 72.0235 17.9887 70.4515 17.9887C68.6915 17.9887 67.4971 16.7311 67.3091 14.4055H76.3603L76.4235 13.5255C76.4235 9.6911 74.0347 7.1767 70.3891 7.1767ZM67.2459 12.4567C67.5603 10.1943 68.7547 9.1887 70.3891 9.1887C72.2115 9.1887 73.3435 10.4455 73.5315 12.4567H67.2459ZM93.1443 2.3999H89.4355L82.2699 10.3199V2.3999H79.3155V19.7487H82.2699V10.9487L90.1899 19.7487H93.9611L85.6635 10.5711L93.2059 2.3999H93.1443ZM98.1723 7.4287H95.2803V16.8559H98.1091V7.4287H98.1723ZM45.5611 7.4287H42.6699V10.2559H45.5611V7.4287ZM101.001 16.8567H98.1099V19.7487H101.001V16.8567ZM109.487 16.8567H106.658V19.7487H109.55V16.8559L109.487 16.8567ZM109.487 10.2567V7.4287H106.658V2.3999H103.83V7.4287H100.936V10.2559H103.828V16.8559H106.656V10.2559H109.548H109.485L109.487 10.2567Z" fill="white" style={{
-            fill: "white",
-            fillOpacity: 1
-          }} /></g></g></g><defs><clipPath id={instanceId + "-livekit-combine-dark__clip0_449_12975"}><rect width={111.2} height={24} fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} /></clipPath><clipPath id={instanceId + "-livekit-combine-dark__clip1_449_12975"}><rect width={80} height={19.2} fill="white" style={{
-          fill: "white",
-          fillOpacity: 1
-        }} transform="translate(31.2002 2.3999)" /></clipPath></defs></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 160 48" fill="none" width={typeof size === 'number' ? size * 3.3333333333333335 : 'calc(' + size + ' * 3.3333333333333335)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g fill="none" transform="translate(0 0) scale(1) translate(0 0)"><g transform="translate(-361 -1381)"><g id={instanceId + "-livekit-combine-dark__livekit-dark-symbol__Name=LiveKit, Type=Dark, Variant=Default"}><g id={instanceId + "-livekit-combine-dark__livekit-dark-symbol__LiveKit / Icon_2"}><path id={instanceId + "-livekit-combine-dark__livekit-dark-symbol__LiveKit / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M389 1401H381V1409H389V1401ZM397 1393H389V1401H397V1393ZM397 1409H389V1417H397V1409ZM405 1385H397V1393H405V1385ZM405 1417H397V1425H405V1417Z" fill="white" style={{
+              fill: "white",
+              fillOpacity: 1
+            }} /><path id={instanceId + "-livekit-combine-dark__livekit-dark-symbol__LiveKit / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M373 1417V1385H365V1425H389V1417H373Z" fill="white" style={{
+              fill: "white",
+              fillOpacity: 1
+            }} /></g></g></g></g><g fill="none" color="#ffffff" transform="translate(60 12) scale(1) translate(0 0)"><g transform="translate(-21 -2749) scale(1.390625)"><g id={instanceId + "-livekit-combine-dark__livekit-dark-text__Name=LiveKit, Type=Color, Language=Default"}><g id={instanceId + "-livekit-combine-dark__livekit-dark-text__LiveKit / Wordmark"}><path id={instanceId + "-livekit-combine-dark__livekit-dark-text__LiveKit / path 01"} fillRule="evenodd" clipRule="evenodd" d="M19.195 1976.81H16.5393V1992.4H26.1444V1990.14H19.195V1976.81ZM30.5517 1983.87H28.009V1992.35H30.5517V1983.87ZM38.1224 1992.06L34.8455 1981.33H32.3596L35.7494 1992.4H40.6084L43.9989 1981.33H41.3987L38.1224 1992.06ZM50.327 1981.1C46.9933 1981.1 44.9028 1983.48 44.9028 1986.87C44.9028 1990.26 46.9357 1992.63 50.327 1992.63C52.9258 1992.63 54.8466 1991.5 55.5247 1989.13H52.9258C52.5303 1990.2 51.7961 1990.82 50.3831 1990.82C48.8011 1990.82 47.7275 1989.69 47.5585 1987.6H55.6944L55.7512 1986.81C55.7512 1983.36 53.604 1981.1 50.327 1981.1ZM47.5017 1985.85C47.7843 1983.82 48.8579 1982.91 50.327 1982.91C51.9651 1982.91 52.9827 1984.04 53.1516 1985.85H47.5017ZM70.7811 1976.81H67.4474L61.0064 1983.93V1976.81H58.3507V1992.4H61.0064V1984.49L68.1255 1992.4H71.5153L64.0568 1984.15L70.8365 1976.81H70.7811ZM75.3007 1981.33H72.7011V1989.8H75.2439V1981.33H75.3007ZM28.0097 1981.33H25.4109V1983.87H28.0097V1981.33ZM77.8434 1989.8H75.2446V1992.4H77.8434V1989.8ZM85.4709 1989.8H82.9282V1992.4H85.5277V1989.8L85.4709 1989.8ZM85.4709 1983.87V1981.33H82.9282V1976.81H80.3862V1981.33H77.7852V1983.87H80.3847V1989.8H82.9267V1983.87H85.5263H85.4695L85.4709 1983.87Z" fill="#ffffff" style={{
+              fill: "#ffffff",
+              fillOpacity: 1
+            }} /></g></g></g></g></svg>;
 };
 const ForwardRef = forwardRef(LivekitCombineDark);
 export default ForwardRef;
