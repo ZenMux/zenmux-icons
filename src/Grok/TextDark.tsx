@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const GrokTextDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 24" fill="none" color="#ffffff" width={typeof size === 'number' ? size * 2.625 : 'calc(' + size + ' * 2.625)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -1385)"><g id={instanceId + "-grok-text-dark__Name=Grok, Type=Color, Language=Default"}><g id={instanceId + "-grok-text-dark__Grok / Wordmark"}><path id={instanceId + "-grok-text-dark__Grok / path 01"} fillRule="evenodd" clipRule="evenodd" d="M68.419 1406.65V1387.46H71.452V1400.12L77.867 1392.75H81.545L75.773 1399.07L81.598 1406.65H77.974L73.257 1400.13L71.452 1400.12V1406.65H68.419ZM59.22 1406.97C54.71 1406.97 52.268 1403.77 52.268 1399.69C52.268 1395.57 54.711 1392.4 59.22 1392.4C63.757 1392.4 66.172 1395.57 66.172 1399.69C66.172 1403.77 63.757 1406.97 59.22 1406.97ZM55.435 1399.69C55.435 1402.86 57.153 1404.44 59.22 1404.44C61.314 1404.44 63.005 1402.86 63.005 1399.69C63.005 1396.51 61.314 1394.9 59.22 1394.9C57.153 1394.9 55.435 1396.51 55.435 1399.69ZM43.826 1406.65V1394.95L46.376 1392.75H51.798V1395.33H46.86V1406.65H43.826ZM32.228 1407C26.447 1407 23 1402.8 23 1397.08C23 1391.3 26.57 1387 32.341 1387C36.851 1387 40.152 1389.31 40.931 1393.61H37.468C36.958 1391.17 34.918 1389.8 32.341 1389.8C28.181 1389.8 26.355 1393.4 26.355 1397.08C26.355 1400.76 28.181 1404.33 32.341 1404.33C36.314 1404.33 38.058 1401.46 38.193 1399.07H32.207V1396.28H41.253L41.238 1397.74C41.238 1403.15 39.035 1407 32.228 1407Z" fill="#ffffff" style={{
+            fill: "#ffffff",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(GrokTextDark);
+export default ForwardRef;

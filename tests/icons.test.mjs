@@ -6,7 +6,7 @@ import {renderToStaticMarkup} from 'react-dom/server';
 import sharp from 'sharp';
 import {loadIcon} from '../dist/loaders.js';
 import catalog from '../dist/catalog.js';
-import {combineSvg,transformPaint,invertPaint} from '../scripts/lib/svg-variants.mjs';
+import {artworkBox,combineSvg,transformPaint,invertPaint} from '../scripts/lib/svg-variants.mjs';
 const nameOf=id=>id.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('');
 const render=buffer=>sharp(buffer).resize({height:96}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
 
@@ -53,9 +53,8 @@ test('wordmark composition contains one symbol and one wordmark at the documente
   if(!icon.hasText){assert.equal(module.default.Combine,undefined);await assert.rejects(loadIcon(icon.id,'combine-dark'));continue;}
   const symbol=await readFile(new URL(`../icons/${icon.symbolTheme==='light'?'light':'default'}/${icon.id}.svg`,import.meta.url),'utf8');
   const text=await readFile(new URL(`../icons/text/${icon.id}.svg`,import.meta.url),'utf8');
-  const box=s=>s.match(/viewBox="([^"]+)"/)[1].split(/[\s,]+/).map(Number);
-  const sb=box(symbol),tb=box(text);
-  const expectedWidth=48*sb[2]/sb[3]+12+24*tb[2]/tb[3];
+  const sb=await artworkBox(symbol),tb=await artworkBox(text);
+  const expectedWidth=48*sb[2]/sb[3]+12+(48*0.8)*tb[2]/tb[3];
   for(const variant of ['combine-dark','combine-light']){
    const {default:C}=await loadIcon(icon.id,variant);
    const html=renderToStaticMarkup(createElement(C,{size:48}));
@@ -63,19 +62,50 @@ test('wordmark composition contains one symbol and one wordmark at the documente
    assert.ok(Math.abs(width-expectedWidth)<.001,icon.id+' composition width');
    const count=s=>(s.match(/<(?:path|rect|circle|ellipse|line|polygon|polyline)\b/g)||[]).length;
    assert.equal(count(html),count(symbol)+count(text),icon.id+' must include each artwork once');
-   assert.equal(icon.aspectRatios[variant],expectedWidth/48);
+   assert.ok(Math.abs(icon.aspectRatios[variant]-expectedWidth/48)<1e-12,icon.id+' aspect ratio');
   }
-  // Rendered wordmark region must match the original alpha geometry, now in white.
-  const {default:C}=await loadIcon(icon.id,'combine-dark');
-  const combined=await sharp(Buffer.from(renderToStaticMarkup(createElement(C,{size:96})))).ensureAlpha().raw().toBuffer({resolveWithObject:true});
-  const original=await sharp(Buffer.from(text)).resize({height:48}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
-  const x=Math.round(96*sb[2]/sb[3]+24),y=24;let delta=0;
-  for(let row=0;row<original.info.height;row++)for(let col=0;col<original.info.width;col++){
-   const i=(row*original.info.width+col)*4, j=((row+y)*combined.info.width+col+x)*4;
-   delta+=Math.abs(original.data[i+3]-combined.data[j+3]);
-   if(combined.data[j+3]>200)for(let c=0;c<3;c++)assert.ok(combined.data[j+c]>250,icon.id+' dark wordmark must be white');
+  // Check actual painted heights, not the padded source viewBoxes.
+  for(const variant of ['combine-dark','combine-light']){
+   const {default:C}=await loadIcon(icon.id,variant);
+   const combined=await sharp(Buffer.from(renderToStaticMarkup(createElement(C,{size:240})))).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+   const split=Math.floor(240*sb[2]/sb[3]+30);
+   function bounds(left,right){
+    let top=combined.info.height,bottom=-1;
+    for(let y=0;y<combined.info.height;y++)for(let x=left;x<right;x++)if(combined.data[(y*combined.info.width+x)*4+3]>8){top=Math.min(top,y);bottom=Math.max(bottom,y);}
+    assert.ok(bottom>=top,icon.id+' visible region');return {top,bottom,height:bottom-top+1};
+   }
+   const symbolBounds=bounds(0,split),textBounds=bounds(split,combined.info.width);
+   assert.ok(Math.abs(textBounds.height/symbolBounds.height-0.8)<0.015,icon.id+' painted ratio');
+   assert.ok(Math.abs((textBounds.top+textBounds.bottom)-(symbolBounds.top+symbolBounds.bottom))<4,icon.id+' painted centering');
   }
-  assert.ok(delta/(original.info.width*original.info.height)<3,icon.id+' wordmark alpha changed');
+ }
+});
+
+test('Text variants contain only the source wordmark and are absent without a source',async()=>{
+ for(const icon of catalog){
+  const module=await import(`../dist/${nameOf(icon.id)}/index.js`);
+  if(!icon.hasText){
+   for(const member of ['Text','TextLight','TextDark'])assert.equal(module.default[member],undefined);
+   for(const variant of ['text','text-light','text-dark'])await assert.rejects(loadIcon(icon.id,variant));
+   continue;
+  }
+  const source=await readFile(new URL(`../icons/text/${icon.id}.svg`,import.meta.url),'utf8');
+  for(const variant of ['text','text-light','text-dark']){
+   const {default:C}=await loadIcon(icon.id,variant);
+   const expected=variant==='text-light'?source:transformPaint(source,variant==='text-dark'?'invert':'currentColor');
+   const original=await render(Buffer.from(expected));
+   const html=renderToStaticMarkup(createElement(C,{size:96}));
+   const count=s=>(s.match(/<(?:path|rect|circle|ellipse|line|polygon|polyline)\b/g)||[]).length;
+   assert.equal(count(html),count(source),icon.id+'/'+variant+' must not add a symbol');
+   const outputs=[html];
+   if(variant!=='text')outputs.push(await readFile(new URL(`../static/${variant}/${icon.id}.svg`,import.meta.url),'utf8'));
+   for(const output of outputs){
+    const actual=await render(Buffer.from(output));
+    assert.equal(actual.data.length,original.data.length,icon.id+'/'+variant);
+    let delta=0;for(let i=0;i<actual.data.length;i++)delta+=Math.abs(actual.data[i]-original.data[i]);
+    assert.ok(delta/actual.data.length<3,icon.id+'/'+variant+' source pixels changed');
+   }
+  }
  }
 });
 
@@ -110,4 +140,12 @@ test('catalog exposes the optional website metadata without altering it',async()
   assert.equal(catalog.find(icon=>icon.id===entry.id).website,entry.website,entry.id);
   if(entry.website){const url=new URL(entry.website);assert.ok(['http:','https:'].includes(url.protocol));assert.ok(!url.username&&!url.password);}
  }
+});
+
+
+test('painted bounds exclude padding, retain offset origins, and reject empty artwork',async()=>{
+ const svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 100 100"><rect x="30" y="50" width="40" height="20" fill="black"/></svg>';
+ const bounds=await artworkBox(svg);
+ for(const [i,expected] of [30,50,40,20].entries())assert.ok(Math.abs(bounds[i]-expected)<0.1);
+ await assert.rejects(artworkBox('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"/>'),/empty/);
 });

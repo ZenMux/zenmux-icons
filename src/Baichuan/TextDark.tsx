@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const BaichuanTextDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 24" fill="none" color="#ffffff" width={typeof size === 'number' ? size * 1.875 : 'calc(' + size + ' * 1.875)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -417)"><g id={instanceId + "-baichuan-text-dark__Name=Baichuan, Type=Color, Language=Default"}><g id={instanceId + "-baichuan-text-dark__Baichuan / Wordmark"}><path id={instanceId + "-baichuan-text-dark__Baichuan / path 01"} fillRule="evenodd" clipRule="evenodd" d="M23 419V421.712H31.136L30.57 424.198H25.26V438.774H27.972V437.418H37.689V438.774H40.627V424.198H33.51L34.187 421.712H42.549V419H23ZM27.972 435.045V432.107H37.689V434.932L27.972 435.045ZM27.972 426.684V429.621L37.689 429.508V426.684H27.972ZM49.893 419.113H47.068V429.848C47.068 431.768 45.935 434.836 44.356 437.079L46.729 439C48.602 436.422 49.893 432.333 49.893 430.073V419.113ZM53.96 420.017H56.672V436.627H53.961L53.96 420.017ZM63.452 419H60.74V438.661H63.452V419Z" fill="#ffffff" style={{
+            fill: "#ffffff",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(BaichuanTextDark);
+export default ForwardRef;

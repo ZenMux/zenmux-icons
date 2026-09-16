@@ -1,4 +1,5 @@
 import { optimize } from 'svgo';
+import sharp from 'sharp';
 
 export function viewBox(svg) {
   const match = svg.match(/\bviewBox="([^"]+)"/);
@@ -70,12 +71,37 @@ export function transformPaint(svg, mode) {
   }] }).data;
 }
 
-export function combineSvg(symbol, text, prefix) {
+// Measure alpha rather than the padded source canvas. Only composition uses this
+// box; standalone source variants retain their original viewBox and SVG paths.
+export async function artworkBox(svg) {
+  const box = viewBox(svg);
+  const scale = Math.min(2048 / box[3], 8192 / box[2]);
+  const width = Math.max(1, Math.round(box[2] * scale));
+  const height = Math.max(1, Math.round(box[3] * scale));
+  const { data, info } = await sharp(Buffer.from(svg))
+    .resize(width, height, { fit: 'fill' }).ensureAlpha().raw()
+    .toBuffer({ resolveWithObject: true });
+  let left = width, top = height, right = -1, bottom = -1;
+  for (let y = 0; y < height; y++) for (let x = 0; x < width; x++) {
+    if (!data[(y * width + x) * info.channels + info.channels - 1]) continue;
+    left = Math.min(left, x); right = Math.max(right, x);
+    top = Math.min(top, y); bottom = Math.max(bottom, y);
+  }
+  if (right < left) throw new Error('Cannot compose empty SVG artwork');
+  return [
+    box[0] + left * box[2] / width,
+    box[1] + top * box[3] / height,
+    (right - left + 1) * box[2] / width,
+    (bottom - top + 1) * box[3] / height,
+  ];
+}
+
+export function combineSvg(symbol, text, prefix, symbolBox = viewBox(symbol), textBox = viewBox(text)) {
   // Compose actual vector artwork; never substitute a font or invent a wordmark.
   const symbolSvg = normalizeSvg(symbol, prefix + '-symbol');
   const textSvg = normalizeSvg(text, prefix + '-text');
-  const sb = viewBox(symbolSvg), tb = viewBox(textSvg);
-  const symbolHeight = 48, textHeight = 24, gap = 12;
+  const sb = symbolBox, tb = textBox;
+  const symbolHeight = 48, textHeight = symbolHeight * 0.8, gap = 12;
   const symbolWidth = sb[2] / sb[3] * symbolHeight;
   const textWidth = tb[2] / tb[3] * textHeight;
   function group(svg, box, x, y, height) {
@@ -86,5 +112,5 @@ export function combineSvg(symbol, text, prefix) {
     const inner = svg.slice(opening[0].length).replace(/<\/svg>$/, '');
     return `<g${attrs} transform="translate(${x} ${y}) scale(${height / box[3]}) translate(${-box[0]} ${-box[1]})">${inner}</g>`;
   }
-  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 ${symbolWidth + gap + textWidth} 48" fill="none">${group(symbolSvg,sb,0,0,symbolHeight)}${group(textSvg,tb,symbolWidth+gap,12,textHeight)}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 ${symbolWidth + gap + textWidth} ${symbolHeight}" fill="none">${group(symbolSvg,sb,0,0,symbolHeight)}${group(textSvg,tb,symbolWidth+gap,(symbolHeight-textHeight)/2,textHeight)}</svg>`;
 }

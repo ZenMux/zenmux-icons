@@ -8,7 +8,8 @@ name-protection placeholder exporting package information only; it has no icons
 and no second implementation. Its publication is independent of the main package.
 
 **Status:** private GitHub repository. `@zenmux/icons` is available as a public dev
-prerelease (`0.1.0-dev.6`, npm tag `dev`); there is no stable release. The name-protection placeholder
+prerelease (`0.1.0-dev.6`, npm tag `dev`); there is no stable release. Dev.7 is prepared
+locally but its publication is blocked by registry PUT 404 responses. The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No CI or automatic package publishing is configured.
 
@@ -17,6 +18,39 @@ No CI or automatic package publishing is configured.
 322 brands are available in this development release. Metadata is generated from the
 actual source collection. 319 brands have Light wordmarks. Symbols retain their supplied Light or Dark theme. Consult `@zenmux/icons/catalog` or the local preview for the
 current names, groups and available variants.
+
+Dev.7 additionally exposes `.Text`, `.TextLight`, and `.TextDark` (lazy variants
+`text`, `text-light`, `text-dark`) only when `hasText` is true. Text is the original
+vector wordmark, never generated typography. Combine is symbol + wordmark at a 1:0.8
+visible-artwork height ratio (excluding source padding), vertically centered with a
+gap of 0.25 symbol heights. These APIs are introduced in dev.7.
+
+The compound API follows LobeHub's component model:
+
+```tsx
+import { Zenmux } from '@zenmux/icons';
+
+<Zenmux size={56} />                         // Mono, currentColor
+<Zenmux.Color size={56} />                   // Original palette
+<Zenmux.Text size={56} />                    // Wordmark, currentColor
+<Zenmux.Combine size={56} />                 // Mono symbol + wordmark
+<Zenmux.Combine size={56} type="color" />    // Original symbol + currentColor wordmark
+<Zenmux.Avatar size={56} />                  // Circular avatar
+```
+
+Combine accepts `color`, `inverse`, `showLogo`, `showText`, `spaceMultiple`,
+`textMultiple`, `iconProps`, `extra`, `extraClassName`, `extraStyle` and ordinary
+div props/styles. Defaults preserve the requested 1:0.8 visible height ratio and
+0.25 symbol-height gap. Avatar accepts `shape="circle" | "square"`, `background`,
+`color`, `iconMultiple`, `iconClassName`, `iconStyle` and div props/styles.
+It defaults to a white Mono on black with 0.75 icon scale; supply brand-specific
+colors explicitly rather than inferring a primary color from arbitrary source paths.
+Text/Combine are absent without source wordmarks. `.title` is the catalog brand name.
+
+Like LobeHub, public Combine and Avatar are HTML layout components (div refs), not
+single SVGs. Existing `loadIcon(id, 'combine')` and themed CombineDark/CombineLight
+remain vector components for lazy assets/downloads. `loadIconComponent(id)` loads
+one brand's full public API on demand. No LobeHub artwork or UI dependency is bundled.
 
 ## Local development
 
@@ -42,7 +76,9 @@ Install the development release:
 npm install @zenmux/icons@dev
 ```
 
-For a fixed version use `@zenmux/icons@0.1.0-dev.6`. The examples below also work
+For the currently published version use `@zenmux/icons@0.1.0-dev.6`; the new Text,
+compound Combine and Avatar APIs above require the pending dev.7 release.
+The examples below also work
 with a built local checkout installed by absolute directory.
 
 ```tsx

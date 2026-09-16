@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const LlmApiTextDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 24" fill="none" color="#ffffff" width={typeof size === 'number' ? size * 4.083333333333333 : 'calc(' + size + ' * 4.083333333333333)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -3145) scale(1.43359375)"><g id={instanceId + "-llm-api-text-dark__Name=LLM API, Type=Color, Language=Default"}><g id={instanceId + "-llm-api-text-dark__LLM API / Wordmark"}><path id={instanceId + "-llm-api-text-dark__LLM API / path 01"} fillRule="evenodd" clipRule="evenodd" d="M79.5204 2209.13V2195.18H81.6131V2209.13H79.5204ZM68.3597 2209.13V2195.18H73.2913C74.2519 2195.18 75.0938 2195.34 75.8165 2195.66C76.5405 2195.97 77.1055 2196.42 77.5136 2197.04C77.921 2197.65 78.1253 2198.4 78.1253 2199.29C78.1253 2200.18 77.9147 2200.94 77.4941 2201.56C77.086 2202.17 76.521 2202.64 75.7976 2202.96C75.0743 2203.26 74.2386 2203.41 73.2913 2203.41H70.6086V2209.13H68.3597ZM70.6086 2201.48H73.2327C74.1926 2201.48 74.8636 2201.29 75.2452 2200.9C75.64 2200.5 75.8367 2199.97 75.8367 2199.29C75.8367 2198.62 75.64 2198.09 75.2452 2197.69C74.8636 2197.3 74.1926 2197.1 73.2327 2197.1H70.6086V2201.48ZM54.4087 2209.13L59.4464 2195.18H61.9262L66.9646 2209.13H64.6034L63.4615 2205.83H57.8923L56.7309 2209.13H54.4087ZM58.5417 2204.01H62.8316L60.6671 2197.83L58.5417 2204.01ZM35.5749 2209.13V2195.18H38.2723L42.5804 2204.41L46.8075 2195.18H49.5259V2209.13H47.231V2199.23L43.4461 2207.28H41.6548L37.8699 2199.23V2209.13H35.5749ZM25.8093 2209.13V2195.18H28.0596V2207.24H34.1798V2209.13H25.8093ZM16.0436 2209.13V2195.18H18.2939V2207.24H24.4142V2209.13H16.0436Z" fill="#ffffff" style={{
+            fill: "#ffffff",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(LlmApiTextDark);
+export default ForwardRef;

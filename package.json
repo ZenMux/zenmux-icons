@@ -1,6 +1,6 @@
 {
   "name": "@zenmux/icons",
-  "version": "0.1.0-dev.6",
+  "version": "0.1.0-dev.7",
   "description": "Transparent AI brand SVG icons and React components by ZenMux.",
   "type": "module",
   "sideEffects": false,

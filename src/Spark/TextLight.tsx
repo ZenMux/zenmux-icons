@@ -1,0 +1,29 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const SparkTextLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93 24" fill="none" width={typeof size === 'number' ? size * 3.875 : 'calc(' + size + ' * 3.875)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -2661)"><g id={instanceId + "-spark-text-light__Name=Spark, Type=Color, Language=Default"}><g id={instanceId + "-spark-text-light__Spark / Wordmark"}><path id={instanceId + "-spark-text-light__Spark / path 01"} fillRule="evenodd" clipRule="evenodd" d="M54.2119 2663H46.1499V2665.28H50.7659C50.8623 2665.28 50.9575 2665.3 51.0441 2665.35C51.1306 2665.39 51.2063 2665.45 51.2652 2665.53C51.3241 2665.6 51.3648 2665.69 51.384 2665.79C51.4031 2665.88 51.4004 2665.98 51.3759 2666.07L47.2479 2681.82C47.2112 2681.95 47.207 2682.1 47.2358 2682.24C47.2645 2682.38 47.3254 2682.52 47.4136 2682.63C47.5019 2682.75 47.6153 2682.84 47.745 2682.9C47.8747 2682.97 48.0174 2683 48.1619 2683H64.4169L65.6769 2680.8H50.7169L55.1259 2664.19C55.163 2664.05 55.1674 2663.9 55.1389 2663.76C55.1104 2663.62 55.0497 2663.48 54.9615 2663.37C54.8733 2663.25 54.7599 2663.16 54.6301 2663.1C54.5003 2663.03 54.3566 2663 54.2119 2663Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-spark-text-light__Spark / path 02"} fillRule="evenodd" clipRule="evenodd" d="M61.8979 2663H66.1499L59.5349 2669.46H54.7319L61.8979 2663ZM60.2439 2672.13H55.5979L60.9529 2677.96H65.5979L60.2439 2672.13Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-spark-text-light__Spark / path 03"} fillRule="evenodd" clipRule="evenodd" d="M70.323 2663.08H87.488C88.01 2663.08 88.433 2663.5 88.433 2664.02V2672.76H80.795V2674.18H88.433V2675.91H80.795V2677.65H88.433V2679.38H80.795V2680.8H88.433V2683H70.323V2680.8H77.646V2679.38H70.323V2677.65H77.646V2675.91H70.323L72.606 2672.76H71.268C71.0175 2672.76 70.7773 2672.66 70.6001 2672.49C70.4229 2672.31 70.3233 2672.07 70.323 2671.82V2663.08ZM75.756 2672.76H77.566V2674.18H74.653L75.756 2672.76ZM85.126 2665.13H73.551V2667.09H84.181L83.158 2668.98H73.55V2670.72H85.125L85.126 2665.13Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-spark-text-light__Spark / path 04"} fillRule="evenodd" clipRule="evenodd" d="M100.087 2663.08H103.394V2672.92L111.66 2683H107.487L101.817 2675.91L96.0719 2683H92.0559L100.009 2672.92L100.087 2663.08Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /><path id={instanceId + "-spark-text-light__Spark / path 05"} fillRule="evenodd" clipRule="evenodd" d="M95.362 2663.08H92.134L94.574 2672.76H97.804L95.362 2663.08ZM111.425 2663.08H108.118L105.835 2672.76H108.985L111.425 2663.08ZM23 2663.08H27.41V2665.44H23V2663.08ZM30.087 2663.08V2665.36H32.055V2671.82H29.93V2674.1H32.056V2683H35.206V2674.1H37.253V2671.82H35.206V2665.36H38.119C38.554 2665.36 38.907 2665.72 38.907 2666.15V2683H42.45L43.552 2680.87H42.056V2663.87C42.056 2663.66 41.9731 2663.46 41.8255 2663.31C41.6779 2663.16 41.4777 2663.08 41.269 2663.08H30.087ZM26.622 2669.85H23V2672.21H24.26V2682.06C24.26 2682.58 24.683 2683 25.205 2683H28.118L29.142 2680.72H27.409V2670.64C27.4091 2670.54 27.3889 2670.43 27.3494 2670.34C27.3099 2670.24 27.2519 2670.16 27.1788 2670.08C27.1058 2670.01 27.019 2669.95 26.9234 2669.91C26.8279 2669.87 26.7254 2669.85 26.622 2669.85Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(SparkTextLight);
+export default ForwardRef;

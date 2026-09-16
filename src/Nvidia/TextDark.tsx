@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const NvidiaTextDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 24" fill="none" color="#ffffff" width={typeof size === 'number' ? size * 4.625 : 'calc(' + size + ' * 4.625)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -3673) scale(1.43359375)"><g id={instanceId + "-nvidia-text-dark__Name=NVIDIA, Type=Color, Language=Default"}><g id={instanceId + "-nvidia-text-dark__NVIDIA / Wordmark"}><path id={instanceId + "-nvidia-text-dark__NVIDIA / path 01"} fillRule="evenodd" clipRule="evenodd" d="M47.081 2563.51V2577.43H51.0263V2563.51H47.081ZM16.0436 2563.49V2577.43H20.0238V2566.61L23.1293 2566.62C23.5327 2566.59 23.9394 2566.64 24.3222 2566.77C24.705 2566.9 25.0553 2567.11 25.3496 2567.39C25.9732 2568.05 26.2285 2569.12 26.2285 2571.08V2577.44H30.0852V2569.73C30.0852 2564.23 26.5731 2563.49 23.1293 2563.49L16.0436 2563.49ZM53.4349 2563.51V2577.43H59.8342C63.2397 2577.43 64.3558 2576.87 65.5597 2575.6C66.5804 2574.15 67.0745 2572.39 66.9604 2570.62C67.0364 2568.93 66.5907 2567.26 65.6832 2565.83C64.2218 2563.89 62.1159 2563.51 58.9721 2563.51L53.4349 2563.51ZM57.3482 2566.54H59.0446C61.5049 2566.54 63.0974 2567.64 63.0974 2570.5C63.0974 2573.36 61.5007 2574.46 59.0446 2574.46H57.3482V2566.54ZM41.3925 2563.51L38.1001 2574.54L34.9443 2563.51H30.6879L35.1941 2577.43H40.8798L45.4208 2563.51H41.3925ZM68.7956 2577.43H72.7417V2563.51H68.7942L68.7956 2577.43ZM79.8587 2563.51L74.3495 2577.43H78.2404L79.1124 2574.97H85.6317L86.4569 2577.43H90.6812L85.1301 2563.51L79.8601 2563.51H79.8587ZM82.4208 2566.05L84.8113 2572.57H79.9564L82.4208 2566.05Z" fill="#ffffff" style={{
+            fill: "#ffffff",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(NvidiaTextDark);
+export default ForwardRef;

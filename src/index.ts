@@ -1,4 +1,5 @@
 export type { IconProps } from './types.js';
+export type { CombineProps, AvatarProps } from './compound.js';
 export {default as Ace} from './Ace/index.js';
 export {default as Adobe} from './Adobe/index.js';
 export {default as AdobeFirefly} from './AdobeFirefly/index.js';

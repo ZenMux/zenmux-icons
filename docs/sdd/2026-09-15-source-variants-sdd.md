@@ -25,7 +25,7 @@ scripts/generate.mjs preserves the supplied symbol and derives the opposite them
 by RGB inversion. Source validation requires exactly one Light/Dark Default input.
 CombineDark composes the Dark symbol + inverted Light wordmark. CombineLight
 composes the Light symbol + original Light wordmark. Each symbol is 48 units high, each
-wordmark 24 units high, with a 12-unit gap and vertical centering. No typography is
+wordmark 38.4 units high (visible symbol:text height = 1:0.8), with a 12-unit gap and vertical centering. No typography is
 invented and each source appears once. Combined size is height; width follows viewBox.
 scripts/lib/svg-variants.mjs preserves original geometry and opacity, handles XML
 prologs, protects mask/clip paint, and prefixes each input's IDs before composition.
@@ -34,8 +34,12 @@ including alpha. React useId isolates repeated instances. Mono remains currentCo
 
 ## Compatibility and non-goals
 
-Component variants remain Color, Mono, Dark/Default, Light and Combine variants.
-No new pure Text API, no auto-inferred brand colors or backgrounds, and no code-level
+Component variants retain Color, Mono, Dark/Default, Light and Combine variants.
+Text/TextLight/TextDark expose the standalone source wordmark; text/text-light/text-dark
+loaders and catalog aspect ratios are generated only for hasText brands. Text follows
+currentColor; TextLight preserves the source and TextDark inverts its paint. Static
+text-light/text-dark SVGs use the same artwork as React and download consumers.
+No auto-inferred brand colors or backgrounds, and no code-level
 renaming of missing brands. Existing dev.3 IDs remain unchanged; new brands retain their source names.
 Lazy loaders remain split per variant; catalog imports do not load artwork.
 
@@ -76,3 +80,78 @@ its declaration files expose the same website without eager artwork imports. Rea
 components and SVG outputs are unchanged. Existing consumers remain compatible.
 Validation adds metadata/catalog equality and unsafe/conflicting URL cases. Publish
 dev.6 with dev tag; keep latest unchanged. Source integrations stay private.
+
+## Text exposure and ratio correction (2026-09-16, unpublished)
+
+The detail gallery needs a pure Text row as well as a combined lockup. Update
+scripts/generate.mjs and scripts/lib/svg-variants.mjs, then regenerate src/ and static/.
+Source SVGs and metadata inputs are unchanged. Existing Combine names remain, but
+their dimensions change to honor 1:0.8 painted-height proportions; width is derived from
+the new viewBox. The unchanged gap is 25% of symbol height. References remain scoped
+per input and per React instance, including non-zero viewBox origins.
+
+Tests verify all standalone source pixels, static/React parity, absent-source rejection,
+one symbol plus one wordmark, dimensions, alpha placement, typings and lazy loading.
+This is a local source change, not a published dev.6 replacement. Publish a new unique
+version only on user request, then update the consumer pin and lockfile before rollout.
+No production deployment or source-system edits. Open question: release version and timing.
+
+Source viewBoxes contain unequal transparent margins (ZenMux symbol about 86% painted,
+wordmark about 63%), so canvas-height scaling does not satisfy the visual ratio.
+artworkBox measures nonzero alpha with the existing sharp dev dependency at 2048px
+height, capped at 8192px width. It maps the pixel bounds back to source coordinates,
+including offset origins; empty artwork fails generation. Bounds are shared across
+theme variants. Only composition transforms use these bounds; standalone files retain
+their geometry and margins. SVG output remains vector, not embedded raster. This is
+build-time measurement with subpixel approximation, not a browser/runtime dependency.
+Painted-height/centering tests use independent raster scans with antialias tolerances.
+
+## LobeHub-style compound components
+
+Reference: installed @lobehub/icons OpenRouter index/components plus the shared
+IconCombine/IconAvatar implementations. Default remains Mono/currentColor; Color is
+the original source. Text is currentColor. Public Combine now supports type=mono/color,
+visibility flags, inverse ordering, spacing/text multipliers, icon overrides and extra
+text. Avatar supports circle/square, background/foreground, scale and icon styling.
+scripts/templates/compound.tsx implements these layout controls with React/HTML only;
+generate.mjs emits per-brand factories and index members. No dependency on LobeHub UI.
+
+Unlike per-brand LobeHub presets, our source catalog has no authoritative primary color
+or avatar styling. Avatar therefore uses documented neutral black/white defaults and
+accepts explicit overrides; no primary-color metadata is invented. Brand artwork stays
+ours. The approved 0.8 painted text multiplier and 0.25 gap remain the defaults.
+Box measurement includes Color separately because its geometry may differ from Mono.
+
+Compatibility: Combine changes from a single SVG to a div containing two SVGs, as in
+the reference. Consumers needing SVG/ref/export behavior use the unchanged generated
+CombineDark/CombineLight or loadIcon's combine variants. Compound refs are HTMLDivElement;
+this DOM/ref change requires a new prerelease and migration note. Default, Color, Text
+and themed SVG entry points remain. Missing wordmarks omit Text/Combine, never Avatar.
+loadIconComponent performs per-brand dynamic import, validates names and does not put
+artwork into the catalog's static graph. title comes from existing catalog metadata.
+
+Validation covers all brands' six-member availability, original Color selection,
+missing-source cases, custom Combine flags/spacing/order, Avatar appearance props,
+refs, isolated fragment IDs and existing SVG geometry tests. Browser checks must use
+the actual public components, not approximate previews. Publishing remains separately
+authorized; no avatar brand-color migration is assumed.
+
+## Dev.7 release attempt (2026-09-16)
+
+User authorized npm publication and scoped commit/push. Version and package lock
+are prepared at 0.1.0-dev.7. Generate, all 16 tests, source checks and archive
+allowlist/credential scans pass. The release archive contains only public package
+files (10,754,397 bytes; SHA-1 0112b29fefba0cce311a431669f2aa4216cb4ab9).
+Two PUT attempts to the official registry returned 404; subsequent exact-version
+queries still return 404. whoami succeeds and collaborator lookup reports the
+account as read-write, so the precise publication failure is unresolved, not
+assumed to be an invalid token. No successful publication is claimed.
+Keep dev/latest tags unchanged. Do not retry blindly or bump again: resolve the
+registry/account issue, check whether dev.7 has appeared, and compare integrity
+before any further publication attempt. Next must not pin the unavailable version.
+
+A separate empty consumer installed the prepared tarball with React/ReactDOM and
+TypeScript from npm. Runtime checks and TypeScript compilation passed for all six
+public usages, named/direct imports, catalog, loadIconComponent, all Text/Combine
+lazy variants, deferred SSR and missing-wordmark behavior. This validates the
+distributed artifact, but is explicitly not a successful registry install of dev.7.

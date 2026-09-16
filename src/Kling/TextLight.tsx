@@ -1,0 +1,17 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const KlingTextLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 24" fill="none" width={typeof size === 'number' ? size * 3.3333333333333335 : 'calc(' + size + ' * 3.3333333333333335)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -2441) scale(1.390625)"><g id={instanceId + "-kling-text-light__Name=Kling, Type=Color, Language=Default"}><g id={instanceId + "-kling-text-light__Kling / Wordmark"}><path id={instanceId + "-kling-text-light__Kling / path 01"} fillRule="evenodd" clipRule="evenodd" d="M68.8467 1761.67C68.4591 1760.03 67.8285 1759.46 66.1674 1759.28C65.7003 1759.22 65.2291 1759.21 64.7601 1759.25C62.551 1759.43 61.8355 1760.21 61.8355 1762.41C61.8355 1763.54 61.8262 1764.66 61.8391 1765.79C61.8556 1767.29 62.5359 1768.31 63.9935 1768.57C64.9729 1768.75 66.0638 1768.7 67.0281 1768.45C68.2671 1768.14 68.8173 1767.05 68.6871 1765.67H65.3893V1763.58H71.2054C71.2054 1763.95 71.2176 1764.33 71.2306 1764.7C71.2579 1765.51 71.2845 1766.31 71.1766 1767.09C70.889 1769.19 69.1351 1770.79 66.6549 1771.08C65.4138 1771.23 64.069 1771.12 62.8581 1770.8C60.6073 1770.19 59.3675 1768.36 59.3532 1766.03C59.3438 1764.68 59.351 1763.33 59.3532 1761.98C59.3546 1759.08 60.5469 1757.56 63.4039 1756.99C65.3476 1756.6 67.2856 1756.66 69.079 1757.64C70.6287 1758.49 71.3255 1759.83 71.2615 1761.67H68.8511L68.8467 1761.67ZM56.5825 1770.96H54.3108V1759.38H47.6965V1770.94H45.3667V1757.27H56.5825V1770.96ZM37.2545 1768.88H31.3542V1757.13H29.1035V1770.91H37.2545V1768.88ZM41.6187 1770.96H39.4449V1757.13H41.6187V1770.96ZM16.5393 1770.96H18.7124V1764.4H18.7427L24.5818 1770.91H27.2762L21.4371 1764.4H21.3472L27.1863 1757.21H24.4911L18.7124 1764.33V1757.13H16.5393V1770.96Z" fill="black" style={{
+            fill: "black",
+            fillOpacity: 1
+          }} /></g></g></g></svg>;
+};
+const ForwardRef = forwardRef(KlingTextLight);
+export default ForwardRef;
