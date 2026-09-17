@@ -1,0 +1,23 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const LongcatColorLight = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g id={instanceId + "-longcat-color-light__Name=LongCat, Type=Color, Variant=Default"}><g id={instanceId + "-longcat-color-light__LongCat / Icon"} clipPath={'url(#' + instanceId + "-longcat-color-light__clip0_436_1916)"}><path id={instanceId + "-longcat-color-light__LongCat / path 01"} fillRule="evenodd" clipRule="evenodd" d="M1.014 39.766C0.85775 39.7661 0.703594 39.73 0.563562 39.6607C0.42353 39.5914 0.301411 39.4907 0.206735 39.3664C0.11206 39.2421 0.04739 39.0976 0.0177729 38.9442C-0.0118443 38.7908 -0.00560718 38.6326 0.0359973 38.482L8.58 7.48997C8.66472 7.18189 8.82111 6.89822 9.03639 6.66211C9.25167 6.42601 9.51974 6.24417 9.81871 6.13145C10.1177 6.01873 10.4391 5.97831 10.7566 6.01351C11.0742 6.04871 11.379 6.15851 11.646 6.33397L22.89 13.708C23.2199 13.924 23.6057 14.0391 24 14.0391C24.3943 14.0391 24.7801 13.924 25.11 13.708L36.4 6.32997C36.6672 6.15496 36.9721 6.04564 37.2896 6.01091C37.6072 5.97618 37.9285 6.01704 38.2272 6.13014C38.526 6.24325 38.7938 6.4254 39.0087 6.66173C39.2236 6.89805 39.3797 7.18185 39.464 7.48997L47.964 38.484C48.0053 38.6345 48.0113 38.7926 47.9814 38.9458C47.9515 39.099 47.8866 39.2432 47.7917 39.3672C47.6968 39.4911 47.5745 39.5914 47.4344 39.6603C47.2942 39.7291 47.1401 39.7646 46.984 39.764H36.14C38.1143 37.4765 39.2003 34.5556 39.2 31.534V31.18C39.1998 28.2235 38.1243 25.368 36.174 23.146L34.78 16.156C34.7517 16.01 34.6866 15.8736 34.591 15.7597C34.4954 15.6458 34.3724 15.5582 34.2336 15.5049C34.0947 15.4517 33.9446 15.4347 33.7974 15.4555C33.6502 15.4764 33.5106 15.5343 33.392 15.624L28.14 19.562C27.9554 19.7005 27.7413 19.7944 27.5144 19.8363C27.2875 19.8783 27.0539 19.8672 26.832 19.804C24.9804 19.2749 23.0176 19.2749 21.166 19.804C20.9444 19.8672 20.7112 19.8783 20.4846 19.8363C20.258 19.7943 20.0442 19.7004 19.86 19.562L14.604 15.62C14.4855 15.5315 14.3465 15.4746 14.1999 15.4548C14.0534 15.435 13.9043 15.4529 13.7665 15.5067C13.6288 15.5605 13.5071 15.6486 13.4129 15.7626C13.3187 15.8765 13.255 16.0126 13.228 16.158L11.878 23.462C9.90494 25.4676 8.79944 28.1685 8.8 30.982V31.648C8.8 34.596 9.854 37.448 11.776 39.688L11.84 39.764L1.014 39.766Z" fill="#29E154" style={{
+          fill: "color(display-p3 0.1608 0.8824 0.3294)",
+          fillOpacity: 1
+        }} /><path id={instanceId + "-longcat-color-light__LongCat / path 02"} d="M18.426 33.686H21.466V26.594H18.886L18.426 33.686ZM29.572 33.686H26.532V26.594H29.112L29.572 33.686Z" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></g></g><defs><clipPath id={instanceId + "-longcat-color-light__clip0_436_1916"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(LongcatColorLight);
+export default ForwardRef;

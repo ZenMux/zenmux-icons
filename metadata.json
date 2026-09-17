@@ -349,6 +349,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://aws.amazon.com"
   },
   {
@@ -998,6 +999,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://docsearch.algolia.com"
   },
   {
@@ -1515,6 +1517,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://lingyiwanwu.com/"
   },
   {
@@ -1735,6 +1738,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://kluster.ai"
   },
   {
@@ -1955,6 +1959,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://longcat.chat/"
   },
   {
@@ -2593,6 +2598,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://poe.com"
   },
   {
@@ -2681,6 +2687,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://qoder.com"
   },
   {
@@ -2879,6 +2886,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://github.com/SillyTavern"
   },
   {
@@ -3165,6 +3173,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://tripo3d.ai"
   },
   {
@@ -3418,6 +3427,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://xpay.sh"
   },
   {
@@ -3451,8 +3461,8 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
-    "website": "https://github.com/01-ai/Yi",
-    "hasColorLight": true
+    "hasColorLight": true,
+    "website": "https://github.com/01-ai/Yi"
   },
   {
     "id": "youmind",
@@ -3507,6 +3517,7 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
+    "hasColorLight": true,
     "website": "https://zeabur.com"
   },
   {

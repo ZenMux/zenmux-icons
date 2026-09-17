@@ -207,3 +207,28 @@ missing-source behavior and adapter conflicts. Caller textMultiple overrides rem
 No new API requests or runtime dependencies. This is not yet published; a new
 prerelease and consumer pin update are required for clean-install rollout. Existing
 API names remain, but default Combine width decreases. Open question: release timing.
+
+### Designer source refresh (2026-09-17)
+
+The requested dry-run and full local sync both pass all 17 package tests. The
+catalog remains 322 brands with no removed brands or changed existing SVG inputs.
+Eleven ColorLight sources were added: AWS, DocSearch, 01.AI, Kluster, LongCat, Poe,
+Qoder, SillyTavern, Tripo, xpay and Zeabur. Together with Yi there are 12 ColorLight
+sources and 975 supported SVG inputs. In particular 01.AI now has its own source.
+The adapter explicitly reports unsupported Gemma Color/Dark Simple and Kimi
+ColorDark Default rather than silently converting them. Current source has no
+Kimi ColorLight. Existing 1:0.7 composition, Lazy API and theme corrections remain.
+Generated outputs and README catalog were refreshed; no publication or push.
+Next local typecheck, mode resolver checks and build:local pass (upload=null).
+The restarted dev page for 01.AI loads its color-light component on the black
+badge and original color on the white badge; browser inspection confirms the
+complete white symbol and green dot are visible instead of only the dot.
+
+### Dev.9 release (2026-09-17)
+
+User authorized publication and commit/push of this refresh. Dev.9 packages the
+12 ColorLight variants, 1:0.7 Combine defaults, source refresh and README package
+table/catalog. Generation, README freshness, all 17 package tests, source checks
+and package allowlist/secret scans pass. The publish command was accepted; registry
+availability and consumer installation are verified separately before a Next pin
+update. latest remains dev.0; unsupported ColorDark/Simple remain excluded.
