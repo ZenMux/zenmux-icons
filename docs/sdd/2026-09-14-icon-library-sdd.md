@@ -1,5 +1,8 @@
 # Icon library and local update contract
 
+Historical design: the private-repository rollout below was superseded on
+2026-09-17 by [public visibility](2026-09-17-public-visibility-sdd.md).
+
 ## Background and goals
 
 Maintain transparent, original-color AI brand SVGs and React components in one

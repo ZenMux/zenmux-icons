@@ -7,13 +7,15 @@ The scoped package contains the implementation. `packages/zenmux-icons` is a sma
 name-protection placeholder exporting package information only; it has no icons
 and no second implementation. Its publication is independent of the main package.
 
-**Status:** private GitHub repository. `@zenmux/icons` is available as a public dev
+**Status:** public GitHub repository, currently **UNLICENSED** (source-visible, not
+open-source licensed). Brand artwork retains its owners' rights; see [NOTICE](NOTICE).
+`@zenmux/icons` is available as a public dev
 prerelease (`0.1.0-dev.9`, npm tag `dev`); there is no stable release.
 Dev.8 is publicly available and verified by installation from the official registry.
 It contains the compound API originally prepared for the staged dev.7 release.
 The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
-No CI or automatic package publishing is configured.
+No publishing workflow is hosted in this repository. Publication is managed separately.
 
 ## Packages
 

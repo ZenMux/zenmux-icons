@@ -237,3 +237,8 @@ Official npm subsequently exposed dev.9. A clean consumer installed it from the
 registry and passed runtime and TypeScript checks for six compound usages, all
 12 ColorLight components/loaders, 1:0.7 Combine and Lazy deferred SSR. The published
 archive integrity matches the tested package. Next upgrades to this registry build.
+# Visibility update
+
+The historical private-repository rollout in this document was superseded by
+[the 2026-09-17 public visibility decision](2026-09-17-public-visibility-sdd.md).
+Source integrations remain private and separate.
