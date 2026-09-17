@@ -8,7 +8,7 @@ const root = path.resolve(process.argv[2] || '.');
 const metadata = JSON.parse(await readFile(path.join(root,'metadata.json'),'utf8'));
 const generated = new Map(), staticFiles = new Map(), enriched = [];
 const componentName = id => id.split('-').map(s => s[0].toUpperCase()+s.slice(1)).join('');
-const names = {mono:'Mono',color:'Color',dark:'Dark',light:'Light',text:'Text','text-dark':'TextDark','text-light':'TextLight',combine:'Combine','combine-dark':'CombineDark','combine-light':'CombineLight'};
+const names = {mono:'Mono',color:'Color','color-light':'ColorLight',dark:'Dark',light:'Light',text:'Text','text-dark':'TextDark','text-light':'TextLight',combine:'Combine','combine-dark':'CombineDark','combine-light':'CombineLight'};
 
 for (const icon of metadata) {
   if (!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(icon.id)) throw Error('Invalid icon id');
@@ -18,6 +18,7 @@ for (const icon of metadata) {
   const dark = icon.symbolTheme==='light' ? transformPaint(original,'invert') : original;
   const light = icon.symbolTheme==='light' ? original : transformPaint(original,'invert');
   const sources = {mono:transformPaint(dark,'currentColor'),color,dark,light};
+  if (icon.hasColorLight) sources['color-light'] = await readFile(path.join(root,'icons/color-light',icon.id+'.svg'),'utf8');
   let compoundBoxes;
   if (icon.hasText) {
     // This catalog supplies wordmarks only; compose them with the Dark Default symbol.
@@ -78,6 +79,7 @@ const componentLoaderCode = `
 import type { CombineProps, AvatarProps } from './compound.js';
 export type BrandIcon = ComponentType<IconProps> & {
   Color: ComponentType<IconProps>;
+  ColorLight?: ComponentType<IconProps>;
   Text?: ComponentType<IconProps>;
   Combine?: ComponentType<CombineProps>;
   Avatar: ComponentType<AvatarProps>;

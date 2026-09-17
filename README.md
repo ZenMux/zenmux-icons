@@ -15,6 +15,18 @@ The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No CI or automatic package publishing is configured.
 
+## Packages
+
+| Logo | Package | Version | Downloads | Links |
+| --- | --- | --- | --- | --- |
+| <a href="https://zenmux.ai/icons/zenmux"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.0-dev.8/static/dark/zenmux.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.0-dev.8/static/light/zenmux.svg" alt="ZenMux" width="48" height="48"></picture></a> | [`@zenmux/icons`](https://www.npmjs.com/package/@zenmux/icons?activeTab=readme) | [![npm dev version](https://img.shields.io/npm/v/%40zenmux%2Ficons/dev?label=npm%20dev)](https://www.npmjs.com/package/@zenmux/icons?activeTab=versions) | [![Weekly npm downloads](https://img.shields.io/npm/dw/%40zenmux%2Ficons)](https://www.npmjs.com/package/@zenmux/icons) | [Source](https://github.com/ZenMux/zenmux-icons) |
+
+The version badge tracks the **dev** tag; this package does not have a stable release yet.
+
+```sh
+npm install @zenmux/icons@dev
+```
+
 ## Icon catalog
 
 Browse the [ZenMux icon library](https://zenmux.ai/icons). Select any icon below
@@ -682,13 +694,17 @@ Columns follow our source categories: **LLM**, **Provider**, and **Agent**.
 
 ## Components and variants
 
+Unpublished source changes: optional `.ColorLight` / lazy `color-light` preserve
+explicit light-colored source artwork for black badges. Combine now defaults to
+1:0.7 visible height proportions. These two changes are not included in dev.8 yet.
+
 322 brands are available in this development release. Metadata is generated from the
 actual source collection. 319 brands have Light wordmarks. Symbols retain their supplied Light or Dark theme. Consult `@zenmux/icons/catalog` or the local preview for the
 current names, groups and available variants.
 
 Dev.8 additionally exposes `.Text`, `.TextLight`, and `.TextDark` (lazy variants
 `text`, `text-light`, `text-dark`) only when `hasText` is true. Text is the original
-vector wordmark, never generated typography. Combine is symbol + wordmark at a 1:0.8
+vector wordmark, never generated typography. Combine is symbol + wordmark at a 1:0.7
 visible-artwork height ratio (excluding source padding), vertically centered with a
 gap of 0.25 symbol heights.
 
@@ -707,7 +723,7 @@ import { Zenmux } from '@zenmux/icons';
 
 Combine accepts `color`, `inverse`, `showLogo`, `showText`, `spaceMultiple`,
 `textMultiple`, `iconProps`, `extra`, `extraClassName`, `extraStyle` and ordinary
-div props/styles. Defaults preserve the requested 1:0.8 visible height ratio and
+div props/styles. Defaults preserve the requested 1:0.7 visible height ratio and
 0.25 symbol-height gap. Avatar accepts `shape="circle" | "square"`, `background`,
 `color`, `iconMultiple`, `iconClassName`, `iconStyle` and div props/styles.
 It defaults to a white Mono on black with 0.75 icon scale; supply brand-specific
@@ -872,7 +888,7 @@ is `dev`; use unique prerelease versions and do not move `latest` for developmen
 - `.Combine`: theme-aware monochrome composition.
 
 The source wordmark has no symbol. Compose exactly one symbol (48 units high) and
-one wordmark (38.4 visible units high), with a 12-unit gap and vertical centering.
+one wordmark (33.6 visible units high), with a 12-unit gap and vertical centering.
 Original SVGs are preserved in `icons/`, `icons/default/` (Dark), `icons/light/` (Light), and `icons/text/`.
 
 Combined `size` specifies height; width follows the real aspect ratio.

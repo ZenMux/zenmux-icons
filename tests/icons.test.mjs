@@ -54,7 +54,7 @@ test('wordmark composition contains one symbol and one wordmark at the documente
   const symbol=await readFile(new URL(`../icons/${icon.symbolTheme==='light'?'light':'default'}/${icon.id}.svg`,import.meta.url),'utf8');
   const text=await readFile(new URL(`../icons/text/${icon.id}.svg`,import.meta.url),'utf8');
   const sb=await artworkBox(symbol),tb=await artworkBox(text);
-  const expectedWidth=48*sb[2]/sb[3]+12+(48*0.8)*tb[2]/tb[3];
+  const expectedWidth=48*sb[2]/sb[3]+12+(48*0.7)*tb[2]/tb[3];
   for(const variant of ['combine-dark','combine-light']){
    const {default:C}=await loadIcon(icon.id,variant);
    const html=renderToStaticMarkup(createElement(C,{size:48}));
@@ -75,7 +75,7 @@ test('wordmark composition contains one symbol and one wordmark at the documente
     assert.ok(bottom>=top,icon.id+' visible region');return {top,bottom,height:bottom-top+1};
    }
    const symbolBounds=bounds(0,split),textBounds=bounds(split,combined.info.width);
-   assert.ok(Math.abs(textBounds.height/symbolBounds.height-0.8)<0.015,icon.id+' painted ratio');
+   assert.ok(Math.abs(textBounds.height/symbolBounds.height-0.7)<0.015,icon.id+' painted ratio');
    assert.ok(Math.abs((textBounds.top+textBounds.bottom)-(symbolBounds.top+symbolBounds.bottom))<4,icon.id+' painted centering');
   }
  }
@@ -139,6 +139,28 @@ test('catalog exposes the optional website metadata without altering it',async()
  for(const entry of metadata){
   assert.equal(catalog.find(icon=>icon.id===entry.id).website,entry.website,entry.id);
   if(entry.website){const url=new URL(entry.website);assert.ok(['http:','https:'].includes(url.protocol));assert.ok(!url.username&&!url.password);}
+ }
+});
+
+test('optional ColorLight preserves source pixels and is absent without a source',async()=>{
+ for(const icon of catalog){
+  const {default:Icon}=await import(`../dist/${nameOf(icon.id)}/index.js`);
+  if(!icon.hasColorLight){
+   assert.equal(Icon.ColorLight,undefined);
+   await assert.rejects(loadIcon(icon.id,'color-light'));
+   continue;
+  }
+  assert.ok(Icon.ColorLight);
+  const source=await readFile(new URL(`../icons/color-light/${icon.id}.svg`,import.meta.url));
+  const original=await render(source);
+  const {default:C}=await loadIcon(icon.id,'color-light');
+  const outputs=[Buffer.from(renderToStaticMarkup(createElement(C,{size:96}))),
+   await readFile(new URL(`../static/color-light/${icon.id}.svg`,import.meta.url))];
+  for(const output of outputs){
+   const actual=await render(output);assert.equal(actual.data.length,original.data.length);
+   let delta=0;for(let i=0;i<actual.data.length;i++)delta+=Math.abs(actual.data[i]-original.data[i]);
+   assert.ok(delta/actual.data.length<3,icon.id+' ColorLight changed source');
+  }
  }
 });
 

@@ -3451,7 +3451,8 @@
     ],
     "hasText": true,
     "symbolTheme": "dark",
-    "website": "https://github.com/01-ai/Yi"
+    "website": "https://github.com/01-ai/Yi",
+    "hasColorLight": true
   },
   {
     "id": "youmind",

@@ -33,7 +33,7 @@ export interface AvatarProps extends Omit<HTMLAttributes<HTMLDivElement>, 'child
 export function createCombine(Mono: Artwork, Color: Artwork, Text: Artwork, monoBox: Box, colorBox: Box, textBox: Box) {
   return forwardRef<HTMLDivElement, CombineProps>(function Combine({
     size = 24, type = 'mono', color, showLogo = true, showText = true,
-    inverse = false, spaceMultiple = 0.25, textMultiple = 0.8, iconProps,
+    inverse = false, spaceMultiple = 0.25, textMultiple = 0.7, iconProps,
     extra, extraClassName, extraStyle, style, ...props
   }, ref) {
     const Icon = type === 'color' ? Color : Mono;

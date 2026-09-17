@@ -24,7 +24,7 @@ test('compound API exposes LobeHub-style Mono, Color, Text, Combine and Avatar',
     const combined = render(Icon.Combine, { size: 56 });
     assert.equal(svgCount(combined), 2);
     assert.match(combined, /gap:14px/);
-    assert.match(combined, /height="44.800000000000004"/);
+    assert.match(combined, /height="39.199999999999996"/);
     const color = render(Icon.Combine, { type: 'color', size: 56 });
     assert.equal(svgCount(color), 2);
     assert.ok(color.includes(`-${icon.id}-color`), icon.id + ' must use original Color');

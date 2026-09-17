@@ -183,3 +183,27 @@ latest remains 0.1.0-dev.0. A separate consumer installed dev.8 from the officia
 registry (not the local tarball), then passed six-component runtime, direct/named
 imports, catalog, lazy variants/deferred SSR and TypeScript checks. This supersedes
 the preceding pending-availability checkpoint. Next can now pin and install dev.8.
+
+## Optional ColorLight and 1:0.7 composition (2026-09-17, unpublished)
+
+Problem: colored symbols with black geometry disappear on the light gallery's
+black circle; the user added an explicit ColorLight source rather than requesting
+automatic recoloring. The private adapter recognizes Type=ColorLight/Variant=Default
+(and the existing Color alias), rejects duplicate conflicts, and supplies unchanged
+icons/color-light/<id>.svg with optional hasColorLight=true. Only Yi has this source
+in the inspected snapshot. This change imports only that addition, not unrelated
+upstream updates. Source adapter data and credentials stay outside this repository.
+
+generate.mjs exports ColorLight, the color-light lazy loader/static SVG and its
+catalog ratio only when present. check.mjs validates the optional boolean and asset
+inventory. Missing ColorLight remains unavailable rather than fabricated. Original
+Color/Mono/Text and public Avatar defaults are unchanged.
+
+Both combineSvg and the public compound template now default to visible symbol:text
+height 1:0.7, preserving the 0.25 gap and centering. Tests independently check painted
+geometry, public default sizing, ColorLight source/static/React pixel parity,
+missing-source behavior and adapter conflicts. Caller textMultiple overrides remain.
+
+No new API requests or runtime dependencies. This is not yet published; a new
+prerelease and consumer pin update are required for clean-install rollout. Existing
+API names remain, but default Combine width decreases. Open question: release timing.

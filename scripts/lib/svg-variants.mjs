@@ -101,7 +101,7 @@ export function combineSvg(symbol, text, prefix, symbolBox = viewBox(symbol), te
   const symbolSvg = normalizeSvg(symbol, prefix + '-symbol');
   const textSvg = normalizeSvg(text, prefix + '-text');
   const sb = symbolBox, tb = textBox;
-  const symbolHeight = 48, textHeight = symbolHeight * 0.8, gap = 12;
+  const symbolHeight = 48, textHeight = symbolHeight * 0.7, gap = 12;
   const symbolWidth = sb[2] / sb[3] * symbolHeight;
   const textWidth = tb[2] / tb[3] * textHeight;
   function group(svg, box, x, y, height) {
