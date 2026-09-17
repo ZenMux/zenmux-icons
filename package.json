@@ -65,7 +65,7 @@
     "type": "git",
     "url": "git+https://github.com/ZenMux/zenmux-icons.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/",

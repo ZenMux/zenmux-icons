@@ -7,8 +7,8 @@ The scoped package contains the implementation. `packages/zenmux-icons` is a sma
 name-protection placeholder exporting package information only; it has no icons
 and no second implementation. Its publication is independent of the main package.
 
-**Status:** public GitHub repository, currently **UNLICENSED** (source-visible, not
-open-source licensed). Brand artwork retains its owners' rights; see [NOTICE](NOTICE).
+**Status:** public GitHub repository, licensed under [MIT](LICENSE).
+Brand artwork retains its owners' rights; see [NOTICE](NOTICE).
 `@zenmux/icons` is available as a public dev
 prerelease (`0.1.0-dev.9`, npm tag `dev`); there is no stable release.
 Dev.8 is publicly available and verified by installation from the official registry.
@@ -816,7 +816,8 @@ and raster comparison between source SVGs and generated color React components. 
 ref typings, and black/white output for both React and static SVG variants.
 
 Brand artwork and names belong to their respective owners; see [NOTICE](NOTICE).
-An open-source license will be decided separately. This prerelease is marked UNLICENSED.
+The current repository is [MIT licensed](LICENSE). Previously published prereleases
+retain their original package metadata; this repository change does not republish them.
 
 ## Grouped galleries and asynchronous loading
 

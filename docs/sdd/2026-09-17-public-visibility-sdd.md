@@ -3,15 +3,20 @@
 ## Background and goal
 
 Make the reviewed icon repository publicly readable without changing package
-behavior, licensing, or publication channels. Earlier private-only rollout
+behavior or publication channels. At the owner's request, adopt MIT following
+the licensing approach of https://github.com/lobehub/lobe-icons (LICENSE and
+package.json verified on 2026-09-17). Use ZenMux's own copyright notice;
+this reference does not establish that any artwork was copied from LobeHub.
+Earlier private-only rollout
 instructions are historical and superseded by this decision.
 
 ## Scope and non-goals
 
-Update README and repository guidance to describe public visibility. Retain
-UNLICENSED in both package manifests, the existing brand rights NOTICE, and all
-source-system separation rules. Public access does not grant an open-source
-license or trademark rights. No npm publication, new version, stable channel
+Update README and repository guidance to describe public visibility. Add MIT
+LICENSE, set both package manifests and root lockfile metadata to MIT, retain
+and clarify the brand rights NOTICE, and preserve all source-system separation
+rules. MIT does not override third-party artwork or trademark rights.
+No npm publication, new version, stable channel
 promotion, or consumer dependency update is part of this change.
 
 ## Data and control flow
@@ -38,5 +43,5 @@ private to retract information already copied publicly.
 
 ## Open questions
 
-A separate, explicit decision is required for an open-source code license, brand
-asset licensing policy, stable npm publication, or a GitHub Release page.
+Stable npm publication and a GitHub Release page remain separate decisions.
+Previously published versions are not overwritten by this repository license change.
