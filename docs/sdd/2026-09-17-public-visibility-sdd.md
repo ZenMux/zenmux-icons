@@ -45,3 +45,16 @@ private to retract information already copied publicly.
 
 Stable npm publication and a GitHub Release page remain separate decisions.
 Previously published versions are not overwritten by this repository license change.
+
+## Subsequent stable release
+
+The owner subsequently authorized finishing the stable release. Version 0.1.1 was
+published under npm latest from tag v0.1.1, with no artwork changes compared with
+the verified preceding catalog. The stable release includes the MIT metadata and
+image-processing dependency fix. Generation, type checks and all 17 rendering
+tests passed in the release environment. A fresh npm installation rendered a
+React SVG and imported the catalog successfully.
+
+README installation instructions and its generated version-pinned catalog now
+refer to 0.1.1. Development history remains explicitly historical. Consumer
+dependencies are not upgraded automatically.
