@@ -232,3 +232,8 @@ table/catalog. Generation, README freshness, all 17 package tests, source checks
 and package allowlist/secret scans pass. The publish command was accepted; registry
 availability and consumer installation are verified separately before a Next pin
 update. latest remains dev.0; unsupported ColorDark/Simple remain excluded.
+
+Official npm subsequently exposed dev.9. A clean consumer installed it from the
+registry and passed runtime and TypeScript checks for six compound usages, all
+12 ColorLight components/loaders, 1:0.7 Combine and Lazy deferred SSR. The published
+archive integrity matches the tested package. Next upgrades to this registry build.
