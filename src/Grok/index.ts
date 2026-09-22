@@ -1,7 +1,15 @@
 'use client';
 // Generated. Do not edit manually.
-import Text from './Text.js';
+import Avatar from './Avatar.js';
+import Combine from './CompoundCombine.js';
+import Mono from './Mono.js';
+import Color from './Color.js';
+import Dark from './Dark.js';
+import Light from './Light.js';
 import TextDark from './TextDark.js';
 import TextLight from './TextLight.js';
-const Grok = Object.assign(Text, { TextDark, TextLight, Text, title: "Grok", Default: TextDark });
+import Text from './Text.js';
+import CombineDark from './CombineDark.js';
+import CombineLight from './CombineLight.js';
+const Grok = Object.assign(Mono, { Color, Dark, Light, TextDark, TextLight, Text, CombineDark, CombineLight, Combine, Avatar, title: "Grok", Default: Dark });
 export default Grok;

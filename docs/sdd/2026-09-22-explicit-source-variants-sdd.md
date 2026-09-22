@@ -44,3 +44,13 @@ all Combine exports, while retaining Symbol/Color/Text/Avatar as available. The 
 adapter derives it from Combine=false; absent flags retain the old default. The current
 Xiaomi MiMo source explicitly opts out. Rendering tests require missing composition
 loaders to reject, while verifying Text and Symbol independently against source pixels.
+
+## Stable 0.1.2: source-side grouping supersedes preview IDs
+
+Per owner correction, one normalized name now produces one entry/ID with multiple
+groups. The source adapter deterministically selects a complete set per artwork type
+from the first sorted group, unions memberships and rejects conflicting website or
+composition metadata. Extra historical group IDs become aliases, not artwork entries.
+The resulting catalog contains 96 brands and 470 selected source files. Aliases cannot
+collide with canonical IDs or other aliases. Next uses aliases solely for redirects;
+all group links use the canonical ID. These changes are approved for stable 0.1.2.

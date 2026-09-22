@@ -213,25 +213,7 @@
     "name": "Atria",
     "group": "Agent",
     "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://atria-asi.ai/"
-  },
-  {
-    "id": "atria-maker",
-    "name": "Atria",
-    "group": "Maker",
-    "groups": [
+      "Agent",
       "Maker"
     ],
     "hasText": true,
@@ -243,6 +225,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "atria-maker"
     ],
     "website": "https://atria-asi.ai/"
   },
@@ -327,25 +312,7 @@
     "name": "Black Forest Labs",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://bfl.ai"
-  },
-  {
-    "id": "black-forest-labs-provider",
-    "name": "Black Forest Labs",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -357,6 +324,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "black-forest-labs-provider"
     ],
     "website": "https://bfl.ai"
   },
@@ -553,25 +523,7 @@
     "name": "DeepSeek",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://deepseek.com"
-  },
-  {
-    "id": "deepseek-provider",
-    "name": "DeepSeek",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -583,6 +535,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "deepseek-provider"
     ],
     "website": "https://deepseek.com"
   },
@@ -610,25 +565,7 @@
     "name": "Dots Studio",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://studio.dots.ai"
-  },
-  {
-    "id": "dots-studio-provider",
-    "name": "Dots Studio",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -640,6 +577,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "dots-studio-provider"
     ],
     "website": "https://studio.dots.ai"
   },
@@ -779,15 +719,23 @@
     "name": "Grok",
     "group": "Agent",
     "groups": [
-      "Agent"
+      "Agent",
+      "Maker"
     ],
     "hasText": true,
-    "hasSymbol": false,
-    "hasCombine": false,
+    "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
+      "color",
+      "dark",
+      "light",
       "text-dark",
       "text-light"
-    ]
+    ],
+    "aliases": [
+      "grok-maker"
+    ],
+    "website": "https://grok.x.ai"
   },
   {
     "id": "grok-build",
@@ -803,25 +751,6 @@
       "color",
       "dark",
       "light"
-    ],
-    "website": "https://grok.x.ai"
-  },
-  {
-    "id": "grok-maker",
-    "name": "Grok",
-    "group": "Maker",
-    "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
     ],
     "website": "https://grok.x.ai"
   },
@@ -868,25 +797,7 @@
     "name": "Hunyuan",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://hunyuan.tencent.com"
-  },
-  {
-    "id": "hunyuan-provider",
-    "name": "Hunyuan",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -898,6 +809,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "hunyuan-provider"
     ],
     "website": "https://hunyuan.tencent.com"
   },
@@ -1001,25 +915,7 @@
     "name": "Kling",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://klingai.com"
-  },
-  {
-    "id": "kling-provider",
-    "name": "Kling",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1031,6 +927,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "kling-provider"
     ],
     "website": "https://klingai.com"
   },
@@ -1096,25 +995,7 @@
     "name": "LongCat",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://longcat.chat/"
-  },
-  {
-    "id": "longcat-provider",
-    "name": "LongCat",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1126,6 +1007,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "longcat-provider"
     ],
     "website": "https://longcat.chat/"
   },
@@ -1153,7 +1037,8 @@
     "name": "Meta",
     "group": "Maker",
     "groups": [
-      "Maker"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
     "hasSymbol": true,
@@ -1165,22 +1050,8 @@
       "text-dark",
       "text-light"
     ],
-    "website": "https://llama.meta.com"
-  },
-  {
-    "id": "meta-provider",
-    "name": "Meta",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": false,
-    "hasSymbol": true,
-    "hasCombine": false,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light"
+    "aliases": [
+      "meta-provider"
     ],
     "website": "https://llama.meta.com"
   },
@@ -1246,25 +1117,7 @@
     "name": "MiniMax",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://api.minimax.chat"
-  },
-  {
-    "id": "minimax-provider",
-    "name": "MiniMax",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1276,6 +1129,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "minimax-provider"
     ],
     "website": "https://api.minimax.chat"
   },
@@ -1284,25 +1140,7 @@
     "name": "Mistral",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://mistral.ai"
-  },
-  {
-    "id": "mistral-provider",
-    "name": "Mistral",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1314,6 +1152,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "mistral-provider"
     ],
     "website": "https://mistral.ai"
   },
@@ -1493,25 +1334,7 @@
     "name": "OpenAI",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://openai.com"
-  },
-  {
-    "id": "openai-provider",
-    "name": "OpenAI",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1523,6 +1346,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "openai-provider"
     ],
     "website": "https://openai.com"
   },
@@ -1605,25 +1431,7 @@
     "name": "PixVerse",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://app.pixverse.ai"
-  },
-  {
-    "id": "pixverse-provider",
-    "name": "PixVerse",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1635,6 +1443,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "pixverse-provider"
     ],
     "website": "https://app.pixverse.ai"
   },
@@ -1793,25 +1604,7 @@
     "name": "SkyReels",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://www.skyreels.ai"
-  },
-  {
-    "id": "skyreels-provider",
-    "name": "SkyReels",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1823,6 +1616,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "skyreels-provider"
     ],
     "website": "https://www.skyreels.ai"
   },
@@ -1850,25 +1646,7 @@
     "name": "StepFun",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://stepfun.com"
-  },
-  {
-    "id": "stepfun-provider",
-    "name": "StepFun",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1880,6 +1658,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "stepfun-provider"
     ],
     "website": "https://stepfun.com"
   },
@@ -2002,7 +1783,8 @@
     "name": "Xiaomi",
     "group": "Maker",
     "groups": [
-      "Maker"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
     "hasSymbol": true,
@@ -2013,6 +1795,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "xiaomi-provider"
     ],
     "website": "https://platform.xiaomimimo.com"
   },
@@ -2036,48 +1821,11 @@
     "website": "https://platform.xiaomimimo.com"
   },
   {
-    "id": "xiaomi-provider",
-    "name": "Xiaomi",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://platform.xiaomimimo.com"
-  },
-  {
     "id": "zai",
     "name": "ZAI",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://z.ai"
-  },
-  {
-    "id": "zai-provider",
-    "name": "ZAI",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -2089,6 +1837,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "zai-provider"
     ],
     "website": "https://z.ai"
   },
@@ -2116,25 +1867,7 @@
     "name": "ZenMux",
     "group": "Agent",
     "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://zenmux.ai"
-  },
-  {
-    "id": "zenmux-provider",
-    "name": "ZenMux",
-    "group": "Provider",
-    "groups": [
+      "Agent",
       "Provider"
     ],
     "hasText": true,
@@ -2146,6 +1879,9 @@
       "light",
       "text-dark",
       "text-light"
+    ],
+    "aliases": [
+      "zenmux-provider"
     ],
     "website": "https://zenmux.ai"
   }

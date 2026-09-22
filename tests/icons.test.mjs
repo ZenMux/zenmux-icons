@@ -154,6 +154,15 @@ test('catalog exposes the optional website metadata without altering it',async()
  }
 });
 
+test('catalog contains one entry per normalized name with source-side multi-groups',()=>{
+ const keys=catalog.map(i=>i.name.normalize('NFKC').trim().toLowerCase());
+ assert.equal(new Set(keys).size,keys.length);
+ const pixverse=catalog.find(i=>i.id==='pixverse');
+ assert.deepEqual([...pixverse.groups],['Maker','Provider']);
+ assert.ok(pixverse.aliases.includes('pixverse-provider'));
+ assert.equal(catalog.some(i=>i.id==='pixverse-provider'),false);
+});
+
 test('optional ColorLight preserves source pixels and is absent without a source',async()=>{
  for(const icon of catalog){
   const {default:Icon}=await import(`../dist/${nameOf(icon.id)}/index.js`);
