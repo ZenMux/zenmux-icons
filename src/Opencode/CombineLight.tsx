@@ -8,61 +8,67 @@ const OpencodeCombineLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 237.64559471970136 48" fill="none" width={typeof size === 'number' ? size * 4.950949889993779 : 'calc(' + size + ' * 4.950949889993779)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g fill="none" color="#ffffff" transform="translate(0 0) scale(1.199063231850117) translate(-7.9921875 -3.984375)"><g transform="translate(-361 -2877)"><g id={instanceId + "-opencode-combine-light__opencode-light-symbol__Name=opencode, Type=Dark, Variant=Default"}><g id={instanceId + "-opencode-combine-light__opencode-light-symbol__opencode / Icon_2"}><path id={instanceId + "-opencode-combine-light__opencode-light-symbol__opencode / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M393 2889H377V2913H393V2889ZM401 2921H369V2881H401V2921Z" fill="#000000" style={{
-              fill: "#000000",
-              fillOpacity: 1
-            }} /></g></g></g></g><g fill="none" transform="translate(50.38875878220141 7.200000000000003) scale(1.3999999999999997) translate(-2.12255859375 0)"><g transform="translate(-21 -5653) scale(1.390625)"><g id={instanceId + "-opencode-combine-light__opencode-light-text__Name=opencode, Type=Color, Language=Default"}><g id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / Wordmark"} clipPath={'url(#' + instanceId + "-opencode-combine-light__opencode-light-text__clip58_1_3407)"}><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 01"} fillRule="evenodd" clipRule="evenodd" d="M24.0387 4077.41H19.1064V4072.48H24.038L24.0387 4077.41Z" fill="black" fillOpacity={0.25} style={{
-              fill: "black",
-              fillOpacity: 0.25
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 02"} fillRule="evenodd" clipRule="evenodd" d="M24.0382 4070.01H19.1073V4077.41H24.0382V4070.01ZM26.5047 4079.87H16.6415V4067.54H26.5033V4079.87H26.5047Z" fill="black" fillOpacity={0.75} style={{
-              fill: "black",
-              fillOpacity: 0.75
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 03"} fillRule="evenodd" clipRule="evenodd" d="M36.3656 4077.41H31.4347V4072.48H36.3656V4077.41Z" fill="black" fillOpacity={0.25} style={{
-              fill: "black",
-              fillOpacity: 0.25
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 04"} fillRule="evenodd" clipRule="evenodd" d="M31.4349 4077.41H36.3665V4070.01H31.4349V4077.41ZM38.8316 4079.87H31.4349V4082.34H28.9698V4067.55H38.8316V4079.87Z" fill="black" fillOpacity={0.75} style={{
-              fill: "black",
-              fillOpacity: 0.75
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 05"} fillRule="evenodd" clipRule="evenodd" d="M51.159 4074.94V4077.41H43.7623V4074.94H51.159Z" fill="black" fillOpacity={0.25} style={{
-              fill: "black",
-              fillOpacity: 0.25
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 06"} fillRule="evenodd" clipRule="evenodd" d="M51.1592 4074.94H43.7625V4077.41H51.1592V4079.87H41.2974V4067.54H51.1592V4074.94ZM43.7625 4072.48H48.6934V4070.01H43.7625V4072.48Z" fill="black" fillOpacity={0.75} style={{
-              fill: "black",
-              fillOpacity: 0.75
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 07"} fillRule="evenodd" clipRule="evenodd" d="M61.0208 4079.87H56.0899V4072.48H61.0208V4079.87Z" fill="black" fillOpacity={0.25} style={{
-              fill: "black",
-              fillOpacity: 0.25
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 08"} fillRule="evenodd" clipRule="evenodd" d="M61.0206 4070.01H56.0897V4079.87H53.6239V4067.54H61.0206V4070.01ZM63.4864 4079.87H61.0206V4070.01H63.4864V4079.87Z" fill="black" fillOpacity={0.75} style={{
-              fill: "black",
-              fillOpacity: 0.75
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 09"} fillRule="evenodd" clipRule="evenodd" d="M75.8134 4077.41H68.4182V4072.48H75.8141L75.8134 4077.41Z" fill="black" fillOpacity={0.25} style={{
-              fill: "black",
-              fillOpacity: 0.25
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 10"} fillRule="evenodd" clipRule="evenodd" d="M75.8133 4070.01H68.418V4077.41H75.814V4079.87H65.9522V4067.54H75.8147V4070.01H75.8133Z" fill="black" style={{
-              fill: "black",
-              fillOpacity: 1
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 11"} fillRule="evenodd" clipRule="evenodd" d="M85.676 4077.41H80.7451V4072.48H85.676V4077.41Z" fill="black" fillOpacity={0.25} style={{
-              fill: "black",
-              fillOpacity: 0.25
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 12"} fillRule="evenodd" clipRule="evenodd" d="M85.6758 4070.01H80.7449V4077.41H85.6758V4070.01ZM88.1409 4079.87H78.2791V4067.54H88.1409V4079.87Z" fill="black" style={{
-              fill: "black",
-              fillOpacity: 1
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 13"} fillRule="evenodd" clipRule="evenodd" d="M98.0036 4077.41H93.0727V4072.48H98.0036V4077.41Z" fill="black" fillOpacity={0.25} style={{
-              fill: "black",
-              fillOpacity: 0.25
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 14"} fillRule="evenodd" clipRule="evenodd" d="M98.0034 4070.01H93.0725V4077.41H98.0034V4070.01ZM100.468 4079.87H90.6067V4067.55H98.0034V4065.08H100.468V4079.87Z" fill="black" style={{
-              fill: "black",
-              fillOpacity: 1
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 15"} fillRule="evenodd" clipRule="evenodd" d="M112.796 4074.94V4077.41H105.399V4074.94H112.796Z" fill="black" fillOpacity={0.25} style={{
-              fill: "black",
-              fillOpacity: 0.25
-            }} /><path id={instanceId + "-opencode-combine-light__opencode-light-text__opencode / path 16"} fillRule="evenodd" clipRule="evenodd" d="M105.399 4070.01V4072.48H110.331V4070.01H105.399ZM112.796 4074.94H105.399V4077.41H112.796V4079.87H102.934V4067.54H112.796V4074.94Z" fill="black" style={{
-              fill: "black",
-              fillOpacity: 1
-            }} /></g></g></g><defs><clipPath id={instanceId + "-opencode-combine-light__opencode-light-text__clip58_1_3407"}><rect width={138} height={24} fill="white" style={{
+  return <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 237.51518367663198 48" fill="none" width={typeof size === 'number' ? size * 4.948232993263166 : 'calc(' + size + ' * 4.948232993263166)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g fill="none" transform="translate(0 0) scale(1.0905218317358893) translate(-6.3984375 -1.9921875)"><g clipPath={'url(#' + instanceId + "-opencode-combine-light__opencode-light-symbol__clip0_31_72)"}><path fillRule="evenodd" clipRule="evenodd" d="M32.7999 10.8H15.1999V37.2H32.7999V10.8ZM41.5999 46H6.3999V2H41.5999V46Z" fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></g><defs><clipPath id={instanceId + "-opencode-combine-light__opencode-light-symbol__clip0_31_72"}><rect width={48} height={48} fill="white" style={{
             fill: "white",
             fillOpacity: 1
-          }} transform="translate(15.1011 4065.08) scale(0.719101)" /></clipPath></defs></g></svg>;
+          }} /></clipPath></defs></g><g fill="none" transform="translate(50.38977635782747 7.200000000000003) scale(1.86570841889117) translate(0 -2.99537750385208)"><g clipPath={'url(#' + instanceId + "-opencode-combine-light__opencode-light-text__clip0_31_97)"}><g clipPath={'url(#' + instanceId + "-opencode-combine-light__opencode-light-text__clip1_31_97)"}><path fillRule="evenodd" clipRule="evenodd" d="M7.71505 15.8573H2.5708V10.7145H7.7143L7.71505 15.8573Z" fill="white" fillOpacity={0.25} style={{
+            fill: "white",
+            fillOpacity: 0.25
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M7.7145 8.14274H2.57175V15.8572H7.7145V8.14274ZM10.287 18.429H0V5.57174H10.2855V18.429H10.287Z" fill="white" fillOpacity={0.75} style={{
+            fill: "white",
+            fillOpacity: 0.75
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M20.5715 15.8573H15.4287V10.7145H20.5715V15.8573Z" fill="white" fillOpacity={0.25} style={{
+            fill: "white",
+            fillOpacity: 0.25
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M15.4289 15.8572H20.5724V8.14274H15.4289V15.8572ZM23.1434 18.429H15.4289V21H12.8579V5.57249H23.1434V18.429Z" fill="white" fillOpacity={0.75} style={{
+            fill: "white",
+            fillOpacity: 0.75
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M36.0006 13.2855V15.8572H28.2861V13.2855H36.0006Z" fill="white" fillOpacity={0.25} style={{
+            fill: "white",
+            fillOpacity: 0.25
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M36.0003 13.2855H28.2858V15.8572H36.0003V18.429H25.7148V5.57174H36.0003V13.2855ZM28.2858 10.7145H33.4286V8.14274H28.2858V10.7145Z" fill="white" fillOpacity={0.75} style={{
+            fill: "white",
+            fillOpacity: 0.75
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M46.2858 18.4283H41.1431V10.7145H46.2858V18.4283Z" fill="white" fillOpacity={0.25} style={{
+            fill: "white",
+            fillOpacity: 0.25
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M46.2858 8.14274H41.143V18.429H38.5713V5.57174H46.2858V8.14274ZM48.8575 18.429H46.2858V8.14274H48.8575V18.429Z" fill="white" fillOpacity={0.75} style={{
+            fill: "white",
+            fillOpacity: 0.75
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M61.714 15.8573H54.001V10.7145H61.7147L61.714 15.8573Z" fill="white" fillOpacity={0.25} style={{
+            fill: "white",
+            fillOpacity: 0.25
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M61.7144 8.14274H54.0014V15.8572H61.7152V18.429H51.4297V5.57174H61.7159V8.14274H61.7144Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M72.0007 15.8573H66.8579V10.7145H72.0007V15.8573Z" fill="white" fillOpacity={0.25} style={{
+            fill: "white",
+            fillOpacity: 0.25
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M72.0006 8.14274H66.8579V15.8572H72.0006V8.14274ZM74.5716 18.429H64.2861V5.57174H74.5716V18.429Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M84.8576 15.8573H79.7148V10.7145H84.8576V15.8573Z" fill="white" fillOpacity={0.25} style={{
+            fill: "white",
+            fillOpacity: 0.25
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M84.8576 8.14275H79.7148V15.8573H84.8576V8.14275ZM87.4286 18.4283H77.1431V5.5725H84.8576V3H87.4286V18.4283Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M100.286 13.2855V15.8572H92.5713V13.2855H100.286Z" fill="white" fillOpacity={0.25} style={{
+            fill: "white",
+            fillOpacity: 0.25
+          }} /><path fillRule="evenodd" clipRule="evenodd" d="M92.5715 8.14274V10.7145H97.715V8.14274H92.5715ZM100.286 13.2855H92.5715V15.8572H100.286V18.429H90.0005V5.57174H100.286V13.2855Z" fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></g></g><defs><clipPath id={instanceId + "-opencode-combine-light__opencode-light-text__clip0_31_97"}><rect width={100.286} height={24} fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath><clipPath id={instanceId + "-opencode-combine-light__opencode-light-text__clip1_31_97"}><rect width={100.286} height={24} fill="white" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g></svg>;
 };
 const ForwardRef = forwardRef(OpencodeCombineLight);
 export default ForwardRef;

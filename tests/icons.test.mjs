@@ -21,9 +21,9 @@ test('every source-backed variant renders with unique and resolvable fragment ID
   }
  }
 });
-test('React Color and Dark preserve original source pixels and alpha',async()=>{
+test('Every explicit source variant preserves original pixels and alpha',async()=>{
  for(const icon of catalog){
-  for(const [variant,folder] of [['color','icons'],[icon.symbolTheme==='light'?'light':'dark',icon.symbolTheme==='light'?'icons/light':'icons/default']]){
+  for(const [variant,folder] of (icon.sourceVariants ? icon.sourceVariants.map(v=>[v,v==='color'?'icons':`icons/${v}`]) : [['color','icons'],[icon.symbolTheme==='light'?'light':'dark',icon.symbolTheme==='light'?'icons/light':'icons/default']])){
    const original=await readFile(new URL(`../${folder}/${icon.id}.svg`,import.meta.url));
    const {default:C}=await loadIcon(icon.id,variant);
    const jsx=Buffer.from(renderToStaticMarkup(createElement(C,{size:96})));
@@ -34,8 +34,9 @@ test('React Color and Dark preserve original source pixels and alpha',async()=>{
   }
  }
 });
-test('Light is Dark RGB inversion with unchanged geometry and opacity',async()=>{
+test('Legacy derived Light is Dark RGB inversion with unchanged geometry and opacity',async()=>{
  for(const icon of catalog){
+  if (icon.sourceVariants) continue; // Explicit versions are compared against their own source above.
   const a=await render(await readFile(new URL(`../static/dark/${icon.id}.svg`,import.meta.url)));
   const b=await render(await readFile(new URL(`../static/light/${icon.id}.svg`,import.meta.url)));
   assert.equal(a.data.length,b.data.length);
@@ -50,22 +51,32 @@ test('Light is Dark RGB inversion with unchanged geometry and opacity',async()=>
 test('wordmark composition contains one symbol and one wordmark at the documented ratio',async()=>{
  for(const icon of catalog){
   const module=await import(`../dist/${nameOf(icon.id)}/index.js`);
-  if(!icon.hasText){assert.equal(module.default.Combine,undefined);await assert.rejects(loadIcon(icon.id,'combine-dark'));continue;}
-  const symbol=await readFile(new URL(`../icons/${icon.symbolTheme==='light'?'light':'default'}/${icon.id}.svg`,import.meta.url),'utf8');
-  const text=await readFile(new URL(`../icons/text/${icon.id}.svg`,import.meta.url),'utf8');
+  if(!icon.hasText || icon.hasSymbol===false || icon.hasCombine===false){assert.equal(module.default.Combine,undefined);for(const v of ['combine','combine-dark','combine-light'])await assert.rejects(loadIcon(icon.id,v));continue;}
+  const symbol=await readFile(new URL(`../icons/${icon.sourceVariants?'dark':icon.symbolTheme==='light'?'light':'default'}/${icon.id}.svg`,import.meta.url),'utf8');
+  const text=await readFile(new URL(`../icons/${icon.sourceVariants?'text-dark':'text'}/${icon.id}.svg`,import.meta.url),'utf8');
   const sb=await artworkBox(symbol),tb=await artworkBox(text);
-  const expectedWidth=48*sb[2]/sb[3]+12+(48*0.7)*tb[2]/tb[3];
+
   for(const variant of ['combine-dark','combine-light']){
+   const theme=variant.endsWith('dark')?'dark':'light';
+   const sym=icon.sourceVariants?await readFile(new URL(`../icons/${theme}/${icon.id}.svg`,import.meta.url),'utf8'):symbol;
+   const txt=icon.sourceVariants?await readFile(new URL(`../icons/text-${theme}/${icon.id}.svg`,import.meta.url),'utf8'):text;
+   const sb=await artworkBox(sym),tb=await artworkBox(txt);
+   const expectedWidth=48*sb[2]/sb[3]+12+(48*0.7)*tb[2]/tb[3];
    const {default:C}=await loadIcon(icon.id,variant);
    const html=renderToStaticMarkup(createElement(C,{size:48}));
    const width=Number(html.match(/\bwidth="([^"]+)"/)[1]);
    assert.ok(Math.abs(width-expectedWidth)<.001,icon.id+' composition width');
    const count=s=>(s.match(/<(?:path|rect|circle|ellipse|line|polygon|polyline)\b/g)||[]).length;
-   assert.equal(count(html),count(symbol)+count(text),icon.id+' must include each artwork once');
+   assert.equal(count(html),count(sym)+count(txt),icon.id+' must include each artwork once');
    assert.ok(Math.abs(icon.aspectRatios[variant]-expectedWidth/48)<1e-12,icon.id+' aspect ratio');
   }
   // Check actual painted heights, not the padded source viewBoxes.
   for(const variant of ['combine-dark','combine-light']){
+   const theme=variant.endsWith('dark')?'dark':'light';
+   const sym=icon.sourceVariants?await readFile(new URL(`../icons/${theme}/${icon.id}.svg`,import.meta.url),'utf8'):symbol;
+   const txt=icon.sourceVariants?await readFile(new URL(`../icons/text-${theme}/${icon.id}.svg`,import.meta.url),'utf8'):text;
+   const sb=await artworkBox(sym),tb=await artworkBox(txt);
+   const expectedWidth=48*sb[2]/sb[3]+12+(48*0.7)*tb[2]/tb[3];
    const {default:C}=await loadIcon(icon.id,variant);
    const combined=await sharp(Buffer.from(renderToStaticMarkup(createElement(C,{size:240})))).ensureAlpha().raw().toBuffer({resolveWithObject:true});
    const split=Math.floor(240*sb[2]/sb[3]+30);
@@ -89,14 +100,14 @@ test('Text variants contain only the source wordmark and are absent without a so
    for(const variant of ['text','text-light','text-dark'])await assert.rejects(loadIcon(icon.id,variant));
    continue;
   }
-  const source=await readFile(new URL(`../icons/text/${icon.id}.svg`,import.meta.url),'utf8');
+  const source=await readFile(new URL(`../icons/${icon.sourceVariants?'text-dark':'text'}/${icon.id}.svg`,import.meta.url),'utf8');
   for(const variant of ['text','text-light','text-dark']){
    const {default:C}=await loadIcon(icon.id,variant);
-   const expected=variant==='text-light'?source:transformPaint(source,variant==='text-dark'?'invert':'currentColor');
+   const expected=icon.sourceVariants ? (variant==='text'?transformPaint(source,'currentColor'):await readFile(new URL(`../icons/${variant}/${icon.id}.svg`,import.meta.url),'utf8')) : variant==='text-light'?source:transformPaint(source,variant==='text-dark'?'invert':'currentColor');
    const original=await render(Buffer.from(expected));
    const html=renderToStaticMarkup(createElement(C,{size:96}));
    const count=s=>(s.match(/<(?:path|rect|circle|ellipse|line|polygon|polyline)\b/g)||[]).length;
-   assert.equal(count(html),count(source),icon.id+'/'+variant+' must not add a symbol');
+   assert.equal(count(html),count(expected),icon.id+'/'+variant+' must not add a symbol');
    const outputs=[html];
    if(variant!=='text')outputs.push(await readFile(new URL(`../static/${variant}/${icon.id}.svg`,import.meta.url),'utf8'));
    for(const output of outputs){
@@ -119,7 +130,8 @@ test('composition handles XML declarations; inversion preserves P3 fallback and 
  assert.match(combineSvg(svg,svg,'xml'),/^<svg/);
 });
 
-test('corrected white symbols and their wordmarks contrast with the intended surface',async()=>{
+test('legacy corrected white symbols contrast with the intended surface',async()=>{
+ if(catalog.every(i=>i.sourceVariants)) return; // Source labels now mean artwork colors, not surfaces.
  for(const id of ['zai','open-webui','google']){
   for(const variant of ['dark','light',...(catalog.find(i=>i.id===id).hasText?['combine-dark','combine-light']:[])]){
    const {default:C}=await loadIcon(id,variant);
@@ -140,6 +152,15 @@ test('catalog exposes the optional website metadata without altering it',async()
   assert.equal(catalog.find(icon=>icon.id===entry.id).website,entry.website,entry.id);
   if(entry.website){const url=new URL(entry.website);assert.ok(['http:','https:'].includes(url.protocol));assert.ok(!url.username&&!url.password);}
  }
+});
+
+test('catalog contains one entry per normalized name with source-side multi-groups',()=>{
+ const keys=catalog.map(i=>i.name.normalize('NFKC').trim().toLowerCase());
+ assert.equal(new Set(keys).size,keys.length);
+ const pixverse=catalog.find(i=>i.id==='pixverse');
+ assert.deepEqual([...pixverse.groups],['Maker','Provider']);
+ assert.ok(pixverse.aliases.includes('pixverse-provider'));
+ assert.equal(catalog.some(i=>i.id==='pixverse-provider'),false);
 });
 
 test('optional ColorLight preserves source pixels and is absent without a source',async()=>{

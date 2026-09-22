@@ -8,10 +8,13 @@ const NovitaColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -1857)"><g id={instanceId + "-novita-color__Name=Novita, Type=Color, Variant=Default"}><g id={instanceId + "-novita-color__Novita / Icon"}><path id={instanceId + "-novita-color__Novita / path 01"} fillRule="evenodd" clipRule="evenodd" d="M39.334 1865.34V1876.67L21 1895.01H39.334V1883.67L50.666 1895.01H69L39.334 1865.34Z" fill="#23D57C" style={{
-            fill: "color(display-p3 0.1373 0.8353 0.4863)",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-novita-color__clip0_22_2263)"}><path fillRule="evenodd" clipRule="evenodd" d="M18.334 8.34V19.67L0 38.006H18.334V26.674L29.666 38.006H48L18.334 8.34Z" fill="#23D57C" style={{
+        fill: "color(display-p3 0.1373 0.8353 0.4863)",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-novita-color__clip0_22_2263"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(NovitaColor);
 export default ForwardRef;

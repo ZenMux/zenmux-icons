@@ -8,13 +8,16 @@ const KwaikatColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-293 -837)"><g id={instanceId + "-kwaikat-color__Name=KwaiKAT, Type=Color, Variant=Default"}><g id={instanceId + "-kwaikat-color__KwaiKAT / Icon"}><path id={instanceId + "-kwaikat-color__KwaiKAT / path 01"} fillRule="evenodd" clipRule="evenodd" d="M333.84 875.622H340.676V839L327.114 847.354L313.558 839.132L313.61 854.868H320.446L320.394 850.424L327.234 854.494L333.84 850.424V875.622Z" fill="black" style={{
-            fill: "black",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-kwaikat-color__KwaiKAT / path 02"} fillRule="evenodd" clipRule="evenodd" d="M299.128 858.468C304.696 854.328 313.012 853.68 319.01 860.282L319.03 860.302L319.05 860.328L337.37 884.808H329.69L314.31 864.374C311.05 860.9 306.528 860.996 303.28 863.098C300.032 865.198 298.154 869.244 300.184 873.658C303.172 880.15 312.488 880.208 315.634 873.874L315.698 873.746L319.738 879.004C313.778 886.94 301.08 886.856 295.408 877.9C290.618 870.34 293.556 862.61 299.128 858.468Z" fill="black" style={{
-            fill: "black",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-kwaikat-color__clip0_22_2183)"}><path d="M7.49396 21.7327C12.6326 17.9122 20.3073 17.3145 25.8427 23.4073L25.8608 23.4253L25.8797 23.4496L42.7865 46.0416H35.6989L21.505 27.1836C18.4963 23.9774 14.3228 24.0657 11.3252 26.0056C8.32771 27.9437 6.59477 31.6782 8.46822 35.7519C11.2259 41.7431 19.8237 41.7966 22.7271 35.951L22.7857 35.833L26.5142 40.6854C21.0137 48.0093 9.29481 47.9322 4.06015 39.6669C-0.360499 32.6899 2.35161 25.5554 7.49396 21.7327Z" fill="#0A67FF" style={{
+        fill: "color(display-p3 0.0392 0.4039 1.0000)",
+        fillOpacity: 1
+      }} /><path d="M45.8381 37.5643H39.5293V14.309L33.4323 18.0655L27.1198 14.309L27.1685 18.4107H20.8588L20.811 3.88775L33.3223 11.4755L45.8381 3.76608V37.5643Z" fill="#0A67FF" style={{
+        fill: "color(display-p3 0.0392 0.4039 1.0000)",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-kwaikat-color__clip0_22_2183"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(KwaikatColor);
 export default ForwardRef;

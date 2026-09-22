@@ -8,19 +8,22 @@ const GoogleDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -1041)"><g id={instanceId + "-google-dark__Name=Google, Type=Dark, Variant=Default"}><g id={instanceId + "-google-dark__Google / Icon_2"}><path id={instanceId + "-google-dark__Google / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M407 1065.49C407 1063.68 406.85 1062.36 406.528 1060.99H385.448V1069.16H397.82C397.572 1071.18 396.226 1074.24 393.232 1076.29L393.19 1076.57L399.854 1081.63L400.314 1081.67C404.558 1077.83 407 1072.19 407 1065.49Z" fill="white" style={{
-            fill: "white",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-google-dark__Google / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M385.45 1087C391.51 1087 396.598 1085.04 400.316 1081.67L393.232 1076.29C391.336 1077.59 388.792 1078.49 385.45 1078.49C382.633 1078.49 379.886 1077.61 377.596 1075.97C375.305 1074.33 373.586 1072.02 372.678 1069.35L372.414 1069.37L365.484 1074.63L365.394 1074.88C369.086 1082.06 376.67 1087 385.45 1087Z" fill="white" style={{
-            fill: "white",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-google-dark__Google / path 03_2"} fillRule="evenodd" clipRule="evenodd" d="M372.68 1069.35C372.188 1067.95 371.933 1066.48 371.926 1065C371.926 1063.48 372.202 1062.02 372.648 1060.65L372.636 1060.36L365.62 1055.02L365.39 1055.12C363.822 1058.18 363.002 1061.57 363 1065C363 1068.54 363.872 1071.89 365.394 1074.88L372.68 1069.35Z" fill="white" style={{
-            fill: "white",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-google-dark__Google / path 04_2"} fillRule="evenodd" clipRule="evenodd" d="M385.45 1051.51C389.666 1051.51 392.508 1053.29 394.13 1054.78L400.464 1048.72C396.574 1045.18 391.51 1043 385.45 1043C376.668 1043 369.086 1047.94 365.394 1055.12L372.654 1060.65C373.569 1057.98 375.294 1055.67 377.588 1054.03C379.882 1052.39 382.631 1051.51 385.45 1051.51Z" fill="white" style={{
-            fill: "white",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-google-dark__clip0_15_2115)"}><path d="M46.0002 24.49C46.0002 22.68 45.8502 21.36 45.5282 19.99H24.4482V28.156H36.8202C36.5722 30.184 35.2262 33.24 32.2322 35.294L32.1902 35.566L38.8542 40.626L39.3142 40.67C43.5582 36.834 46.0002 31.186 46.0002 24.49Z" fill="black" style={{
+        fill: "black",
+        fillOpacity: 1
+      }} /><path d="M24.45 46C30.51 46 35.598 44.044 39.316 40.67L32.232 35.294C30.336 36.59 27.792 37.494 24.45 37.494C21.6329 37.4943 18.8865 36.6126 16.5959 34.9727C14.3053 33.3328 12.5856 31.0169 11.678 28.35L11.414 28.372L4.48404 33.628L4.39404 33.876C8.08604 41.062 15.67 46 24.45 46Z" fill="black" style={{
+        fill: "black",
+        fillOpacity: 1
+      }} /><path d="M11.68 28.35C11.1881 26.9521 10.9332 25.4819 10.926 24C10.926 22.484 11.202 21.018 11.648 19.65L11.636 19.356L4.62 14.016L4.39 14.124C2.82159 17.1799 2.00238 20.5651 2 24C2 27.544 2.872 30.894 4.394 33.876L11.68 28.35Z" fill="black" style={{
+        fill: "black",
+        fillOpacity: 1
+      }} /><path d="M24.45 10.506C28.666 10.506 31.508 12.29 33.13 13.782L39.464 7.72C35.574 4.176 30.51 2 24.45 2C15.668 2 8.08604 6.938 4.39404 14.124L11.654 19.65C12.5694 16.9833 14.2944 14.6689 16.5883 13.0297C18.8822 11.3904 21.6306 10.5082 24.45 10.506Z" fill="black" style={{
+        fill: "black",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-google-dark__clip0_15_2115"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(GoogleDark);
 export default ForwardRef;

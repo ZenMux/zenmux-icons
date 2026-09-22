@@ -11,7 +11,7 @@ const end = '<!-- ICON_CATALOG:END -->';
 const escape = value => value.replace(/[&<>"']/g, ch => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
 }[ch]));
-const groups = ['LLM', 'Provider', 'Agent'];
+const groups = [...new Set(metadata.flatMap(icon => icon.groups || [icon.group]))];
 const unknown = metadata.flatMap(icon => icon.groups || [icon.group]).filter(group => !groups.includes(group));
 if (unknown.length) throw new Error(`Add README columns for new groups: ${[...new Set(unknown)]}`);
 const columns = groups.map(group => metadata
@@ -22,7 +22,8 @@ const cells = new Map();
 for (const icon of metadata) {
   // Preserve colored artwork. Monochrome artwork gets source-derived surface
   // variants so white originals remain visible in GitHub's light README theme.
-  const source = await readFile(path.join(root, 'icons', `${icon.id}.svg`));
+  const textOnly = icon.hasSymbol === false;
+  const source = await readFile(path.join(root, 'icons', textOnly ? `text-dark/${icon.id}.svg` : `${icon.id}.svg`));
   const { data, info } = await sharp(source).resize({ height: 32 }).ensureAlpha().raw()
     .toBuffer({ resolveWithObject: true });
   let colored = false;
@@ -34,9 +35,11 @@ for (const icon of metadata) {
   }
   const name = escape(icon.name);
   const href = `https://zenmux.ai/icons/${encodeURIComponent(icon.id)}`;
-  const image = colored
+  const image = textOnly
+    ? `<picture><source media="(prefers-color-scheme: dark)" srcset="${cdn}/static/text-light/${icon.id}.svg"><img src="${cdn}/static/text-dark/${icon.id}.svg" alt="${name}" height="48"></picture>`
+    : colored
     ? `<img src="${cdn}/icons/${icon.id}.svg" alt="${name}" height="48">`
-    : `<picture><source media="(prefers-color-scheme: dark)" srcset="${cdn}/static/dark/${icon.id}.svg"><img src="${cdn}/static/light/${icon.id}.svg" alt="${name}" height="48"></picture>`;
+    : `<picture><source media="(prefers-color-scheme: dark)" srcset="${cdn}/static/${icon.sourceVariants?'light':'dark'}/${icon.id}.svg"><img src="${cdn}/static/${icon.sourceVariants?'dark':'light'}/${icon.id}.svg" alt="${name}" height="48"></picture>`;
   cells.set(icon.id, `<a href="${href}">${image}<br>${name}</a>`);
 }
 const lines = [
@@ -49,7 +52,7 @@ const lines = [
 for (let row = 0; row < Math.max(...columns.map(column => column.length)); row++) {
   lines.push('    <tr>');
   for (const column of columns) {
-    lines.push(`      <td width="33%">${column[row] ? cells.get(column[row].id) : ''}</td>`);
+    lines.push(`      <td width="${100/groups.length}%">${column[row] ? cells.get(column[row].id) : ''}</td>`);
   }
   lines.push('    </tr>');
 }

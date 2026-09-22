@@ -8,10 +8,13 @@ const GrokMono = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -701)"><g id={instanceId + "-grok-mono__Name=Grok, Type=Dark, Variant=Default"}><g id={instanceId + "-grok-mono__Grok / Icon_2"}><path id={instanceId + "-grok-mono__Grok / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M379.54 731.58L395.496 719.786C396.278 719.206 397.396 719.432 397.77 720.33C399.73 725.068 398.854 730.76 394.95 734.668C391.048 738.576 385.616 739.432 380.652 737.48L375.23 739.994C383.008 745.316 392.452 744 398.354 738.088C403.036 733.4 404.486 727.01 403.13 721.248L403.142 721.262C401.176 712.798 403.626 709.414 408.642 702.496C408.762 702.332 408.882 702.168 409 702L402.398 708.61V708.59L379.534 731.584M376.246 734.446C370.662 729.106 371.626 720.844 376.388 716.078C379.91 712.552 385.682 711.112 390.72 713.228L396.13 710.728C395.006 709.901 393.775 709.228 392.472 708.728C389.196 707.387 385.596 707.045 382.125 707.744C378.655 708.444 375.469 710.154 372.968 712.66C367.902 717.732 366.308 725.532 369.044 732.188C371.088 737.162 367.738 740.68 364.364 744.232C363.166 745.492 361.966 746.75 361 748.082L376.24 734.452" fill="currentColor" style={{
-            fill: "currentColor",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-grok-mono__clip0_7_497)"}><path fillRule="evenodd" clipRule="evenodd" d="M18.54 30.58L34.496 18.786C35.278 18.206 36.396 18.432 36.77 19.33C38.73 24.068 37.854 29.76 33.95 33.668C30.048 37.576 24.616 38.432 19.652 36.48L14.23 38.994C22.008 44.316 31.452 43 37.354 37.088C42.036 32.4 43.486 26.01 42.13 20.248L42.142 20.262C40.176 11.798 42.626 8.414 47.642 1.496C47.762 1.332 47.882 1.168 48 1L41.398 7.61V7.59L18.534 30.584M15.246 33.446C9.662 28.106 10.626 19.844 15.388 15.078C18.91 11.552 24.682 10.112 29.72 12.228L35.13 9.728C34.0055 8.90083 32.7752 8.22817 31.472 7.728C28.1956 6.38699 24.5958 6.04479 21.1254 6.74442C17.655 7.44405 14.4689 9.15428 11.968 11.66C6.902 16.732 5.308 24.532 8.044 31.188C10.088 36.162 6.738 39.68 3.364 43.232C2.166 44.492 0.966 45.75 0 47.082L15.24 33.452" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-grok-mono__clip0_7_497"}><rect width={48} height={48} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(GrokMono);
 export default ForwardRef;

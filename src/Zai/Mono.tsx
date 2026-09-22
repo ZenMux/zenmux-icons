@@ -8,10 +8,13 @@ const ZaiMono = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -2809)"><g id={instanceId + "-zai-mono__Name=Z.ai, Type=Dark, Variant=Default"}><g id={instanceId + "-zai-mono__Z.ai / Icon_2"}><path id={instanceId + "-zai-mono__Z.ai / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M113.21 2813L108.854 2818.91H90.306L94.66 2813H113.212H113.21ZM135.508 2847.1L131.156 2853H112.672L117.02 2847.1H135.508ZM137 2813L107.528 2853H89L118.472 2813H137Z" fill="currentColor" style={{
-            fill: "currentColor",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-zai-mono__clip0_8_2075)"}><path d="M19.5996 43.1004H2L28.4004 5.70001H46L19.5996 43.1004ZM44.8975 43.1004H22.9004L26.0068 38.7C26.493 38.0093 27.2852 37.6004 28.1299 37.6004H44.8975V43.1004ZM22.0195 10.0936C21.5333 10.7864 20.7394 11.2 19.8926 11.2H3.09961V5.70001H25.0996L22.0195 10.0936Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-zai-mono__clip0_8_2075"}><rect width={48} height={48} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(ZaiMono);
 export default ForwardRef;

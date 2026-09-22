@@ -8,19 +8,22 @@ const BytedanceColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-157 -701)"><g id={instanceId + "-bytedance-color__Name=ByteDance, Type=Color, Variant=Default"}><g id={instanceId + "-bytedance-color__ByteDance / Icon"}><path id={instanceId + "-bytedance-color__ByteDance / path 01"} d="M186.888 738.174L183.48 737.284V721.02L187.128 720.096C189.128 719.588 190.808 719.174 190.888 719.19C190.952 719.19 191 723.66 191 729.134V739.08L190.648 739.064C190.44 739.064 188.744 738.652 186.888 738.174Z" fill="#00C8D2" style={{
-            fill: "color(display-p3 0.0000 0.7843 0.8235)",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-bytedance-color__ByteDance / path 02"} d="M171 734.084C171 728.612 171.048 724.124 171.128 724.124C171.192 724.108 172.872 724.524 174.888 725.032L178.52 725.954L178.488 734.054L178.44 742.152L175.176 742.996C173.384 743.456 171.704 743.886 171.464 743.934L171 744.046V734.084Z" fill="#3C8CFF" style={{
-            fill: "color(display-p3 0.2353 0.5490 1.0000)",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-bytedance-color__ByteDance / path 03"} d="M195.48 725.954C195.48 707.894 195.496 706.924 195.768 707.004C195.912 707.052 197.336 707.418 198.92 707.816C200.504 708.23 202.072 708.626 202.408 708.706L203 708.866L202.968 725.986L202.92 743.122L199.672 743.95C197.896 744.41 196.216 744.824 195.96 744.89L195.48 745V725.954Z" fill="#78E6DC" style={{
-            fill: "color(display-p3 0.4706 0.9020 0.8627)",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-bytedance-color__ByteDance / path 04"} d="M159 726.018C159 716.662 159.048 709.008 159.128 709.008C159.192 709.008 160.872 709.422 162.872 709.916L166.52 710.838V726.002C166.52 734.322 166.488 741.15 166.456 741.15C166.408 741.15 164.712 741.58 162.696 742.09L159 743.026V726.018Z" fill="#325AB4" style={{
-            fill: "color(display-p3 0.1961 0.3529 0.7059)",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-bytedance-color__clip0_1_2146)"}><path d="M29.888 37.174L26.48 36.284V20.02L30.128 19.096C32.128 18.588 33.808 18.174 33.888 18.19C33.952 18.19 34 22.66 34 28.134V38.08L33.648 38.064C33.44 38.064 31.744 37.652 29.888 37.174Z" fill="#00C8D2" style={{
+        fill: "color(display-p3 0.0000 0.7843 0.8235)",
+        fillOpacity: 1
+      }} /><path d="M14 33.084C14 27.612 14.048 23.124 14.128 23.124C14.192 23.108 15.872 23.524 17.888 24.032L21.52 24.954L21.488 33.054L21.44 41.152L18.176 41.996C16.384 42.456 14.704 42.886 14.464 42.934L14 43.046V33.084Z" fill="#3C8CFF" style={{
+        fill: "color(display-p3 0.2353 0.5490 1.0000)",
+        fillOpacity: 1
+      }} /><path d="M38.48 24.954C38.48 6.894 38.496 5.924 38.768 6.004C38.912 6.052 40.336 6.418 41.92 6.816C43.504 7.23 45.072 7.626 45.408 7.706L46 7.866L45.968 24.986L45.92 42.122L42.672 42.95C40.896 43.41 39.216 43.824 38.96 43.89L38.48 44V24.954Z" fill="#78E6DC" style={{
+        fill: "color(display-p3 0.4706 0.9020 0.8627)",
+        fillOpacity: 1
+      }} /><path d="M2 25.018C2 15.662 2.048 8.008 2.128 8.008C2.192 8.008 3.872 8.422 5.872 8.916L9.52 9.838V25.002C9.52 33.322 9.488 40.15 9.456 40.15C9.408 40.15 7.712 40.58 5.696 41.09L2 42.026V25.018Z" fill="#325AB4" style={{
+        fill: "color(display-p3 0.1961 0.3529 0.7059)",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-bytedance-color__clip0_1_2146"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(BytedanceColor);
 export default ForwardRef;

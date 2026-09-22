@@ -8,10 +8,16 @@ const XaiText = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 24" fill="none" color="currentColor" width={typeof size === 'number' ? size * 1.7083333333333333 : 'calc(' + size + ' * 1.7083333333333333)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -5785) scale(1.43359375)"><g id={instanceId + "-xai-text__Name=xAI, Type=Color, Language=Default"}><g id={instanceId + "-xai-text__xAI / Wordmark"}><path id={instanceId + "-xai-text__xAI / path 01"} fillRule="evenodd" clipRule="evenodd" d="M40.365 4036.71H42.1626V4050.66H40.365V4036.71ZM31.3025 4036.71H33.1977L38.61 4050.66H36.6561L35.1906 4046.77H29.2119L27.7464 4050.66H25.87L31.3025 4036.71ZM34.6437 4045.21L32.1814 4038.74L29.7588 4045.21H34.6437ZM19.7755 4045.34L16.3952 4040.56H18.3881L20.7918 4044.13L23.2925 4040.56H25.1096L21.7879 4045.33L25.4612 4050.66H23.4878L20.7137 4046.58L17.9193 4050.66H16.0436L19.7755 4045.34Z" fill="currentColor" style={{
-            fill: "currentColor",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={typeof size === 'number' ? size * 1.5 : 'calc(' + size + ' * 1.5)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-xai-text__clip0_7_523)"}><g clipPath={'url(#' + instanceId + "-xai-text__clip1_7_523)"}><path fillRule="evenodd" clipRule="evenodd" d="M33.0641 3H35.5079V21H33.0641V3ZM20.7439 3H23.3204L30.6782 21H28.022L26.0297 15.9834H17.9019L15.9095 21H13.3586L20.7439 3ZM25.2862 13.9665L21.9388 5.6217L18.6453 13.9665H25.2862ZM5.07337 14.1429L0.477939 7.9662H3.18721L6.45503 12.5796L9.85466 7.9662H12.325L7.80919 14.1177L12.8029 21H10.1202L6.34882 15.7314L2.54996 21H0L5.07337 14.1429Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /></g></g><defs><clipPath id={instanceId + "-xai-text__clip0_7_523"}><rect width={35.5079} height={24} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath><clipPath id={instanceId + "-xai-text__clip1_7_523"}><rect width={35.5079} height={24} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(XaiText);
 export default ForwardRef;

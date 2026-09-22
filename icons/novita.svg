@@ -1,7 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-21 -1857)"><g id="Name=Novita, Type=Color, Variant=Default">
-<g id="Novita / Icon">
-<path id="Novita / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M39.334 1865.34V1876.67L21 1895.01H39.334V1883.67L50.666 1895.01H69L39.334 1865.34Z" fill="#23D57C" style="fill:#23D57C;fill:color(display-p3 0.1373 0.8353 0.4863);fill-opacity:1;" />
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_22_2263)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.334 8.34V19.67L0 38.006H18.334V26.674L29.666 38.006H48L18.334 8.34Z" fill="#23D57C" style="fill:#23D57C;fill:color(display-p3 0.1373 0.8353 0.4863);fill-opacity:1;"/>
 </g>
-</g>
-</g></svg>
+<defs>
+<clipPath id="clip0_22_2263">
+<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

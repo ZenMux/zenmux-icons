@@ -8,19 +8,22 @@ const DoubaoLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -497)"><g id={instanceId + "-doubao-light__Name=Doubao, Type=Dark, Variant=Default"}><g id={instanceId + "-doubao-light__Doubao / Icon_2"} clipPath={'url(#' + instanceId + "-doubao-light__clip28_1_3407)"}><path id={instanceId + "-doubao-light__Doubao / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M371.62 528.512C371.964 521.012 375.386 516.514 376.718 515.034C370.198 519.15 365.868 526.35 364.002 531.65V533.89C364.002 540.026 369.452 545 376.18 545C377.679 545.002 379.167 544.748 380.58 544.25C381.286 544.01 381.98 543.754 382.658 543.494C384.484 541.696 385.958 539.674 387.144 537.51C377.39 542.372 371.196 537.654 371.618 528.51L371.62 528.512Z" fill="#000000" fillOpacity={0.5} style={{
-            fill: "#000000",
-            fillOpacity: 0.5
-          }} /><path id={instanceId + "-doubao-light__Doubao / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M406.14 517.566C403.716 515.764 397.922 512.758 391.346 511.966C391.936 519.55 391.532 529.498 387.146 537.512C385.951 539.716 384.439 541.732 382.658 543.496C390.186 540.6 396.15 536.582 399.85 533.058C405.49 527.692 406.556 522.702 406.572 519.738C406.577 518.993 406.43 518.256 406.14 517.57V517.566ZM389.606 500.734C386.91 498.4 383.496 497 379.78 497C376.064 497 372.766 498.354 370.09 500.614C366.582 503.58 364.254 508.114 364 513.25V531.652C365.864 526.352 370.194 519.152 376.714 515.038C377.714 514.402 378.764 513.848 379.852 513.38C383.618 511.778 387.608 511.516 391.344 511.968C390.9 506.308 389.908 501.964 389.604 500.734H389.606Z" fill="#000000" style={{
-            fill: "#000000",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-doubao-light__Doubao / path 03_2"} fillRule="evenodd" clipRule="evenodd" d="M395.61 506.922C394.887 506.195 394.167 505.466 393.45 504.734C393.046 504.308 392.654 503.896 392.278 503.49L389.612 500.734C389.914 501.964 390.908 506.306 391.35 511.968C397.926 512.758 403.72 515.764 406.142 517.568C403.53 515.018 399.192 510.594 395.61 506.922Z" fill="#000000" fillOpacity={0.5} style={{
-            fill: "#000000",
-            fillOpacity: 0.5
-          }} /></g></g></g><defs><clipPath id={instanceId + "-doubao-light__clip28_1_3407"}><rect width={48} height={48} fill="#fff" style={{
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-doubao-light__clip0_38_7479)"}><g clipPath={'url(#' + instanceId + "-doubao-light__clip1_38_7479)"}><path fillRule="evenodd" clipRule="evenodd" d="M10.62 31.5122C10.964 24.0122 14.386 19.5142 15.718 18.0342C9.19795 22.1502 4.86795 29.3502 3.00195 34.6502V36.8902C3.00195 43.0262 8.45195 48.0002 15.18 48.0002C16.6786 48.0021 18.1666 47.7485 19.58 47.2502C20.286 47.0102 20.98 46.7542 21.658 46.4942C23.484 44.6962 24.958 42.6742 26.144 40.5102C16.39 45.3722 10.196 40.6542 10.618 31.5102L10.62 31.5122Z" fill="white" fillOpacity={0.5} style={{
+          fill: "white",
+          fillOpacity: 0.5
+        }} /><path fillRule="evenodd" clipRule="evenodd" d="M45.14 20.566C42.716 18.764 36.922 15.758 30.346 14.966C30.936 22.55 30.532 32.498 26.146 40.512C24.9515 42.7159 23.4393 44.7322 21.658 46.496C29.186 43.6 35.15 39.582 38.85 36.058C44.49 30.692 45.556 25.702 45.572 22.738C45.5769 21.9935 45.4299 21.2558 45.14 20.57V20.566ZM28.606 3.734C25.91 1.4 22.496 0 18.78 0C15.064 0 11.766 1.354 9.09 3.614C5.582 6.58 3.254 11.114 3 16.25V34.652C4.864 29.352 9.194 22.152 15.714 18.038C16.714 17.402 17.764 16.848 18.852 16.38C22.618 14.778 26.608 14.516 30.344 14.968C29.9 9.308 28.908 4.964 28.604 3.734H28.606Z" fill="white" style={{
           fill: "white",
           fillOpacity: 1
-        }} transform="translate(361 497)" /></clipPath></defs></svg>;
+        }} /><path fillRule="evenodd" clipRule="evenodd" d="M34.6101 9.92189C33.8873 9.19533 33.1672 8.46599 32.4501 7.73389C32.0461 7.30789 31.6541 6.89589 31.2781 6.48989L28.6121 3.73389C28.9141 4.96389 29.9081 9.30589 30.3501 14.9679C36.9261 15.7579 42.7201 18.7639 45.1421 20.5679C42.5301 18.0179 38.1921 13.5939 34.6101 9.92189Z" fill="white" fillOpacity={0.5} style={{
+          fill: "white",
+          fillOpacity: 0.5
+        }} /></g></g><defs><clipPath id={instanceId + "-doubao-light__clip0_38_7479"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath><clipPath id={instanceId + "-doubao-light__clip1_38_7479"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(DoubaoLight);
 export default ForwardRef;

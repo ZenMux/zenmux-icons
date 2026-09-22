@@ -1,0 +1,41 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const ErnieCombine = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 188.45915004541206 48" fill="none" color="currentColor" width={typeof size === 'number' ? size * 3.926232292612751 : 'calc(' + size + ' * 3.926232292612751)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g fill="none" transform="translate(0 0) scale(1.0905218317358893) translate(-3.984375 -1.9921875)"><g clipPath={'url(#' + instanceId + "-ernie-combine__ernie-dark-symbol__clip0_1_95)"}><path d="M22.64 2.352C23.056 2.12084 23.5241 1.99953 24 1.99953C24.4759 1.99953 24.944 2.12084 25.36 2.352L42.64 12.038C43.482 12.506 44 13.378 44 14.32V33.68C44 34.624 43.482 35.496 42.64 35.966L25.36 45.646C24.944 45.8772 24.4759 45.9985 24 45.9985C23.5241 45.9985 23.056 45.8772 22.64 45.646L5.36 35.966C4.94989 35.7411 4.60748 35.4104 4.36832 35.0084C4.12916 34.6064 4.00199 34.1477 4 33.68V14.318C4 13.376 4.518 12.504 5.36 12.034L22.64 2.354V2.352ZM37.48 30.03V16.454L24.004 24L24 39.102L36.118 32.314C36.5278 32.0892 36.87 31.7589 37.1092 31.3573C37.3483 30.9557 37.4777 30.4974 37.48 30.03ZM25.36 9.666C24.9444 9.43355 24.4762 9.3115 24 9.3115C23.5238 9.3115 23.0556 9.43355 22.64 9.666L11.888 15.692C11.046 16.162 10.528 17.032 10.528 17.976V30.03C10.528 30.97 11.046 31.84 11.888 32.314L17.478 35.446V22.18C17.4804 22.7369 17.6331 23.2827 17.92 23.76C17.6189 23.257 17.4689 22.6779 17.488 22.092L17.496 21.904L17.536 21.604L17.572 21.436L17.606 21.312L17.684 21.078L17.808 20.794L17.878 20.664L18.04 20.404L18.228 20.16L18.396 19.978L18.556 19.828L18.806 19.628L18.948 19.532L19.216 19.38L30.956 12.8L25.364 9.668L25.36 9.666Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M24 22.176C24 20.426 22.54 19.008 20.738 19.008C20.1356 19.0079 19.5444 19.1718 19.028 19.482C18.974 19.514 18.918 19.548 18.868 19.582C18.784 19.6413 18.702 19.7033 18.622 19.768C18.578 19.808 18.532 19.844 18.49 19.886L18.394 19.976L18.268 20.11C18.24 20.142 18.212 20.172 18.188 20.206C18.1225 20.2872 18.0598 20.3706 18 20.456L17.916 20.594C17.8656 20.6786 17.8189 20.7653 17.776 20.854L17.704 21.016C17.6877 21.0554 17.673 21.0954 17.66 21.136C17.64 21.196 17.62 21.252 17.604 21.31L17.57 21.434C17.5402 21.5386 17.5201 21.6457 17.51 21.754C17.506 21.804 17.496 21.854 17.494 21.902C17.4341 22.5509 17.5834 23.202 17.92 23.76C18.524 24.776 19.62 25.344 20.748 25.344C21.302 25.344 21.864 25.208 22.376 24.92L24.006 24.006V22.178L24 22.176Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /></g><defs><clipPath id={instanceId + "-ernie-combine__ernie-dark-symbol__clip0_1_95"}><rect width={48} height={48} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g><g fill="none" transform="translate(55.65495207667732 7.200000000000003) scale(2.506293706293706) translate(0 -5.296875)"><g clipPath={'url(#' + instanceId + "-ernie-combine__ernie-dark-text__clip0_1_103)"}><path d="M8.65625 7.31934H2.38477V10.9375H8.3125V12.8486H2.38477V16.6807H8.65625V18.6934H0V5.30664H8.65625V7.31934Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path fillRule="evenodd" clipRule="evenodd" d="M16.9502 5.30664C17.9086 5.3067 18.7316 5.47629 19.418 5.81641C20.1043 6.15656 20.6303 6.63651 20.9951 7.25488C21.366 7.87325 21.5518 8.60964 21.5518 9.46289V9.48145C21.5517 10.3657 21.329 11.1515 20.8838 11.8379C20.4447 12.5182 19.8287 13.0033 19.0371 13.2939L21.96 18.6934H19.2227L16.5977 13.6562H13.9443V18.6934H11.5596V5.30664H16.9502ZM13.9443 11.8096H16.709C17.4633 11.8095 18.0512 11.6116 18.4717 11.2158C18.892 10.8139 19.1024 10.2542 19.1025 9.53711V9.51855C19.1025 8.81375 18.8857 8.25679 18.4531 7.84863C18.0203 7.44052 17.42 7.23641 16.6533 7.23633H13.9443V11.8096Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M33.0352 14.5469H33.1758V5.30664H35.4863V18.6934H33.4082L26.8291 9.44434H26.6914V18.6934H24.3809V5.30664H26.459L33.0352 14.5469Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M41.0898 18.6934H38.7051V5.30664H41.0898V18.6934Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M52.9834 7.31934H46.7119V10.9375H52.6396V12.8486H46.7119V16.6807H52.9834V18.6934H44.3271V5.30664H52.9834V7.31934Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /></g><defs><clipPath id={instanceId + "-ernie-combine__ernie-dark-text__clip0_1_103"}><rect width={52.9834} height={24} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g></svg>;
+};
+const ForwardRef = forwardRef(ErnieCombine);
+export default ForwardRef;

@@ -8,10 +8,10 @@ const TraeLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -2469)"><g id={instanceId + "-trae-light__Name=TRAE, Type=Dark, Variant=Default"}><g id={instanceId + "-trae-light__TRAE / Icon_2"}><path id={instanceId + "-trae-light__TRAE / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M137 2510.08H95.856V2503.23H89V2475.8H137V2510.08ZM95.856 2503.23H130.144V2482.65H95.856V2503.23ZM113.002 2492.84L108.152 2497.69L103.304 2492.84L108.152 2487.99L113.002 2492.84ZM126.716 2492.84L121.868 2497.68L117.018 2492.84L121.868 2487.99L126.716 2492.84Z" fill="#000000" style={{
-            fill: "#000000",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><path d="M48 41.0818H6.856V34.2298H0V6.7998H48V41.0818ZM6.856 34.2298H41.144V13.6538H6.856V34.2298ZM24.002 23.8378L19.152 28.6858L14.304 23.8378L19.152 18.9898L24.002 23.8378ZM37.716 23.8358L32.868 28.6818L28.018 23.8358L32.868 18.9858L37.716 23.8358Z" fill="white" style={{
+      fill: "white",
+      fillOpacity: 1
+    }} /></svg>;
 };
 const ForwardRef = forwardRef(TraeLight);
 export default ForwardRef;

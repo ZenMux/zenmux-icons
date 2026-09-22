@@ -1,167 +1,59 @@
 [
   {
-    "id": "ace",
-    "name": "ACE",
-    "group": "LLM",
+    "id": "agnes",
+    "name": "Agnes",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/ace-step/ACE-Step"
-  },
-  {
-    "id": "adobe",
-    "name": "Adobe",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://adobe.com"
-  },
-  {
-    "id": "adobe-firefly",
-    "name": "Adobe Firefly",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://firefly.adobe.com"
-  },
-  {
-    "id": "ag-ui",
-    "name": "AG-UI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ag-ui.com"
-  },
-  {
-    "id": "agentvoice",
-    "name": "AgentVoice",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://agentvoice.com"
-  },
-  {
-    "id": "agnes-ai",
-    "name": "Agnes AI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
     "website": "https://agnes-ai.com"
   },
   {
-    "id": "ai2",
-    "name": "Ai2",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://allenai.org/"
-  },
-  {
-    "id": "ai21-labs",
-    "name": "AI21 Labs",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://huggingface.co/ai21labs"
-  },
-  {
-    "id": "aihubmix",
-    "name": "AiHubMix",
+    "id": "agnes-ai",
+    "name": "Agnesai",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://aihubmix.com"
-  },
-  {
-    "id": "aimass",
-    "name": "AiMass",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ai-maas.wair.ac.cn"
-  },
-  {
-    "id": "aionlabs",
-    "name": "AionLabs",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://aionlabs.ai"
-  },
-  {
-    "id": "airjelly",
-    "name": "AirJelly",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://airjelly.ai"
-  },
-  {
-    "id": "akashchat",
-    "name": "AkashChat",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://chatapi.akash.network"
-  },
-  {
-    "id": "aleph-alpha",
-    "name": "Aleph Alpha",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://aleph-alpha.com"
+    "website": "https://agnes-ai.com"
   },
   {
     "id": "alibaba",
     "name": "Alibaba",
-    "group": "Provider",
+    "group": "Maker",
     "groups": [
-      "Provider"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://alibaba.com"
   },
   {
@@ -172,8 +64,35 @@
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://aliyun.com"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "group": "Provider",
+    "groups": [
+      "Provider"
+    ],
+    "hasText": true,
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://aws.amazon.com"
   },
   {
     "id": "amazon-bedrock",
@@ -183,52 +102,35 @@
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://aws.amazon.com/bedrock"
   },
   {
-    "id": "amazon-nova",
-    "name": "Amazon Nova",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://nova.amazon.com/"
-  },
-  {
-    "id": "amp",
-    "name": "Amp",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ampcode.com"
-  },
-  {
-    "id": "anspire",
-    "name": "Anspire",
+    "id": "ant-ling",
+    "name": "Ant Ling",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://anspire.ai"
-  },
-  {
-    "id": "ant-group",
-    "name": "Ant Group",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://antgroup.com"
+    "website": "https://github.com/inclusionAI/Ling"
   },
   {
     "id": "anthropic",
@@ -238,7 +140,15 @@
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://anthropic.com"
   },
   {
@@ -249,152 +159,115 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://antigravity.google"
   },
   {
-    "id": "anyscale",
-    "name": "Anyscale",
+    "id": "artificial-analysis",
+    "name": "Artificial Analysis",
+    "group": "Others",
+    "groups": [
+      "Others"
+    ],
+    "hasText": true,
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://artificialanalysis.ai"
+  },
+  {
+    "id": "atom-infinite",
+    "name": "Atom-Infinite",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://anyscale.com"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://www.atominfinite.ai/"
   },
   {
-    "id": "apertis",
-    "name": "Apertis",
-    "group": "Provider",
+    "id": "atria",
+    "name": "Atria",
+    "group": "Agent",
     "groups": [
-      "Provider"
+      "Agent",
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://apertis.ai"
-  },
-  {
-    "id": "apple",
-    "name": "Apple",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://apple.com"
-  },
-  {
-    "id": "arcee",
-    "name": "Arcee",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "aliases": [
+      "atria-maker"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://arcee.ai/"
+    "website": "https://atria-asi.ai/"
   },
   {
-    "id": "askverdict",
-    "name": "AskVerdict",
+    "id": "axonhub",
+    "name": "AxonHub",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://askverdict.ai"
-  },
-  {
-    "id": "assemblyai",
-    "name": "AssemblyAI",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://assemblyai.com"
+    "website": "https://github.com/looplj/axonhub"
   },
   {
-    "id": "atlas-cloud",
-    "name": "Atlas Cloud",
+    "id": "azure",
+    "name": "Azure",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://atlascloud.ai"
-  },
-  {
-    "id": "automatic1111",
-    "name": "AUTOMATIC1111",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
-  },
-  {
-    "id": "aws",
-    "name": "AWS",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://aws.amazon.com"
-  },
-  {
-    "id": "aya",
-    "name": "Aya",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cohere.com/research/aya"
-  },
-  {
-    "id": "azure-ai",
-    "name": "Azure AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ai.azure.com"
-  },
-  {
-    "id": "baai",
-    "name": "BAAI",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://baai.ac.cn"
-  },
-  {
-    "id": "baichuan",
-    "name": "Baichuan",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://baichuan-ai.com"
+    "website": "https://azure.microsoft.com"
   },
   {
     "id": "baidu",
@@ -404,195 +277,94 @@
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://baidu.com"
   },
   {
-    "id": "baidu-ai-cloud",
-    "name": "Baidu AI Cloud",
+    "id": "bigmodel",
+    "name": "BigModel",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cloud.baidu.com"
-  },
-  {
-    "id": "bailian",
-    "name": "Bailian",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://bailian.console.aliyun.com"
-  },
-  {
-    "id": "baseten",
-    "name": "Baseten",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://baseten.co"
-  },
-  {
-    "id": "bilibili",
-    "name": "Bilibili",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/bilibili"
-  },
-  {
-    "id": "bilibili-index",
-    "name": "Bilibili Index",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://huggingface.co/IndexTeam"
+    "website": "https://bigmodel.cn"
   },
   {
     "id": "black-forest-labs",
     "name": "Black Forest Labs",
-    "group": "Provider",
+    "group": "Maker",
     "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "black-forest-labs-provider"
+    ],
     "website": "https://bfl.ai"
-  },
-  {
-    "id": "bocha",
-    "name": "Bocha",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://open.bochaai.com"
-  },
-  {
-    "id": "brave",
-    "name": "Brave",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://brave.com"
-  },
-  {
-    "id": "bria-ai",
-    "name": "BRIA AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://bria.ai"
-  },
-  {
-    "id": "browserless",
-    "name": "Browserless",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://browserless.js.org"
-  },
-  {
-    "id": "burncloud",
-    "name": "BurnCloud",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ai.burncloud.com"
   },
   {
     "id": "bytedance",
     "name": "ByteDance",
-    "group": "Provider",
+    "group": "Maker",
     "groups": [
-      "Provider"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://bytedance.com"
   },
   {
-    "id": "capcut",
-    "name": "CapCut",
+    "id": "chatwise",
+    "name": "ChatWise",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://capcut.com"
-  },
-  {
-    "id": "celestoai",
-    "name": "CelestoAI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasText": false,
+    "hasSymbol": true,
+    "hasCombine": false,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://celesto.ai"
-  },
-  {
-    "id": "centml",
-    "name": "CentML",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://centml.ai"
-  },
-  {
-    "id": "cerebras",
-    "name": "Cerebras",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cerebras.ai"
-  },
-  {
-    "id": "chatglm",
-    "name": "ChatGLM",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/THUDM/ChatGLM-6B"
+    "website": "https://chatwise.app"
   },
   {
     "id": "cherry-studio",
@@ -602,29 +374,53 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://cherry-ai.com"
   },
   {
-    "id": "civitai",
-    "name": "Civitai",
-    "group": "Provider",
+    "id": "clackyai",
+    "name": "ClackyAI",
+    "group": "Agent",
     "groups": [
-      "Provider"
+      "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://civitai.com"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://clacky.ai"
   },
   {
     "id": "claude",
     "name": "Claude",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://claude.ai"
   },
   {
@@ -635,7 +431,15 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://code.claude.com"
   },
   {
@@ -646,206 +450,54 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://cline.bot"
   },
   {
-    "id": "clipdrop",
-    "name": "Clipdrop",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://clipdrop.co"
-  },
-  {
-    "id": "cloudflare",
-    "name": "Cloudflare",
+    "id": "cloudsway",
+    "name": "Cloudsway",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cloudflare.com"
-  },
-  {
-    "id": "codebuddy",
-    "name": "CodeBuddy",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://codebuddy.ai"
-  },
-  {
-    "id": "codeflicker",
-    "name": "CodeFlicker",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://codeflicker.ai"
-  },
-  {
-    "id": "codegeex",
-    "name": "CodeGeeX",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://codegeex.cn/"
+    "website": "https://www.cloudsway.ai"
   },
   {
     "id": "codex",
     "name": "Codex",
-    "group": "LLM",
+    "group": "Agent",
     "groups": [
-      "LLM"
+      "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://openai.com/codex"
-  },
-  {
-    "id": "cogvideo",
-    "name": "CogVideo",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/THUDM/CogVideo"
-  },
-  {
-    "id": "cogview",
-    "name": "CogView",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/THUDM/CogView3"
-  },
-  {
-    "id": "cohere",
-    "name": "Cohere",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cohere.com"
-  },
-  {
-    "id": "colab",
-    "name": "Colab",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://colab.research.google.com/"
-  },
-  {
-    "id": "comet-api",
-    "name": "Comet API",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cometapi.com/"
-  },
-  {
-    "id": "comfyui",
-    "name": "ComfyUI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://comfy.org"
-  },
-  {
-    "id": "command-a",
-    "name": "Command A",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cohere.com/blog/command"
-  },
-  {
-    "id": "copilotkit",
-    "name": "CopilotKit",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://copilotkit.ai"
-  },
-  {
-    "id": "coqui",
-    "name": "Coqui",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/coqui-ai/TTS"
-  },
-  {
-    "id": "coze",
-    "name": "Coze",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://coze.com"
-  },
-  {
-    "id": "crewai",
-    "name": "CrewAI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://crewai.com"
-  },
-  {
-    "id": "crusoe",
-    "name": "Crusoe",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://crusoe.ai"
   },
   {
     "id": "cursor",
@@ -855,118 +507,39 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://cursor.com"
-  },
-  {
-    "id": "cybercut",
-    "name": "CyberCut",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cybercut.ai"
-  },
-  {
-    "id": "dalle",
-    "name": "DALL·E",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://openai.com/dall-e-3"
-  },
-  {
-    "id": "dbrx",
-    "name": "DBRX",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://databricks.com"
-  },
-  {
-    "id": "deep-cogito",
-    "name": "Deep Cogito",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://deepcogito.com"
-  },
-  {
-    "id": "deepai",
-    "name": "DeepAI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://deepai.org"
-  },
-  {
-    "id": "deepinfra",
-    "name": "DeepInfra",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://deepinfra.com"
-  },
-  {
-    "id": "deepl",
-    "name": "DeepL",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://deepl.com"
-  },
-  {
-    "id": "deepmind",
-    "name": "DeepMind",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://deepmind.google"
   },
   {
     "id": "deepseek",
     "name": "DeepSeek",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "deepseek-provider"
+    ],
     "website": "https://deepseek.com"
-  },
-  {
-    "id": "devin",
-    "name": "Devin",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://devin.ai"
   },
   {
     "id": "dify",
@@ -976,317 +549,151 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://dify.ai"
   },
   {
-    "id": "doc2x",
-    "name": "Doc2X",
-    "group": "Agent",
+    "id": "dots-studio",
+    "name": "Dots Studio",
+    "group": "Maker",
     "groups": [
-      "Agent"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://doc2x.noedgeai.com"
-  },
-  {
-    "id": "docsearch",
-    "name": "DocSearch",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://docsearch.algolia.com"
-  },
-  {
-    "id": "dolphin",
-    "name": "Dolphin",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "aliases": [
+      "dots-studio-provider"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://dphn.ai"
+    "website": "https://studio.dots.ai"
   },
   {
     "id": "doubao",
     "name": "Doubao",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://team.doubao.com"
   },
   {
-    "id": "dream-machine",
-    "name": "Dream Machine",
+    "id": "ernie",
+    "name": "Ernie",
+    "group": "Maker",
+    "groups": [
+      "Maker"
+    ],
+    "hasText": true,
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://ernie.baidu.com"
+  },
+  {
+    "id": "factory",
+    "name": "Factory",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lumalabs.ai/dream-machine"
-  },
-  {
-    "id": "elevenlabs",
-    "name": "ElevenLabs",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "hasText": false,
+    "hasSymbol": true,
+    "hasCombine": false,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://elevenlabs.io"
-  },
-  {
-    "id": "essential-ai",
-    "name": "Essential AI",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://essential.ai"
-  },
-  {
-    "id": "exa",
-    "name": "Exa",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://exa.ai"
-  },
-  {
-    "id": "fal-ai",
-    "name": "fal.ai",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://fal.ai"
-  },
-  {
-    "id": "fastgpt",
-    "name": "FastGPT",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://tryfastgpt.ai"
-  },
-  {
-    "id": "featherless-ai",
-    "name": "Featherless.ai",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://featherless.ai"
-  },
-  {
-    "id": "figma",
-    "name": "Figma",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://figma.com"
-  },
-  {
-    "id": "firecrawl",
-    "name": "Firecrawl",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://firecrawl.dev"
-  },
-  {
-    "id": "fireworks",
-    "name": "Fireworks",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://fireworks.ai"
-  },
-  {
-    "id": "fishaudio",
-    "name": "FishAudio",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/fishaudio"
-  },
-  {
-    "id": "flora",
-    "name": "Flora",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://florafauna.ai"
-  },
-  {
-    "id": "flowith",
-    "name": "Flowith",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://flowith.io"
-  },
-  {
-    "id": "flux",
-    "name": "FLUX",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://blackforestlabs.ai"
-  },
-  {
-    "id": "friendli",
-    "name": "Friendli",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://friendli.ai"
+    "website": "https://factory.com"
   },
   {
     "id": "gemini",
     "name": "Gemini",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://deepmind.google/technologies/gemini"
   },
   {
     "id": "gemini-cli",
-    "name": "Gemini CLI",
+    "name": "GeminiCLI",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://geminicli.com"
   },
   {
-    "id": "gemma",
-    "name": "Gemma",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ai.google.dev/gemma"
-  },
-  {
-    "id": "giteeai",
-    "name": "GiteeAI",
+    "id": "goodput",
+    "name": "GoodPut",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ai-assets.gitee.com/"
-  },
-  {
-    "id": "github",
-    "name": "GitHub",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com"
-  },
-  {
-    "id": "github-copilot",
-    "name": "GitHub Copilot",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/features/copilot"
-  },
-  {
-    "id": "glama",
-    "name": "Glama",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://glama.ai"
-  },
-  {
-    "id": "glif",
-    "name": "Glif",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://glif.app"
-  },
-  {
-    "id": "glm-v",
-    "name": "GLM-V",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking"
+    "website": "https://goodputai.cn/"
   },
   {
     "id": "google",
@@ -1295,506 +702,255 @@
     "groups": [
       "Provider"
     ],
-    "hasText": false,
-    "symbolTheme": "dark",
+    "hasText": true,
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://google.com"
-  },
-  {
-    "id": "google-ai-studio",
-    "name": "Google AI Studio",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://aistudio.google.com"
-  },
-  {
-    "id": "google-cloud",
-    "name": "Google Cloud",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": false,
-    "symbolTheme": "dark",
-    "website": "https://cloud.google.com"
-  },
-  {
-    "id": "goose",
-    "name": "Goose",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://block.github.io/goose"
-  },
-  {
-    "id": "gradio",
-    "name": "Gradio",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://gradio.app"
-  },
-  {
-    "id": "greptile",
-    "name": "Greptile",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://greptile.com"
   },
   {
     "id": "grok",
     "name": "Grok",
-    "group": "LLM",
+    "group": "Agent",
     "groups": [
-      "LLM"
+      "Agent",
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "grok-maker"
+    ],
     "website": "https://grok.x.ai"
   },
   {
-    "id": "groq",
-    "name": "Groq",
-    "group": "Provider",
+    "id": "grok-build",
+    "name": "Grok Build",
+    "group": "Agent",
     "groups": [
-      "Provider"
+      "Agent"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://wow.groq.com"
+    "hasText": false,
+    "hasSymbol": true,
+    "hasCombine": false,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light"
+    ],
+    "website": "https://grok.x.ai"
   },
   {
-    "id": "hailuo",
-    "name": "Hailuo",
+    "id": "hermes",
+    "name": "Hermes",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://hailuoai.video"
-  },
-  {
-    "id": "haiper",
-    "name": "Haiper",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://haiper.ai"
-  },
-  {
-    "id": "happyhorse",
-    "name": "HappyHorse",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://happyhorse.com"
-  },
-  {
-    "id": "hedra",
-    "name": "Hedra",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://hedra.com"
-  },
-  {
-    "id": "hermes-agent",
-    "name": "Hermes Agent",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
     "website": "https://hermes-agent.nousresearch.com"
   },
   {
-    "id": "higress",
-    "name": "Higress",
+    "id": "hpc-ai",
+    "name": "HPC-AI",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://higress.cn/"
-  },
-  {
-    "id": "huawei",
-    "name": "Huawei",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://huawei.com"
-  },
-  {
-    "id": "huawei-cloud",
-    "name": "Huawei Cloud",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://huaweicloud.com"
-  },
-  {
-    "id": "hugging-face",
-    "name": "Hugging Face",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://huggingface.co"
+    "website": "https://hpc-ai.com"
   },
   {
     "id": "hunyuan",
     "name": "Hunyuan",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "hunyuan-provider"
+    ],
     "website": "https://hunyuan.tencent.com"
   },
   {
-    "id": "hyperbolic",
-    "name": "Hyperbolic",
-    "group": "Provider",
+    "id": "inclusionai",
+    "name": "InclusionAI",
+    "group": "Maker",
     "groups": [
-      "Provider"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://hyperbolic.xyz"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://www.inclusion-ai.org/"
   },
   {
-    "id": "ibm",
-    "name": "IBM",
-    "group": "Provider",
+    "id": "joyland",
+    "name": "Joyland",
+    "group": "Maker",
     "groups": [
-      "Provider"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://huggingface.co/ibm-granite"
-  },
-  {
-    "id": "icon-01-ai",
-    "name": "01.AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://lingyiwanwu.com/"
+    "website": "https://joyland.ai"
   },
   {
-    "id": "icon-11x",
-    "name": "11x",
+    "id": "kilo",
+    "name": "Kilo",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://11x.ai"
-  },
-  {
-    "id": "icon-302-ai",
-    "name": "302.AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://302.ai/"
-  },
-  {
-    "id": "icon-360-ai",
-    "name": "360 AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ai.360.com/"
-  },
-  {
-    "id": "ideogram",
-    "name": "Ideogram",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ideogram.ai"
-  },
-  {
-    "id": "iflytek-cloud",
-    "name": "iFlytek Cloud",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://xfyun.cn"
-  },
-  {
-    "id": "inception-labs",
-    "name": "Inception Labs",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://inceptionlabs.ai"
-  },
-  {
-    "id": "inference",
-    "name": "Inference",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://inference.net"
-  },
-  {
-    "id": "infermatic",
-    "name": "Infermatic",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://infermatic.ai"
-  },
-  {
-    "id": "infinigence",
-    "name": "Infinigence",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cloud.infini-ai.com"
-  },
-  {
-    "id": "inflection",
-    "name": "Inflection",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://inflection.ai"
-  },
-  {
-    "id": "internlm",
-    "name": "InternLM",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://internlm.intern-ai.org.cn"
-  },
-  {
-    "id": "jimeng",
-    "name": "Jimeng",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://jimeng.jianying.com"
-  },
-  {
-    "id": "jina-ai",
-    "name": "Jina AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://jina.ai"
-  },
-  {
-    "id": "junie",
-    "name": "Junie",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://jetbrains.com/junie"
-  },
-  {
-    "id": "kagi",
-    "name": "Kagi",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://kagi.com"
-  },
-  {
-    "id": "kilo-code",
-    "name": "Kilo Code",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
     "website": "https://kilo.ai"
   },
   {
     "id": "kimi",
     "name": "Kimi",
-    "group": "Agent",
+    "group": "Maker",
     "groups": [
-      "Agent"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://kimi.moonshot.cn"
   },
   {
-    "id": "kiro",
-    "name": "Kiro",
-    "group": "Agent",
+    "id": "kingsoft-cloud",
+    "name": "Kingsoft Cloud",
+    "group": "Provider",
     "groups": [
-      "Agent"
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://kiro.dev"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://www.ksyun.com"
   },
   {
     "id": "kling",
     "name": "Kling",
-    "group": "Agent",
+    "group": "Maker",
     "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://klingai.com"
-  },
-  {
-    "id": "kluster",
-    "name": "Kluster",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://kluster.ai"
-  },
-  {
-    "id": "kolors",
-    "name": "Kolors",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://kolors.kuaishou.com"
-  },
-  {
-    "id": "krea",
-    "name": "Krea",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "aliases": [
+      "kling-provider"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://krea.ai"
+    "website": "https://klingai.com"
   },
   {
     "id": "kwaikat",
     "name": "KwaiKAT",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://streamlake.ai/product/kat-coder"
-  },
-  {
-    "id": "kwaipilot",
-    "name": "Kwaipilot",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://kwaipilot.ai"
-  },
-  {
-    "id": "lambda",
-    "name": "Lambda",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lambdalabs.com"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://streamlake.ai/product/kat-coder"
   },
   {
     "id": "langchain",
@@ -1804,96 +960,16 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://langchain.com"
-  },
-  {
-    "id": "langfuse",
-    "name": "Langfuse",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://langfuse.com"
-  },
-  {
-    "id": "langgraph",
-    "name": "LangGraph",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://langchain.com/LangGraph"
-  },
-  {
-    "id": "langsmith",
-    "name": "LangSmith",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://langchain.com/langsmith"
-  },
-  {
-    "id": "leptonai",
-    "name": "LeptonAI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lepton.ai"
-  },
-  {
-    "id": "lg-ai",
-    "name": "LG AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lgresearch.ai"
-  },
-  {
-    "id": "lightricks",
-    "name": "Lightricks",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lightricks.com"
-  },
-  {
-    "id": "liquid",
-    "name": "Liquid",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://liquid.ai"
-  },
-  {
-    "id": "livekit",
-    "name": "LiveKit",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://livekit.io"
   },
   {
     "id": "llamaindex",
@@ -1903,130 +979,39 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://llamaindex.ai"
-  },
-  {
-    "id": "llava",
-    "name": "LLaVA",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/haotian-liu/LLaVA"
-  },
-  {
-    "id": "llm-api",
-    "name": "LLM API",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://llmapi.ai"
-  },
-  {
-    "id": "lm-studio",
-    "name": "LM Studio",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lmstudio.ai"
-  },
-  {
-    "id": "lobehub",
-    "name": "LobeHub",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lobehub.com"
   },
   {
     "id": "longcat",
     "name": "LongCat",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "longcat-provider"
+    ],
     "website": "https://longcat.chat/"
-  },
-  {
-    "id": "lovable",
-    "name": "Lovable",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lovable.dev"
-  },
-  {
-    "id": "lovart",
-    "name": "Lovart",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lovart.ai"
-  },
-  {
-    "id": "luma",
-    "name": "Luma",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://lumalabs.ai"
-  },
-  {
-    "id": "magic",
-    "name": "Magic",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://magic.dev"
-  },
-  {
-    "id": "make",
-    "name": "Make",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://make.com"
-  },
-  {
-    "id": "manus",
-    "name": "Manus",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://manus.im"
   },
   {
     "id": "mastra",
@@ -2036,74 +1021,39 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://mastra.ai"
-  },
-  {
-    "id": "mcp",
-    "name": "MCP",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://modelcontextprotocol.io"
-  },
-  {
-    "id": "mcp-so",
-    "name": "MCP.so",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://mcp.so"
-  },
-  {
-    "id": "menlo",
-    "name": "MENLO",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://menlo.ai"
-  },
-  {
-    "id": "meshy",
-    "name": "Meshy",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://meshy.ai"
   },
   {
     "id": "meta",
     "name": "Meta",
-    "group": "Provider",
+    "group": "Maker",
     "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://llama.meta.com"
-  },
-  {
-    "id": "meta-ai",
-    "name": "Meta AI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://meta.ai"
+    "aliases": [
+      "meta-provider"
+    ],
+    "website": "https://llama.meta.com"
   },
   {
     "id": "metagpt",
@@ -2113,41 +1063,16 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://github.com/FoundationAgents/MetaGPT"
-  },
-  {
-    "id": "microsoft",
-    "name": "Microsoft",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://microsoft.com"
-  },
-  {
-    "id": "microsoft-azure",
-    "name": "Microsoft Azure",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://azure.microsoft.com"
-  },
-  {
-    "id": "microsoft-bing",
-    "name": "Microsoft Bing",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://bing.com"
   },
   {
     "id": "microsoft-copilot",
@@ -2157,63 +1082,81 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://copilot.microsoft.com"
   },
   {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "group": "Agent",
+    "id": "mindlab",
+    "name": "MindLab",
+    "group": "Maker",
     "groups": [
-      "Agent"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://midjourney.com"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://www.mindlab.im/"
   },
   {
     "id": "minimax",
     "name": "MiniMax",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "minimax-provider"
+    ],
     "website": "https://api.minimax.chat"
   },
   {
     "id": "mistral",
     "name": "Mistral",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://mistral.ai"
-  },
-  {
-    "id": "modelscope",
-    "name": "ModelScope",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://modelscope.cn"
-  },
-  {
-    "id": "monica",
-    "name": "Monica",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://monica.im"
+    "aliases": [
+      "mistral-provider"
+    ],
+    "website": "https://mistral.ai"
   },
   {
     "id": "moonshot-ai",
@@ -2223,41 +1166,16 @@
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://moonshot.cn"
-  },
-  {
-    "id": "morph",
-    "name": "Morph",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://morphllm.com"
-  },
-  {
-    "id": "moxt",
-    "name": "Moxt",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://moxt.ai"
-  },
-  {
-    "id": "myshell",
-    "name": "MyShell",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://myshell.ai"
   },
   {
     "id": "n8n",
@@ -2267,85 +1185,35 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://n8n.io"
-  },
-  {
-    "id": "nano-banana",
-    "name": "Nano Banana",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://gemini.google/overview/image-generation"
-  },
-  {
-    "id": "nebius",
-    "name": "Nebius",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://nebius.com"
   },
   {
     "id": "new-api",
     "name": "New API",
-    "group": "Provider",
+    "group": "Agent",
     "groups": [
-      "Provider"
+      "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://newapi.ai"
-  },
-  {
-    "id": "notebooklm",
-    "name": "NotebookLM",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://notebooklm.google"
-  },
-  {
-    "id": "notion",
-    "name": "Notion",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://notion.com"
-  },
-  {
-    "id": "nous-research",
-    "name": "Nous Research",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://nousresearch.com"
-  },
-  {
-    "id": "novelai",
-    "name": "NovelAI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://novelai.net"
   },
   {
     "id": "novita",
@@ -2355,29 +1223,34 @@
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://novita.ai/"
   },
   {
-    "id": "nplcloud",
-    "name": "NPLCloud",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://nlpcloud.com"
-  },
-  {
     "id": "nvidia",
-    "name": "NVIDIA",
-    "group": "Provider",
+    "name": "Nvidia",
+    "group": "Agent",
     "groups": [
-      "Provider"
+      "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/"
   },
   {
@@ -2388,18 +1261,53 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://obsidian.md"
+  },
+  {
+    "id": "oh-my-pi",
+    "name": "Oh My Pi",
+    "group": "Agent",
+    "groups": [
+      "Agent"
+    ],
+    "hasText": true,
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://omp.sh"
   },
   {
     "id": "ollama",
     "name": "Ollama",
-    "group": "Provider",
+    "group": "Agent",
     "groups": [
-      "Provider"
+      "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://ollama.ai"
   },
   {
@@ -2410,30 +1318,39 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://openwebui.com"
   },
   {
     "id": "openai",
     "name": "OpenAI",
-    "group": "Provider",
+    "group": "Maker",
     "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://openai.com"
-  },
-  {
-    "id": "openchat",
-    "name": "OpenChat",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://huggingface.co/openchat"
+    "aliases": [
+      "openai-provider"
+    ],
+    "website": "https://openai.com"
   },
   {
     "id": "openclaw",
@@ -2443,18 +1360,34 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://openclaw.dev"
   },
   {
     "id": "opencode",
-    "name": "opencode",
+    "name": "OpenCode",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://opencode.ai"
   },
   {
@@ -2465,185 +1398,56 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://openhands.dev"
   },
   {
-    "id": "openhuman",
-    "name": "OpenHuman",
+    "id": "pi",
+    "name": "Pi",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://tinyhumans.ai/openhuman"
-  },
-  {
-    "id": "openrouter",
-    "name": "OpenRouter",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasText": false,
+    "hasSymbol": true,
+    "hasCombine": false,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://openrouter.ai"
-  },
-  {
-    "id": "palm",
-    "name": "PaLM",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ai.google/discover/palm2"
-  },
-  {
-    "id": "parasail",
-    "name": "Parasail",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://parasail.io/"
-  },
-  {
-    "id": "perplexity",
-    "name": "Perplexity",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://perplexity.ai"
-  },
-  {
-    "id": "phidata",
-    "name": "Phidata",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://phidata.com"
-  },
-  {
-    "id": "phind",
-    "name": "Phind",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://phind.com"
-  },
-  {
-    "id": "pi-agent",
-    "name": "Pi Agent",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
     "website": "https://pi.dev"
-  },
-  {
-    "id": "pika",
-    "name": "Pika",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://pika.art"
   },
   {
     "id": "pixverse",
     "name": "PixVerse",
-    "group": "Agent",
+    "group": "Maker",
     "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://app.pixverse.ai"
-  },
-  {
-    "id": "player2",
-    "name": "Player2",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://player2.game"
-  },
-  {
-    "id": "poe",
-    "name": "Poe",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://poe.com"
-  },
-  {
-    "id": "pollinations",
-    "name": "Pollinations",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://pollinations.ai"
-  },
-  {
-    "id": "poolside",
-    "name": "Poolside",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://poolside.ai"
-  },
-  {
-    "id": "ppio",
-    "name": "PPIO",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ppinfra.com"
-  },
-  {
-    "id": "pruna-ai",
-    "name": "Pruna AI",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://pruna.ai"
+    "aliases": [
+      "pixverse-provider"
+    ],
+    "website": "https://app.pixverse.ai"
   },
   {
     "id": "pydanticai",
@@ -2652,164 +1456,91 @@
     "groups": [
       "Agent"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
+    "hasText": false,
+    "hasSymbol": true,
+    "hasCombine": false,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light"
+    ],
     "website": "https://ai.pydantic.dev"
-  },
-  {
-    "id": "qingyan",
-    "name": "Qingyan",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://chatglm.cn"
-  },
-  {
-    "id": "qiniu",
-    "name": "Qiniu",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://qiniu.com"
-  },
-  {
-    "id": "qoder",
-    "name": "Qoder",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://qoder.com"
   },
   {
     "id": "qwen",
     "name": "Qwen",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://huggingface.co/Qwen"
   },
   {
-    "id": "railway",
-    "name": "Railway",
+    "id": "rikkahub",
+    "name": "RikkaHub",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://railway.com"
-  },
-  {
-    "id": "recraft",
-    "name": "Recraft",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://recraft.ai"
+    "website": "https://rikka-ai.com"
   },
   {
-    "id": "relace",
-    "name": "Relace",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://relace.ai"
-  },
-  {
-    "id": "replicate",
-    "name": "Replicate",
+    "id": "sakana",
+    "name": "Sakana",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://replicate.com"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://sakana.ai"
   },
   {
-    "id": "replit",
-    "name": "Replit",
-    "group": "Agent",
+    "id": "sakanaai",
+    "name": "Sakanaai",
+    "group": "Maker",
     "groups": [
-      "Agent"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://replit.com"
-  },
-  {
-    "id": "reve",
-    "name": "Reve",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://app.reve.com"
-  },
-  {
-    "id": "roo-code",
-    "name": "Roo Code",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://roocode.com"
-  },
-  {
-    "id": "rsshub",
-    "name": "RSSHub",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://rsshub.app"
-  },
-  {
-    "id": "runway",
-    "name": "Runway",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://runwayml.com"
-  },
-  {
-    "id": "rwkv",
-    "name": "RWKV",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/RWKV"
+    "website": "https://sakana.ai"
   },
   {
     "id": "sambanova",
@@ -2819,339 +1550,138 @@
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://sambanova.ai"
   },
   {
-    "id": "search1api",
-    "name": "Search1API",
+    "id": "sider",
+    "name": "Sider",
+    "group": "Agent",
+    "groups": [
+      "Agent"
+    ],
+    "hasText": true,
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "website": "https://sider.ai"
+  },
+  {
+    "id": "siliconflow",
+    "name": "SiliconFlow",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://search1api.com"
-  },
-  {
-    "id": "searchapi",
-    "name": "SearchApi",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://searchapi.io"
-  },
-  {
-    "id": "searxng",
-    "name": "SearXNG",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://searxng.org"
-  },
-  {
-    "id": "sensenova",
-    "name": "SenseNova",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://platform.sensenova.cn"
-  },
-  {
-    "id": "siliconcloud",
-    "name": "SiliconCloud",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
     "website": "https://siliconflow.com"
   },
   {
-    "id": "sillytavern",
-    "name": "SillyTavern",
-    "group": "Agent",
+    "id": "skyreels",
+    "name": "SkyReels",
+    "group": "Maker",
     "groups": [
-      "Agent"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://github.com/SillyTavern"
-  },
-  {
-    "id": "skywork",
-    "name": "Skywork",
-    "group": "LLM",
-    "groups": [
-      "LLM"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://skywork.ai"
-  },
-  {
-    "id": "slock",
-    "name": "Slock",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "aliases": [
+      "skyreels-provider"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://slock.ai"
+    "website": "https://www.skyreels.ai"
   },
   {
-    "id": "smithery",
-    "name": "Smithery",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://smithery.ai"
-  },
-  {
-    "id": "snowflake",
-    "name": "Snowflake",
+    "id": "spacexai",
+    "name": "Spacexai",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://snowflake.com"
-  },
-  {
-    "id": "sophnet",
-    "name": "SophNet",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://sophnet.com"
-  },
-  {
-    "id": "sora",
-    "name": "Sora",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://platform.openai.com/docs/models/sora-2"
-  },
-  {
-    "id": "spark",
-    "name": "Spark",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://xinghuo.xfyun.cn"
-  },
-  {
-    "id": "speedai",
-    "name": "SpeedAI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://speedai.com"
-  },
-  {
-    "id": "stability-ai",
-    "name": "Stability AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://stability.ai"
-  },
-  {
-    "id": "statecloud",
-    "name": "StateCloud",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ctyun.cn/act/xirang/deepseek"
+    "website": "https://x.ai"
   },
   {
     "id": "stepfun",
     "name": "StepFun",
-    "group": "LLM",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "stepfun-provider"
+    ],
     "website": "https://stepfun.com"
   },
   {
-    "id": "straico",
-    "name": "Straico",
+    "id": "tbox",
+    "name": "Tbox",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://straico.com"
-  },
-  {
-    "id": "streamlake",
-    "name": "StreamLake",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://streamlake.ai"
-  },
-  {
-    "id": "submodel",
-    "name": "SubModel",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://submodel.ai"
-  },
-  {
-    "id": "suno",
-    "name": "Suno",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://app.suno.ai"
-  },
-  {
-    "id": "sync",
-    "name": "Sync",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://sync.so"
-  },
-  {
-    "id": "targon",
-    "name": "Targon",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://targon.com"
-  },
-  {
-    "id": "tavily",
-    "name": "Tavily",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://tavily.com"
-  },
-  {
-    "id": "technology-innovation-institute",
-    "name": "Technology Innovation Institute",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://tii.ae"
-  },
-  {
-    "id": "tencent",
-    "name": "Tencent",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://tencent.com"
-  },
-  {
-    "id": "tencent-cloud",
-    "name": "Tencent Cloud",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cloud.tencent.com"
-  },
-  {
-    "id": "tiangong",
-    "name": "Tiangong",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://tiangong.cn"
-  },
-  {
-    "id": "together-ai",
-    "name": "Together AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://together.ai"
-  },
-  {
-    "id": "topazlabs",
-    "name": "TopazLabs",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://topazlabs.com"
+    "website": "https://www.tbox.cn/"
   },
   {
     "id": "trae",
@@ -3161,163 +1691,35 @@
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://trae.ai"
   },
   {
-    "id": "tripo",
-    "name": "Tripo",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://tripo3d.ai"
-  },
-  {
-    "id": "turix",
-    "name": "TuriX",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://turix.ai"
-  },
-  {
-    "id": "udio",
-    "name": "Udio",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://udio.com"
-  },
-  {
-    "id": "unsloth",
-    "name": "Unsloth",
+    "id": "typesafe",
+    "name": "Typesafe",
     "group": "Provider",
     "groups": [
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://unsloth.ai"
-  },
-  {
-    "id": "unstructured",
-    "name": "Unstructured",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://unstructured.io"
-  },
-  {
-    "id": "upstage",
-    "name": "Upstage",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://upstage.ai"
-  },
-  {
-    "id": "v0",
-    "name": "v0",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": false,
-    "symbolTheme": "dark",
-    "website": "https://v0.dev"
-  },
-  {
-    "id": "vectorizer-ai",
-    "name": "Vectorizer.AI",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://vectorizer.ai"
-  },
-  {
-    "id": "venice",
-    "name": "Venice",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://venice.ai"
-  },
-  {
-    "id": "vercel",
-    "name": "Vercel",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://sdk.vercel.ai"
-  },
-  {
-    "id": "vertex-ai",
-    "name": "Vertex AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://cloud.google.com/generative-ai-studio"
-  },
-  {
-    "id": "vidu",
-    "name": "Vidu",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://vidu.com"
-  },
-  {
-    "id": "viggle",
-    "name": "Viggle",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://viggle.ai"
-  },
-  {
-    "id": "vllm",
-    "name": "vLLM",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/vllm-project"
+    "website": "https://typesafe.ai"
   },
   {
     "id": "volcengine",
@@ -3327,230 +1729,160 @@
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://volcengine.com"
   },
   {
-    "id": "voyage",
-    "name": "Voyage",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://voyageai.com"
-  },
-  {
-    "id": "wenxin",
-    "name": "Wenxin",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://yiyan.baidu.com"
-  },
-  {
-    "id": "windsurf",
-    "name": "Windsurf",
+    "id": "work-buddy",
+    "name": "Work Buddy",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://windsurf.com"
-  },
-  {
-    "id": "workers-ai",
-    "name": "Workers AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://developers.cloudflare.com/workers-ai"
-  },
-  {
-    "id": "worldrouter",
-    "name": "WorldRouter",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://worldrouter.ai"
+    "website": "https://codebuddy.ai"
   },
   {
     "id": "xai",
     "name": "xAI",
-    "group": "Provider",
+    "group": "Maker",
     "groups": [
-      "Provider"
+      "Maker"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
     "website": "https://x.ai"
   },
   {
-    "id": "xiaomi-mimo",
-    "name": "Xiaomi MiMo",
-    "group": "LLM",
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "group": "Maker",
     "groups": [
-      "LLM"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "xiaomi-provider"
+    ],
     "website": "https://platform.xiaomimimo.com"
   },
   {
-    "id": "xinference",
-    "name": "Xinference",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/xorbitsai/inference"
-  },
-  {
-    "id": "xpay",
-    "name": "xpay",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://xpay.sh"
-  },
-  {
-    "id": "xuanyuan",
-    "name": "Xuanyuan",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://github.com/Duxiaoman-DI/XuanYuan"
-  },
-  {
-    "id": "yandex",
-    "name": "Yandex",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://ai.yandex.com"
-  },
-  {
-    "id": "yi",
-    "name": "Yi",
-    "group": "LLM",
-    "groups": [
-      "LLM"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://github.com/01-ai/Yi"
-  },
-  {
-    "id": "youmind",
-    "name": "YouMind",
+    "id": "xiaomi-mimo",
+    "name": "Xiaomimimo",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://youmind.ai"
-  },
-  {
-    "id": "yuanbao",
-    "name": "Yuanbao",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": false,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://yuanbao.tencent.com"
+    "website": "https://platform.xiaomimimo.com"
   },
   {
     "id": "zai",
-    "name": "Z.ai",
-    "group": "Agent",
+    "name": "ZAI",
+    "group": "Maker",
     "groups": [
-      "Agent"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "zai-provider"
+    ],
     "website": "https://z.ai"
   },
   {
-    "id": "zapier",
-    "name": "Zapier",
+    "id": "zcode",
+    "name": "Zcode",
     "group": "Agent",
     "groups": [
       "Agent"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://zapier.com"
-  },
-  {
-    "id": "zeabur",
-    "name": "Zeabur",
-    "group": "Agent",
-    "groups": [
-      "Agent"
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
     ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "hasColorLight": true,
-    "website": "https://zeabur.com"
-  },
-  {
-    "id": "zencoder",
-    "name": "Zencoder",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
     "website": "https://zencoder.ai"
   },
   {
     "id": "zenmux",
     "name": "ZenMux",
-    "group": "Provider",
+    "group": "Agent",
     "groups": [
+      "Agent",
       "Provider"
     ],
     "hasText": true,
-    "symbolTheme": "dark",
+    "hasSymbol": true,
+    "hasCombine": true,
+    "sourceVariants": [
+      "color",
+      "dark",
+      "light",
+      "text-dark",
+      "text-light"
+    ],
+    "aliases": [
+      "zenmux-provider"
+    ],
     "website": "https://zenmux.ai"
-  },
-  {
-    "id": "zhipu",
-    "name": "Zhipu",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "symbolTheme": "dark",
-    "website": "https://zhipuai.cn"
   }
 ]

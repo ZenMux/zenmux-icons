@@ -1,0 +1,29 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const SpacexaiCombine = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 376.4168498501183 48" fill="none" color="currentColor" width={typeof size === 'number' ? size * 7.8420177052107976 : 'calc(' + size + ' * 7.8420177052107976)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g fill="none" transform="translate(0 0) scale(1.8669097538742023) translate(0 -9.7265625)"><g clipPath={'url(#' + instanceId + "-spacexai-combine__spacexai-dark-symbol__clip0_15_2222)"}><g clipPath={'url(#' + instanceId + "-spacexai-combine__spacexai-dark-symbol__clip1_15_2222)"}><path d="M47.4795 35.4173H40.2334L25.9561 25.0237C27.2717 24.1963 28.5957 23.408 29.9238 22.6575L47.4795 35.4173ZM78.7705 5.1702C69.6298 5.91545 33.6976 10.37 8.7832 35.4163H-0.461914L0.571289 34.387C5.78551 29.3497 28.8559 8.00276 78.7705 5.14285V5.1702ZM35.8984 35.4163H28.6543L26.457 33.8186H14.1904C15.054 33.0518 15.9281 32.3069 16.8115 31.5843H23.3828L19.9824 29.1106C21.1978 28.2063 22.4264 27.3398 23.665 26.51L35.8984 35.4163ZM9.53418 16.2532L15.1191 20.3118C13.729 21.1304 12.4283 21.9411 11.2139 22.7337L2.29688 16.2493L9.53418 16.2532Z" fill="currentColor" style={{
+            fill: "currentColor",
+            fillOpacity: 1
+          }} /></g></g><defs><clipPath id={instanceId + "-spacexai-combine__spacexai-dark-symbol__clip0_15_2222"}><rect width={48} height={48} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath><clipPath id={instanceId + "-spacexai-combine__spacexai-dark-symbol__clip1_15_2222"}><rect width={48} height={48} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g><g fill="none" transform="translate(101.61166818596172 7.200000000000003) scale(1.973493975903614) translate(-0.01708984375 -3.4871794871794872)"><g clipPath={'url(#' + instanceId + "-spacexai-combine__spacexai-dark-text__clip0_15_2240)"}><path d="M31.6592 9.74121C34.0204 9.74121 35.502 10.7345 35.502 12.498V13.6797C35.5018 15.5539 34.2264 16.373 31.8633 16.373H23.3955V20.5H20.1514V9.74121H31.6592ZM139.281 3.51562C134.147 3.93415 113.971 6.4359 99.9805 20.5H94.7891L95.3691 19.9219C98.2968 17.0935 111.252 5.10594 139.281 3.5V3.51562ZM115.207 20.5H111.14L109.906 19.6025H103.018C103.502 19.172 103.993 18.7534 104.489 18.3477H108.18L106.27 16.959C106.952 16.4512 107.642 15.9649 108.338 15.499L115.207 20.5ZM121.71 20.5H117.642L109.623 14.6641C110.362 14.1995 111.106 13.7564 111.852 13.335L121.71 20.5ZM12.1758 9.74121C13.9705 9.74122 14.9943 10.6235 15.3096 11.6182H3.30664V13.9326H12.6162C14.4884 14.0417 15.6229 14.8433 15.623 16.3555V18.0732C15.6229 19.7431 14.6318 20.498 12.6465 20.498H3.14941C1.33912 20.498 0.299779 19.8207 0 18.4775H12.6973V16.0176H3.26074C1.51272 16.0273 0.331066 15.2228 0.331055 13.8057V12.1045C0.331055 10.481 1.47937 9.74121 3.48047 9.74121H12.1758ZM53.2939 20.498H49.4258L47.709 18.1426H37.7012L39.4209 16.3076H46.374L43.0273 11.7129L45.0029 9.28418L53.2939 20.498ZM68.4326 9.73926C70.165 9.73934 71.3927 10.3393 71.708 11.6162H59.5303V18.4775H71.708C71.3616 19.9005 70.6198 20.498 68.5254 20.498H59.3125C57.7221 20.498 56.2256 19.8516 56.2256 18.1348V12.1025C56.2256 10.3857 57.7221 9.73928 59.3125 9.73926H68.4326ZM86.0312 15.1973H79.4834V18.4775H90.709V20.498H76.1816V13.3535H86.0312V15.1973ZM23.3955 14.4033H31.2676C32.5426 14.4033 32.6846 13.9769 32.6846 13.2061V12.7842C32.6846 12.027 32.4963 11.6182 31.1104 11.6182H23.415L23.3955 14.4033ZM100.403 9.73828L103.54 12.0176C102.76 12.4772 102.029 12.9329 101.347 13.3779L96.3398 9.73633L100.403 9.73828ZM90.8633 11.6182H76.1816V9.74121H90.8633V11.6182Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /></g><defs><clipPath id={instanceId + "-spacexai-combine__spacexai-dark-text__clip0_15_2240"}><rect width={139.281} height={24} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g></svg>;
+};
+const ForwardRef = forwardRef(SpacexaiCombine);
+export default ForwardRef;

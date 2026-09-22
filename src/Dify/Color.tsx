@@ -8,13 +8,10 @@ const DifyColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-293 -633)"><g id={instanceId + "-dify-color__Name=Dify, Type=Color, Variant=Default"}><g id={instanceId + "-dify-color__Dify / Icon"}><path id={instanceId + "-dify-color__Dify / path 01"} d="M307.086 645.974C310.356 645.974 311.568 643.968 311.568 641.488C311.568 639.008 310.362 637 307.088 637C303.81 637 302.602 639.006 302.602 641.488C302.602 643.968 303.81 645.974 307.084 645.974H307.086Z" fill="#0033FF" style={{
-            fill: "color(display-p3 0.0000 0.2000 1.0000)",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-dify-color__Dify / path 02"} d="M322.766 646.94V649.826H315.408V656.232H322.768V672.256H310.602V649.82H294.602V656.226H303.562V672.25H293V678.656H341V672.25H329.8V656.226H341V649.82H329.8V643.412H341V637.006H332.678C330.046 637.011 327.523 638.059 325.663 639.922C323.803 641.784 322.758 644.308 322.756 646.94H322.766Z" fill="#0033FF" style={{
-            fill: "color(display-p3 0.0000 0.2000 1.0000)",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><path d="M45 4.70673V10.5788H34.7334V16.4528H45V22.3249H34.7334V37.0134H45V42.8854H1V37.0134H10.6816V22.3249H2.46875V16.4528H17.1348V37.0192H28.2871V22.3307H21.541V16.4587H28.2852V13.8132H28.2764C28.2778 11.4004 29.2364 9.08668 30.9414 7.37958C32.6464 5.67257 34.9585 4.7112 37.3711 4.70673H45ZM13.9141 4.70087C16.9149 4.70104 18.0205 6.54192 18.0205 8.81512C18.0205 11.0884 16.9094 12.9273 13.9121 12.9274H13.9102C10.909 12.9274 9.80176 11.0885 9.80176 8.81512C9.80177 6.53998 10.9093 4.70087 13.9141 4.70087Z" fill="#0033FF" style={{
+      fill: "color(display-p3 0.0000 0.2000 1.0000)",
+      fillOpacity: 1
+    }} /></svg>;
 };
 const ForwardRef = forwardRef(DifyColor);
 export default ForwardRef;
