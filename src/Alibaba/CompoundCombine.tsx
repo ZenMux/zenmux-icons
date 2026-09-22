@@ -4,4 +4,4 @@ import Mono from './Mono.js';
 import Color from './Color.js';
 import Text from './Text.js';
 import { createCombine } from '../compound.js';
-export default createCombine(Mono, Color, Text, [0,12,48,24], [0,12,48,24], [1.986572265625,1.9989523310633839,99.02685546875,20.002095337873232]);
+export default createCombine(Mono, Color, Text, [0,12,48,24], [0,12,48,24], [0,3.4921875,84.15621122294223,17.015625]);

@@ -8,10 +8,13 @@ const OpencodeColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-293 -2877)"><g id={instanceId + "-opencode-color__Name=opencode, Type=Color, Variant=Default"}><g id={instanceId + "-opencode-color__opencode / Icon"}><path id={instanceId + "-opencode-color__opencode / path 01"} fillRule="evenodd" clipRule="evenodd" d="M325 2889H309V2913H325V2889ZM333 2921H301V2881H333V2921Z" fill="black" style={{
-            fill: "black",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-opencode-color__clip0_31_63)"}><path fillRule="evenodd" clipRule="evenodd" d="M32.7999 10.8H15.1999V37.2H32.7999V10.8ZM41.5999 46H6.3999V2H41.5999V46Z" fill="black" style={{
+        fill: "black",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-opencode-color__clip0_31_63"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(OpencodeColor);
 export default ForwardRef;

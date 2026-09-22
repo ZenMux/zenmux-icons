@@ -8,10 +8,16 @@ const ZaiColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -2809)"><g id={instanceId + "-zai-color__Name=Z.ai, Type=Color, Variant=Default"}><g id={instanceId + "-zai-color__Z.ai / Icon"}><path id={instanceId + "-zai-color__Z.ai / path 01"} fillRule="evenodd" clipRule="evenodd" d="M45.21 2813L40.854 2818.91H22.306L26.66 2813H45.212H45.21ZM67.508 2847.1L63.156 2853H44.672L49.02 2847.1H67.508ZM69 2813L39.528 2853H21L50.472 2813H69Z" fill="black" style={{
-            fill: "black",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-zai-color__clip0_8_2066)"}><path d="M19.5996 43.1004H2L28.4004 5.70001H46L19.5996 43.1004ZM44.8975 43.1004H22.9004L26.0068 38.7C26.493 38.0093 27.2852 37.6004 28.1299 37.6004H44.8975V43.1004ZM22.0195 10.0936C21.5333 10.7864 20.7394 11.2 19.8926 11.2H3.09961V5.70001H25.0996L22.0195 10.0936Z" fill={'url(#' + instanceId + "-zai-color__paint0_linear_8_2066)"} /></g><defs><linearGradient id={instanceId + "-zai-color__paint0_linear_8_2066"} x1={28.0634} y1={4.35335} x2={35.7219} y2={51.5805} gradientUnits="userSpaceOnUse"><stop style={{
+          stopColor: "black",
+          stopOpacity: 1
+        }} /><stop offset={1} style={{
+          stopColor: "black",
+          stopOpacity: 1
+        }} /></linearGradient><clipPath id={instanceId + "-zai-color__clip0_8_2066"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(ZaiColor);
 export default ForwardRef;

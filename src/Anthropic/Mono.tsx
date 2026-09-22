@@ -8,10 +8,10 @@ const AnthropicMono = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -293)"><g id={instanceId + "-anthropic-mono__Name=Anthropic, Type=Dark, Variant=Default"}><g id={instanceId + "-anthropic-mono__Anthropic / Icon_2"}><path id={instanceId + "-anthropic-mono__Anthropic / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M388.654 300.04H395.86L409 333H401.794L388.654 300.04ZM374.138 300.04H381.672L394.812 333H387.464L384.778 326.078H371.034L368.346 332.998H361L374.14 300.044L374.138 300.04ZM382.402 319.958L377.906 308.374L373.41 319.96H382.4L382.402 319.958Z" fill="currentColor" style={{
-            fill: "currentColor",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><path fillRule="evenodd" clipRule="evenodd" d="M26.5017 6.74664H33.4075L46 38.3333H39.0942L26.5017 6.74664ZM12.5906 6.74664H19.8107L32.4032 38.3333H25.3613L22.7872 31.6997H9.61592L7.03992 38.3314H0L12.5925 6.75048L12.5906 6.74664ZM20.5103 25.8347L16.2016 14.7334L11.8929 25.8366H20.5083L20.5103 25.8347Z" fill="currentColor" style={{
+      fill: "currentColor",
+      fillOpacity: 1
+    }} /></svg>;
 };
 const ForwardRef = forwardRef(AnthropicMono);
 export default ForwardRef;

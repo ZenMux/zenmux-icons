@@ -8,10 +8,13 @@ const ClaudeCodeColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-157 -293)"><g id={instanceId + "-claude-code-color__Name=Claude Code, Type=Color, Variant=Default"}><g id={instanceId + "-claude-code-color__Claude Code / Icon"}><path id={instanceId + "-claude-code-color__Claude Code / path 01"} fillRule="evenodd" clipRule="evenodd" d="M198.996 314.898H205V321.102H199V327.158H196.026V333H193V327.158H190.026V333H187V327.158H175V333H171.976V327.158H169V333H165.974V327.158H163V321.1H157V314.9H163V303H198.996V314.898ZM169 314.898H171.976V309.204H169V314.898ZM190.02 314.898H193V309.204H190.02V314.898Z" fill="#D97757" style={{
-            fill: "color(display-p3 0.8510 0.4667 0.3412)",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-claude-code-color__clip0_30_5)"}><path fillRule="evenodd" clipRule="evenodd" d="M41.996 20.898H48V27.102H42V33.158H39.026V39H36V33.158H33.026V39H30V33.158H18V39H14.976V33.158H12V39H8.974V33.158H6V27.1H0V20.9H6V9H41.996V20.898ZM12 20.898H14.976V15.204H12V20.898ZM33.02 20.898H36V15.204H33.02V20.898Z" fill="#D97757" style={{
+        fill: "color(display-p3 0.8510 0.4667 0.3412)",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-claude-code-color__clip0_30_5"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(ClaudeCodeColor);
 export default ForwardRef;

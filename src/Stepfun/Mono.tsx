@@ -8,13 +8,16 @@ const StepfunMono = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -1381)"><g id={instanceId + "-stepfun-mono__Name=StepFun, Type=Dark, Variant=Default"}><g id={instanceId + "-stepfun-mono__StepFun / Icon_2"} clipPath={'url(#' + instanceId + "-stepfun-mono__clip59_1_3407)"}><path id={instanceId + "-stepfun-mono__StepFun / path 01"} fillRule="evenodd" clipRule="evenodd" d="M385 1381C371.744 1381 361 1391.74 361 1405C361 1418.26 371.744 1429 385 1429C398.256 1429 409 1418.26 409 1405C409 1391.74 398.256 1381 385 1381ZM378.524 1420.23H369.752V1411.46H378.524V1420.23ZM389.37 1420.23H380.596V1411.46H389.37V1420.23ZM389.37 1409.39H380.596V1400.62H389.37V1409.39V1409.39ZM389.37 1398.55H380.596V1389.78H389.37V1398.55ZM400.214 1398.54H391.442V1389.77H400.214V1398.54Z" fill="currentColor" style={{
-            fill: "currentColor",
-            fillOpacity: 1
-          }} /></g></g></g><defs><clipPath id={instanceId + "-stepfun-mono__clip59_1_3407"}><rect width={48} height={48} fill="#fff" style={{
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-stepfun-mono__clip0_7_343)"}><g clipPath={'url(#' + instanceId + "-stepfun-mono__clip1_7_343)"}><path d="M23.9993 0.000549316C10.7468 0.000549316 0.000488281 10.7469 0.000488281 23.9994C0.000488281 37.2519 10.7468 47.9983 23.9993 47.9983C37.2519 47.9983 47.9982 37.2519 47.9982 23.9994C47.9982 10.7469 37.2575 0.000549316 23.9993 0.000549316ZM17.5493 39.2296H8.77488V30.4552H17.5493V39.2296ZM28.3865 39.2296H19.6122V30.4552H28.3865V39.2296ZM28.3865 28.3866H19.6122V19.6122H28.3865V28.3866ZM28.3865 17.5493H19.6122V8.77494H28.3865V17.5493ZM39.2295 17.5493H30.4551V8.77494H39.2295V17.5493Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /></g></g><defs><clipPath id={instanceId + "-stepfun-mono__clip0_7_343"}><rect width={48} height={48} fill="#fff" style={{
           fill: "white",
           fillOpacity: 1
-        }} transform="translate(361 1381)" /></clipPath></defs></svg>;
+        }} /></clipPath><clipPath id={instanceId + "-stepfun-mono__clip1_7_343"}><rect width={48} height={48} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(StepfunMono);
 export default ForwardRef;

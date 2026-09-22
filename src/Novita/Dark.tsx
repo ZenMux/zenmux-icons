@@ -8,10 +8,13 @@ const NovitaDark = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -1857)"><g id={instanceId + "-novita-dark__Name=Novita, Type=Dark, Variant=Default"}><g id={instanceId + "-novita-dark__Novita / Icon_2"}><path id={instanceId + "-novita-dark__Novita / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M107.334 1865.34V1876.67L89 1895.01H107.334V1883.67L118.666 1895.01H137L107.334 1865.34Z" fill="white" style={{
-            fill: "white",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-novita-dark__clip0_22_2269)"}><path fillRule="evenodd" clipRule="evenodd" d="M18.334 8.34V19.67L0 38.006H18.334V26.674L29.666 38.006H48L18.334 8.34Z" fill="black" style={{
+        fill: "black",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-novita-dark__clip0_22_2269"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(NovitaDark);
 export default ForwardRef;

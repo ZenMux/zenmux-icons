@@ -36,13 +36,13 @@ function render(){
   }
   const card=document.createElement('article');card.className='card';
   const art=document.createElement('div');art.className='art';
-  const img=document.createElement('img');const assetUrl=variant==='color'?`icons/${icon.id}.svg`:`static/${variant}/${icon.id}.svg`;img.dataset.src=assetUrl;img.decoding='async';if(!observer)img.src=assetUrl;img.style.width=img.style.height=size+'px';img.alt=icon.name;art.append(img);
+  const img=document.createElement('img');const textOnly=icon.hasSymbol===false;const assetUrl=textOnly?`icons/text-${variant==='white'?'light':'dark'}/${icon.id}.svg`:variant==='color'?`icons/${icon.id}.svg`:`static/${variant}/${icon.id}.svg`;img.dataset.src=assetUrl;img.decoding='async';if(!observer)img.src=assetUrl;img.style.width=img.style.height=size+'px';img.alt=icon.name;art.append(img);
   const info=document.createElement('div');info.className='info';
   const title=document.createElement('h2');title.textContent=icon.name;
   const actions=document.createElement('div');actions.className='actions';
   const download=document.createElement('a');download.href=assetUrl;download.download=icon.id+(variant==='color'?'':'-'+variant)+'.svg';download.textContent='Download';
   const svg=document.createElement('button');svg.textContent='Copy SVG';svg.onclick=async()=>{try{const r=await fetch(assetUrl);if(!r.ok)throw Error();await copy(await r.text())}catch{status.textContent='Unable to load SVG.'}};
-  const react=document.createElement('button');react.textContent='React';react.onclick=()=>{const n=icon.id.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('');copy(`import { ${n} } from '@zenmux/icons';\n\n<${n}${variant==='color'?'.Color':''} size={${size}}${variant==='color'?'':` color="${variant}"`} />`)};
+  const react=document.createElement('button');react.textContent='React';react.onclick=()=>{const n=icon.id.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('');copy(`import { ${n} } from '@zenmux/icons';\n\n<${n}${textOnly?(variant==='white'?'.TextLight':'.TextDark'):variant==='color'?'.Color':''} size={${size}}${variant==='color'?'':` color="${variant}"`} />`)};
   actions.append(download,svg,react);info.append(title,actions);card.append(art,info);groups.get(icon.group).append(card);if(observer)observer.observe(img);
  }
 }

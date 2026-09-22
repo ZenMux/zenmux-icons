@@ -1,0 +1,47 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const TboxMono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-tbox-mono__clip0_14_2140)"}><path d="M6.98438 14.182L19.0374 20.6721C22.137 22.3412 25.8679 22.3412 28.9676 20.6722L41.0207 14.182" stroke="currentColor" strokeWidth={3.49091} /><path d="M19.0812 5.3959C22.2155 3.66569 26.0165 3.65647 29.1591 5.37147L39.3397 10.9271C41.7221 12.2273 43.2044 14.7247 43.2044 17.4388V30.6478C43.2044 33.3156 41.7719 35.7779 39.4527 37.0965L29.3196 42.8579C26.0939 44.6919 22.1386 44.6821 18.922 42.8321L8.96046 37.1028C6.65927 35.7793 5.24072 33.327 5.24072 30.6723V17.4145C5.24072 14.7133 6.70903 12.2256 9.07386 10.9202L19.0812 5.3959Z" stroke="currentColor" strokeWidth={3.49091} /><path opacity={0.5} d="M30.0689 33.9836L23.5935 29.3795C17.7712 25.2399 9.64052 27.1124 6.21558 33.3818C8.43239 36.3852 11.3884 38.7642 14.7964 40.2874L15.8742 40.7692C21.0723 43.0926 26.984 43.2399 32.2914 41.1783C35.5137 39.9267 38.3832 37.9103 40.6527 35.3028L42.3247 33.3818C38.869 36.3896 33.8026 36.6383 30.0689 33.9836Z" fill="currentColor" /><path opacity={0.6} d="M24.2888 30.4157L11.8918 37.8539C11.3142 37.3782 10.5521 38.1587 11.0415 38.7248L11.7813 39.5807C11.8539 39.6647 11.9453 39.7304 12.0481 39.7725L16.3126 41.5189C20.8277 43.3679 25.8812 43.4087 30.4256 41.6327C32.0259 41.0073 33.534 40.1677 34.9086 39.1367L41.5645 34.1448C39.4924 33.859 37.5329 33.0297 35.8852 31.7411L35.0389 31.0792C31.9382 28.6543 27.6641 28.3905 24.2888 30.4157Z" fill="currentColor" /></g><defs><linearGradient id={instanceId + "-tbox-mono__paint0_linear_14_2140"} x1={7.8} y1={15.6} x2={40.8} y2={16.8} gradientUnits="userSpaceOnUse"><stop stopOpacity={0} style={{
+          stopColor: "none",
+          stopOpacity: 0
+        }} /><stop offset={0.218153} style={{
+          stopColor: "currentColor",
+          stopOpacity: 1
+        }} /><stop offset={0.702815} style={{
+          stopColor: "currentColor",
+          stopOpacity: 1
+        }} /><stop offset={1} stopOpacity={0} style={{
+          stopColor: "none",
+          stopOpacity: 0
+        }} /></linearGradient><linearGradient id={instanceId + "-tbox-mono__paint1_linear_14_2140"} x1={24.2225} y1={2.61797} x2={24.2225} y2={45.818} gradientUnits="userSpaceOnUse"><stop stopOpacity={0.9} style={{
+          stopColor: "currentColor",
+          stopOpacity: 0.9
+        }} /><stop offset={1} style={{
+          stopColor: "currentColor",
+          stopOpacity: 1
+        }} /></linearGradient><linearGradient id={instanceId + "-tbox-mono__paint2_linear_14_2140"} x1={42.3247} y1={33} x2={6.21558} y2={33} gradientUnits="userSpaceOnUse"><stop stopOpacity={0.4} style={{
+          stopColor: "currentColor",
+          stopOpacity: 0.4
+        }} /><stop offset={1} stopOpacity={0.8} style={{
+          stopColor: "currentColor",
+          stopOpacity: 0.8
+        }} /></linearGradient><linearGradient id={instanceId + "-tbox-mono__paint3_linear_14_2140"} x1={8.72813} y1={35.7812} x2={41.6736} y2={35.7812} gradientUnits="userSpaceOnUse"><stop stopOpacity={0.4} style={{
+          stopColor: "currentColor",
+          stopOpacity: 0.4
+        }} /><stop offset={1} stopOpacity={0.8} style={{
+          stopColor: "currentColor",
+          stopOpacity: 0.8
+        }} /></linearGradient><clipPath id={instanceId + "-tbox-mono__clip0_14_2140"}><rect width={48} height={48} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(TboxMono);
+export default ForwardRef;

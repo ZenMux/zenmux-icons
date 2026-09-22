@@ -1,7 +1,14 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g transform="translate(-21 -2809)"><g id="Name=Z.ai, Type=Color, Variant=Default">
-<g id="Z.ai / Icon">
-<path id="Z.ai / path 01" fill-rule="evenodd" clip-rule="evenodd" d="M45.21 2813L40.854 2818.91H22.306L26.66 2813H45.212H45.21ZM67.508 2847.1L63.156 2853H44.672L49.02 2847.1H67.508ZM69 2813L39.528 2853H21L50.472 2813H69Z" fill="black" style="fill:black;fill-opacity:1;" />
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8_2066)">
+<path d="M19.5996 43.1004H2L28.4004 5.70001H46L19.5996 43.1004ZM44.8975 43.1004H22.9004L26.0068 38.7C26.493 38.0093 27.2852 37.6004 28.1299 37.6004H44.8975V43.1004ZM22.0195 10.0936C21.5333 10.7864 20.7394 11.2 19.8926 11.2H3.09961V5.70001H25.0996L22.0195 10.0936Z" fill="url(#paint0_linear_8_2066)"/>
 </g>
-</g>
-</g></svg>
+<defs>
+<linearGradient id="paint0_linear_8_2066" x1="28.0634" y1="4.35335" x2="35.7219" y2="51.5805" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:black;stop-opacity:1;"/>
+<stop offset="1" style="stop-color:black;stop-opacity:1;"/>
+</linearGradient>
+<clipPath id="clip0_8_2066">
+<rect width="48" height="48" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

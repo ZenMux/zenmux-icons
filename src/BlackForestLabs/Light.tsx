@@ -8,10 +8,13 @@ const BlackForestLabsLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-361 -565)"><g id={instanceId + "-black-forest-labs-light__Name=Black Forest Labs, Type=Dark, Variant=Default"}><g id={instanceId + "-black-forest-labs-light__Black Forest Labs / Icon_2"}><path id={instanceId + "-black-forest-labs-light__Black Forest Labs / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M395.226 585.496H390.12L385.014 578.264L369.088 600.804H374.204L385.014 585.496H390.118L379.31 600.802H384.44L395.224 585.496L409 605H400.94V600.818L395.226 592.73L389.542 600.804V605H361L385.016 571L395.226 585.496Z" fill="#000000" style={{
-            fill: "#000000",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-black-forest-labs-light__clip0_1_2128)"}><path fillRule="evenodd" clipRule="evenodd" d="M34.226 20.496H29.12L24.014 13.264L8.088 35.804H13.204L24.014 20.496H29.118L18.31 35.802H23.44L34.224 20.496L48 40H39.94V35.818L34.226 27.73L28.542 35.804V40H0L24.016 6L34.226 20.496Z" fill="white" style={{
+        fill: "white",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-black-forest-labs-light__clip0_1_2128"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(BlackForestLabsLight);
 export default ForwardRef;

@@ -1,0 +1,7 @@
+'use client';
+// Generated. Do not edit manually.
+import Text from './Text.js';
+import TextDark from './TextDark.js';
+import TextLight from './TextLight.js';
+const Seed = Object.assign(Text, { TextDark, TextLight, Text, title: "Seed", Default: TextDark });
+export default Seed;

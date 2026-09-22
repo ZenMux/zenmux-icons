@@ -1,0 +1,29 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const KlingProviderMono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-kling-provider-mono__clip0_22_4480)"}><path d="M11.9224 27.2491C12.8526 24.4054 14.0804 21.6678 15.5853 19.0819C21.3968 9.01352 29.8756 3.02789 34.523 5.70997C24.0697 -0.325162 10.4301 3.72637 4.05768 14.7627C3.29713 16.0794 2.66069 17.464 2.15657 18.8985C1.68176 20.2533 2.32523 21.7108 3.56819 22.4294L11.9224 27.2509V27.2491Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M36.0776 20.6292C35.1469 23.473 33.9185 26.2106 32.4129 28.7964C26.6014 38.8648 18.1225 44.8522 13.4752 42.1683C23.9303 48.2053 37.5699 44.1519 43.9423 33.1156C44.7026 31.7994 45.3391 30.4155 45.8434 28.9816C46.3182 27.6286 45.6748 26.1694 44.4318 25.4525L36.0776 20.631V20.6292Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M32.4147 28.7982C38.2262 18.7299 39.1722 8.39388 34.523 5.70997C29.8793 3.02789 21.4004 9.01719 15.5853 19.0819C19.3875 12.5004 26.2348 9.33803 30.8821 12.0201C35.5276 14.704 36.2132 22.2132 32.4129 28.7964L32.4147 28.7982Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M15.5853 19.0819C9.77382 29.1502 8.82774 39.4858 13.4769 42.1679C18.1224 44.8518 26.6013 38.8643 32.4146 28.796C28.6124 35.3793 21.7651 38.5417 17.1178 35.8578C12.4723 33.1757 11.7866 25.6648 15.587 19.0833L15.5853 19.0819Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-kling-provider-mono__clip0_22_4480"}><rect width={48} height={48} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(KlingProviderMono);
+export default ForwardRef;

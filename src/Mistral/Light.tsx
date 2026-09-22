@@ -8,10 +8,25 @@ const MistralLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-225 -1041)"><g id={instanceId + "-mistral-light__Name=Mistral, Type=Dark, Variant=Default"}><g id={instanceId + "-mistral-light__Mistral / Icon_2"}><path id={instanceId + "-mistral-light__Mistral / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M231.856 1047.8H238.714V1054.66H245.572V1061.51H245.568H252.43V1054.66H259.284V1047.8H266.144V1075.23H273V1082.09H252.428V1075.23H245.572V1068.37H238.712V1075.23L245.572 1075.23V1082.09H225V1075.23H231.856V1047.8ZM252.428 1075.23H259.284V1068.37H252.43V1075.23H252.428Z" fill="#000000" style={{
-            fill: "#000000",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-mistral-light__clip0_5_5013)"}><path d="M6.85596 6.79999H13.714V13.656H6.85596V6.79999ZM34.284 6.79999H41.144V13.656H34.284V6.79999Z" fill="white" style={{
+        fill: "white",
+        fillOpacity: 1
+      }} /><path d="M6.85596 13.656H20.57V20.514H6.85796L6.85596 13.656ZM27.428 13.656H41.142V20.514H27.428V13.656Z" fill="white" style={{
+        fill: "white",
+        fillOpacity: 1
+      }} /><path d="M6.85596 20.516H41.144V27.372H6.85596V20.516Z" fill="white" style={{
+        fill: "white",
+        fillOpacity: 1
+      }} /><path d="M6.85596 27.372H13.714V34.228H6.85596V27.372ZM20.572 27.372H27.43V34.228H20.572V27.372ZM34.284 27.372H41.144V34.228H34.284V27.372Z" fill="white" style={{
+        fill: "white",
+        fillOpacity: 1
+      }} /><path d="M0 34.228H20.572V41.086H0V34.228ZM27.428 34.228H48V41.086H27.428V34.228Z" fill="white" style={{
+        fill: "white",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-mistral-light__clip0_5_5013"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(MistralLight);
 export default ForwardRef;

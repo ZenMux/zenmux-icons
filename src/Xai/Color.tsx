@@ -8,10 +8,13 @@ const XaiColor = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-21 -2809)"><g id={instanceId + "-xai-color__Name=xAI, Type=Color, Variant=Default"}><g id={instanceId + "-xai-color__xAI / Icon"}><path id={instanceId + "-xai-color__xAI / path 01"} fillRule="evenodd" clipRule="evenodd" d="M33.938 2826.55L54.024 2855H45.096L25.01 2826.55H33.938ZM33.93 2842.35L38.396 2848.68L33.934 2855H25L33.93 2842.35ZM65 2814.16V2855H57.682V2824.53L65 2814.16ZM65 2811L45.096 2839.19L40.63 2832.86L56.066 2811H65Z" fill="black" style={{
-            fill: "black",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-xai-color__clip0_7_503)"}><path fillRule="evenodd" clipRule="evenodd" d="M12.8092 17.0809L32.6059 44.6668H23.8065L4.00986 17.0809H12.8092ZM12.8014 32.4021L17.203 38.5384L12.8053 44.6668H4L12.8014 32.4021ZM43.4237 5.0683V44.6668H36.2112V15.1182L43.4237 5.0683ZM43.4237 2.00018L23.8065 29.3359L19.4048 23.2016L34.6185 2.00018H43.4237Z" fill="black" style={{
+        fill: "black",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-xai-color__clip0_7_503"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
 };
 const ForwardRef = forwardRef(XaiColor);
 export default ForwardRef;

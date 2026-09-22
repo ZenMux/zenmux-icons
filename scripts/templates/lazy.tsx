@@ -33,12 +33,14 @@ function observe(node: Element, ready: () => void) {
   return () => { callbacks.delete(node); observer?.unobserve(node); };
 }
 
-export function LazyIcon({ name, variant = 'color', size = '1em', eager = false,
+export function LazyIcon({ name, variant: requestedVariant, size = '1em', eager = false,
   fallback = null, errorFallback = fallback, ...props }: LazyIconProps) {
   const host = useRef<HTMLSpanElement>(null);
   const [visible, setVisible] = useState(false);
-  const key = `${name}/${variant}`;
+
   const entry = iconCatalog.find(icon => icon.id === name);
+  const variant = requestedVariant ?? ((entry?.variants as readonly string[] | undefined)?.includes('color') ? 'color' : 'text');
+  const key = `${name}/${variant}`;
   const ratio = (entry?.aspectRatios as Partial<Record<IconVariant, number>> | undefined)?.[variant] ?? 1;
   const width = typeof size === 'number' ? size * ratio : `calc(${size} * ${ratio})`;
   const [loaded, setLoaded] = useState<{ key: string; Icon?: ComponentType<IconProps>; failed?: boolean }>();

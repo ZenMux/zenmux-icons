@@ -8,13 +8,10 @@ const OpenWebuiLight = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" color="#ffffff" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g transform="translate(-89 -1925)"><g id={instanceId + "-open-webui-light__Name=Open WebUI, Type=Dark, Variant=Default"}><g id={instanceId + "-open-webui-light__Open WebUI / Icon_2"}><path id={instanceId + "-open-webui-light__Open WebUI / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M124.394 1949C124.394 1958.94 116.47 1967 106.696 1967C96.924 1967 89 1958.94 89 1949C89 1939.06 96.924 1931 106.696 1931C116.47 1931 124.394 1939.06 124.394 1949ZM117.122 1949C117.122 1954.86 112.454 1959.6 106.696 1959.6C100.94 1959.6 96.272 1954.86 96.272 1949C96.272 1943.14 100.94 1938.4 106.696 1938.4C112.456 1938.4 117.122 1943.14 117.122 1949Z" fill="#000000" style={{
-            fill: "#000000",
-            fillOpacity: 1
-          }} /><path id={instanceId + "-open-webui-light__Open WebUI / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M137 1931H130.212V1967H137V1931Z" fill="#000000" style={{
-            fill: "#000000",
-            fillOpacity: 1
-          }} /></g></g></g></svg>;
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><path d="M17.959 6.75C27.3256 6.75018 34.9189 14.4743 34.9189 24C34.9189 33.5257 27.3256 41.2498 17.959 41.25C8.59415 41.25 1 33.5258 1 24C1 14.4742 8.59415 6.75 17.959 6.75ZM47 6.75V41.25H40.4951V6.75H47ZM17.959 13.8398C12.4428 13.8398 7.96875 18.388 7.96875 24C7.96875 29.612 12.4428 34.1602 17.959 34.1602C23.4769 34.16 27.9502 29.6119 27.9502 24C27.9502 18.3881 23.4788 13.84 17.959 13.8398Z" fill="white" style={{
+      fill: "white",
+      fillOpacity: 1
+    }} /></svg>;
 };
 const ForwardRef = forwardRef(OpenWebuiLight);
 export default ForwardRef;

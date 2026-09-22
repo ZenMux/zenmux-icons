@@ -1,0 +1,47 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const StepfunProviderCombine = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 187.33437499999997 48" fill="none" color="currentColor" width={typeof size === 'number' ? size * 3.902799479166666 : 'calc(' + size + ' * 3.902799479166666)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g fill="none" transform="translate(0 0) scale(1) translate(0 0)"><g clipPath={'url(#' + instanceId + "-stepfun-provider-combine__stepfun-provider-dark-symbol__clip0_22_4452)"}><g clipPath={'url(#' + instanceId + "-stepfun-provider-combine__stepfun-provider-dark-symbol__clip1_22_4452)"}><path d="M26.8465 0.171075C13.685 -1.3974 1.74521 7.99642 0.171046 21.158C-1.39743 34.3196 7.99639 46.2593 21.1523 47.8335C34.3139 49.402 46.2536 40.0082 47.8278 26.8523C49.402 13.685 40.0081 1.74524 26.8465 0.171075ZM17.5493 39.2296H8.77495V30.4552H17.5493V39.2296ZM28.3866 39.2296H19.6122V30.4552H28.3866V39.2296ZM28.3866 28.3866H19.6122V19.6123H28.3866V28.3866ZM28.3866 17.5494H19.6122V8.77497H28.3866V17.5494ZM39.2296 17.5494H30.4552V8.77497H39.2296V17.5494Z" fill="currentColor" style={{
+            fill: "currentColor",
+            fillOpacity: 1
+          }} /></g></g><defs><clipPath id={instanceId + "-stepfun-provider-combine__stepfun-provider-dark-symbol__clip0_22_4452"}><rect width={48} height={48} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath><clipPath id={instanceId + "-stepfun-provider-combine__stepfun-provider-dark-symbol__clip1_22_4452"}><rect width={48} height={48} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g><g fill="none" transform="translate(60 7.200000000000003) scale(1.8666666666666663) translate(0 -3)"><g clipPath={'url(#' + instanceId + "-stepfun-provider-combine__stepfun-provider-dark-text__clip0_22_4462)"}><path fillRule="evenodd" clipRule="evenodd" d="M33.3428 7.01074C34.5857 7.01077 35.8115 7.52551 36.7051 8.42578C37.6692 9.39658 38.2001 10.7198 38.2002 12.2549C38.2002 13.79 37.7001 15.104 36.7529 16.0547C35.8661 16.9449 34.6563 17.4355 33.3428 17.4355C32.2175 17.4355 31.0986 17.0361 30.3428 16.3711V21H28.1455V7.26953H30.3428V8.07617C31.0987 7.40765 32.2174 7.01074 33.3428 7.01074ZM33.3262 8.93945C31.8783 8.93945 30.3391 10.0916 30.3389 12.2246C30.3389 14.3579 31.8782 15.5107 33.3262 15.5107C34.9352 15.5106 36.0166 14.1898 36.0166 12.2246C36.0164 10.2597 34.9351 8.93961 33.3262 8.93945Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M50.6777 13.1426C50.678 14.4391 51.7258 15.4873 53.0225 15.4873C54.3189 15.4872 55.367 14.4357 55.3672 13.1426V7.27344H57.5645V17.2539H55.3672V16.0107C54.6684 16.9312 53.5598 17.5293 52.3135 17.5293C50.197 17.5293 48.4805 15.8127 48.4805 13.6963V7.26953H50.6777V13.1426Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M5.44922 3C6.85334 3.00003 8.07237 3.38339 8.97266 4.1123C9.86962 4.83794 10.367 5.83873 10.4141 7.00781V7.02832H8.12988V7.01074C7.94833 5.71774 6.99101 4.97864 5.37891 4.97852C3.76637 4.97852 2.72461 5.73825 2.72461 6.91406C2.72477 7.86126 3.48727 8.46602 5.35156 9.00684L6.42969 9.3125C9.30874 10.1557 10.5391 11.342 10.5391 13.2871C10.5389 14.4928 10.0818 15.5173 9.21875 16.2529C8.30162 17.0323 6.95703 17.4453 5.33105 17.4453C3.85642 17.4452 2.57314 17.0661 1.61914 16.3506C0.614746 15.5948 0.0538141 14.513 0 13.2197V13.1992H2.3252V13.2158C2.46629 14.6201 3.62523 15.46 5.43262 15.46C7.08191 15.4598 8.23438 14.6065 8.23438 13.3838C8.23423 12.3459 7.45103 11.7074 5.43555 11.1162L4.19629 10.7666C2.91651 10.4005 2.03622 9.96412 1.4248 9.39648C0.739475 8.75819 0.40625 7.95151 0.40625 6.93359C0.406347 5.78492 0.910344 4.79739 1.85742 4.0752C2.77119 3.38315 4.04497 3 5.44922 3Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path fillRule="evenodd" clipRule="evenodd" d="M22.2266 7.00781C23.5668 7.0079 24.7796 7.48479 25.6328 8.34473C26.5566 9.27527 27.0439 10.6158 27.0439 12.2148C27.0439 12.4466 27.0304 12.6857 27.0068 12.9209V12.9375H19.5928C19.7911 14.5935 20.7015 15.4939 22.2266 15.5342C23.3382 15.5039 24.084 15.0706 24.5039 14.2109L24.5107 14.2002H26.7549L26.7451 14.2275C26.0531 16.3473 24.5306 17.4219 22.2227 17.4219C20.7951 17.4218 19.5926 16.9586 18.7461 16.082C17.8694 15.1717 17.4054 13.821 17.4053 12.2188C17.4053 10.6164 17.8927 9.2792 18.8164 8.34863C19.6697 7.48529 20.8789 7.01078 22.2227 7.01074L22.2266 7.00781ZM22.2227 8.87891C20.6875 8.91927 19.8311 9.68244 19.6094 11.2109H24.8369C24.6152 9.68574 23.7613 8.92258 22.2227 8.87891Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M14.9561 6.81641H16.8711V8.84863H14.9561V14.2744C14.9561 15.4333 15.7526 15.5674 16.3506 15.5674C16.5588 15.5674 16.6999 15.5579 16.8477 15.5479C16.9081 15.5445 16.9724 15.5375 17.043 15.5342H17.0625V17.3516H17.0459C17.0392 17.3516 16.5285 17.4189 15.9541 17.4189C15.8467 17.4189 15.7392 17.4188 15.6318 17.4121C14.8155 17.3718 14.1566 17.1362 13.6729 16.7129C13.0683 16.1821 12.7588 15.3694 12.7588 14.2979V8.84863H11.0488V6.81641H12.7588V4.51855H14.9561V6.81641Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M47.5664 5.30762H41.6367V9.50098H47.3682V11.5332H41.6367V17.251H39.4404V3.27539H47.5664V5.30762Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M64.374 6.9873C66.4905 6.9873 68.207 8.70483 68.207 10.8213V17.2471H66.0098V11.375C66.0097 10.0783 64.9617 9.03027 63.665 9.03027C62.3684 9.03035 61.3204 10.0817 61.3203 11.375V17.2471H59.123V7.2666H61.3203V8.50977C62.0191 7.58928 63.1277 6.99121 64.374 6.99121V6.9873Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /></g><defs><clipPath id={instanceId + "-stepfun-provider-combine__stepfun-provider-dark-text__clip0_22_4462"}><rect width={68.207} height={24} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g></svg>;
+};
+const ForwardRef = forwardRef(StepfunProviderCombine);
+export default ForwardRef;

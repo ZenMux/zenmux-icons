@@ -1,0 +1,20 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const TypesafeDark = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-typesafe-dark__clip0_11_8)"}><path d="M33.9275 5.856V14.134L41.3875 18.974L41.3895 37.304L24.9035 48L15.8795 42.146V33.64L8.41553 28.798V10.7L9.12553 10.236L24.9035 0L33.9275 5.856ZM20.2955 41.3L24.8995 44.288L36.9655 36.454L32.3655 33.47L20.2955 41.3ZM26.4595 20.664V28.8L18.9955 33.644V38.432L30.8095 30.766V17.842L26.4595 20.664ZM33.9275 30.768L38.2715 33.588V20.664L33.9275 17.844V30.768ZM12.8355 27.952L17.4375 30.94L22.0395 27.952L17.4395 24.97L12.8355 27.952ZM11.5335 12.386V25.088L15.8775 22.268V14.132L23.3435 9.286V4.72L11.5335 12.386ZM18.9975 22.264L23.3415 25.084V20.664L18.9995 17.842L18.9975 22.264ZM20.2955 14.974L24.9035 17.962L29.5035 14.976L24.9035 11.988L20.2955 14.974ZM26.4635 9.286L30.8075 12.108V7.548L26.4635 4.718V9.286Z" fill="black" style={{
+        fill: "black",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-typesafe-dark__clip0_11_8"}><rect width={48} height={48} fill="white" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(TypesafeDark);
+export default ForwardRef;

@@ -1,0 +1,227 @@
+'use client';
+// Generated from real source assets. Do not edit manually.
+import { forwardRef, useId } from 'react';
+import type { Ref } from 'react';
+import type { IconProps } from '../types.js';
+const MindlabMono = ({
+  size = '1em',
+  ...props
+}: IconProps, ref: Ref<SVGSVGElement>) => {
+  const instanceId = useId();
+  return <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" width={size} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g clipPath={'url(#' + instanceId + "-mindlab-mono__clip0_5_4608)"}><path d="M10.7615 37.2386H1.93481V46.0653H10.7615V37.2386Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M10.7615 28.4134H1.93481V37.24H10.7615V28.4134Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M10.7615 19.5867H1.93481V28.4133H10.7615V19.5867Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M10.7615 10.76H1.93481V19.5867H10.7615V10.76Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M10.7627 1.93475H1.93604V10.7614H10.7627V1.93475Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M19.5879 19.5867H10.7612V28.4133H19.5879V19.5867Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M19.5879 10.76H10.7612V19.5867H19.5879V10.76Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M28.4133 28.4134H19.5867V37.24H28.4133V28.4134Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M28.4133 19.5867H19.5867V28.4133H28.4133V19.5867Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M37.24 19.5867H28.4133V28.4133H37.24V19.5867Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M37.24 10.76H28.4133V19.5867H37.24V10.76Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M46.0666 37.2386H37.24V46.0653H46.0666V37.2386Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M46.0666 28.4134H37.24V37.24H46.0666V28.4134Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M46.0666 19.5867H37.24V28.4133H46.0666V19.5867Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M46.0666 10.76H37.24V19.5867H46.0666V10.76Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M46.0666 1.93475H37.24V10.7614H46.0666V1.93475Z" fill="currentColor" fillOpacity={0.5} style={{
+        fill: "currentColor",
+        fillOpacity: 0.5
+      }} /><path d="M1.93481 46.0653H2.6184V1.93469H1.2525V46.0653H1.93609H1.93481ZM2.6184 1.93469V1.2511H1.2525V1.93469H2.6184ZM1.25122 46.0653V46.7489H2.61713V46.0653H1.25122Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M46.0654 46.0653H46.749V1.93469H45.3831V46.0653H46.0666H46.0654ZM46.749 1.93469V1.2511H45.3831V1.93469H46.749ZM45.3831 46.0653V46.7489H46.749V46.0653H45.3831Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M37.24 10.7601H37.9236V1.93469H36.5577V10.7613H37.2413L37.24 10.7601ZM37.9223 1.93469V1.2511H36.5564V1.93469H37.9223ZM36.5564 10.7601V11.4436H37.9223V10.7601H36.5564Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M28.4133 19.5866H29.0969V10.76H27.731V19.5866H28.4146H28.4133ZM29.0969 10.76V10.0764H27.731V10.76H29.0969ZM27.7297 19.5866V20.2702H29.0956V19.5866H27.7297Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M19.5869 19.5866H20.2704V10.76H18.9045V19.5866H19.5881H19.5869ZM20.2704 10.76V10.0764H18.9045V10.76H20.2704ZM18.9045 19.5866V20.2702H20.2704V19.5866H18.9045Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M10.7614 10.7601H11.445V1.93469H10.0791V10.7613H10.7627L10.7614 10.7601ZM11.445 1.93469V1.2511H10.0791V1.93469H11.445ZM10.0791 10.7601V11.4436H11.445V10.7601H10.0791Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M28.4133 10.7601V11.4437H37.24V10.0778H28.4133V10.7614V10.7601ZM37.24 11.4437H37.9236V10.0778H37.24V11.4437ZM28.4133 10.0778H27.7297V11.4437H28.4133V10.0778Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M19.5869 19.5866V20.2702H28.4136V18.9043H19.5869V19.5879V19.5866ZM28.4136 20.2702H29.0971V18.9043H28.4136V20.2702ZM19.5869 18.903H18.9033V20.269H19.5869V18.903Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M1.93481 1.93469V2.61828H10.7615V1.2511H1.93481V1.93469ZM10.7615 2.617H11.445V1.2511H10.7615V2.617ZM1.93481 1.2511H1.25122V2.617H1.93481V1.2511Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M10.7615 10.7601V11.4437H19.5881V10.0778H10.7615V10.7614V10.7601ZM19.5881 11.4437H20.2717V10.0778H19.5881V11.4437ZM10.7615 10.0778H10.0779V11.4437H10.7615V10.0778Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M28.4133 37.2388H29.0969V28.4121H27.731V37.2388H28.4146H28.4133ZM29.0969 28.4121V27.7285H27.731V28.4121H29.0969ZM27.7297 37.2388V37.9224H29.0956V37.2388H27.7297Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M19.5869 37.2388H20.2704V28.4121H18.9045V37.2388H19.5881H19.5869ZM20.2704 28.4121V27.7285H18.9045V28.4121H20.2704ZM18.9045 37.2388V37.9224H20.2704V37.2388H18.9045Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M28.4133 28.4133V29.0969H37.24V27.731H28.4133V28.4146V28.4133ZM37.24 29.0956H37.9236V27.7297H37.24V29.0956ZM28.4133 27.7297H27.7297V29.0956H28.4133V27.7297Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M19.5869 37.2386V37.9222H28.4136V36.5563H19.5869V37.2399V37.2386ZM28.4136 37.9222H29.0971V36.5563H28.4136V37.9222ZM19.5869 36.555H18.9033V37.9209H19.5869V36.555Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M10.7615 28.4133V29.0969H19.5881V27.731H10.7615V28.4146V28.4133ZM19.5881 29.0956H20.2717V27.7297H19.5881V29.0956ZM10.7615 27.7297H10.0779V29.0956H10.7615V27.7297Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M37.24 1.93469V2.61828H46.0666V1.2511H37.24V1.93469ZM46.0654 2.617H46.7489V1.2511H46.0654V2.617ZM37.24 1.2511H36.5564V2.617H37.24V1.2511Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M37.24 46.0653H37.9236V19.5866H36.5577V46.0653H37.2413H37.24ZM37.9223 19.5866V18.903H36.5564V19.5866H37.9223ZM36.5564 46.0653V46.7489H37.9223V46.0653H36.5564Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M10.7614 46.0653H11.445V19.5866H10.0791V46.0653H10.7627H10.7614ZM11.445 19.5866V18.903H10.0791V19.5866H11.445ZM10.0791 46.0653V46.7489H11.445V46.0653H10.0791Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M2.82279 1.00064H1.00073V2.8227H2.82279V1.00064Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M11.7044 1.00052H9.88232V2.82258H11.7044V1.00052Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M20.5848 1.00052H18.7627V2.82258H20.5848V1.00052Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M29.2376 1.00052H27.4155V2.82258H29.2376V1.00052Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M38.1192 1.00052H36.2971V2.82258H38.1192V1.00052Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M47.0008 1.00052H45.1787V2.82258H47.0008V1.00052Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M2.82279 9.88101H1.00073V11.7031H2.82279V9.88101Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M11.7044 9.88101H9.88232V11.7031H11.7044V9.88101Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M20.5848 9.88101H18.7627V11.7031H20.5848V9.88101Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M29.2376 9.88101H27.4155V11.7031H29.2376V9.88101Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M38.1192 9.88101H36.2971V11.7031H38.1192V9.88101Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M47.0008 9.88101H45.1787V11.7031H47.0008V9.88101Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M2.82279 18.7625H1.00073V20.5845H2.82279V18.7625Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M11.7044 18.7625H9.88232V20.5845H11.7044V18.7625Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M20.5848 18.7625H18.7627V20.5845H20.5848V18.7625Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M29.2376 18.7625H27.4155V20.5845H29.2376V18.7625Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M38.1192 18.7625H36.2971V20.5845H38.1192V18.7625Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M47.0008 18.7625H45.1787V20.5845H47.0008V18.7625Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M2.82279 27.4153H1.00073V29.2373H2.82279V27.4153Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M11.7044 27.4153H9.88232V29.2373H11.7044V27.4153Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M20.5848 27.4153H18.7627V29.2373H20.5848V27.4153Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M29.2376 27.4153H27.4155V29.2373H29.2376V27.4153Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M38.1192 27.4153H36.2971V29.2373H38.1192V27.4153Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M47.0008 27.4153H45.1787V29.2373H47.0008V27.4153Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M2.82279 36.2969H1.00073V38.119H2.82279V36.2969Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M11.7044 36.2969H9.88232V38.119H11.7044V36.2969Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M20.5848 36.2969H18.7627V38.119H20.5848V36.2969Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M29.2376 36.2969H27.4155V38.119H29.2376V36.2969Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M38.1192 36.2969H36.2971V38.119H38.1192V36.2969Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M47.0008 36.2969H45.1787V38.119H47.0008V36.2969Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M2.82279 45.1774H1.00073V46.9995H2.82279V45.1774Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M11.7044 45.1774H9.88232V46.9995H11.7044V45.1774Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M20.5848 45.1774H18.7627V46.9995H20.5848V45.1774Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M29.2376 45.1774H27.4155V46.9995H29.2376V45.1774Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M38.1192 45.1774H36.2971V46.9995H38.1192V45.1774Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /><path d="M47.0008 45.1774H45.1787V46.9995H47.0008V45.1774Z" fill="currentColor" style={{
+        fill: "currentColor",
+        fillOpacity: 1
+      }} /></g><defs><clipPath id={instanceId + "-mindlab-mono__clip0_5_4608"}><rect width={48} height={48} fill="#fff" style={{
+          fill: "white",
+          fillOpacity: 1
+        }} /></clipPath></defs></svg>;
+};
+const ForwardRef = forwardRef(MindlabMono);
+export default ForwardRef;

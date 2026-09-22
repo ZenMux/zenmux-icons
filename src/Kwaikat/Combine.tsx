@@ -8,22 +8,37 @@ const KwaikatCombine = ({
   ...props
 }: IconProps, ref: Ref<SVGSVGElement>) => {
   const instanceId = useId();
-  return <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 227.25086675337354 48" fill="none" color="currentColor" width={typeof size === 'number' ? size * 4.734393057361949 : 'calc(' + size + ' * 4.734393057361949)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g fill="none" transform="translate(0 0) scale(1.0475703324808183) translate(0 -1.9921875)"><g transform="translate(-361 -837)"><g id={instanceId + "-kwaikat-combine__kwaikat-dark-symbol__Name=KwaiKAT, Type=Dark, Variant=Default"}><g id={instanceId + "-kwaikat-combine__kwaikat-dark-symbol__KwaiKAT / Icon_2"}><path id={instanceId + "-kwaikat-combine__kwaikat-dark-symbol__KwaiKAT / path 01_2"} fillRule="evenodd" clipRule="evenodd" d="M401.84 875.622H408.676V839L395.114 847.354L381.558 839.132L381.61 854.868H388.446L388.394 850.424L395.234 854.494L401.84 850.424V875.622Z" fill="currentColor" style={{
-              fill: "currentColor",
-              fillOpacity: 1
-            }} /><path id={instanceId + "-kwaikat-combine__kwaikat-dark-symbol__KwaiKAT / path 02_2"} fillRule="evenodd" clipRule="evenodd" d="M367.128 858.468C372.696 854.328 381.012 853.68 387.01 860.282L387.03 860.302L387.05 860.328L405.37 884.808H397.69L382.31 864.374C379.05 860.9 374.528 860.996 371.28 863.098C368.032 865.198 366.154 869.244 368.184 873.658C371.172 880.15 380.488 880.208 383.634 873.874L383.698 873.746L387.738 879.004C381.778 886.94 369.08 886.856 363.408 877.9C358.618 870.34 361.556 862.61 367.128 858.468Z" fill="currentColor" style={{
-              fill: "currentColor",
-              fillOpacity: 1
-            }} /></g></g></g></g><g fill="none" color="currentColor" transform="translate(61.96419437340154 7.200000000000003) scale(1.527035425730267) translate(-2.009765625 0)"><g transform="translate(-21 -1649)"><g id={instanceId + "-kwaikat-combine__kwaikat-dark-text__Name=KwaiKAT, Type=Color, Language=Default"}><g id={instanceId + "-kwaikat-combine__kwaikat-dark-text__KwaiKAT / Wordmark"}><path id={instanceId + "-kwaikat-combine__kwaikat-dark-text__KwaiKAT / path 01"} d="M26.714 1652.14V1658.42L32.837 1652.22L32.918 1652.14H37.891L30.453 1659.82L37.886 1671H33.751L33.669 1670.88L27.837 1662.36L26.714 1663.46V1671H23V1652.14H26.714ZM42.086 1656.04V1664.62L43.659 1666.75L44.102 1666.25V1656.04H47.789V1665.7L48.393 1666.59L49.962 1664.91V1656.04H53.649V1666.76L53.572 1666.84L49.622 1670.92L49.542 1671H46.855L46.777 1670.86L46.118 1669.64L44.887 1670.92L44.807 1671H42.19L42.108 1670.88L38.42 1665.44L38.372 1665.37V1656.04H42.086ZM79.475 1649V1653.21H75.265V1649H79.475ZM79.161 1667.6H83.949V1671H70.791V1667.6H75.578V1659.9L74.922 1658.94H71.89V1655.54H76.705L76.786 1655.66L79.161 1659.18V1667.6Z" fill="currentColor" style={{
-              fill: "currentColor",
-              fillOpacity: 1
-            }} /><path id={instanceId + "-kwaikat-combine__kwaikat-dark-text__KwaiKAT / path 02"} fillRule="evenodd" clipRule="evenodd" d="M68.2889 1671H64.5749V1670.35L63.5519 1670.96L63.4869 1671H57.5599L57.4779 1670.88L55.1239 1667.37L55.0779 1667.3V1665.72L59.3659 1661.25L59.4469 1661.16H64.5739V1659.44H57.1699V1655.98H66.3279L66.4099 1656.1L68.2399 1658.8L68.2879 1658.87V1671H68.2889ZM58.9319 1666.67L59.2989 1667.5H64.4699V1664.7H60.8579L58.9319 1666.67Z" fill="currentColor" style={{
-              fill: "currentColor",
-              fillOpacity: 1
-            }} /><path id={instanceId + "-kwaikat-combine__kwaikat-dark-text__KwaiKAT / path 03"} d="M89.1841 1659.08L95.7771 1652.41H99.9891L92.8471 1659.79L100.12 1670.73H96.6401L90.6231 1661.94L89.1841 1663.35V1670.73H86.0181V1652.41H89.1841V1659.08V1659.08ZM114.498 1670.73H111.332V1662.9H106.1V1670.73H102.987V1657.1L107.513 1652.41H114.498V1670.73ZM131.257 1655.37H124.298L126.024 1656.91V1670.73H122.859V1657.65L122.1 1655.37H117.6V1652.41H131.257V1655.37ZM106.1 1658.01V1659.95H111.332V1655.37H108.664L106.1 1658.01Z" fill="currentColor" style={{
-              fill: "currentColor",
-              fillOpacity: 1
-            }} /></g></g></g></g></svg>;
+  return <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 227.28714213377242 48" fill="none" color="currentColor" width={typeof size === 'number' ? size * 4.735148794453592 : 'calc(' + size + ' * 4.735148794453592)'} height={size} aria-hidden="true" focusable="false" ref={ref} {...props}><g fill="none" transform="translate(0 0) scale(1.1346260387811635) translate(-1.828125 -3.75)"><g clipPath={'url(#' + instanceId + "-kwaikat-combine__kwaikat-dark-symbol__clip0_22_2200)"}><path d="M7.49396 21.7327C12.6326 17.9122 20.3073 17.3145 25.8427 23.4073L25.8608 23.4253L25.8797 23.4496L42.7865 46.0416H35.6989L21.505 27.1836C18.4963 23.9774 14.3228 24.0657 11.3252 26.0056C8.32771 27.9437 6.59477 31.6782 8.46822 35.7519C11.2259 41.7431 19.8237 41.7966 22.7271 35.951L22.7857 35.833L26.5142 40.6854C21.0137 48.0093 9.29481 47.9322 4.06015 39.6669C-0.360499 32.6899 2.35161 25.5554 7.49396 21.7327Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M45.8381 37.5643H39.5293V14.309L33.4323 18.0655L27.1198 14.309L27.1685 18.4107H20.8588L20.811 3.88775L33.3223 11.4755L45.8381 3.76608V37.5643Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /></g><defs><clipPath id={instanceId + "-kwaikat-combine__kwaikat-dark-symbol__clip0_22_2200"}><rect width={48} height={48} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g><g fill="none" transform="translate(61.94127423822715 7.200000000000003) scale(1.8666666666666663) translate(0 -3)"><g clipPath={'url(#' + instanceId + "-kwaikat-combine__kwaikat-dark-text__clip0_22_2209)"}><path d="M6.09825 11.8548L12.1796 21H8.79714L3.95778 13.9314L3.03891 14.8343V21H0V5.56927H3.03891V10.7043L8.04873 5.63497L8.11531 5.56838H12.1841L6.09825 11.8548Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M15.6163 15.7771L16.9036 17.5199L17.2658 17.115V8.75734H20.2825V16.6614L20.777 17.3947L22.0608 16.0213V8.75734H25.0775V17.5278L25.0145 17.5927L21.782 20.9316L21.7172 21H19.5181L19.4542 20.8828L18.9153 19.8885L17.9086 20.9316L17.8429 21H15.7015L15.634 20.9015L12.6173 16.4501L12.5774 16.3924V8.75734H15.6163V15.7771Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path fillRule="evenodd" clipRule="evenodd" d="M35.5179 8.81327L37.0156 11.0177L37.0547 11.0754V21H34.0167V20.4655L33.1262 21H28.2771L28.2096 20.9006L26.284 18.0321L26.2467 17.9753V16.6827L29.7544 13.0223L29.821 12.953H34.0158V11.5388H27.9575V8.71472H35.4505L35.5179 8.81327ZM29.3993 17.4559L29.7002 18.1333H33.9306V15.8419H30.9751L29.3993 17.4559Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M44.0079 8.45016L45.9504 11.3319V18.2185H49.8682V21H39.1028V18.2185H43.0189V11.9197L42.4827 11.1322H40.0022V8.35073H43.9413L44.0079 8.45016Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M46.2078 6.44464H42.7632V3H46.2078V6.44464Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /><path d="M54.1514 11.2512L59.5457 5.79305H62.9919L57.1484 11.8288L63.0991 20.7757H60.2518L55.3288 13.5839L54.1514 14.74V20.7757H51.561V5.79305H54.1514V11.2512ZM74.8631 20.7757H72.2727V14.3759H67.9919V20.7757H65.4449V9.62382L69.148 5.79305H74.8631V20.7757ZM88.5751 8.21162H82.8813L84.2935 9.47491V20.7757H81.7039V10.0738L81.0829 8.21162H77.4011V5.79305H88.5751V8.21162ZM67.9919 10.3733V11.9573H72.2727V8.21162H70.0897L67.9919 10.3733Z" fill="currentColor" style={{
+          fill: "currentColor",
+          fillOpacity: 1
+        }} /></g><defs><clipPath id={instanceId + "-kwaikat-combine__kwaikat-dark-text__clip0_22_2209"}><rect width={88.5751} height={24} fill="#fff" style={{
+            fill: "white",
+            fillOpacity: 1
+          }} /></clipPath></defs></g></svg>;
 };
 const ForwardRef = forwardRef(KwaikatCombine);
 export default ForwardRef;
