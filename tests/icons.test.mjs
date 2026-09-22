@@ -51,7 +51,7 @@ test('Legacy derived Light is Dark RGB inversion with unchanged geometry and opa
 test('wordmark composition contains one symbol and one wordmark at the documented ratio',async()=>{
  for(const icon of catalog){
   const module=await import(`../dist/${nameOf(icon.id)}/index.js`);
-  if(!icon.hasText || icon.hasSymbol===false){assert.equal(module.default.Combine,undefined);await assert.rejects(loadIcon(icon.id,'combine-dark'));continue;}
+  if(!icon.hasText || icon.hasSymbol===false || icon.hasCombine===false){assert.equal(module.default.Combine,undefined);for(const v of ['combine','combine-dark','combine-light'])await assert.rejects(loadIcon(icon.id,v));continue;}
   const symbol=await readFile(new URL(`../icons/${icon.sourceVariants?'dark':icon.symbolTheme==='light'?'light':'default'}/${icon.id}.svg`,import.meta.url),'utf8');
   const text=await readFile(new URL(`../icons/${icon.sourceVariants?'text-dark':'text'}/${icon.id}.svg`,import.meta.url),'utf8');
   const sb=await artworkBox(symbol),tb=await artworkBox(text);

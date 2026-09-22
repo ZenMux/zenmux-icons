@@ -22,7 +22,7 @@ for (const icon of metadata) {
     }
     if (icon.hasSymbol) sources.mono = transformPaint(sources.dark, 'currentColor');
     if (icon.hasText) sources.text = transformPaint(sources['text-dark'], 'currentColor');
-    if (icon.hasSymbol && icon.hasText) {
+    if (icon.hasSymbol && icon.hasText && icon.hasCombine !== false) {
       const symbolBox = await artworkBox(sources.dark), textBox = await artworkBox(sources['text-dark']);
       compoundBoxes = [symbolBox, await artworkBox(sources.color), textBox];
       for (const theme of ['dark', 'light']) {
@@ -52,7 +52,7 @@ for (const icon of metadata) {
   }
   }
   const hasSymbol = icon.hasSymbol !== false;
-  const hasCombine = hasSymbol && icon.hasText;
+  const hasCombine = hasSymbol && icon.hasText && icon.hasCombine !== false;
   const baseMember = hasSymbol ? 'Mono' : 'Text';
   const ratios = {};
   for (const [variant, original] of Object.entries(sources)) {
@@ -89,7 +89,7 @@ for (const icon of metadata) {
   if (hasCombine) generated.set(`${name}/CompoundCombine.tsx`, `'use client';\n// Generated.\nimport Mono from './Mono.js';\nimport Color from './Color.js';\nimport Text from './Text.js';\nimport { createCombine } from '../compound.js';\nexport default createCombine(Mono, Color, Text, ${compoundBoxes.map(box=>JSON.stringify(box)).join(', ')});\n`);
   const imports = [...new Set([baseMember, ...members])];
   generated.set(`${name}/index.ts`, `'use client';\n// Generated. Do not edit manually.\n${hasSymbol ? "import Avatar from './Avatar.js';\n" : ''}${hasCombine ? "import Combine from './CompoundCombine.js';\n" : ''}${imports.map(n=>`import ${n} from './${n}.js';`).join('\n')}\nconst ${name} = Object.assign(${baseMember}, { ${members.join(', ')}, ${hasCombine ? 'Combine, ' : ''}${hasSymbol ? 'Avatar, ' : ''}title: ${JSON.stringify(icon.name)}, Default: ${hasSymbol?'Dark':'TextDark'} });\nexport default ${name};\n`);
-  enriched.push({...icon,hasText:!!icon.hasText,variants:Object.keys(sources),aspectRatios:ratios});
+  enriched.push({...icon,hasText:!!icon.hasText,hasCombine:!!hasCombine,variants:Object.keys(sources),aspectRatios:ratios});
 }
 generated.set('compound.tsx',await readFile(new URL('./templates/compound.tsx',import.meta.url),'utf8'));
 generated.set('types.ts',`// Generated.\nimport type { SVGProps } from 'react';\nexport type IconProps = Omit<SVGProps<SVGSVGElement>, 'size'> & { size?: number | string };\n`);

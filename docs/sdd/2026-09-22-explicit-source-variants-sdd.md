@@ -30,3 +30,17 @@ Run generation, checker, TypeScript and all rendering/compound/lazy tests. Compa
 hashes against the input snapshot, confirm complete asset count and Website coverage.
 Publish a unique X.Y.Z-dev.N under dev on a separate branch/tag. Never move latest or main as
 part of this preview. Stable adoption and consumer adaptations require a separate decision.
+
+## Refreshed dev.1 snapshot
+
+Reloaded the corrected source names: 114 grouped entries, 555 source SVGs,
+113 color-symbol websites, 1 text-only entry. Seven prior orphan names now join
+their corrected group/name entries. No latest or consumer manifest changes.
+
+## Composition opt-out
+
+Optional metadata hasCombine=false suppresses all three composed SVG variants and
+all Combine exports, while retaining Symbol/Color/Text/Avatar as available. The source
+adapter derives it from Combine=false; absent flags retain the old default. The current
+Xiaomi MiMo source explicitly opts out. Rendering tests require missing composition
+loaders to reject, while verifying Text and Symbol independently against source pixels.

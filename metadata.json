@@ -8,6 +8,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -26,6 +27,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -44,6 +46,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -62,6 +65,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -80,6 +84,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -98,6 +103,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -116,6 +122,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -134,6 +141,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -152,6 +160,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -170,6 +179,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -188,6 +198,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -206,6 +217,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -224,6 +236,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -242,6 +255,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -258,12 +272,15 @@
     "groups": [
       "Provider"
     ],
-    "hasText": false,
+    "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
-      "light"
+      "light",
+      "text-dark",
+      "text-light"
     ],
     "website": "https://azure.microsoft.com"
   },
@@ -276,6 +293,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -294,6 +312,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -312,6 +331,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -328,28 +348,17 @@
     "groups": [
       "Provider"
     ],
-    "hasText": false,
+    "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
-      "light"
-    ],
-    "website": "https://bfl.ai"
-  },
-  {
-    "id": "black-forest-labs-text",
-    "name": "Black Forest Labs text",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "hasSymbol": false,
-    "sourceVariants": [
+      "light",
       "text-dark",
       "text-light"
-    ]
+    ],
+    "website": "https://bfl.ai"
   },
   {
     "id": "bytedance",
@@ -360,6 +369,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -370,20 +380,6 @@
     "website": "https://bytedance.com"
   },
   {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "group": "Maker",
-    "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": false,
-    "sourceVariants": [
-      "text-dark",
-      "text-light"
-    ]
-  },
-  {
     "id": "chatwise",
     "name": "ChatWise",
     "group": "Agent",
@@ -392,6 +388,7 @@
     ],
     "hasText": false,
     "hasSymbol": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -408,6 +405,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -426,6 +424,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -444,6 +443,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -462,6 +462,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -480,6 +481,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -498,6 +500,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -516,6 +519,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -534,6 +538,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -552,6 +557,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -570,6 +576,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -588,6 +595,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -606,6 +614,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -624,6 +633,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -640,12 +650,15 @@
     "groups": [
       "Maker"
     ],
-    "hasText": false,
+    "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
-      "light"
+      "light",
+      "text-dark",
+      "text-light"
     ],
     "website": "https://team.doubao.com"
   },
@@ -658,6 +671,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -676,6 +690,7 @@
     ],
     "hasText": false,
     "hasSymbol": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -692,6 +707,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -710,6 +726,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -726,28 +743,17 @@
     "groups": [
       "Provider"
     ],
-    "hasText": false,
+    "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
-      "light"
-    ],
-    "website": "https://goodputai.cn/"
-  },
-  {
-    "id": "goodput-ai",
-    "name": "GoodPut AI",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "hasSymbol": false,
-    "sourceVariants": [
+      "light",
       "text-dark",
       "text-light"
-    ]
+    ],
+    "website": "https://goodputai.cn/"
   },
   {
     "id": "google",
@@ -758,6 +764,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -776,6 +783,7 @@
     ],
     "hasText": true,
     "hasSymbol": false,
+    "hasCombine": false,
     "sourceVariants": [
       "text-dark",
       "text-light"
@@ -790,6 +798,7 @@
     ],
     "hasText": false,
     "hasSymbol": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -806,6 +815,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -824,6 +834,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -842,6 +853,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -860,6 +872,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -878,6 +891,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -896,6 +910,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -914,6 +929,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -932,6 +948,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -950,6 +967,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -968,6 +986,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -986,6 +1005,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1004,6 +1024,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1022,6 +1043,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1040,6 +1062,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1058,6 +1081,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1076,6 +1100,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1094,6 +1119,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1112,6 +1138,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1130,6 +1157,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1148,6 +1176,7 @@
     ],
     "hasText": false,
     "hasSymbol": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -1164,6 +1193,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1174,20 +1204,6 @@
     "website": "https://github.com/FoundationAgents/MetaGPT"
   },
   {
-    "id": "microsoft-azure",
-    "name": "Microsoft Azure",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "hasSymbol": false,
-    "sourceVariants": [
-      "text-dark",
-      "text-light"
-    ]
-  },
-  {
     "id": "microsoft-copilot",
     "name": "Microsoft Copilot",
     "group": "Agent",
@@ -1196,6 +1212,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1214,6 +1231,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1232,6 +1250,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1250,6 +1269,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1268,6 +1288,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1286,6 +1307,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1304,6 +1326,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1322,6 +1345,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1340,6 +1364,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1358,6 +1383,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1376,6 +1402,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1394,6 +1421,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1412,6 +1440,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1430,6 +1459,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1448,6 +1478,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1464,12 +1495,15 @@
     "groups": [
       "Maker"
     ],
-    "hasText": false,
+    "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
-      "light"
+      "light",
+      "text-dark",
+      "text-light"
     ],
     "website": "https://openai.com"
   },
@@ -1482,6 +1516,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1500,6 +1535,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1518,6 +1554,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1536,6 +1573,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1554,6 +1592,7 @@
     ],
     "hasText": false,
     "hasSymbol": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -1570,6 +1609,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1588,6 +1628,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1606,6 +1647,7 @@
     ],
     "hasText": false,
     "hasSymbol": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -1622,6 +1664,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1640,6 +1683,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1658,6 +1702,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1676,6 +1721,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1694,6 +1740,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1704,20 +1751,6 @@
     "website": "https://sambanova.ai"
   },
   {
-    "id": "seed",
-    "name": "Seed",
-    "group": "Maker",
-    "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": false,
-    "sourceVariants": [
-      "text-dark",
-      "text-light"
-    ]
-  },
-  {
     "id": "sider",
     "name": "Sider",
     "group": "Agent",
@@ -1726,6 +1759,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1744,6 +1778,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1762,6 +1797,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1780,6 +1816,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1798,6 +1835,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1816,6 +1854,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1834,6 +1873,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1850,28 +1890,17 @@
     "groups": [
       "Provider"
     ],
-    "hasText": false,
+    "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
-      "light"
-    ],
-    "website": "https://www.tbox.cn/"
-  },
-  {
-    "id": "tbox-provider",
-    "name": "Tbox百宝箱",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "hasSymbol": false,
-    "sourceVariants": [
+      "light",
       "text-dark",
       "text-light"
-    ]
+    ],
+    "website": "https://www.tbox.cn/"
   },
   {
     "id": "trae",
@@ -1881,25 +1910,14 @@
       "Agent"
     ],
     "hasText": true,
-    "hasSymbol": false,
-    "sourceVariants": [
-      "text-dark",
-      "text-light"
-    ]
-  },
-  {
-    "id": "trea",
-    "name": "TREA",
-    "group": "Agent",
-    "groups": [
-      "Agent"
-    ],
-    "hasText": false,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
-      "light"
+      "light",
+      "text-dark",
+      "text-light"
     ],
     "website": "https://trae.ai"
   },
@@ -1912,6 +1930,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1930,6 +1949,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1948,6 +1968,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1966,6 +1987,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -1984,6 +2006,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -2002,6 +2025,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -2020,6 +2044,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -2038,6 +2063,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -2056,6 +2082,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -2074,6 +2101,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -2092,6 +2120,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
@@ -2110,6 +2139,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
