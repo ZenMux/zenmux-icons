@@ -717,9 +717,8 @@
   {
     "id": "grok",
     "name": "Grok",
-    "group": "Agent",
+    "group": "Maker",
     "groups": [
-      "Agent",
       "Maker"
     ],
     "hasText": true,
@@ -744,13 +743,15 @@
     "groups": [
       "Agent"
     ],
-    "hasText": false,
+    "hasText": true,
     "hasSymbol": true,
-    "hasCombine": false,
+    "hasCombine": true,
     "sourceVariants": [
       "color",
       "dark",
-      "light"
+      "light",
+      "text-dark",
+      "text-light"
     ],
     "website": "https://grok.x.ai"
   },

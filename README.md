@@ -9,7 +9,7 @@ and no second implementation. Its publication is independent of the main package
 
 **Status:** public GitHub repository, licensed under [MIT](LICENSE).
 Brand artwork retains its owners' rights; see [NOTICE](NOTICE).
-`@zenmux/icons` is available as stable version **0.1.2** (npm tag `latest`).
+`@zenmux/icons` is available as stable version **0.1.3** (npm tag `latest`).
 The previous development release remains available as `0.1.2-dev.1` under `dev`.
 Dev.8 is publicly available and verified by installation from the official registry.
 It contains the compound API originally prepared for the staged dev.7 release.
@@ -17,7 +17,9 @@ The name-protection placeholder
 [`zenmux-icons@0.0.0`](https://www.npmjs.com/package/zenmux-icons) is published.
 No publishing workflow is hosted in this repository. Publication is managed separately.
 
-## 0.1.2 catalog
+## 0.1.3 catalog
+
+Fixes Grok Build text attribution: Agent Symbol/Text now stay under Grok Build, while Maker assets remain Grok.
 
 96 unique brands with 470 source variants. A brand can belong to multiple groups:
 `Agent`, `Maker`, `Provider`, `Others`. Groups come from source names.
@@ -30,7 +32,7 @@ old group-qualified IDs are metadata `aliases` for consumers to redirect.
 This replacement catalog removes some exports from 0.1.1. Review metadata before upgrading.
 
 ```sh
-npm install @zenmux/icons@0.1.2
+npm install @zenmux/icons@0.1.3
 ```
 
 ## Packages
@@ -57,249 +59,249 @@ Columns follow our source categories: **LLM**, **Provider**, and **Agent**.
   <thead><tr><th>Maker</th><th>Provider</th><th>Agent</th><th>Others</th></tr></thead>
   <tbody>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/agnes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/agnes.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/agnes.svg" alt="Agnes" height="48"></picture><br>Agnes</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/agnes-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/agnes-ai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/agnes-ai.svg" alt="Agnesai" height="48"></picture><br>Agnesai</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/antigravity"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/antigravity.svg" alt="Antigravity" height="48"><br>Antigravity</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/artificial-analysis"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/artificial-analysis.svg" alt="Artificial Analysis" height="48"><br>Artificial Analysis</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/agnes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/agnes.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/agnes.svg" alt="Agnes" height="48"></picture><br>Agnes</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/agnes-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/agnes-ai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/agnes-ai.svg" alt="Agnesai" height="48"></picture><br>Agnesai</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/antigravity"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/antigravity.svg" alt="Antigravity" height="48"><br>Antigravity</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/artificial-analysis"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/artificial-analysis.svg" alt="Artificial Analysis" height="48"><br>Artificial Analysis</a></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/alibaba"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/alibaba.svg" alt="Alibaba" height="48"><br>Alibaba</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/alibaba-cloud"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/alibaba-cloud.svg" alt="Alibaba Cloud" height="48"><br>Alibaba Cloud</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/atria"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/atria.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/atria.svg" alt="Atria" height="48"></picture><br>Atria</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/alibaba"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/alibaba.svg" alt="Alibaba" height="48"><br>Alibaba</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/alibaba-cloud"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/alibaba-cloud.svg" alt="Alibaba Cloud" height="48"><br>Alibaba Cloud</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/atria"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/atria.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/atria.svg" alt="Atria" height="48"></picture><br>Atria</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/atria"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/atria.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/atria.svg" alt="Atria" height="48"></picture><br>Atria</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/amazon"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/amazon.svg" alt="Amazon" height="48"><br>Amazon</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/axonhub"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/axonhub.svg" alt="AxonHub" height="48"><br>AxonHub</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/atria"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/atria.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/atria.svg" alt="Atria" height="48"></picture><br>Atria</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/amazon"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/amazon.svg" alt="Amazon" height="48"><br>Amazon</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/axonhub"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/axonhub.svg" alt="AxonHub" height="48"><br>AxonHub</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/black-forest-labs"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/black-forest-labs.svg" alt="Black Forest Labs" height="48"><br>Black Forest Labs</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/amazon-bedrock"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/amazon-bedrock.svg" alt="Amazon Bedrock" height="48"><br>Amazon Bedrock</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/chatwise"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/chatwise.svg" alt="ChatWise" height="48"><br>ChatWise</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/black-forest-labs"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/black-forest-labs.svg" alt="Black Forest Labs" height="48"><br>Black Forest Labs</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/amazon-bedrock"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/amazon-bedrock.svg" alt="Amazon Bedrock" height="48"><br>Amazon Bedrock</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/chatwise"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/chatwise.svg" alt="ChatWise" height="48"><br>ChatWise</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/bytedance"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/bytedance.svg" alt="ByteDance" height="48"><br>ByteDance</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/ant-ling"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/ant-ling.svg" alt="Ant Ling" height="48"><br>Ant Ling</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/cherry-studio"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/cherry-studio.svg" alt="Cherry Studio" height="48"><br>Cherry Studio</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/bytedance"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/bytedance.svg" alt="ByteDance" height="48"><br>ByteDance</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/ant-ling"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/ant-ling.svg" alt="Ant Ling" height="48"><br>Ant Ling</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/cherry-studio"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/cherry-studio.svg" alt="Cherry Studio" height="48"><br>Cherry Studio</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/claude"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/claude.svg" alt="Claude" height="48"><br>Claude</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/anthropic"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/anthropic.svg" alt="Anthropic" height="48"><br>Anthropic</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/clackyai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/clackyai.svg" alt="ClackyAI" height="48"><br>ClackyAI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/claude"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/claude.svg" alt="Claude" height="48"><br>Claude</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/anthropic"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/anthropic.svg" alt="Anthropic" height="48"><br>Anthropic</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/clackyai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/clackyai.svg" alt="ClackyAI" height="48"><br>ClackyAI</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/deepseek"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/deepseek.svg" alt="DeepSeek" height="48"><br>DeepSeek</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/atom-infinite"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/atom-infinite.svg" alt="Atom-Infinite" height="48"><br>Atom-Infinite</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/claude-code"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/claude-code.svg" alt="Claude Code" height="48"><br>Claude Code</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/deepseek"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/deepseek.svg" alt="DeepSeek" height="48"><br>DeepSeek</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/atom-infinite"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/atom-infinite.svg" alt="Atom-Infinite" height="48"><br>Atom-Infinite</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/claude-code"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/claude-code.svg" alt="Claude Code" height="48"><br>Claude Code</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/dots-studio"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/dots-studio.svg" alt="Dots Studio" height="48"><br>Dots Studio</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/azure"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/azure.svg" alt="Azure" height="48"><br>Azure</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/cline"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/cline.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/cline.svg" alt="Cline" height="48"></picture><br>Cline</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/dots-studio"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/dots-studio.svg" alt="Dots Studio" height="48"><br>Dots Studio</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/azure"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/azure.svg" alt="Azure" height="48"><br>Azure</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/cline"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/cline.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/cline.svg" alt="Cline" height="48"></picture><br>Cline</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/doubao"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/doubao.svg" alt="Doubao" height="48"><br>Doubao</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/baidu"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/baidu.svg" alt="Baidu" height="48"><br>Baidu</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/codex"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/codex.svg" alt="Codex" height="48"><br>Codex</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/doubao"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/doubao.svg" alt="Doubao" height="48"><br>Doubao</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/baidu"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/baidu.svg" alt="Baidu" height="48"><br>Baidu</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/codex"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/codex.svg" alt="Codex" height="48"><br>Codex</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/ernie"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/ernie.svg" alt="Ernie" height="48"><br>Ernie</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/bigmodel"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/bigmodel.svg" alt="BigModel" height="48"><br>BigModel</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/cursor"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/cursor.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/cursor.svg" alt="Cursor" height="48"></picture><br>Cursor</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/ernie"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/ernie.svg" alt="Ernie" height="48"><br>Ernie</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/bigmodel"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/bigmodel.svg" alt="BigModel" height="48"><br>BigModel</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/cursor"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/cursor.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/cursor.svg" alt="Cursor" height="48"></picture><br>Cursor</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/gemini"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/gemini.svg" alt="Gemini" height="48"><br>Gemini</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/black-forest-labs"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/black-forest-labs.svg" alt="Black Forest Labs" height="48"><br>Black Forest Labs</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/dify"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/dify.svg" alt="Dify" height="48"><br>Dify</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/gemini"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/gemini.svg" alt="Gemini" height="48"><br>Gemini</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/black-forest-labs"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/black-forest-labs.svg" alt="Black Forest Labs" height="48"><br>Black Forest Labs</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/dify"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/dify.svg" alt="Dify" height="48"><br>Dify</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/grok"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/grok.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/grok.svg" alt="Grok" height="48"></picture><br>Grok</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/cloudsway"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/cloudsway.svg" alt="Cloudsway" height="48"><br>Cloudsway</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/factory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/factory.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/factory.svg" alt="Factory" height="48"></picture><br>Factory</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/grok"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/grok.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/grok.svg" alt="Grok" height="48"></picture><br>Grok</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/cloudsway"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/cloudsway.svg" alt="Cloudsway" height="48"><br>Cloudsway</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/factory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/factory.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/factory.svg" alt="Factory" height="48"></picture><br>Factory</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/hunyuan"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/hunyuan.svg" alt="Hunyuan" height="48"><br>Hunyuan</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/deepseek"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/deepseek.svg" alt="DeepSeek" height="48"><br>DeepSeek</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/gemini-cli"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/gemini-cli.svg" alt="GeminiCLI" height="48"><br>GeminiCLI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/hunyuan"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/hunyuan.svg" alt="Hunyuan" height="48"><br>Hunyuan</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/deepseek"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/deepseek.svg" alt="DeepSeek" height="48"><br>DeepSeek</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/gemini-cli"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/gemini-cli.svg" alt="GeminiCLI" height="48"><br>GeminiCLI</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/inclusionai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/inclusionai.svg" alt="InclusionAI" height="48"><br>InclusionAI</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/dots-studio"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/dots-studio.svg" alt="Dots Studio" height="48"><br>Dots Studio</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/grok"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/grok.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/grok.svg" alt="Grok" height="48"></picture><br>Grok</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/inclusionai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/inclusionai.svg" alt="InclusionAI" height="48"><br>InclusionAI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/dots-studio"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/dots-studio.svg" alt="Dots Studio" height="48"><br>Dots Studio</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/grok-build"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/grok-build.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/grok-build.svg" alt="Grok Build" height="48"></picture><br>Grok Build</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/joyland"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/joyland.svg" alt="Joyland" height="48"><br>Joyland</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/goodput"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/goodput.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/goodput.svg" alt="GoodPut" height="48"></picture><br>GoodPut</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/grok-build"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/grok-build.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/grok-build.svg" alt="Grok Build" height="48"></picture><br>Grok Build</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/joyland"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/joyland.svg" alt="Joyland" height="48"><br>Joyland</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/goodput"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/goodput.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/goodput.svg" alt="GoodPut" height="48"></picture><br>GoodPut</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/hermes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/hermes.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/hermes.svg" alt="Hermes" height="48"></picture><br>Hermes</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/kimi"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/kimi.svg" alt="Kimi" height="48"><br>Kimi</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/google"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/google.svg" alt="Google" height="48"><br>Google</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/hermes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/hermes.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/hermes.svg" alt="Hermes" height="48"></picture><br>Hermes</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/kimi"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/kimi.svg" alt="Kimi" height="48"><br>Kimi</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/google"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/google.svg" alt="Google" height="48"><br>Google</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/kilo"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/kilo.svg" alt="Kilo" height="48"><br>Kilo</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/kling"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/kling.svg" alt="Kling" height="48"><br>Kling</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/hpc-ai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/hpc-ai.svg" alt="HPC-AI" height="48"><br>HPC-AI</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/kilo"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/kilo.svg" alt="Kilo" height="48"><br>Kilo</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/kling"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/kling.svg" alt="Kling" height="48"><br>Kling</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/hpc-ai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/hpc-ai.svg" alt="HPC-AI" height="48"><br>HPC-AI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/langchain"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/langchain.svg" alt="LangChain" height="48"><br>LangChain</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/longcat"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/longcat.svg" alt="LongCat" height="48"><br>LongCat</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/hunyuan"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/hunyuan.svg" alt="Hunyuan" height="48"><br>Hunyuan</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/langchain"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/langchain.svg" alt="LangChain" height="48"><br>LangChain</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/longcat"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/longcat.svg" alt="LongCat" height="48"><br>LongCat</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/hunyuan"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/hunyuan.svg" alt="Hunyuan" height="48"><br>Hunyuan</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/llamaindex"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/llamaindex.svg" alt="LlamaIndex" height="48"><br>LlamaIndex</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/meta"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/meta.svg" alt="Meta" height="48"><br>Meta</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/kingsoft-cloud"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/kingsoft-cloud.svg" alt="Kingsoft Cloud" height="48"><br>Kingsoft Cloud</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/llamaindex"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/llamaindex.svg" alt="LlamaIndex" height="48"><br>LlamaIndex</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/meta"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/meta.svg" alt="Meta" height="48"><br>Meta</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/kingsoft-cloud"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/kingsoft-cloud.svg" alt="Kingsoft Cloud" height="48"><br>Kingsoft Cloud</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/mastra"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/mastra.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/mastra.svg" alt="Mastra" height="48"></picture><br>Mastra</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/mindlab"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/mindlab.svg" alt="MindLab" height="48"><br>MindLab</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/kling"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/kling.svg" alt="Kling" height="48"><br>Kling</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/mastra"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/mastra.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/mastra.svg" alt="Mastra" height="48"></picture><br>Mastra</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/mindlab"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/mindlab.svg" alt="MindLab" height="48"><br>MindLab</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/kling"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/kling.svg" alt="Kling" height="48"><br>Kling</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/metagpt"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/metagpt.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/metagpt.svg" alt="MetaGPT" height="48"></picture><br>MetaGPT</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/minimax"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/minimax.svg" alt="MiniMax" height="48"><br>MiniMax</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/kwaikat"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/kwaikat.svg" alt="KwaiKAT" height="48"><br>KwaiKAT</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/metagpt"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/metagpt.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/metagpt.svg" alt="MetaGPT" height="48"></picture><br>MetaGPT</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/minimax"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/minimax.svg" alt="MiniMax" height="48"><br>MiniMax</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/kwaikat"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/kwaikat.svg" alt="KwaiKAT" height="48"><br>KwaiKAT</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/microsoft-copilot"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/microsoft-copilot.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/microsoft-copilot.svg" alt="Microsoft Copilot" height="48"></picture><br>Microsoft Copilot</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/mistral"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/mistral.svg" alt="Mistral" height="48"><br>Mistral</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/longcat"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/longcat.svg" alt="LongCat" height="48"><br>LongCat</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/microsoft-copilot"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/microsoft-copilot.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/microsoft-copilot.svg" alt="Microsoft Copilot" height="48"></picture><br>Microsoft Copilot</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/mistral"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/mistral.svg" alt="Mistral" height="48"><br>Mistral</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/longcat"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/longcat.svg" alt="LongCat" height="48"><br>LongCat</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/n8n"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/n8n.svg" alt="n8n" height="48"><br>n8n</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/openai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/openai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/openai.svg" alt="OpenAI" height="48"></picture><br>OpenAI</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/meta"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/meta.svg" alt="Meta" height="48"><br>Meta</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/n8n"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/n8n.svg" alt="n8n" height="48"><br>n8n</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/openai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/openai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/openai.svg" alt="OpenAI" height="48"></picture><br>OpenAI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/meta"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/meta.svg" alt="Meta" height="48"><br>Meta</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/new-api"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/new-api.svg" alt="New API" height="48"><br>New API</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/pixverse"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/pixverse.svg" alt="PixVerse" height="48"><br>PixVerse</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/minimax"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/minimax.svg" alt="MiniMax" height="48"><br>MiniMax</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/new-api"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/new-api.svg" alt="New API" height="48"><br>New API</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/pixverse"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/pixverse.svg" alt="PixVerse" height="48"><br>PixVerse</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/minimax"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/minimax.svg" alt="MiniMax" height="48"><br>MiniMax</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/nvidia"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/nvidia.svg" alt="Nvidia" height="48"><br>Nvidia</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/qwen"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/qwen.svg" alt="Qwen" height="48"><br>Qwen</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/mistral"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/mistral.svg" alt="Mistral" height="48"><br>Mistral</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/nvidia"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/nvidia.svg" alt="Nvidia" height="48"><br>Nvidia</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/qwen"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/qwen.svg" alt="Qwen" height="48"><br>Qwen</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/mistral"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/mistral.svg" alt="Mistral" height="48"><br>Mistral</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/obsidian"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/obsidian.svg" alt="Obsidian" height="48"><br>Obsidian</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/sakanaai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/sakanaai.svg" alt="Sakanaai" height="48"><br>Sakanaai</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/moonshot-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/moonshot-ai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/moonshot-ai.svg" alt="Moonshot AI" height="48"></picture><br>Moonshot AI</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/obsidian"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/obsidian.svg" alt="Obsidian" height="48"><br>Obsidian</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/sakanaai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/sakanaai.svg" alt="Sakanaai" height="48"><br>Sakanaai</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/moonshot-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/moonshot-ai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/moonshot-ai.svg" alt="Moonshot AI" height="48"></picture><br>Moonshot AI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/oh-my-pi"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/oh-my-pi.svg" alt="Oh My Pi" height="48"><br>Oh My Pi</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/skyreels"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/skyreels.svg" alt="SkyReels" height="48"><br>SkyReels</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/novita"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/novita.svg" alt="Novita" height="48"><br>Novita</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/oh-my-pi"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/oh-my-pi.svg" alt="Oh My Pi" height="48"><br>Oh My Pi</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/skyreels"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/skyreels.svg" alt="SkyReels" height="48"><br>SkyReels</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/novita"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/novita.svg" alt="Novita" height="48"><br>Novita</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/ollama"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/ollama.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/ollama.svg" alt="Ollama" height="48"></picture><br>Ollama</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/stepfun"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/stepfun.svg" alt="StepFun" height="48"><br>StepFun</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/openai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/openai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/openai.svg" alt="OpenAI" height="48"></picture><br>OpenAI</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/ollama"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/ollama.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/ollama.svg" alt="Ollama" height="48"></picture><br>Ollama</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/stepfun"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/stepfun.svg" alt="StepFun" height="48"><br>StepFun</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/openai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/openai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/openai.svg" alt="OpenAI" height="48"></picture><br>OpenAI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/open-webui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/open-webui.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/open-webui.svg" alt="Open WebUI" height="48"></picture><br>Open WebUI</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/xai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/xai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/xai.svg" alt="xAI" height="48"></picture><br>xAI</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/pixverse"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/pixverse.svg" alt="PixVerse" height="48"><br>PixVerse</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/open-webui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/open-webui.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/open-webui.svg" alt="Open WebUI" height="48"></picture><br>Open WebUI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/xai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/xai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/xai.svg" alt="xAI" height="48"></picture><br>xAI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/pixverse"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/pixverse.svg" alt="PixVerse" height="48"><br>PixVerse</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/openclaw"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/openclaw.svg" alt="OpenClaw" height="48"><br>OpenClaw</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/xiaomi"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/xiaomi.svg" alt="Xiaomi" height="48"><br>Xiaomi</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/sakana"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/sakana.svg" alt="Sakana" height="48"><br>Sakana</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/openclaw"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/openclaw.svg" alt="OpenClaw" height="48"><br>OpenClaw</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/xiaomi"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/xiaomi.svg" alt="Xiaomi" height="48"><br>Xiaomi</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/sakana"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/sakana.svg" alt="Sakana" height="48"><br>Sakana</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/opencode"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/opencode.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/opencode.svg" alt="OpenCode" height="48"></picture><br>OpenCode</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
-      <td width="25%"><a href="https://zenmux.ai/icons/zai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/zai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/zai.svg" alt="ZAI" height="48"></picture><br>ZAI</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/sambanova"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/sambanova.svg" alt="SambaNova" height="48"><br>SambaNova</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/opencode"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/opencode.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/opencode.svg" alt="OpenCode" height="48"></picture><br>OpenCode</a></td>
-      <td width="25%"></td>
-    </tr>
-    <tr>
-      <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/siliconflow"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/siliconflow.svg" alt="SiliconFlow" height="48"><br>SiliconFlow</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/openhands"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/openhands.svg" alt="OpenHands" height="48"><br>OpenHands</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/zai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/zai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/zai.svg" alt="ZAI" height="48"></picture><br>ZAI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/sambanova"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/sambanova.svg" alt="SambaNova" height="48"><br>SambaNova</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/openhands"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/openhands.svg" alt="OpenHands" height="48"><br>OpenHands</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/skyreels"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/skyreels.svg" alt="SkyReels" height="48"><br>SkyReels</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/pi"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/pi.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/pi.svg" alt="Pi" height="48"></picture><br>Pi</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/siliconflow"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/siliconflow.svg" alt="SiliconFlow" height="48"><br>SiliconFlow</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/pi"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/pi.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/pi.svg" alt="Pi" height="48"></picture><br>Pi</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/spacexai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/spacexai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/spacexai.svg" alt="Spacexai" height="48"></picture><br>Spacexai</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/pydanticai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/pydanticai.svg" alt="PydanticAI" height="48"><br>PydanticAI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/skyreels"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/skyreels.svg" alt="SkyReels" height="48"><br>SkyReels</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/pydanticai"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/pydanticai.svg" alt="PydanticAI" height="48"><br>PydanticAI</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/stepfun"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/stepfun.svg" alt="StepFun" height="48"><br>StepFun</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/rikkahub"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/rikkahub.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/rikkahub.svg" alt="RikkaHub" height="48"></picture><br>RikkaHub</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/spacexai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/spacexai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/spacexai.svg" alt="Spacexai" height="48"></picture><br>Spacexai</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/rikkahub"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/rikkahub.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/rikkahub.svg" alt="RikkaHub" height="48"></picture><br>RikkaHub</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/tbox"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/tbox.svg" alt="Tbox" height="48"><br>Tbox</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/sider"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/sider.svg" alt="Sider" height="48"><br>Sider</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/stepfun"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/stepfun.svg" alt="StepFun" height="48"><br>StepFun</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/sider"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/sider.svg" alt="Sider" height="48"><br>Sider</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/typesafe"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/typesafe.svg" alt="Typesafe" height="48"><br>Typesafe</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/trae"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/trae.svg" alt="TRAE" height="48"><br>TRAE</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/tbox"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/tbox.svg" alt="Tbox" height="48"><br>Tbox</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/trae"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/trae.svg" alt="TRAE" height="48"><br>TRAE</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/volcengine"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/volcengine.svg" alt="Volcengine" height="48"><br>Volcengine</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/work-buddy"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/work-buddy.svg" alt="Work Buddy" height="48"><br>Work Buddy</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/typesafe"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/typesafe.svg" alt="Typesafe" height="48"><br>Typesafe</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/work-buddy"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/work-buddy.svg" alt="Work Buddy" height="48"><br>Work Buddy</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/xiaomi"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/icons/xiaomi.svg" alt="Xiaomi" height="48"><br>Xiaomi</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/xiaomi-mimo"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/xiaomi-mimo.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/xiaomi-mimo.svg" alt="Xiaomimimo" height="48"></picture><br>Xiaomimimo</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/volcengine"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/volcengine.svg" alt="Volcengine" height="48"><br>Volcengine</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/xiaomi-mimo"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/xiaomi-mimo.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/xiaomi-mimo.svg" alt="Xiaomimimo" height="48"></picture><br>Xiaomimimo</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/zai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/zai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/zai.svg" alt="ZAI" height="48"></picture><br>ZAI</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/zcode"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/zcode.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/zcode.svg" alt="Zcode" height="48"></picture><br>Zcode</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/xiaomi"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/icons/xiaomi.svg" alt="Xiaomi" height="48"><br>Xiaomi</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/zcode"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/zcode.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/zcode.svg" alt="Zcode" height="48"></picture><br>Zcode</a></td>
       <td width="25%"></td>
     </tr>
     <tr>
       <td width="25%"></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/zenmux"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/zenmux.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/zenmux.svg" alt="ZenMux" height="48"></picture><br>ZenMux</a></td>
-      <td width="25%"><a href="https://zenmux.ai/icons/zenmux"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/light/zenmux.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.2/static/dark/zenmux.svg" alt="ZenMux" height="48"></picture><br>ZenMux</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/zai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/zai.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/zai.svg" alt="ZAI" height="48"></picture><br>ZAI</a></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/zenmux"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/zenmux.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/zenmux.svg" alt="ZenMux" height="48"></picture><br>ZenMux</a></td>
+      <td width="25%"></td>
+    </tr>
+    <tr>
+      <td width="25%"></td>
+      <td width="25%"><a href="https://zenmux.ai/icons/zenmux"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/light/zenmux.svg"><img src="https://cdn.jsdelivr.net/npm/@zenmux/icons@0.1.3/static/dark/zenmux.svg" alt="ZenMux" height="48"></picture><br>ZenMux</a></td>
+      <td width="25%"></td>
       <td width="25%"></td>
     </tr>
   </tbody>
@@ -373,7 +375,7 @@ Install the stable release:
 npm install @zenmux/icons
 ```
 
-To pin the current stable version use `@zenmux/icons@0.1.2`; it includes
+To pin the current stable version use `@zenmux/icons@0.1.3`; it includes
 the new Text, compound Combine and Avatar APIs above.
 The examples below also work
 with a built local checkout installed by absolute directory.

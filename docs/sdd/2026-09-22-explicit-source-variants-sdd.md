@@ -54,3 +54,9 @@ composition metadata. Extra historical group IDs become aliases, not artwork ent
 The resulting catalog contains 96 brands and 470 selected source files. Aliases cannot
 collide with canonical IDs or other aliases. Next uses aliases solely for redirects;
 all group links use the canonical ID. These changes are approved for stable 0.1.2.
+
+## 0.1.3 source correction
+
+Kitchen corrected Agent Text from Grok to Grok Build. A fresh sync now assigns both
+Symbol and Text to Grok Build, while Maker Symbol/Text remains Grok. No parser space
+normalization bug was involved. Release 0.1.3 republishes the corrected catalog.
