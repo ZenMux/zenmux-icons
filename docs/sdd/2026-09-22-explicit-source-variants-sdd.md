@@ -60,3 +60,9 @@ all group links use the canonical ID. These changes are approved for stable 0.1.
 Kitchen corrected Agent Text from Grok to Grok Build. A fresh sync now assigns both
 Symbol and Text to Grok Build, while Maker Symbol/Text remains Grok. No parser space
 normalization bug was involved. Release 0.1.3 republishes the corrected catalog.
+
+## Optional source color variants
+
+ColorLight and ColorDark are preserved as ColorLight/ColorDark components and static
+color-light/color-dark assets. They target light and dark surfaces respectively and
+are not the monochrome Light/Dark artwork. Tests compare both directly to source pixels.

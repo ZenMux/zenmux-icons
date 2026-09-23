@@ -163,24 +163,24 @@ test('catalog contains one entry per normalized name with source-side multi-grou
  assert.equal(catalog.some(i=>i.id==='pixverse-provider'),false);
 });
 
-test('optional ColorLight preserves source pixels and is absent without a source',async()=>{
+test('optional ColorLight and ColorDark preserve source pixels and are absent without sources',async()=>{
  for(const icon of catalog){
   const {default:Icon}=await import(`../dist/${nameOf(icon.id)}/index.js`);
-  if(!icon.hasColorLight){
-   assert.equal(Icon.ColorLight,undefined);
-   await assert.rejects(loadIcon(icon.id,'color-light'));
-   continue;
-  }
-  assert.ok(Icon.ColorLight);
-  const source=await readFile(new URL(`../icons/color-light/${icon.id}.svg`,import.meta.url));
-  const original=await render(source);
-  const {default:C}=await loadIcon(icon.id,'color-light');
-  const outputs=[Buffer.from(renderToStaticMarkup(createElement(C,{size:96}))),
-   await readFile(new URL(`../static/color-light/${icon.id}.svg`,import.meta.url))];
-  for(const output of outputs){
-   const actual=await render(output);assert.equal(actual.data.length,original.data.length);
-   let delta=0;for(let i=0;i<actual.data.length;i++)delta+=Math.abs(actual.data[i]-original.data[i]);
-   assert.ok(delta/actual.data.length<3,icon.id+' ColorLight changed source');
+  for(const [variant,member] of [['color-light','ColorLight'],['color-dark','ColorDark']]){
+   if(!icon.variants.includes(variant)){
+    assert.equal(Icon[member],undefined);
+    await assert.rejects(loadIcon(icon.id,variant));
+    continue;
+   }
+   assert.ok(Icon[member]);
+   const source=await readFile(new URL(`../icons/${variant}/${icon.id}.svg`,import.meta.url));
+   const original=await render(source),{default:C}=await loadIcon(icon.id,variant);
+   for(const output of [Buffer.from(renderToStaticMarkup(createElement(C,{size:96}))),
+    await readFile(new URL(`../static/${variant}/${icon.id}.svg`,import.meta.url))]){
+    const actual=await render(output);assert.equal(actual.data.length,original.data.length);
+    let delta=0;for(let i=0;i<actual.data.length;i++)delta+=Math.abs(actual.data[i]-original.data[i]);
+    assert.ok(delta/actual.data.length<3,icon.id+' '+member+' changed source');
+   }
   }
  }
 });

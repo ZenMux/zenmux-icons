@@ -243,6 +243,7 @@
     "hasCombine": true,
     "sourceVariants": [
       "color",
+      "color-light",
       "dark",
       "light",
       "text-dark",
@@ -828,6 +829,7 @@
     "hasCombine": true,
     "sourceVariants": [
       "color",
+      "color-dark",
       "dark",
       "light",
       "text-dark",
@@ -885,6 +887,7 @@
     "hasCombine": true,
     "sourceVariants": [
       "color",
+      "color-light",
       "dark",
       "light",
       "text-dark",
