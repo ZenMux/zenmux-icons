@@ -18,7 +18,7 @@ for(const icon of metadata){
   if (icon.sourceVariants) {
     const variants = icon.sourceVariants;
     if (!Array.isArray(variants) || !variants.length || new Set(variants).size!==variants.length ||
-        variants.some(v=>!['color','light','dark','text-light','text-dark'].includes(v)))throw Error('Invalid explicit variants');
+        variants.some(v=>!['color','color-light','color-dark','light','dark','text-light','text-dark'].includes(v)))throw Error('Invalid explicit variants');
     if (typeof icon.hasSymbol!=='boolean' || typeof icon.hasText!=='boolean' ||
         icon.hasSymbol!==variants.includes('color') || icon.hasText!==variants.includes('text-light'))throw Error('Invalid source flags');
     if (icon.hasSymbol && !['color','light','dark'].every(v=>variants.includes(v)))throw Error('Incomplete symbol');
