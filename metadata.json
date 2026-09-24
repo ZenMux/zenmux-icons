@@ -4,25 +4,7 @@
     "name": "Agnes",
     "group": "Maker",
     "groups": [
-      "Maker"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://agnes-ai.com"
-  },
-  {
-    "id": "agnes-ai",
-    "name": "Agnesai",
-    "group": "Provider",
-    "groups": [
+      "Maker",
       "Provider"
     ],
     "hasText": true,
@@ -1511,28 +1493,10 @@
   {
     "id": "sakana",
     "name": "Sakana",
-    "group": "Provider",
-    "groups": [
-      "Provider"
-    ],
-    "hasText": true,
-    "hasSymbol": true,
-    "hasCombine": true,
-    "sourceVariants": [
-      "color",
-      "dark",
-      "light",
-      "text-dark",
-      "text-light"
-    ],
-    "website": "https://sakana.ai"
-  },
-  {
-    "id": "sakanaai",
-    "name": "Sakanaai",
     "group": "Maker",
     "groups": [
-      "Maker"
+      "Maker",
+      "Provider"
     ],
     "hasText": true,
     "hasSymbol": true,

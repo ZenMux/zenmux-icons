@@ -1,7 +1,6 @@
 export type { IconProps } from './types.js';
 export type { CombineProps, AvatarProps } from './compound.js';
 export {default as Agnes} from './Agnes/index.js';
-export {default as AgnesAi} from './AgnesAi/index.js';
 export {default as Alibaba} from './Alibaba/index.js';
 export {default as AlibabaCloud} from './AlibabaCloud/index.js';
 export {default as Amazon} from './Amazon/index.js';
@@ -78,7 +77,6 @@ export {default as Pydanticai} from './Pydanticai/index.js';
 export {default as Qwen} from './Qwen/index.js';
 export {default as Rikkahub} from './Rikkahub/index.js';
 export {default as Sakana} from './Sakana/index.js';
-export {default as Sakanaai} from './Sakanaai/index.js';
 export {default as Sambanova} from './Sambanova/index.js';
 export {default as Sider} from './Sider/index.js';
 export {default as Siliconflow} from './Siliconflow/index.js';
