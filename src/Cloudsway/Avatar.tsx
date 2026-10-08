@@ -2,4 +2,4 @@
 // Generated.
 import Mono from './Mono.js';
 import { createAvatar } from '../compound.js';
-export default createAvatar(Mono);
+export default createAvatar(Mono, Mono, true, "#1a65ff", "#ffffff");

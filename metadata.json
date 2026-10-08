@@ -17,6 +17,7 @@
       "text-dark",
       "text-light"
     ],
+    "hasFrame": false,
     "website": "https://agnes-ai.com"
   },
   {
@@ -150,6 +151,7 @@
       "text-dark",
       "text-light"
     ],
+    "avatarFrame": "surface",
     "website": "https://antigravity.google"
   },
   {
@@ -533,7 +535,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
-    "hasCombine": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -687,7 +689,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
-    "hasCombine": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -695,6 +697,7 @@
       "text-dark",
       "text-light"
     ],
+    "avatarFrame": "surface",
     "website": "https://google.com"
   },
   {
@@ -794,6 +797,7 @@
       "text-dark",
       "text-light"
     ],
+    "hasFrame": false,
     "aliases": [
       "hunyuan-provider"
     ],
@@ -894,6 +898,7 @@
       "text-dark",
       "text-light"
     ],
+    "hasFrame": false,
     "website": "https://www.ksyun.com"
   },
   {
@@ -1305,7 +1310,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
-    "hasCombine": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -1599,7 +1604,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
-    "hasCombine": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
@@ -1627,6 +1632,7 @@
       "text-dark",
       "text-light"
     ],
+    "hasFrame": false,
     "aliases": [
       "stepfun-provider"
     ],
@@ -1798,7 +1804,7 @@
     ],
     "hasText": true,
     "hasSymbol": true,
-    "hasCombine": true,
+    "hasCombine": false,
     "sourceVariants": [
       "color",
       "dark",
