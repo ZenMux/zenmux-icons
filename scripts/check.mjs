@@ -5,9 +5,11 @@ const metadata=JSON.parse(await readFile(path.join(root,'metadata.json'),'utf8')
 if(!Array.isArray(metadata)||!metadata.length)throw Error('Empty catalog');
 const ids=new Set(),expected=new Set();
 for(const icon of metadata){
-  if(Object.keys(icon).some(k=>!['id','name','group','groups','aliases','hasText','hasSymbol','hasCombine','sourceVariants','hasColorLight','symbolTheme','website'].includes(k)))throw Error('Unexpected metadata field');
+  if(Object.keys(icon).some(k=>!['id','name','group','groups','aliases','hasText','hasSymbol','hasCombine','hasFrame','avatarFrame','sourceVariants','hasColorLight','symbolTheme','website'].includes(k)))throw Error('Unexpected metadata field');
   if(icon.aliases && (!Array.isArray(icon.aliases)||icon.aliases.some(a=>typeof a!=='string'||!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(a))))throw Error('Invalid aliases');
   if(icon.hasCombine!==undefined && (typeof icon.hasCombine!=='boolean' || (icon.hasCombine && (!icon.hasText || icon.hasSymbol===false))))throw Error('Invalid hasCombine');
+  if(icon.hasFrame!==undefined && icon.hasFrame!==false)throw Error('Invalid hasFrame');
+  if(icon.avatarFrame!==undefined && (icon.avatarFrame!=='surface' || icon.hasFrame===false))throw Error('Invalid avatarFrame');
   if(!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(icon.id)||ids.has(icon.id)||typeof icon.name!=='string'||!icon.name||!icon.group)throw Error('Invalid brand metadata');
   if(icon.groups&&(!Array.isArray(icon.groups)||icon.groups.some(g=>typeof g!=='string'||!g)||!icon.groups.includes(icon.group)))throw Error('Invalid groups');
   if(icon.website!==undefined){
