@@ -66,3 +66,28 @@ normalization bug was involved. Release 0.1.3 republishes the corrected catalog.
 ColorLight and ColorDark are preserved as ColorLight/ColorDark components and static
 color-light/color-dark assets. They target light and dark surfaces respectively and
 are not the monochrome Light/Dark artwork. Tests compare both directly to source pixels.
+
+## Source-owned icon frames
+
+`Frame=false` on a structured Color Symbol name marks artwork that already contains
+its complete background carrier. The sync adapter emits catalog
+`hasFrame: false`; omission retains the default generated circular frame. The flag is
+brand-level, may be supplied by one merged group, and never changes source SVG bytes or
+Symbol/Text/Combine generation. Consumers use it only for the Icon presentation/export,
+preventing a second generated circle. Generated Avatar uses the complete Color source
+at the requested size when `hasFrame` is false; ordinary icons retain the existing
+Mono-on-configurable-frame Avatar behavior and API. For ordinary icons the generator
+selects the most saturated explicit hex paint from Color as the default background,
+then uses white `currentColor` for the monochrome symbol.
+Callers can still override background, color, shape and scale. No separate Avatar
+source variant is accepted.
+
+Source naming stays `Type=Symbol|Text`. Avatar needs no asset/name of its own:
+an omitted `Frame` field enables automatic generation, while `Frame=false` on only
+the Color Symbol selects the complete Color artwork directly. Other source variants
+must not repeat the flag.
+
+`Frame=surface` on only the Color Symbol retains the legacy surface-contrast mode:
+black frame with Color/ColorLight artwork by default; consuming surfaces may override
+the frame to white while keeping the appropriate explicit color artwork. It is
+separate from both automatic primary-color Avatar and frameless source artwork.

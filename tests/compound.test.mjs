@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { loadIconComponent } from '../dist/loaders.js';
+import { createAvatar } from '../dist/compound.js';
 import catalog from '../dist/catalog.js';
 
 const render = (C, props = {}) => renderToStaticMarkup(createElement(C, props));
@@ -68,4 +69,30 @@ test('Avatar supports circle/square, brand styling and scale overrides', async (
     style: { borderRadius: 8 }, 'aria-label': 'ZenMux avatar' });
   for (const value of ['background:#123456','color:#abcdef','border-radius:8px',
     'scale(0.6)','class="mark"','opacity:0.8','aria-label="ZenMux avatar"']) assert.ok(custom.includes(value), value);
+});
+test('Avatar defaults use the source-derived brand background and white symbol', async () => {
+  for (const [id,background] of [['alibaba','#ff6003'],['qwen','#6336e7']]) {
+    const { default: Icon } = await loadIconComponent(id);
+    const html = render(Icon.Avatar, { size: 56 });
+    assert.ok(html.includes(`background:${background}`),id);
+    assert.ok(html.includes('color:#ffffff'),id);
+  }
+});
+test('frameless Avatar uses the complete Color artwork without another frame', () => {
+  const Mono = props => createElement('svg', { ...props, 'data-artwork': 'mono' });
+  const Source = props => createElement('svg', { ...props, 'data-artwork': 'source' });
+  const Avatar = createAvatar(Mono, Source, false);
+  const html = render(Avatar, { size: 56 });
+  assert.match(html, /data-artwork="source"/);
+  assert.doesNotMatch(html, /data-artwork="mono"|background:#000|border-radius|scale\(/);
+  assert.match(html, /width:56px;height:56px/);
+});
+test('surface Avatar keeps color artwork on the legacy contrasting frame', () => {
+  const Mono = props => createElement('svg', { ...props, 'data-artwork': 'mono' });
+  const Color = props => createElement('svg', { ...props, 'data-artwork': 'color' });
+  const Avatar = createAvatar(Mono, Color, true, '#000000', '#ffffff', true);
+  const html = render(Avatar, { size: 56 });
+  assert.match(html, /background:#000000/);
+  assert.match(html, /data-artwork="color"/);
+  assert.doesNotMatch(html, /data-artwork="mono"/);
 });

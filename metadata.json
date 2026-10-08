@@ -1656,6 +1656,7 @@
     "hasText": true,
     "hasSymbol": true,
     "hasCombine": true,
+    "hasFrame": false,
     "sourceVariants": [
       "color",
       "dark",

@@ -50,16 +50,22 @@ export function createCombine(Mono: Artwork, Color: Artwork, Text: Artwork, mono
   });
 }
 
-export function createAvatar(Mono: Artwork) {
+export function createAvatar(Mono: Artwork, Color: Artwork = Mono, hasFrame = true,
+  defaultBackground = '#000', defaultColor = '#fff', useColor = false) {
   return forwardRef<HTMLDivElement, AvatarProps>(function Avatar({
-    size, shape = 'circle', background = '#000', color = '#fff',
+    size, shape = 'circle', background = defaultBackground, color = defaultColor,
     iconMultiple = 0.75, iconClassName, iconStyle, style, ...props
   }, ref) {
+    if (!hasFrame) return <div ref={ref} style={{ display: 'inline-flex', flex: 'none',
+      alignItems: 'center', justifyContent: 'center', width: size, height: size, ...style }} {...props}>
+      <Color size={size} className={iconClassName} style={iconStyle} />
+    </div>;
+    const Icon = useColor ? Color : Mono;
     return <div ref={ref} style={{ display: 'inline-flex', flex: 'none', alignItems: 'center',
       justifyContent: 'center', background, color, width: size, height: size,
       borderRadius: shape === 'circle' ? '50%' : Math.floor(size * 0.1),
       overflow: 'hidden', ...style }} {...props}>
-      <Mono size={size} color={color} className={iconClassName}
+      <Icon size={size} color={color} className={iconClassName}
         style={{ transform: `scale(${iconMultiple})`, ...iconStyle }} />
     </div>;
   });

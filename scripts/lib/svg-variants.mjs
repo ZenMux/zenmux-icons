@@ -8,6 +8,21 @@ export function viewBox(svg) {
   if (box.length !== 4 || box.some(n => !Number.isFinite(n)) || box[2] <= 0 || box[3] <= 0) throw new Error('Invalid viewBox');
   return box;
 }
+export function avatarPalette(svg) {
+  const colors = [...svg.matchAll(/(?:fill|stroke|stop-color|color)\s*(?:=|:)\s*["']?(#[\da-f]{3,6})/gi)]
+    .map(([,value]) => {
+      let hex=value.toLowerCase();
+      if(hex.length===4)hex='#'+hex.slice(1).split('').map(c=>c+c).join('');
+      const rgb=[1,3,5].map(i=>parseInt(hex.slice(i,i+2),16));
+      return {hex,rgb,chroma:Math.max(...rgb)-Math.min(...rgb)};
+    });
+  const selected=colors.reduce((best,color)=>!best||color.chroma>best.chroma?color:best,null) ||
+    {hex:'#000000',rgb:[0,0,0]};
+  return {
+    background:selected.hex,
+    foreground:'#ffffff',
+  };
+}
 export function invertPaint(value) {
   if (/^(none|transparent|currentColor|url\()/i.test(value)) return value;
   let color = ({black:'#000',white:'#fff'})[value.toLowerCase()] ?? value;

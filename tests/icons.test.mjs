@@ -6,7 +6,7 @@ import {renderToStaticMarkup} from 'react-dom/server';
 import sharp from 'sharp';
 import {loadIcon} from '../dist/loaders.js';
 import catalog from '../dist/catalog.js';
-import {artworkBox,combineSvg,transformPaint,invertPaint} from '../scripts/lib/svg-variants.mjs';
+import {artworkBox,avatarPalette,combineSvg,transformPaint,invertPaint} from '../scripts/lib/svg-variants.mjs';
 const nameOf=id=>id.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('');
 const render=buffer=>sharp(buffer).resize({height:96}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
 
@@ -191,4 +191,9 @@ test('painted bounds exclude padding, retain offset origins, and reject empty ar
  const bounds=await artworkBox(svg);
  for(const [i,expected] of [30,50,40,20].entries())assert.ok(Math.abs(bounds[i]-expected)<0.1);
  await assert.rejects(artworkBox('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"/>'),/empty/);
+});
+test('Avatar palette selects a saturated source color and white foreground',()=>{
+ assert.deepEqual(avatarPalette('<svg fill="#ff6003"/>'),{background:'#ff6003',foreground:'#ffffff'});
+ assert.deepEqual(avatarPalette('<svg><path fill="#000"/><path fill="#6336E7"/></svg>'),{background:'#6336e7',foreground:'#ffffff'});
+ assert.deepEqual(avatarPalette('<svg fill="#ffe000"/>'),{background:'#ffe000',foreground:'#ffffff'});
 });

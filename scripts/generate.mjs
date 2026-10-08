@@ -2,7 +2,7 @@ import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { transform } from '@svgr/core';
 import { optimize } from 'svgo';
-import { artworkBox, combineSvg, normalizeSvg, transformPaint, viewBox } from './lib/svg-variants.mjs';
+import { artworkBox, avatarPalette, combineSvg, normalizeSvg, transformPaint, viewBox } from './lib/svg-variants.mjs';
 
 const root = path.resolve(process.argv[2] || '.');
 const metadata = JSON.parse(await readFile(path.join(root,'metadata.json'),'utf8'));
@@ -53,6 +53,9 @@ for (const icon of metadata) {
   }
   const hasSymbol = icon.hasSymbol !== false;
   const hasCombine = hasSymbol && icon.hasText && icon.hasCombine !== false;
+  const usesSourceAvatar = icon.hasFrame === false;
+  const usesSurfaceAvatar = icon.avatarFrame === 'surface';
+  const avatar = hasSymbol ? avatarPalette(sources.color) : undefined;
   const baseMember = hasSymbol ? 'Mono' : 'Text';
   const ratios = {};
   for (const [variant, original] of Object.entries(sources)) {
@@ -85,11 +88,20 @@ for (const icon of metadata) {
     generated.set(`${name}/${names[variant]}.tsx`, `'use client';\n// Generated from real source assets. Do not edit manually.\n${result}\n`);
   }
   const members=Object.keys(sources).filter(v=>v!=='mono'&&v!=='combine').map(v=>names[v]);
-  if (hasSymbol) generated.set(`${name}/Avatar.tsx`, `'use client';\n// Generated.\nimport Mono from './Mono.js';\nimport { createAvatar } from '../compound.js';\nexport default createAvatar(Mono);\n`);
+  if (hasSymbol) {
+    const surfaceArtwork = sources['color-light'] ? 'ColorLight' : 'Color';
+    generated.set(`${name}/Avatar.tsx`, usesSourceAvatar
+      ? `'use client';\n// Generated.\nimport Mono from './Mono.js';\nimport Color from './Color.js';\nimport { createAvatar } from '../compound.js';\nexport default createAvatar(Mono, Color, false);\n`
+      : usesSurfaceAvatar
+        ? `'use client';\n// Generated.\nimport Mono from './Mono.js';\nimport ${surfaceArtwork} from './${surfaceArtwork}.js';\nimport { createAvatar } from '../compound.js';\nexport default createAvatar(Mono, ${surfaceArtwork}, true, "#000000", "#ffffff", true);\n`
+        : `'use client';\n// Generated.\nimport Mono from './Mono.js';\nimport { createAvatar } from '../compound.js';\nexport default createAvatar(Mono, Mono, true, ${JSON.stringify(avatar.background)}, ${JSON.stringify(avatar.foreground)});\n`);
+  }
   if (hasCombine) generated.set(`${name}/CompoundCombine.tsx`, `'use client';\n// Generated.\nimport Mono from './Mono.js';\nimport Color from './Color.js';\nimport Text from './Text.js';\nimport { createCombine } from '../compound.js';\nexport default createCombine(Mono, Color, Text, ${compoundBoxes.map(box=>JSON.stringify(box)).join(', ')});\n`);
   const imports = [...new Set([baseMember, ...members])];
   generated.set(`${name}/index.ts`, `'use client';\n// Generated. Do not edit manually.\n${hasSymbol ? "import Avatar from './Avatar.js';\n" : ''}${hasCombine ? "import Combine from './CompoundCombine.js';\n" : ''}${imports.map(n=>`import ${n} from './${n}.js';`).join('\n')}\nconst ${name} = Object.assign(${baseMember}, { ${members.join(', ')}, ${hasCombine ? 'Combine, ' : ''}${hasSymbol ? 'Avatar, ' : ''}title: ${JSON.stringify(icon.name)}, Default: ${hasSymbol?'Dark':'TextDark'} });\nexport default ${name};\n`);
-  enriched.push({...icon,hasText:!!icon.hasText,hasCombine:!!hasCombine,variants:Object.keys(sources),aspectRatios:ratios});
+  enriched.push({...icon,hasText:!!icon.hasText,hasCombine:!!hasCombine,
+    ...(avatar ? {avatarBackground:avatar.background,avatarForeground:avatar.foreground} : {}),
+    variants:Object.keys(sources),aspectRatios:ratios});
 }
 generated.set('compound.tsx',await readFile(new URL('./templates/compound.tsx',import.meta.url),'utf8'));
 generated.set('types.ts',`// Generated.\nimport type { SVGProps } from 'react';\nexport type IconProps = Omit<SVGProps<SVGSVGElement>, 'size'> & { size?: number | string };\n`);
